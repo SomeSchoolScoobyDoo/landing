@@ -55,3 +55,38 @@ h1{font-size:clamp(3rem,6.5vw,5.5rem);line-height:.98;letter-spacing:-.055em;mar
 @media (max-width:760px){.container{width:min(100% - 28px,1160px)}.menu-toggle{display:block}.site-nav{display:none;position:absolute;top:76px;left:14px;right:14px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px;box-shadow:var(--shadow);flex-direction:column;align-items:stretch;gap:2px}.site-nav.open{display:flex}.site-nav a{padding:11px 12px}.site-nav .nav-cta{text-align:center;margin-top:5px}.hero{padding:70px 0 55px}h1{font-size:clamp(2.65rem,13vw,4.3rem)}.hero-lede{font-size:1.02rem}.proof-grid{grid-template-columns:1fr}.proof-grid>div{border-right:0;border-bottom:1px solid var(--line)!important}.proof-grid>div:last-child{border-bottom:0!important}.section{padding:75px 0}.reason-grid,.build-grid,.ds-grid,.tool-grid,.leave-grid{grid-template-columns:1fr}.timeline article{grid-template-columns:1fr;gap:7px}.apply-box{padding:35px 24px}.footer-wrap{grid-template-columns:1fr}.footer-links{justify-content:flex-start}.footer-wrap>p{grid-column:auto}.brand{font-size:.9rem}}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition-duration:.01ms!important;animation-duration:.01ms!important}}
 .price-line{display:flex;align-items:baseline;gap:12px;margin:0;color:var(--navy)}.price-line del{color:var(--muted);font-size:1rem}.price-line strong{color:var(--orange);font-size:2rem;line-height:1;font-weight:900}
+
+
+/* Kaizora learning and institutional pathways */
+.text-link{display:inline-flex;gap:9px;align-items:center;color:var(--navy);font-weight:850;margin-top:10px}.text-link span{color:var(--orange)}
+.course-groups{display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:stretch}
+.course-panel{background:#fff;border:1px solid var(--line);border-radius:20px;padding:30px;box-shadow:var(--shadow)}
+.course-panel-featured{border-color:#FFDABF;background:linear-gradient(160deg,#FFFAF5,#fff 45%)}
+.course-panel-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:16px}
+.course-label{display:block;color:var(--orange);font-size:.7rem;font-weight:900;letter-spacing:.13em;margin-bottom:8px}
+.course-panel h3{margin:0;color:var(--navy);font-size:1.35rem;line-height:1.2}
+.course-price{flex:none;border-radius:999px;padding:7px 13px;background:var(--orange-soft);color:#B95713;font-size:.76rem;font-weight:900}
+.course-price.free-price{background:#EAF5EE;color:#247447}
+.course-panel>p{color:var(--body);font-size:.9rem}
+.course-list{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:0}
+.course-list li{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;padding:16px 0;border-top:1px solid var(--line)}
+.course-list li>span{min-width:0}
+.course-list strong{display:block;color:var(--navy);font-size:.93rem;line-height:1.4}
+.course-list small{display:block;color:var(--body);font-size:.8rem;line-height:1.5;margin-top:4px}
+.course-list li>b{flex:none;text-align:right;color:var(--navy);font-size:.78rem;line-height:1.4}
+.course-list li>b small{font-size:.68rem;color:var(--muted)}
+.course-footnote{border-top:1px solid var(--line);padding-top:15px;margin-top:12px!important;font-size:.78rem!important;color:var(--muted)!important}
+.institution-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.institution-card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:32px;box-shadow:var(--shadow)}
+.institution-card:nth-child(2){border-color:#FFDABF}
+.institution-icon{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:var(--orange-soft);color:var(--orange);font-weight:900;font-size:.8rem;margin-bottom:20px}
+.institution-card .kicker{margin-bottom:7px}
+.institution-card h3{color:var(--navy);font-size:1.55rem;margin:0 0 10px}
+.institution-card>p:not(.kicker){color:var(--body);font-size:.9rem}
+.institution-card ul{list-style:none;padding:0;margin:20px 0 25px;display:grid;gap:10px}
+.institution-card li{position:relative;padding-left:25px;color:var(--body);font-size:.87rem}
+.institution-card li:before{content:"✓";position:absolute;left:0;color:var(--orange);font-weight:900}
+.institution-card .btn{font-size:.85rem;padding:12px 17px}
+.institution-note{text-align:center;color:var(--muted);font-size:.82rem;margin:24px auto 0;max-width:760px}
+@media(max-width:900px){.course-groups,.institution-grid{grid-template-columns:1fr}}
+@media(max-width:560px){.course-panel,.institution-card{padding:23px 19px}.course-panel-heading{flex-wrap:wrap}.course-list li{gap:10px}.course-list li>b{font-size:.72rem}}
