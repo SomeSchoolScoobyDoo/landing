@@ -56,3 +56,23 @@ html[data-theme="dark"] .home-page .marketing-band {
 html[data-theme="dark"] .home-page .marketing-band > div > p:not(.marketing-eyebrow) {
   color: #c2cbd6 !important;
 }
+
+/* Homepage links and calls to action must outrank the broad global dark-link rule. */
+html[data-theme="dark"] .marketing-site .marketing-header nav a,
+html[data-theme="dark"] .marketing-site .marketing-footer nav a {
+  color: #b7c1ce !important;
+}
+html[data-theme="dark"] .marketing-site a.marketing-cta,
+html[data-theme="dark"] .home-page .marketing-hero a.marketing-button {
+  background: #18345c !important;
+  border-color: #34445d !important;
+  color: #ffffff !important;
+}
+html[data-theme="dark"] .home-page .marketing-text-link {
+  color: #f0b56e !important;
+}
+html[data-theme="dark"] .home-page .marketing-band a.marketing-button {
+  background: #f0a15d !important;
+  border-color: #f0a15d !important;
+  color: #172b46 !important;
+}
