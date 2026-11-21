@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { AudiencePage } from "@/components/marketing-shell";
-export const metadata: Metadata = { title: "Learn with Kaizora | Courses for Independent Learners", description: "Learn at your own pace with practical technology courses, structured lessons, exercises and progress tracking at Kaizora AI Academy." };
+export const metadata: Metadata = { title: "Learn with Kaizora | Courses for Independent Learners", description: "Learn at your own pace with practical technology courses, structured lessons, exercises and progress tracking at Kaizora AI Academy." , alternates: { canonical: "/learners" } };
 export default function LearnersPage() {
   return <AudiencePage
     eyebrow="FOR INDEPENDENT LEARNERS"
