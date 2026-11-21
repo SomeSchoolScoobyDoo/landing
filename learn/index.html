@@ -5,60 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#112E5D">
   <meta name="robots" content="noindex, nofollow">
-  <meta name="description" content="Open the Kaizora AI Academy learning platform and explore published courses.">
+  <meta name="description" content="Choose a Kaizora learning workspace: student, institute or organisation preview.">
   <title>Learn | Kaizora AI Academy</title>
   <link rel="icon" type="image/svg+xml" href="../assets/kaizora-logo.svg">
   <link rel="stylesheet" href="../styles.css">
   <style>
-    .learn-gateway{min-height:76vh;display:grid;place-items:center;padding:64px 20px;background:linear-gradient(180deg,#fff 0%,#F7F9FC 100%)}
-    .learn-card{width:min(760px,100%);padding:clamp(28px,6vw,56px);background:#fff;border:1px solid #E2E8F0;border-radius:24px;box-shadow:0 24px 70px rgba(17,46,93,.10)}
-    .learn-card .brand{justify-content:center;margin-bottom:28px}
+    .learn-gateway{min-height:76vh;padding:64px 20px;background:linear-gradient(180deg,#fff 0%,#F7F9FC 100%)}
+    .learn-card{width:min(1040px,100%);margin:0 auto;padding:clamp(28px,5vw,52px);background:#fff;border:1px solid #E2E8F0;border-radius:18px;box-shadow:0 18px 55px rgba(17,46,93,.08)}
     .learn-card .kicker{text-align:center}
-    .learn-card h1{max-width:15ch;margin:14px auto 18px;text-align:center;font-size:clamp(2.4rem,6vw,4rem);line-height:1.02;color:#112E5D}
-    .learn-lede{max-width:56ch;margin:0 auto 28px;text-align:center;color:#53657D;font-size:1.05rem}
-    .learn-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
-    .learn-course-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:30px 0}
-    .learn-course{padding:18px;border:1px solid #E2E8F0;border-radius:14px}
-    .learn-course strong{display:block;color:#112E5D;margin-bottom:5px}
-    .learn-course span{display:block;color:#718096;font-size:.82rem}
-    .learn-fallback{margin:26px 0 0;padding:16px 18px;border-left:3px solid #FCBC25;background:#F8FAFC;border-radius:0 12px 12px 0;color:#53657D;font-size:.88rem}
+    .learn-card h1{margin:14px auto 14px;text-align:center;font-size:clamp(2.2rem,5vw,3.6rem);line-height:1.04;color:#112E5D}
+    .learn-lede{max-width:650px;margin:0 auto 32px;text-align:center;color:#53657D;font-size:1rem;line-height:1.75}
+    .learn-views{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+    .learn-view{border:1px solid #E2E8F0;border-radius:12px;padding:22px;display:flex;flex-direction:column;min-height:230px}
+    .learn-view small{font-size:.7rem;letter-spacing:1px;color:#9a6a30;font-weight:800}
+    .learn-view h2{font-size:1.35rem;color:#112E5D;margin:12px 0 8px}
+    .learn-view p{font-size:.88rem;line-height:1.65;color:#53657D;margin:0 0 18px}
+    .learn-view a{margin-top:auto;font-weight:750;color:#112E5D;text-decoration:underline;text-underline-offset:4px}
+    .learn-fallback{margin:26px 0 0;padding:15px 18px;border-left:3px solid #FCBC25;background:#F8FAFC;border-radius:0 10px 10px 0;color:#53657D;font-size:.85rem;line-height:1.65}
     .learn-home{display:block;text-align:center;margin-top:22px;color:#112E5D;font-weight:750}
-    @media(max-width:620px){.learn-course-list{grid-template-columns:1fr}.learn-card{padding:28px 22px}}
+    @media(max-width:700px){.learn-views{grid-template-columns:1fr}.learn-view{min-height:0}}
   </style>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="container nav-wrap">
-      <a class="brand" href="/" aria-label="Kaizora AI Academy home">
-        <img src="../assets/kaizora-logo.svg" alt="" width="38" height="46">
-        <span>KAIZORA <b>AI ACADEMY</b></span>
-      </a>
-      <a class="nav-cta" href="/">Academy home</a>
-    </div>
-  </header>
+  <header class="site-header"><div class="container nav-wrap">
+    <a class="brand" href="/" aria-label="Kaizora AI Academy home"><img src="../assets/kaizora-logo.svg" alt="" width="38" height="46"><span>KAIZORA <b>AI ACADEMY</b></span></a>
+    <a class="nav-cta" href="/">Academy home</a>
+  </div></header>
   <main id="main" class="learn-gateway">
     <section class="learn-card" aria-labelledby="learn-title">
       <p class="kicker">KAIZORA LEARNING PLATFORM</p>
-      <h1 id="learn-title">Your next skill starts here.</h1>
-      <p class="learn-lede">Browse the published courses, preview the curriculum, create your learner account and continue your learning from your dashboard.</p>
-      <div class="learn-course-list" aria-label="Published courses">
-        <div class="learn-course"><strong>Computer and Internet Readiness</strong><span>Beginner · 6 modules · 14 lessons</span></div>
-        <div class="learn-course"><strong>AI Toolkit Setup</strong><span>Beginner · 3 modules · 8 lessons</span></div>
+      <h1 id="learn-title">Choose the workspace you want to inspect.</h1>
+      <p class="learn-lede">The platform has different views for people learning independently, institutes coordinating teaching and organisations managing staff training. Pick one to explore the current preview.</p>
+      <div class="learn-views">
+        <article class="learn-view"><small>01 · INDIVIDUAL LEARNERS</small><h2>Student view</h2><p>Courses, lesson progress, recent activity and assessment results from a learner's perspective.</p><a href="https://9229e248.preview.useronda.com/preview/student">Open student preview →</a></article>
+        <article class="learn-view"><small>02 · SCHOOLS & TRAINING PROVIDERS</small><h2>Institute view</h2><p>Programme oversight, teaching groups, lecturer coordination and learner progress.</p><a href="https://9229e248.preview.useronda.com/preview/institute">Open institute preview →</a></article>
+        <article class="learn-view"><small>03 · COMPANIES & EMPLOYERS</small><h2>Organisation view</h2><p>Team learning, assigned training, participation and completion reporting.</p><a href="https://9229e248.preview.useronda.com/preview/organisation">Open organisation preview →</a></article>
       </div>
-      <div class="learn-actions">
-        <a class="btn btn-primary" href="https://9229e248.preview.useronda.com/courses">Browse courses <span aria-hidden="true">→</span></a>
-        <a class="btn btn-secondary" href="https://9229e248.preview.useronda.com/signup">Create learner account</a>
-      </div>
-      <p class="learn-fallback"><strong>Having trouble opening the classroom?</strong> The academy website and course information remain available even when the learning platform is undergoing maintenance. Return to the academy homepage and try again later.</p>
+      <p class="learn-fallback"><strong>Preview access:</strong> These workspaces use fictional sample data and are read-only. Sign-up is paused while the platform is being reviewed. The student, institute and organisation previews do not create accounts or change real records.</p>
       <a class="learn-home" href="/">← Back to Kaizora AI Academy</a>
     </section>
   </main>
-  <footer class="site-footer">
-    <div class="container footer-wrap">
-      <a class="brand footer-brand" href="/"><img src="../assets/kaizora-logo.svg" alt="" width="34" height="41"><span>KAIZORA <b>AI ACADEMY</b></span></a>
-      <p>© 2026 Kaizora AI Academy. All rights reserved.</p>
-    </div>
-  </footer>
+  <footer class="site-footer"><div class="container footer-wrap"><a class="brand footer-brand" href="/"><img src="../assets/kaizora-logo.svg" alt="" width="34" height="41"><span>KAIZORA <b>AI ACADEMY</b></span></a><p>© 2026 Kaizora AI Academy. All rights reserved.</p></div></footer>
 </body>
 </html>
