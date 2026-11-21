@@ -1,10 +1,12 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { getPublishedCatalogue } from "@/lib/courses/catalogue";
 import { MarketingShell } from "@/components/marketing-shell";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Explore Technology Courses | Kaizora AI Academy",
   description: "Explore practical courses in AI, automation, software, cybersecurity and emerging technology at Kaizora AI Academy.",
+  alternates: { canonical: "/courses" },
 };
 
 function formatDuration(minutes: number) {
