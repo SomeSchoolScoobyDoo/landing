@@ -1,1 +1,126 @@
-.marketing-site{min-height:100vh;background:#fbfaf7;color:#172b46}.marketing-header{min-height:82px;padding:16px clamp(20px,6vw,88px);display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #e6e0d7}.marketing-header nav,.marketing-footer nav{display:flex;gap:clamp(12px,2.5vw,30px);align-items:center;flex-wrap:wrap}.marketing-header nav a,.marketing-footer nav a{font-size:12px;text-decoration:none;color:#455368}.marketing-cta,.marketing-button{display:inline-flex;align-items:center;justify-content:center;gap:20px;padding:14px 18px;background:#18345c;color:white;text-decoration:none;font-size:12px;font-weight:700}.marketing-hero{max-width:1160px;margin:auto;padding:clamp(64px,10vw,130px) 24px 70px;display:grid;grid-template-columns:1.15fr .85fr;gap:54px;align-items:center}.marketing-eyebrow{font-size:10px;letter-spacing:1.8px;font-weight:800;color:#a66b2e}.marketing-hero h1,.audience-hero h1{font:500 clamp(46px,7vw,82px)/.99 Georgia,serif;letter-spacing:-2.7px;margin:20px 0 24px;max-width:780px}.marketing-hero h1 em,.audience-hero h1 em,.audience-bottom h2 em{font-style:normal;color:#b56b20}.marketing-hero>div>p:not(.marketing-eyebrow),.audience-hero>p:not(.marketing-eyebrow){font-size:15px;line-height:1.9;color:#657080;max-width:630px}.marketing-hero-card{padding:34px;background:#f0ece4;border:1px solid #e2dbcf}.marketing-hero-card strong{font:500 24px Georgia,serif}.marketing-hero-card p{font-size:12px;line-height:1.8;color:#68717c}.marketing-proof{border-block:1px solid #e5dfd6;display:grid;grid-template-columns:repeat(3,1fr);max-width:1160px;margin:0 auto;padding:28px 24px}.marketing-proof div{padding:8px 24px;border-right:1px solid #e5dfd6}.marketing-proof div:last-child{border:0}.marketing-proof strong{display:block;font:500 28px Georgia,serif}.marketing-proof span{font-size:11px;color:#727b86}.marketing-section{max-width:1160px;margin:auto;padding:90px 24px}.marketing-section h2,.audience-bottom h2{font:500 clamp(34px,5vw,54px)/1.08 Georgia,serif;letter-spacing:-1.4px;max-width:760px}.marketing-card-grid,.audience-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:36px}.marketing-card-grid article,.audience-grid article{border:1px solid #e5dfd6;background:#fff;padding:25px;min-height:180px}.marketing-card-grid article span,.audience-grid article span{font-size:11px;color:#b56b20;font-weight:800}.marketing-card-grid h3{font:500 23px Georgia,serif}.marketing-card-grid p,.audience-grid p{font-size:12px;line-height:1.8;color:#68717c}.marketing-band{background:#172e4e;color:#fff;padding:65px max(24px,calc((100% - 1112px)/2));display:flex;justify-content:space-between;align-items:center;gap:28px}.marketing-band h2{font:500 clamp(30px,4vw,48px)/1.1 Georgia,serif;max-width:620px}.marketing-band p{color:#c4cfdb;font-size:13px;line-height:1.7}.marketing-band a{background:#f0a15d;color:#172b46}.marketing-footer{padding:44px clamp(20px,6vw,88px);border-top:1px solid #e6e0d7;display:grid;grid-template-columns:1fr auto;gap:25px;align-items:center}.marketing-footer>div p{font-size:11px;color:#737d88}.marketing-footer small{grid-column:1/-1;color:#858b91;font-size:10px}.audience-page{max-width:1160px;margin:auto;padding:0 24px 80px}.audience-hero{max-width:850px;margin:0 auto;text-align:center;padding:100px 0 62px}.audience-hero h1{margin:18px auto 22px}.audience-hero>p:not(.marketing-eyebrow){margin:0 auto 28px}.audience-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin:0}.audience-grid article{min-height:130px}.audience-bottom{margin-top:70px;padding:54px;background:#f0ece4}.audience-bottom>p:not(.marketing-eyebrow){color:#68717c;font-size:13px;line-height:1.8}.marketing-text-link{font-size:12px;font-weight:700;color:#18345c;text-decoration:none}@media(max-width:780px){.marketing-header{flex-wrap:wrap}.marketing-header nav{order:3;width:100%;justify-content:space-between}.marketing-hero{grid-template-columns:1fr;padding-top:65px}.marketing-card-grid,.audience-grid{grid-template-columns:1fr}.marketing-proof{grid-template-columns:1fr;gap:12px}.marketing-proof div{border:0;border-bottom:1px solid #e5dfd6;padding:12px 0}.marketing-band{align-items:flex-start;flex-direction:column}.marketing-footer{grid-template-columns:1fr}.marketing-footer nav{justify-content:flex-start}.marketing-footer small{grid-column:auto}.audience-hero{padding-top:65px}.audience-bottom{padding:28px}}
+/* Kaizora public website: shared editorial design system */
+.marketing-site{min-height:100vh;background:#fbfaf7;color:#172b46}
+.marketing-header{min-height:82px;padding:15px clamp(20px,6vw,88px);display:flex;align-items:center;justify-content:space-between;gap:24px;border-bottom:1px solid #e6e0d7;background:#fbfaf7}
+.marketing-header>a:first-child,.marketing-footer-brand>a:first-child{display:inline-flex;flex:0 0 auto}
+.marketing-header nav,.marketing-footer nav{display:flex;gap:clamp(12px,2.5vw,30px);align-items:center;flex-wrap:wrap}
+.marketing-header nav a,.marketing-footer nav a{font-size:12px;text-decoration:none;color:#455368}
+.marketing-header nav a:hover,.marketing-footer nav a:hover{color:#b56b20}
+.marketing-cta,.marketing-button{display:inline-flex;align-items:center;justify-content:center;gap:20px;padding:14px 18px;background:#18345c;color:white;text-decoration:none;font-size:12px;font-weight:700;transition:background .2s ease}
+.marketing-cta:hover,.marketing-button:hover{background:#284a73}
+.marketing-eyebrow{font-size:10px;letter-spacing:1.8px;font-weight:800;color:#a66b2e}
+.marketing-hero{max-width:1160px;margin:auto;padding:clamp(64px,9vw,118px) 24px 74px;display:grid;grid-template-columns:1.15fr .85fr;gap:54px;align-items:center}
+.marketing-hero h1,.audience-hero h1,.about-hero h1,.catalogue-hero h1{font:500 clamp(46px,7vw,82px)/.99 Georgia,serif;letter-spacing:-2.7px;margin:20px 0 24px;max-width:780px}
+.marketing-hero h1 em,.audience-hero h1 em,.audience-journey h2 em,.audience-bottom h2 em,.about-hero h1 em,.about-statement h2 em,.about-principles h2 em,.about-bottom h2 em,.catalogue-hero h1 em,.marketing-method h2 em{font-style:normal;color:#b56b20}
+.marketing-hero-copy>p:not(.marketing-eyebrow),.audience-intro,.about-hero>p:not(.marketing-eyebrow),.catalogue-hero>p:not(.marketing-eyebrow){font-size:15px;line-height:1.9;color:#657080;max-width:630px}
+.marketing-actions,.audience-actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-top:28px}
+.marketing-hero-card{padding:34px;background:#f0ece4;border:1px solid #e2dbcf}
+.marketing-hero-card strong{display:block;font:500 26px/1.25 Georgia,serif}
+.marketing-hero-card p{font-size:12px;line-height:1.8;color:#68717c;margin:13px 0 18px}
+.marketing-text-link{font-size:12px;font-weight:700;color:#18345c;text-decoration:none}
+.marketing-text-link:hover{text-decoration:underline;text-underline-offset:4px}
+.marketing-proof{border-block:1px solid #e5dfd6;display:grid;grid-template-columns:repeat(3,1fr);max-width:1160px;margin:0 auto;padding:28px 24px}
+.marketing-proof div{padding:8px 24px;border-right:1px solid #e5dfd6}
+.marketing-proof div:last-child{border:0}
+.marketing-proof div>span{display:block;color:#a66b2e;font:500 13px Georgia,serif;margin-bottom:12px}
+.marketing-proof strong{display:block;font:500 28px Georgia,serif}
+.marketing-proof p{font-size:11px;color:#727b86;line-height:1.65;margin:8px 0 0}
+.marketing-section{max-width:1160px;margin:auto;padding:90px 24px}
+.marketing-section-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:40px}
+.marketing-section-heading>div{max-width:700px}
+.marketing-section-heading h2,.marketing-method h2,.audience-journey h2,.audience-bottom h2,.about-statement h2,.about-principles h2,.about-bottom h2{font:500 clamp(34px,5vw,54px)/1.08 Georgia,serif;letter-spacing:-1.4px;margin:16px 0}
+.marketing-section-heading>p{max-width:360px;color:#68717c;font-size:13px;line-height:1.8}
+.marketing-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:36px}
+.marketing-card-grid article{border:1px solid #e5dfd6;background:#fff;padding:27px;min-height:240px;display:flex;flex-direction:column;align-items:flex-start}
+.marketing-card-grid article>span{font-size:10px;letter-spacing:.8px;color:#a66b2e;font-weight:800}
+.marketing-card-grid h3{font:500 25px Georgia,serif;margin:23px 0 8px}
+.marketing-card-grid p{font-size:12px;line-height:1.8;color:#68717c;flex:1}
+.marketing-card-grid .marketing-text-link{margin-top:18px}
+.marketing-method{max-width:1112px;margin:0 auto 80px;padding:55px;background:#f0ece4;display:grid;grid-template-columns:1fr 1fr;gap:65px;align-items:center}
+.marketing-method h2{margin-bottom:0}
+.marketing-method-copy p{font-size:14px;line-height:1.9;color:#5f6874;margin:0 0 20px}
+.marketing-band{background:#172e4e;color:#fff;padding:65px max(24px,calc((100% - 1112px)/2));display:flex;justify-content:space-between;align-items:center;gap:28px}
+.marketing-band h2{font:500 clamp(30px,4vw,48px)/1.1 Georgia,serif;max-width:620px;margin:15px 0}
+.marketing-band p{color:#c4cfdb;font-size:13px;line-height:1.7}
+.marketing-band .marketing-eyebrow{color:#e0ad72}
+.marketing-band a{background:#f0a15d;color:#172b46}
+.marketing-footer{padding:44px clamp(20px,6vw,88px);border-top:1px solid #e6e0d7;display:grid;grid-template-columns:1fr auto;gap:25px;align-items:center}
+.marketing-footer-brand p{font-size:11px;color:#737d88}
+.marketing-footer small{grid-column:1/-1;color:#858b91;font-size:10px}
+.audience-page{max-width:1160px;margin:auto;padding:0 24px 80px}
+.audience-hero{max-width:850px;margin:0 auto;text-align:center;padding:clamp(70px,9vw,108px) 0 65px}
+.audience-hero h1{margin:18px auto 22px}
+.audience-intro{margin:0 auto;max-width:720px}
+.audience-actions{justify-content:center}
+.audience-note{font-size:10px;color:#88877f;margin-top:20px}
+.audience-features{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid #e5dfd6;border-left:1px solid #e5dfd6}
+.audience-features article{padding:30px;border-right:1px solid #e5dfd6;border-bottom:1px solid #e5dfd6;min-height:190px;background:#fff}
+.audience-number{font:500 14px Georgia,serif;color:#a66b2e}
+.audience-features h2{font:500 23px Georgia,serif;margin:18px 0 8px}
+.audience-features p,.audience-steps p{font-size:12px;line-height:1.8;color:#68717c;margin:0;max-width:470px}
+.audience-journey{padding:85px 0;display:grid;grid-template-columns:.8fr 1.2fr;gap:70px}
+.audience-journey h2{margin-top:16px}
+.audience-steps article{display:grid;grid-template-columns:38px 1fr;gap:15px;padding:18px 0;border-top:1px solid #e5dfd6}
+.audience-steps article>span{font:500 14px Georgia,serif;color:#a66b2e}
+.audience-steps h3{font:600 15px 'DM Sans',Arial,sans-serif;margin:0 0 7px;color:#1b2d45}
+.audience-bottom,.about-bottom{padding:48px 52px;background:#f0ece4;display:flex;justify-content:space-between;align-items:center;gap:30px}
+.audience-bottom h2,.about-bottom h2{max-width:650px}
+.audience-bottom p:not(.marketing-eyebrow),.about-bottom p:not(.marketing-eyebrow){font-size:13px;color:#68717c;line-height:1.8}
+.about-page{max-width:1160px;margin:auto;padding:0 24px 80px}
+.about-hero{max-width:900px;padding:105px 0 85px}
+.about-hero h1{max-width:820px}
+.about-hero>p:not(.marketing-eyebrow){max-width:650px;margin-bottom:28px}
+.about-statement{padding:62px;background:#f0ece4;max-width:980px;margin:0 auto}
+.about-statement h2{max-width:650px}
+.about-statement>p:last-child{max-width:690px;font-size:14px;line-height:1.9;color:#5f6874}
+.about-principles{display:grid;grid-template-columns:.75fr 1.25fr;gap:65px;padding:95px 0}
+.about-principles h2{max-width:380px}
+.about-principle-list article{display:grid;grid-template-columns:42px 1fr;gap:18px;padding:20px 0;border-top:1px solid #e5dfd6}
+.about-principle-list article>span{font:500 14px Georgia,serif;color:#a66b2e}
+.about-principle-list h3{font:500 21px Georgia,serif;margin:0 0 8px}
+.about-principle-list p{font-size:12px;line-height:1.8;color:#68717c;margin:0}
+.catalogue-page{min-height:70vh}
+.catalogue-hero{padding:85px max(24px,calc((100% - 1112px)/2)) 65px;background:#f5f1e9;border-bottom:1px solid #e5dfd6}
+.catalogue-hero h1{max-width:800px}
+.catalogue-hero>p:not(.marketing-eyebrow){max-width:650px}
+.catalogue-topics{display:flex;flex-wrap:wrap;gap:9px;margin-top:27px}
+.catalogue-topics span{padding:9px 12px;border:1px solid #ded6c9;color:#5e6570;font-size:10px}
+.catalogue-live{max-width:1112px;margin:0 auto;padding:70px 24px 45px}
+.catalogue-empty{max-width:680px;margin:0 auto;padding:48px;border:1px solid #e5dfd6;background:#fff;text-align:center}
+.catalogue-status{font-size:9px;letter-spacing:1.4px;color:#a66b2e;font-weight:800}
+.catalogue-empty h2{font:500 30px/1.2 Georgia,serif;margin:18px 0 12px}
+.catalogue-empty p{font-size:13px;line-height:1.8;color:#68717c}
+.catalogue-empty .marketing-text-link{display:inline-block;margin-top:12px}
+.catalogue-muted{font-size:11px!important;color:#8a8d91!important}
+.catalogue-results-heading,.catalogue-category-heading{display:flex;justify-content:space-between;align-items:flex-end;gap:20px}
+.catalogue-results-heading h2{font:500 34px Georgia,serif;margin:10px 0}
+.catalogue-results-heading>span,.catalogue-category-heading>span{font-size:10px;color:#737b84}
+.catalogue-category{margin-top:48px}
+.catalogue-category-heading{border-bottom:1px solid #e5dfd6;padding-bottom:16px}
+.catalogue-category-heading h3{font:500 24px Georgia,serif;margin:0 0 7px}
+.catalogue-category-heading p{font-size:12px;color:#68717c;margin:0}
+.published-course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.published-course-card{padding:24px;border:1px solid #e5dfd6;background:#fff;display:flex;flex-direction:column;min-height:230px}
+.published-course-card .course-card-category{font-size:9px;text-transform:uppercase;letter-spacing:1px;color:#a66b2e;font-weight:800}
+.published-course-card h4{font:500 22px Georgia,serif;margin:13px 0}
+.course-card-summary{font-size:12px;line-height:1.7;color:#68717c;flex:1}
+.course-card-meta{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0}
+.course-card-meta span{font-size:9px;padding:6px 8px;background:#f0ece4;color:#58616c}
+.published-course-card>a{font-size:11px;font-weight:700;color:#18345c}
+.catalogue-bottom{max-width:1112px;margin:0 auto 70px;padding:18px 24px;border-top:1px solid #e5dfd6;display:flex;justify-content:space-between;gap:20px}
+.catalogue-bottom p{font:500 18px Georgia,serif;color:#657080}
+@media(max-width:850px){.marketing-header{flex-wrap:wrap}.marketing-header nav{order:3;width:100%;justify-content:space-between}.marketing-hero{grid-template-columns:1fr;padding-top:65px}.marketing-section-heading{display:block}.marketing-section-heading>p{margin-top:20px}.marketing-method{grid-template-columns:1fr;gap:22px;margin-inline:24px;padding:35px}.audience-journey,.about-principles{grid-template-columns:1fr;gap:30px}.published-course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.marketing-header{padding:13px 18px;gap:12px}.marketing-header nav{gap:10px;justify-content:space-between}.marketing-header nav a{font-size:10px}.marketing-cta{padding:10px 12px;font-size:10px}.marketing-hero{padding:52px 22px 48px;gap:32px}.marketing-hero h1,.audience-hero h1,.about-hero h1,.catalogue-hero h1{font-size:clamp(43px,12vw,58px);letter-spacing:-1.7px}.marketing-hero-card{padding:25px}.marketing-proof{grid-template-columns:1fr;padding:20px 22px;gap:8px}.marketing-proof div{border:0;border-bottom:1px solid #e5dfd6;padding:14px 0}.marketing-proof div:last-child{border:0}.marketing-section{padding:60px 22px}.marketing-card-grid,.audience-features,.published-course-grid{grid-template-columns:1fr}.marketing-card-grid article{min-height:0}.marketing-method{margin:0 22px 55px;padding:27px}.marketing-band{padding:48px 22px;align-items:flex-start;flex-direction:column}.marketing-footer{grid-template-columns:1fr;padding:35px 22px}.marketing-footer nav{gap:15px}.marketing-footer small{grid-column:auto}.audience-page,.about-page{padding:0 22px 55px}.audience-hero{padding:62px 0 48px}.audience-actions{align-items:flex-start;flex-direction:column}.audience-features article{min-height:0;padding:24px}.audience-journey{padding:60px 0}.audience-bottom,.about-bottom{padding:28px;align-items:flex-start;flex-direction:column}.about-hero{padding:65px 0 55px}.about-statement{padding:28px}.about-principles{padding:65px 0}.catalogue-hero{padding:58px 22px 42px}.catalogue-live{padding:45px 22px 30px}.catalogue-empty{padding:30px 22px}.catalogue-results-heading,.catalogue-category-heading,.catalogue-bottom{align-items:flex-start;flex-direction:column}.catalogue-bottom{padding:18px 22px;margin-bottom:45px}}
+html[data-theme="dark"] .marketing-site{background:#0d1422;color:#e6ebf4}
+html[data-theme="dark"] .marketing-header,html[data-theme="dark"] .marketing-footer{background:#111827;border-color:#2b394f}
+html[data-theme="dark"] .marketing-header nav a,html[data-theme="dark"] .marketing-footer nav a{color:#c0cada}
+html[data-theme="dark"] .marketing-hero-card,html[data-theme="dark"] .marketing-method,html[data-theme="dark"] .about-statement,html[data-theme="dark"] .audience-bottom,html[data-theme="dark"] .about-bottom{background:#182438;border-color:#34445d}
+html[data-theme="dark"] .marketing-proof,html[data-theme="dark"] .marketing-proof div,html[data-theme="dark"] .audience-features,html[data-theme="dark"] .audience-features article,html[data-theme="dark"] .audience-steps article,html[data-theme="dark"] .about-principle-list article,html[data-theme="dark"] .catalogue-bottom,html[data-theme="dark"] .catalogue-category-heading{border-color:#2b394f}
+html[data-theme="dark"] .marketing-proof p,html[data-theme="dark"] .marketing-section-heading>p,html[data-theme="dark"] .marketing-method-copy p,html[data-theme="dark"] .marketing-hero-card p,html[data-theme="dark"] .marketing-card-grid p,html[data-theme="dark"] .audience-intro,html[data-theme="dark"] .audience-features p,html[data-theme="dark"] .audience-steps p,html[data-theme="dark"] .audience-note,html[data-theme="dark"] .about-hero>p:not(.marketing-eyebrow),html[data-theme="dark"] .about-statement>p:last-child,html[data-theme="dark"] .about-principle-list p,html[data-theme="dark"] .audience-bottom p:not(.marketing-eyebrow),html[data-theme="dark"] .about-bottom p:not(.marketing-eyebrow){color:#a9b5c8}
+html[data-theme="dark"] .marketing-card-grid article,html[data-theme="dark"] .audience-features article{background:#151f30;border-color:#2b394f}
+html[data-theme="dark"] .audience-steps h3,html[data-theme="dark"] .about-principle-list h3{color:#e6ebf4}
+html[data-theme="dark"] .catalogue-hero{background:#151f30;border-color:#2b394f}
+html[data-theme="dark"] .catalogue-topics span{border-color:#34445d;color:#c0cada}
+html[data-theme="dark"] .catalogue-empty,html[data-theme="dark"] .published-course-card{background:#151f30;border-color:#2b394f}
+html[data-theme="dark"] .catalogue-empty p,html[data-theme="dark"] .catalogue-category-heading p,html[data-theme="dark"] .course-card-summary,html[data-theme="dark"] .catalogue-bottom p{color:#a9b5c8}
+html[data-theme="dark"] .course-card-meta span{background:#202d41;color:#c5d0e0}
+html[data-theme="dark"] .marketing-text-link,html[data-theme="dark"] .published-course-card>a{color:#f0b56e}
