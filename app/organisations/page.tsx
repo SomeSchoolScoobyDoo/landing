@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { AudiencePage } from "@/components/marketing-shell";
+export const metadata: Metadata = { title: "For Organisations | Kaizora AI Academy", description: "Explore organisational learning and workforce development with Kaizora AI Academy." };
+export default function OrganisationsPage() { return <AudiencePage eyebrow="FOR ORGANISATIONS" title="Make learning part of how your team" accent="grows." description="A dedicated space for organisations to coordinate learning, support teams and connect development activity to practical outcomes." bullets={["Coordinate learning across teams and departments.","Support structured staff development and upskilling.","See programme participation and learning progress.","Build practical capability around technology and AI."]} cta="Open organisation workspace" href="/preview/organisation" />; }

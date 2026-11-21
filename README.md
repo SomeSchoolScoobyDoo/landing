@@ -1,22 +1,30 @@
-# Kaizora AI Academy Website
+# Kaizora AI Academy
 
-Production-ready static landing page for Kaizora AI Academy.
+Unified Next.js application for the public Kaizora website and the Kaizora learning platform.
 
-## Files
-- `index.html` — semantic page content, SEO metadata and structured data.
-- `styles.css` — all site styling, separated from HTML.
-- `script.js` — mobile navigation and progressive-enhancement animations.
-- `assets/kaizora-logo.svg` — supplied Kaizora logo used as the primary brand mark.
-- `assets/kaizora-logo.png` — supplied PNG fallback/reference.
+## Public pages
+- `/` — Homepage
+- `/about` — About Kaizora
+- `/courses` — Published course catalogue
+- `/learners` — Learner information
+- `/institutes` — Institute information
+- `/organisations` — Organisation information
 
-## Important rendering choice
-The website text is **not hidden by CSS** while waiting for JavaScript. The page remains readable if JavaScript fails or is disabled. Animations are progressive enhancement only.
+## Learning platform
+- `/dashboard` — Authenticated learner dashboard
+- `/learn/[courseSlug]/[lessonNumber]` — Lesson delivery
+- `/preview/student`, `/preview/institute`, `/preview/organisation` — Read-only design previews
 
-## SEO
-The page includes a descriptive title, meta description, canonical URL, Open Graph/Twitter metadata, Course structured data, Organization structured data, `robots.txt` and `sitemap.xml`. Replace the canonical/domain values if the final production domain differs from `https://www.kaizoraaiacademy.com/`.
+The public pages render independently of Supabase. A database or LMS outage must not prevent visitors from accessing the homepage or public information pages.
 
-## Before deployment
-1. Confirm the production domain.
-2. Replace the logo-only social preview image with a dedicated, correctly sized preview image when available.
-3. Verify all social profile URLs.
-4. Verify the application form URL.
+## Course content
+New source course JSON files belong in `content/courses/`. This folder intentionally contains no legacy course records. See its README for the import workflow. Keep the course schema, validation and importer; do not put ordinary lesson content in Supabase Storage.
+
+## Development
+1. Copy `.env.example` to `.env.local`.
+2. Set the Supabase URL and publishable/anon key in the local environment.
+3. Install dependencies with `npm install`.
+4. Run `npm run dev`.
+5. Run `npm run build` before deployment.
+
+Never commit real credentials or a service-role key. Apply Supabase migrations deliberately; do not replay them blindly against production.

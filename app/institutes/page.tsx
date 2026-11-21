@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { AudiencePage } from "@/components/marketing-shell";
+export const metadata: Metadata = { title: "For Institutes | Kaizora AI Academy", description: "Discover how institutes can use Kaizora to organise learning programmes and support learners." };
+export default function InstitutesPage() { return <AudiencePage eyebrow="FOR INSTITUTES" title="Bring structured digital learning into" accent="your institute." description="A dedicated workspace for institutes to organise programmes, support learners and keep learning activity visible." bullets={["Organise learners and learning programmes in one workspace.","Give instructors and coordinators clearer programme visibility.","Monitor learner progress and participation.","Build a consistent digital learning experience for your community."]} cta="Open institute workspace" href="/preview/institute" />; }

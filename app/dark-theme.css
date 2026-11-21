@@ -1,0 +1,367 @@
+/* Kaizora AI Academy brand palette and dark appearance. */
+:root {
+  --navy: #112E5D;
+  --orange: #F97316;
+}
+html { --orange: #F97316; }
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --navy: #F1F5F9;
+  --navy-deep: #FFFFFF;
+  --ink: #F1F4F8;
+  --muted: #B5C0CE;
+  --paper: #0B0F14;
+  --soft: #131B25;
+  --line: #2B3745;
+  background: #0B0F14;
+}
+html[data-theme="dark"] body,
+html[data-theme="dark"] .dashboard-page,
+html[data-theme="dark"] .catalogue-page,
+html[data-theme="dark"] .course-detail-page,
+html[data-theme="dark"] .auth-page,
+html[data-theme="dark"] .lesson-page {
+  background: #0B0F14 !important;
+  color: #F1F4F8 !important;
+}
+html[data-theme="dark"] .site-header,
+html[data-theme="dark"] .site-footer,
+html[data-theme="dark"] .auth-panel,
+html[data-theme="dark"] .auth-aside,
+html[data-theme="dark"] .learner-stat,
+html[data-theme="dark"] .dashboard-empty,
+html[data-theme="dark"] .learner-course-card,
+html[data-theme="dark"] .dashboard-activity,
+html[data-theme="dark"] .dashboard-results,
+html[data-theme="dark"] .dashboard-placeholder,
+html[data-theme="dark"] .course-detail-body aside,
+html[data-theme="dark"] .lesson-content section,
+html[data-theme="dark"] .assessment-card,
+html[data-theme="dark"] .category-card,
+html[data-theme="dark"] .published-course-card,
+html[data-theme="dark"] .catalogue-empty,
+html[data-theme="dark"] .course-module-preview,
+html[data-theme="dark"] .course-preview-card,
+html[data-theme="dark"] .auth-form,
+html[data-theme="dark"] .auth-form input,
+html[data-theme="dark"] .auth-form select,
+html[data-theme="dark"] .auth-form textarea {
+  background: #131B25 !important;
+  color: #F1F4F8 !important;
+  border-color: #2B3745 !important;
+}
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] p,
+html[data-theme="dark"] li,
+html[data-theme="dark"] label,
+html[data-theme="dark"] small,
+html[data-theme="dark"] strong,
+html[data-theme="dark"] span,
+html[data-theme="dark"] legend,
+html[data-theme="dark"] summary,
+html[data-theme="dark"] .eyebrow,
+html[data-theme="dark"] .section-note,
+html[data-theme="dark"] .auth-description,
+html[data-theme="dark"] .auth-footer,
+html[data-theme="dark"] .course-module-preview li {
+  color: inherit;
+}
+html[data-theme="dark"] p,
+html[data-theme="dark"] li,
+html[data-theme="dark"] small,
+html[data-theme="dark"] .muted,
+html[data-theme="dark"] .auth-description,
+html[data-theme="dark"] .section-note,
+html[data-theme="dark"] .institution-note {
+  color: #B5C0CE !important;
+}
+html[data-theme="dark"] a:not(.button):not(.brand),
+html[data-theme="dark"] .auth-footer a,
+html[data-theme="dark"] .auth-inline-link a {
+  color: #F5C75E;
+}
+html[data-theme="dark"] .brand,
+html[data-theme="dark"] .brand span,
+html[data-theme="dark"] .brand-light {
+  color: #F1F4F8 !important;
+}
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+  background: #0E151E !important;
+  color: #F1F4F8 !important;
+  border-color: #3A4858 !important;
+}
+html[data-theme="dark"] input::placeholder,
+html[data-theme="dark"] textarea::placeholder {
+  color: #9AA8B8 !important;
+}
+html[data-theme="dark"] button:not(.button-primary):not(.theme-toggle),
+html[data-theme="dark"] .button-secondary {
+  background: #202B38;
+  color: #F1F4F8;
+  border-color: #3A4858;
+}
+html[data-theme="dark"] .button-primary,
+html[data-theme="dark"] .auth-submit {
+  background: #F97316 !important;
+  color: #17202B !important;
+  border-color: #F97316 !important;
+}
+html[data-theme="dark"] .theme-toggle {
+  background: #18212C !important;
+  color: #F1F4F8 !important;
+  border-color: #3A4858 !important;
+  box-shadow: 0 5px 22px #0008;
+}
+html[data-theme="dark"] .theme-toggle span:first-child,
+html[data-theme="dark"] .eyebrow span,
+html[data-theme="dark"] .hero-title span,
+html[data-theme="dark"] h1 span,
+html[data-theme="dark"] h2 span,
+html[data-theme="dark"] .catalogue-hero h1 span,
+html[data-theme="dark"] .course-preview-heading h2 span,
+html[data-theme="dark"] .course-detail-body h2 span {
+  color: #F97316 !important;
+}
+html[data-theme="dark"] .brand-mark {
+  background: #112E5D !important;
+  color: #FFFFFF !important;
+}
+html[data-theme="dark"] .progress-track {
+  background: #344253;
+}
+html[data-theme="dark"] .progress-track span {
+  background: #F97316;
+}
+html[data-theme="dark"] .form-alert,
+html[data-theme="dark"] .form-error {
+  background: #30251A !important;
+  color: #FFDDA0 !important;
+  border-color: #795A2C !important;
+}
+html[data-theme="dark"] .site-header {
+  border-bottom: 1px solid #2B3745;
+}
+html[data-theme="dark"] .site-footer {
+  border-top: 1px solid #2B3745;
+}
+html[data-theme="dark"] .hero-proof,
+html[data-theme="dark"] .home-hero-note,
+html[data-theme="dark"] .course-preview-heading,
+html[data-theme="dark"] .course-detail-hero {
+  color: #F1F4F8;
+}
+html[data-theme="dark"] .theme-toggle:focus-visible,
+html[data-theme="dark"] button:focus-visible,
+html[data-theme="dark"] a:focus-visible,
+html[data-theme="dark"] input:focus-visible,
+html[data-theme="dark"] select:focus-visible,
+html[data-theme="dark"] textarea:focus-visible {
+  outline-color: #F97316;
+}
+
+/* Shared 404 layout. Theme-specific surfaces inherit the same brand palette. */
+.not-found-page {
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+}
+.not-found-header {
+  min-height: 82px;
+  display: flex;
+  align-items: center;
+  padding: 0 clamp(22px, 6vw, 92px);
+  border-bottom: 1px solid var(--line);
+}
+.not-found-content {
+  width: min(760px, calc(100% - 44px));
+  min-height: min(720px, calc(100vh - 82px));
+  margin: 0 auto;
+  padding: 100px 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.not-found-code {
+  margin: 24px 0 2px;
+  color: var(--orange);
+  font: 800 clamp(104px, 22vw, 190px)/.88 'Manrope', sans-serif;
+  letter-spacing: -.09em;
+}
+.not-found-content h1 {
+  max-width: 680px;
+  margin: 22px 0 14px;
+  color: var(--navy-deep);
+  font: 750 clamp(36px, 6vw, 62px)/1.04 'Manrope', sans-serif;
+  letter-spacing: -.055em;
+}
+.not-found-description {
+  max-width: 520px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.8;
+}
+.not-found-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 32px;
+}
+.not-found-secondary {
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: var(--orange);
+  text-underline-offset: 5px;
+}
+.not-found-footnote {
+  margin-top: 72px;
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .14em;
+}
+html[data-theme="dark"] .not-found-page {
+  background: #0B0F14;
+  color: #F1F4F8;
+}
+
+/* Contrast guardrails: no inherited dark text on dark surfaces. */
+html[data-theme="dark"] body,
+html[data-theme="dark"] main,
+html[data-theme="dark"] header,
+html[data-theme="dark"] footer,
+html[data-theme="dark"] section,
+html[data-theme="dark"] article,
+html[data-theme="dark"] aside,
+html[data-theme="dark"] nav,
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] p,
+html[data-theme="dark"] li,
+html[data-theme="dark"] label,
+html[data-theme="dark"] small,
+html[data-theme="dark"] strong,
+html[data-theme="dark"] span,
+html[data-theme="dark"] dt,
+html[data-theme="dark"] dd {
+  color: #F1F5F9;
+}
+html[data-theme="dark"] .eyebrow,
+html[data-theme="dark"] .muted,
+html[data-theme="dark"] .section-note,
+html[data-theme="dark"] .hero-description,
+html[data-theme="dark"] .not-found-description,
+html[data-theme="dark"] .auth-legal,
+html[data-theme="dark"] .institution-note {
+  color: #C2CBD6;
+}
+html[data-theme="dark"] a:not(.button):not(.button-primary):not(.button-secondary):not(.brand),
+html[data-theme="dark"] .text-link,
+html[data-theme="dark"] .brand-light {
+  color: #F97316;
+}
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+  background: #111827 !important;
+  color: #F8FAFC !important;
+  border-color: #465366 !important;
+}
+html[data-theme="dark"] input::placeholder,
+html[data-theme="dark"] textarea::placeholder {
+  color: #AAB6C5 !important;
+  opacity: 1;
+}
+html[data-theme="dark"] .button-primary,
+html[data-theme="dark"] .header-link,
+html[data-theme="dark"] .theme-toggle {
+  background: #F97316 !important;
+  color: #112E5D !important;
+  border-color: #F97316 !important;
+}
+html[data-theme="dark"] .button-primary *,
+html[data-theme="dark"] .header-link *,
+html[data-theme="dark"] .theme-toggle * {
+  color: #112E5D !important;
+}
+html[data-theme="dark"] :focus-visible {
+  outline: 3px solid #F97316 !important;
+  outline-offset: 3px;
+}
+
+/* Service interruption page. */
+.service-unavailable-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  color: #112E5D;
+}
+.service-unavailable-content {
+  width: min(760px, calc(100% - 40px));
+  margin: auto;
+  padding: 72px 0;
+}
+.service-unavailable-code {
+  margin: 0 0 12px;
+  color: #F97316;
+  font: 800 clamp(76px, 16vw, 144px)/.9 Manrope, sans-serif;
+  letter-spacing: -.08em;
+}
+.service-unavailable-content h1 {
+  max-width: 620px;
+  margin: 0 0 18px;
+  color: #112E5D;
+  font: 750 clamp(32px, 6vw, 54px)/1.08 Manrope, sans-serif;
+  letter-spacing: -.045em;
+}
+.service-unavailable-content > p:not(.eyebrow):not(.service-unavailable-code) {
+  max-width: 560px;
+  color: #52627A;
+  font-size: 17px;
+  line-height: 1.75;
+}
+.service-unavailable-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+html[data-theme="dark"] .service-unavailable-page { background: #0B0F14; color: #F1F5F9; }
+html[data-theme="dark"] .service-unavailable-content h1 { color: #F1F5F9; }
+html[data-theme="dark"] .service-unavailable-content > p:not(.eyebrow):not(.service-unavailable-code) { color: #C2CBD6; }
+@media (max-width: 600px) {
+  .service-unavailable-content { padding: 52px 0; }
+  .service-unavailable-actions { flex-direction: column; align-items: stretch; }
+}
+html[data-theme="dark"] .not-found-content h1 {
+  color: #F1F4F8;
+}
+html[data-theme="dark"] .not-found-description,
+html[data-theme="dark"] .not-found-footnote {
+  color: #B5C0CE;
+}
+html[data-theme="dark"] .not-found-secondary {
+  color: #F1F4F8;
+}
+html[data-theme="dark"] .assessment-option:has(input:checked) {
+  border-color: #F97316 !important;
+}
+html[data-theme="dark"] .brand-light {
+  color: #F97316 !important;
+}
+html:not([data-theme="dark"]) .brand-light {
+  color: #F97316;
+}
+@media (max-width: 560px) {
+  .not-found-header { min-height: 70px; padding: 0 18px; }
+  .not-found-content { min-height: calc(100vh - 70px); padding: 64px 0; }
+  .not-found-actions { gap: 18px; }
+  .not-found-footnote { margin-top: 54px; line-height: 1.7; }
+}

@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { AudiencePage } from "@/components/marketing-shell";
+export const metadata: Metadata = { title: "About Kaizora | Practical Technology Education", description: "Learn about Kaizora AI Academy's approach to practical, independent technology education." };
+export default function AboutPage() { return <AudiencePage eyebrow="ABOUT KAIZORA" title="Technology education should create" accent="capability." description="Kaizora AI Academy is built around practical learning: understand the idea, use the tools, test your work and build something you can explain." bullets={["Practical, project-led learning instead of passive content collection.","Independent learning paths designed to connect knowledge with application.","Responsible use of AI, verification, security and human judgement.","A learning environment where building, testing and troubleshooting are part of the process."]} cta="Explore courses" href="/courses" />; }

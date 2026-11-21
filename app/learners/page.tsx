@@ -1,0 +1,4 @@
+import type { Metadata } from "next";
+import { AudiencePage } from "@/components/marketing-shell";
+export const metadata: Metadata = { title: "For Learners | Kaizora AI Academy", description: "Explore practical courses and independent learning opportunities at Kaizora AI Academy." };
+export default function LearnersPage() { return <AudiencePage eyebrow="FOR LEARNERS" title="Build skills that move with" accent="you." description="Learn at your own pace, work through practical lessons and assessments, and turn what you learn into evidence of what you can do." bullets={["Choose courses based on your goals and current experience.","Learn through structured lessons, practical exercises and assessments.","Track your progress in a dedicated learner workspace.","Build a portfolio of projects and skills you can keep developing."]} cta="View available courses" href="/courses" />; }
