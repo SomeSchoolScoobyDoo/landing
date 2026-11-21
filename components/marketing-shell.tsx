@@ -13,7 +13,7 @@ export function MarketingShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="marketing-site">
       <header className="marketing-header">
-        <Link href="/" aria-label="Kaizora AI Academy home"><Brand /></Link>
+        <Brand />
         <nav aria-label="Main navigation">
           {nav.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}
         </nav>
@@ -22,7 +22,7 @@ export function MarketingShell({ children }: { children: React.ReactNode }) {
       {children}
       <footer className="marketing-footer">
         <div className="marketing-footer-brand">
-          <Link href="/" aria-label="Kaizora AI Academy home"><Brand /></Link>
+          <Brand />
           <p>Practical learning. Real work. Skills you can put to use.</p>
         </div>
         <nav aria-label="Footer navigation">
