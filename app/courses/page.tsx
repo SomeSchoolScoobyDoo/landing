@@ -3,6 +3,8 @@ import Link from "next/link";
 import { getPublishedCatalogue } from "@/lib/courses/catalogue";
 import { MarketingShell } from "@/components/marketing-shell";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Explore Technology Courses | Kaizora AI Academy",
   description: "Explore practical courses in AI, automation, software, cybersecurity and emerging technology at Kaizora AI Academy.",
