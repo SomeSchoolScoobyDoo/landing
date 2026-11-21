@@ -10,6 +10,8 @@ export type LessonContent = {
   step_by_step_guide?: string[];
   key_terms?: { term: string; meaning: string }[];
   practical_exercise?: { task_title?: string; instructions?: string; expected_outcome?: string };
+  poem_stanzas?: string[];
+  story_paragraphs?: string[];
 };
 
 type LessonNavigationItem = {
