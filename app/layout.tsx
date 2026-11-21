@@ -3,6 +3,7 @@ import { ThemeToggle } from "@/components/theme-toggle";
 import "./globals.css";
 import "./dark-theme.css";
 import "./marketing.css";
+import "./dark-mode-overrides.css";
 import "./preview/preview.css";
 import "./preview/dark-preview.css";
 const siteUrl = "https://www.kaizoraaiacademy.com";
