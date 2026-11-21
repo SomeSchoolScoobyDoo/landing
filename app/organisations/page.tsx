@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { AudiencePage } from "@/components/marketing-shell";
-export const metadata: Metadata = { title: "Workforce Learning for Organisations | Kaizora AI Academy", description: "Discover Kaizora's approach to practical workforce learning, team development and technology upskilling for organisations." };
+export const metadata: Metadata = { title: "Workforce Learning for Organisations | Kaizora AI Academy", description: "Discover Kaizora's approach to practical workforce learning, team development and technology upskilling for organisations." , alternates: { canonical: "/organisations" } };
 export default function OrganisationsPage() {
   return <AudiencePage
     eyebrow="FOR BUSINESSES & ORGANISATIONS"
