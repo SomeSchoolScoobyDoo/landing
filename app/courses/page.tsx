@@ -28,9 +28,12 @@ export default async function CoursesPage() {
         <Brand />
         <nav aria-label="Main navigation">
           <Link href="/">Home</Link>
-          <Link href="/login">Log in</Link>
+          <Link href="/about">About</Link>
+          <Link href="/learners">Learners</Link>
+          <Link href="/institutes">Institutes</Link>
+          <Link href="/organisations">Organisations</Link>
         </nav>
-        <Link className="header-link" href="/signup">Create account <span>↗</span></Link>
+        <Link className="header-link" href="/learners">For learners <span>↗</span></Link>
       </header>
 
       <section className="catalogue-hero">
@@ -43,7 +46,7 @@ export default async function CoursesPage() {
         {!catalogue ? (
           <div className="catalogue-empty">
             <h2>Catalogue setup in progress</h2>
-            <p>The course content is ready. This development preview still needs its database connection before it can load the published catalogue.</p>
+            <p>The course catalogue is temporarily unavailable. You can still explore Kaizora and its public information pages while we restore the learning service.</p>
           </div>
         ) : catalogue.courses.length === 0 ? (
           <div className="catalogue-empty">
