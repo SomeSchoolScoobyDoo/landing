@@ -7,6 +7,22 @@ import { AssessmentQuiz } from "./assessment-quiz";
 
 type Props = { params: Promise<{ courseSlug: string; lessonNumber: string }> };
 
+function getYouTubeEmbedUrl(value: string) {
+  try {
+    const url = new URL(value);
+    if (!["www.youtube.com", "youtube.com", "youtu.be", "m.youtube.com"].includes(url.hostname)) return null;
+    const id = url.hostname === "youtu.be"
+      ? url.pathname.split("/").filter(Boolean)[0]
+      : url.pathname === "/watch"
+        ? url.searchParams.get("v")
+        : url.pathname.split("/").filter(Boolean).at(-1);
+    if (!id || !/^[a-zA-Z0-9_-]{11}$/.test(id)) return null;
+    return `https://www.youtube-nocookie.com/embed/${id}`;
+  } catch {
+    return null;
+  }
+}
+
 export default async function LessonPage({ params }: Props) {
   const { courseSlug, lessonNumber: lessonId } = await params;
   const result = await getLessonForLearner(courseSlug, lessonId);
@@ -16,6 +32,7 @@ export default async function LessonPage({ params }: Props) {
 
   const lesson = result.lesson;
   const content = lesson.content ?? {};
+  const videoEmbedUrl = lesson.youtube_url ? getYouTubeEmbedUrl(lesson.youtube_url) : null;
 
   return (
     <main className="lesson-page">
@@ -29,7 +46,24 @@ export default async function LessonPage({ params }: Props) {
         <h1>{lesson.lesson_number}. {lesson.title}</h1>
         <p className="lesson-meta">{lesson.estimated_minutes} minutes · {result.completed ? "Completed" : "In progress"}</p>
         {content.simple_explanation && <section><h2>What you&apos;ll learn</h2><p>{content.simple_explanation}</p></section>}
-        {lesson.youtube_url && <section><h2>Video lesson</h2><p><a href={lesson.youtube_url} target="_blank" rel="noreferrer">Watch this lesson on YouTube ↗</a></p></section>}
+        {videoEmbedUrl && (
+          <section>
+            <h2>Watch inside Kaizora</h2>
+            <div style={{ position: "relative", width: "100%", maxWidth: "420px", aspectRatio: "9 / 16", marginInline: "auto", overflow: "hidden", borderRadius: "16px", background: "#090909" }}>
+              <iframe
+                src={videoEmbedUrl}
+                title={`Video lesson: ${lesson.title}`}
+                loading="lazy"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+                style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }}
+              />
+            </div>
+            <p>Keep the video here in the lesson, then continue to the questions below.</p>
+          </section>
+        )}
+        {lesson.youtube_url && !videoEmbedUrl && <section><h2>Video unavailable</h2><p>This video link could not be embedded. Please report it to the Kaizora team.</p></section>}
         {Array.isArray(content.poem_stanzas) && content.poem_stanzas.length > 0 && <section><h2>The poem</h2><div className="lesson-reading-poem">{content.poem_stanzas.map((stanza, index) => <p key={index} style={{ whiteSpace: "pre-line" }}>{stanza}</p>)}</div></section>}
         {Array.isArray(content.story_paragraphs) && content.story_paragraphs.length > 0 && <section><h2>The story</h2><div className="lesson-reading-story">{content.story_paragraphs.map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div></section>}
         {Array.isArray(content.step_by_step_guide) && content.step_by_step_guide.length > 0 && <section><h2>Step-by-step guide</h2><ol>{content.step_by_step_guide.map((step, index) => <li key={index}>{step}</li>)}</ol></section>}
