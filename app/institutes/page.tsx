@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { AudiencePage } from "@/components/marketing-shell";
-export const metadata: Metadata = { title: "Learning for Institutes | Kaizora AI Academy", description: "Explore how Kaizora can support institutes with structured digital learning, programme organisation and learner progress visibility." };
+export const metadata: Metadata = { title: "Learning for Institutes | Kaizora AI Academy", description: "Explore how Kaizora can support institutes with structured digital learning, programme organisation and learner progress visibility." , alternates: { canonical: "/institutes" } };
 export default function InstitutesPage() {
   return <AudiencePage
     eyebrow="FOR SCHOOLS, TRAINING CENTRES & INSTITUTES"
