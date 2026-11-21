@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { MarketingShell } from "@/components/marketing-shell";
-export const metadata: Metadata = { title: "About Kaizora AI Academy | Practical Technology Education", description: "Learn about Kaizora AI Academy's practical approach to technology education, independent learning and applied skills." };
+export const metadata: Metadata = { title: "About Kaizora AI Academy | Practical Technology Education", description: "Learn about Kaizora AI Academy's practical approach to technology education, independent learning and applied skills." , alternates: { canonical: "/about" } };
 const principles = [
   ["01", "Understand before you automate", "Tools are useful, but understanding the problem and the system behind it is what makes the work dependable."],
   ["02", "Practice is part of learning", "Exercises, experiments and assessments help turn information into something a learner can actually use."],
