@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
 import { completeLessonAndContinueAction } from "@/app/learn/actions";
+import { LessonNextButton } from "@/components/lesson-next-button";
 import { getLessonForLearner } from "@/lib/courses/lessons";
 import { AssessmentQuiz } from "./assessment-quiz";
 
@@ -112,9 +113,7 @@ export default async function LessonPage({ params }: Props) {
             <input type="hidden" name="lessonId" value={lesson.id} />
             <input type="hidden" name="courseSlug" value={courseSlug} />
             {result.nextLesson && <input type="hidden" name="nextLessonId" value={result.nextLesson.id} />}
-            <button className="lesson-nav-button lesson-nav-next" type="submit">
-              {result.nextLesson ? "Next" : "Finish course"} →
-            </button>
+            <LessonNextButton />
           </form>
         </nav>
       </article>
