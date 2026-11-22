@@ -367,3 +367,57 @@ html[data-theme="dark"] .site-header{background:#111827;border-color:var(--line)
 html[data-theme="dark"] .catalogue-hero,html[data-theme="dark"] .course-detail-hero{background:#101a2b;border-color:var(--line)}
 html[data-theme="dark"] .published-course-card,html[data-theme="dark"] .course-detail-body aside,html[data-theme="dark"] .course-module-preview,html[data-theme="dark"] .course-preview-empty,html[data-theme="dark"] .learner-stat,html[data-theme="dark"] .learner-course-card,html[data-theme="dark"] .dashboard-empty,html[data-theme="dark"] .dashboard-activity,html[data-theme="dark"] .dashboard-results,html[data-theme="dark"] .assessment-card{background:#151f30;border-color:var(--line)}
 html[data-theme="dark"] .auth-page,html[data-theme="dark"] .auth-panel{background:#0d1422}
+
+
+/* Lesson navigation: exactly two learner controls, with completion saved on Next. */
+.lesson-navigation{display:flex;align-items:center;justify-content:space-between;gap:14px;margin:34px 0 8px;padding-top:22px;border-top:1px solid var(--line)}
+.lesson-navigation form{margin:0}
+.lesson-nav-button{min-height:46px;display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:12px 18px;border:1px solid #d8e0eb;border-radius:4px;background:#fff;color:#18345c;font:700 13px 'DM Sans',Arial,sans-serif;cursor:pointer}
+.lesson-nav-previous{background:transparent}
+.lesson-nav-next{border-color:#18345c;background:#18345c;color:#fff}
+.lesson-nav-button:disabled{opacity:.45;cursor:not-allowed}
+.lesson-nav-button:focus-visible{outline:3px solid var(--orange);outline-offset:3px}
+.lesson-navigation form .lesson-nav-button{min-width:116px}
+html[data-theme="dark"] .lesson-nav-button{border-color:var(--line);background:#151f30;color:#e4ebf7}
+html[data-theme="dark"] .lesson-nav-next{background:#18345c;color:#fff;border-color:#18345c}
+
+/* Learner account and achievement screens. */
+.learner-nav{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.account-content,.badges-content,.feedback-content{width:min(100% - 40px,900px);margin:0 auto;padding:64px 0 84px}
+.account-content h1,.badges-content h1,.feedback-content h1{font:500 clamp(36px,5vw,52px)/1.12 Georgia,"Times New Roman",serif;letter-spacing:-1px;color:#18345c;margin:0 0 12px}
+.account-intro,.badges-intro{color:var(--muted);font-size:14px;line-height:1.8;margin:0 0 30px}
+.account-card{margin:18px 0;padding:26px;border:1px solid #e4ddd1;border-radius:4px;background:#fbfaf7}
+.account-card h2{font:600 22px Georgia,"Times New Roman",serif;color:#18345c;margin:0 0 8px}
+.account-help{font-size:12px;color:var(--muted);line-height:1.7;margin:0 0 20px}
+.account-profile-form{display:grid;gap:10px;max-width:520px}
+.account-profile-form label,.account-detail span{font-size:12px;font-weight:700;color:#34445c}
+.account-profile-form input{height:46px;padding:0 12px;border:1px solid #d8e0eb;border-radius:4px;background:#fff;color:#14233b;font:14px 'DM Sans',Arial,sans-serif}
+.account-profile-form .auth-submit{margin-top:6px;max-width:190px}
+.account-detail{display:grid;gap:6px;margin:16px 0}
+.account-detail strong{font-size:14px;color:#14233b;overflow-wrap:anywhere}
+.account-detail small{font-size:11px;color:var(--muted)}
+.account-secondary-link,.account-back-link{display:inline-block;margin-top:14px;color:#18345c;font-size:12px;font-weight:700;text-decoration:underline;text-underline-offset:4px}
+.badges-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:28px}
+.learner-badge-card{padding:28px;border:1px solid #e4ddd1;border-radius:4px;background:#fbfaf7;text-align:center}
+.learner-badge-mark{width:74px;height:74px;margin:0 auto 18px;display:grid;place-items:center;border:3px solid #b56b20;border-radius:50%;background:#18345c;color:#fff;font:700 32px Georgia,serif}
+.learner-badge-card .eyebrow{margin-bottom:12px;font-size:9px}
+.learner-badge-card h2{font:600 20px Georgia,serif;color:#18345c;margin:0 0 8px}
+.learner-badge-card h3{font:600 14px 'DM Sans',Arial,sans-serif;color:#34445c;margin:0 0 12px}
+.learner-badge-card>p:not(.eyebrow){font-size:12px;line-height:1.7;color:var(--muted)}
+.learner-badge-card time{display:block;margin-top:20px;color:var(--muted);font-size:10px}
+.badges-empty,.feedback-success{margin-top:24px;padding:28px;border:1px solid #e4ddd1;border-radius:4px;background:#fbfaf7}
+.badges-empty h2,.feedback-success h3{font:600 22px Georgia,serif;color:#18345c;margin:0 0 10px}
+.badges-empty p,.feedback-success p{font-size:13px;line-height:1.8;color:var(--muted)}
+.feedback-content>h2{font:600 21px Georgia,serif;color:#b56b20;margin:0 0 26px}
+.feedback-instructions{font-size:13px;line-height:1.7;color:var(--muted);margin:0 0 8px}
+.course-feedback-form{display:grid;gap:18px;padding:26px;border:1px solid #e4ddd1;border-radius:4px;background:#fbfaf7}
+.feedback-rating-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.course-feedback-form label{display:grid;gap:8px;color:#34445c;font-size:12px;font-weight:700}
+.course-feedback-form select,.course-feedback-form textarea{width:100%;min-width:0;border:1px solid #d8e0eb;border-radius:4px;background:#fff;color:#14233b;padding:11px;font:13px 'DM Sans',Arial,sans-serif}
+.course-feedback-form textarea{resize:vertical;line-height:1.6}
+.course-feedback-form .auth-submit{max-width:220px}
+html[data-theme="dark"] .account-card,html[data-theme="dark"] .learner-badge-card,html[data-theme="dark"] .badges-empty,html[data-theme="dark"] .feedback-success,html[data-theme="dark"] .course-feedback-form{background:#151f30;border-color:var(--line)}
+html[data-theme="dark"] .account-card h2,html[data-theme="dark"] .learner-badge-card h2,html[data-theme="dark"] .learner-badge-card h3,html[data-theme="dark"] .badges-empty h2,html[data-theme="dark"] .feedback-success h3{color:#e4ebf7}
+html[data-theme="dark"] .account-profile-form label,html[data-theme="dark"] .account-detail span,html[data-theme="dark"] .course-feedback-form label{color:#d4dceb}
+html[data-theme="dark"] .account-profile-form input,html[data-theme="dark"] .course-feedback-form select,html[data-theme="dark"] .course-feedback-form textarea{background:#101a2b;border-color:var(--line);color:#f4f7fc}
+@media(max-width:600px){.lesson-navigation{gap:9px}.lesson-nav-button{padding:11px 12px;font-size:12px}.learner-nav{gap:12px;font-size:11px}.account-content,.badges-content,.feedback-content{width:calc(100% - 36px);padding:44px 0 64px}.account-card,.course-feedback-form{padding:19px}}

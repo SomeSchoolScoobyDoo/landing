@@ -6,11 +6,16 @@ import { createClient } from "@/lib/supabase/server";
 
 const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
-export async function markLessonCompleteAction(data: FormData) {
+export async function completeLessonAndContinueAction(data: FormData) {
   const lessonId = String(data.get("lessonId") ?? "");
   const courseSlug = String(data.get("courseSlug") ?? "");
+  const nextLessonId = String(data.get("nextLessonId") ?? "");
 
-  if (!UUID_PATTERN.test(lessonId) || !/^[a-z0-9-]{1,120}$/.test(courseSlug)) {
+  if (
+    !UUID_PATTERN.test(lessonId) ||
+    !/^[a-z0-9-]{1,120}$/.test(courseSlug) ||
+    (nextLessonId && !UUID_PATTERN.test(nextLessonId))
+  ) {
     throw new Error("Invalid lesson progress request.");
   }
 
@@ -18,28 +23,51 @@ export async function markLessonCompleteAction(data: FormData) {
   const { data: auth, error: authError } = await supabase.auth.getUser();
   if (authError || !auth.user) redirect("/login");
 
-  // Verify that the supplied lesson ID belongs to this published course.
   const { data: lesson, error: lessonError } = await supabase
     .from("lessons")
     .select("id, course_modules!inner(courses!inner(slug))")
     .eq("id", lessonId)
     .eq("course_modules.courses.slug", courseSlug)
+    .eq("status", "published")
     .maybeSingle();
 
   if (lessonError || !lesson) {
     throw new Error("This lesson could not be verified. Refresh the page and try again.");
   }
 
-  const { error } = await supabase.from("lesson_progress").upsert(
-    { user_id: auth.user.id, lesson_id: lesson.id, completed_at: new Date().toISOString() },
-    { onConflict: "user_id,lesson_id" },
-  );
+  if (nextLessonId) {
+    const { data: nextLesson, error: nextLessonError } = await supabase
+      .from("lessons")
+      .select("id, course_modules!inner(courses!inner(slug))")
+      .eq("id", nextLessonId)
+      .eq("course_modules.courses.slug", courseSlug)
+      .eq("status", "published")
+      .maybeSingle();
 
-  if (error) throw new Error("Your lesson progress could not be saved. Please try again.");
+    if (nextLessonError || !nextLesson) {
+      throw new Error("The next lesson could not be verified. Refresh the page and try again.");
+    }
+  }
 
-  revalidatePath("/learn/" + courseSlug + "/" + lessonId);
+  // Learner writes are intentionally routed through the validated database RPC.
+  const { error } = await supabase.rpc("mark_lesson_complete", {
+    p_lesson_id: lesson.id,
+  });
+
+  if (error) {
+    throw new Error("Your lesson completion could not be saved. Please try again.");
+  }
+
+  revalidatePath("/dashboard");
+  revalidatePath("/badges");
+  revalidatePath("/courses/" + courseSlug);
+
+  if (nextLessonId) {
+    redirect("/learn/" + courseSlug + "/" + nextLessonId);
+  }
+
+  redirect("/feedback/" + courseSlug);
 }
-
 
 export async function submitAssessmentAction(data: FormData) {
   const assessmentId = String(data.get("assessmentId") ?? "");

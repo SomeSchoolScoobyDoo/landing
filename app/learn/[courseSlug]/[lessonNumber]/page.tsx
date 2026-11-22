@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound, redirect } from "next/navigation";
-import { markLessonCompleteAction } from "@/app/learn/actions";
+import { completeLessonAndContinueAction } from "@/app/learn/actions";
 import { getLessonForLearner } from "@/lib/courses/lessons";
 import { AssessmentQuiz } from "./assessment-quiz";
 
@@ -44,7 +44,7 @@ export default async function LessonPage({ params }: Props) {
         <Link className="course-back-link" href={`/courses/${courseSlug}`}>← Back to course</Link>
         <p className="eyebrow">MODULE {lesson.course_modules.module_number}: {lesson.course_modules.title}</p>
         <h1>{lesson.lesson_number}. {lesson.title}</h1>
-        <p className="lesson-meta">{lesson.estimated_minutes} minutes · {result.completed ? "Completed" : "In progress"}</p>
+        <p className="lesson-meta">{lesson.estimated_minutes} minutes · {result.completed ? "✓ Lesson completed" : "In progress"}</p>
         {content.simple_explanation && <section><h2>What you&apos;ll learn</h2><p>{content.simple_explanation}</p></section>}
         {videoEmbedUrl && (
           <section>
@@ -98,22 +98,24 @@ export default async function LessonPage({ params }: Props) {
             questions={result.assessment.assessment_questions}
           />
         )}
-        <form action={markLessonCompleteAction}>
-          <input type="hidden" name="lessonId" value={lesson.id}/>
-          <input type="hidden" name="courseSlug" value={courseSlug}/>
-          <button className="button button-primary" type="submit">{result.completed ? "Update completion" : "Mark lesson complete"} <span>→</span></button>
-        </form>
-        <nav aria-label="Move between lessons">
-          {result.previousLesson && (
-            <Link href={`/learn/${courseSlug}/${result.previousLesson.id}`}>
-              ← Previous: {result.previousLesson.title}
+        <nav className="lesson-navigation" aria-label="Lesson navigation">
+          {result.previousLesson ? (
+            <Link className="lesson-nav-button lesson-nav-previous" href={`/learn/${courseSlug}/${result.previousLesson.id}`}>
+              ← Previous
             </Link>
+          ) : (
+            <button className="lesson-nav-button lesson-nav-previous" type="button" disabled>
+              ← Previous
+            </button>
           )}
-          {result.nextLesson && (
-            <Link href={`/learn/${courseSlug}/${result.nextLesson.id}`}>
-              Next: {result.nextLesson.title} →
-            </Link>
-          )}
+          <form action={completeLessonAndContinueAction}>
+            <input type="hidden" name="lessonId" value={lesson.id} />
+            <input type="hidden" name="courseSlug" value={courseSlug} />
+            {result.nextLesson && <input type="hidden" name="nextLessonId" value={result.nextLesson.id} />}
+            <button className="lesson-nav-button lesson-nav-next" type="submit">
+              {result.nextLesson ? "Next" : "Finish course"} →
+            </button>
+          </form>
         </nav>
       </article>
     </main>

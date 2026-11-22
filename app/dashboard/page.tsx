@@ -43,7 +43,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       <main className="dashboard-page">
         <header className="site-header">
           <Brand />
-          <nav aria-label="Learner navigation"><Link href="/courses">Explore courses</Link></nav>
+          <nav className="learner-nav" aria-label="Learner navigation"><Link href="/courses">Explore courses</Link><Link href="/badges">My badges</Link><Link href="/account">My account</Link></nav>
         </header>
         <section className="learner-dashboard">
           <div className="dashboard-empty">
@@ -159,7 +159,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
     <main className="dashboard-page">
       <header className="site-header">
         <Brand />
-        <nav aria-label="Learner navigation"><Link href="/courses">Explore courses</Link></nav>
+        <nav className="learner-nav" aria-label="Learner navigation"><Link href="/courses">Explore courses</Link><Link href="/badges">My badges</Link><Link href="/account">My account</Link></nav>
         <form action={signOutAction}><button className="signout-button" type="submit">Sign out</button></form>
       </header>
 
