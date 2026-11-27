@@ -313,7 +313,7 @@ export async function getCourseAssessmentForLearner(
     user: auth.user,
     enrolled: true,
     course,
-    module,
+    module: courseModule,
     assessment,
     assessmentAttempts: attemptRows ?? [],
     lockedReason,
