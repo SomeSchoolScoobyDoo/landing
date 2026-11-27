@@ -1,0 +1,41 @@
+name: Access control tests
+
+on:
+  pull_request:
+    branches: [main, "feat/**"]
+    paths:
+      - "supabase/**"
+      - ".github/workflows/access-control-tests.yml"
+  push:
+    branches: ["feat/**"]
+    paths:
+      - "supabase/**"
+      - ".github/workflows/access-control-tests.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  rls-tests:
+    name: Supabase RLS and tenant-isolation tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Supabase CLI
+        uses: supabase/setup-cli@v1
+        with:
+          version: 2.53.6
+
+      - name: Start local Supabase database services
+        run: supabase start -x studio,imgproxy,edge-runtime,logflare,vector
+
+      - name: Run pgTAP access-control tests
+        run: supabase test db

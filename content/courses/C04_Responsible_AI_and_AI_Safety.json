@@ -1,0 +1,1420 @@
+{
+  "course_id": "4",
+  "title": "Responsible AI and AI Safety",
+  "category": "Category 1: AI Foundations",
+  "level": "Beginner",
+  "audience": "Beginner. Made for anyone who uses or will use AI tools at school, work, business or home. No technical background is needed.",
+  "estimated_duration": "About 11 hours in total. Spread it over 2 weeks at around 45 minutes a day.",
+  "description": "This course teaches you to use AI in ways that are fair, safe, honest and respectful of people's privacy. You will learn the core principles of responsible AI, how bias gets into AI and how it can be reduced, how to protect personal and confidential information, and the main questions about copyright, ownership and honest use. You will learn to recognise deepfake and voice cloning scams, understand human oversight and see how governments are writing AI rules. You will finish by studying real cases and writing your own responsible AI plan.",
+  "what_you_will_need": [
+    {
+      "item": "A laptop, desktop computer or smartphone",
+      "details": "A computer is best because you will write notes and short documents. A smartphone also works for watching videos and checking settings.",
+      "cost": "Paid (you may already own one)"
+    },
+    {
+      "item": "Internet connection",
+      "details": "You need a connection that can play YouTube videos and open websites. Lower video quality to 360p or 480p if you use mobile data.",
+      "cost": "Paid (Wi-Fi subscription or mobile data)"
+    },
+    {
+      "item": "A web browser",
+      "details": "Google Chrome or any modern browser, for videos and for reading reliable sources about cases.",
+      "cost": "Free"
+    },
+    {
+      "item": "Access to at least one AI tool (optional but helpful)",
+      "details": "A free account on ChatGPT, Claude, Gemini or similar lets you check privacy settings in Module 3 and try the exercises. If you have none, you can still follow the course and use the descriptions in the lessons. Always type the website address yourself.",
+      "cost": "Free"
+    },
+    {
+      "item": "A notebook and a pen",
+      "details": "For checklists, case notes and your personal AI honesty code and responsible AI plan.",
+      "cost": "Paid (very cheap)"
+    },
+    {
+      "item": "A real situation from your own life",
+      "details": "Think of your study, work, business or family situation where you use or may use AI. You will apply each module to it and finish with a personal responsible AI plan.",
+      "cost": "Free"
+    },
+    {
+      "item": "An open and thoughtful mindset",
+      "details": "Some topics, such as bias and scams, can be uncomfortable. The goal is not fear. It is to build habits that protect you and other people.",
+      "cost": "Free"
+    }
+  ],
+  "learning_objectives": [
+    "Explain responsible AI and its core principles in plain language",
+    "Describe how bias enters AI and how it can be reduced and tested",
+    "Protect personal and confidential information when using AI and review privacy settings",
+    "Explain the main copyright, ownership and honesty questions around AI",
+    "Recognise real AI harms and defend against deepfake and voice cloning scams",
+    "Describe human oversight and how AI is being regulated",
+    "Analyse real AI cases and write a personal responsible AI plan"
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "module_title": "Responsible AI Principles",
+      "module_goal": "Explain what responsible AI means and use the core principles to ask good questions about any AI system.",
+      "lessons": [
+        {
+          "lesson_number": "1.1",
+          "lesson_title": "What Is Responsible AI?",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=yh-3WU1FKrk",
+          "simple_explanation": "Responsible AI means building and using AI in a way that is fair, safe, honest about what it does, respectful of privacy and answerable to people. AI systems can make mistakes, and because they work at scale, one flaw can affect thousands of people at once. Responsible AI is a set of habits and rules that helps us catch problems early and fix them. It applies to companies that build AI and also to ordinary people who use it.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains responsible AI and AI governance. Note two reasons the speaker gives for why it matters.",
+            "Step 2: Write the core ideas in your notebook: fairness (treating people equally), transparency (being open about how AI is used), accountability (someone answers for the results), privacy (protecting personal information), and safety and reliability (working as expected without causing harm).",
+            "Step 3: Think about why scale matters. A person who makes a bad decision affects a few people. An AI system with the same flaw can repeat it for thousands of people in a day.",
+            "Step 4: Learn the four questions you can ask about any AI system: Who is affected by it? Who is responsible for it? Can its decisions be explained? Can mistakes be fixed?",
+            "Step 5: List three ways you have met AI in the last week, for example a map app, a recommendation, a chatbot or a photo filter.",
+            "Step 6: For each one, answer the four questions in one line each. If you do not know an answer, write that down. Not knowing is also a finding.",
+            "Step 7: Learn that responsibility is shared. Developers, companies, governments and users all have a part. Nobody can say 'the algorithm decided' and walk away.",
+            "Step 8: Write one sentence that explains responsible AI in your own words."
+          ],
+          "key_terms": [
+            {
+              "term": "Responsible AI",
+              "meaning": "Building and using AI in ways that are fair, safe, transparent, private and accountable."
+            },
+            {
+              "term": "Transparency",
+              "meaning": "Being open about when and how AI is used and how it reaches results."
+            },
+            {
+              "term": "Accountability",
+              "meaning": "Having clear people or organisations who answer for what a system does."
+            },
+            {
+              "term": "Governance",
+              "meaning": "The rules, roles and checks that guide how AI is built and used."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Four questions, three tools",
+            "instructions": "Pick three AI tools or features you use. For each, answer the four questions: who is affected, who is responsible, can decisions be explained, and can mistakes be fixed. Mark any answer you could not find.",
+            "expected_outcome": "A table of three tools with four answers each and a note on which answers were missing."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which question belongs in a responsible AI check?",
+              "options": [
+                "How colourful is the logo?",
+                "How long is the product name?",
+                "Who is affected and who is responsible?",
+                "How many fonts does it use?"
+              ],
+              "correct_answer": "Who is affected and who is responsible?",
+              "explanation": "Responsible AI starts with people, impact and responsibility."
+            },
+            {
+              "question": "Why is transparency valued in responsible AI?",
+              "options": [
+                "It makes AI faster",
+                "It removes the need for laws",
+                "People can understand when and how AI affects them",
+                "It hides data"
+              ],
+              "correct_answer": "People can understand when and how AI affects them",
+              "explanation": "Openness lets people question and challenge AI decisions."
+            }
+          ]
+        },
+        {
+          "lesson_number": "1.2",
+          "lesson_title": "The Six Principles in Practice",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=8Ra5L1aQ5YM",
+          "simple_explanation": "Many organisations publish their own list of responsible AI principles, and the lists are very similar. One well known list has six: fairness, reliability and safety, privacy and security, inclusiveness, transparency and accountability. Other bodies, such as UNESCO with its recommendation on the ethics of AI, use similar ideas. A principle is only useful when you turn it into a question you can actually ask.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains six responsible AI principles. Write the six names as they appear.",
+            "Step 2: Fairness: does the system treat similar people in similar ways? Question to ask: does it work equally well for different groups?",
+            "Step 3: Reliability and safety: does it work as expected and avoid harm? Question: what happens if it is wrong, and who could be hurt?",
+            "Step 4: Privacy and security: is personal data protected? Question: what data does it collect, and where does it go?",
+            "Step 5: Inclusiveness: does it work for people of different abilities, languages and backgrounds? Question: who might be left out, for example people without smartphones or speakers of local languages?",
+            "Step 6: Transparency: do people know AI is involved and how it affects them? Question: is it clear when a decision involves AI?",
+            "Step 7: Accountability: is someone answerable? Question: who do I contact if the system harms or misjudges me?",
+            "Step 8: Pick one AI feature, such as a chatbot used by a bank or an online shop. Ask all six questions about it and write short answers.",
+            "Step 9: Note which principle you think is weakest in your example and why."
+          ],
+          "key_terms": [
+            {
+              "term": "Fairness",
+              "meaning": "Treating people equally and not harming some groups more than others."
+            },
+            {
+              "term": "Inclusiveness",
+              "meaning": "Designing AI so that people of different abilities, languages and backgrounds can use it."
+            },
+            {
+              "term": "Reliability and safety",
+              "meaning": "Working as expected and avoiding harm."
+            },
+            {
+              "term": "Principle",
+              "meaning": "A guiding idea that helps you decide what is right."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Six question check",
+            "instructions": "Choose an AI chatbot or service you can observe, for example a bank or shop chatbot. Ask the six questions of it and record what you find. Mark which principle looks weakest and suggest one improvement.",
+            "expected_outcome": "A six row table with answers for one AI service and one suggested improvement."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What does inclusiveness aim for?",
+              "options": [
+                "AI with no testing",
+                "AI only for experts",
+                "AI for one country only",
+                "AI that works for people of many abilities, languages and backgrounds"
+              ],
+              "correct_answer": "AI that works for people of many abilities, languages and backgrounds",
+              "explanation": "Inclusive design avoids leaving groups out."
+            },
+            {
+              "question": "What does reliability and safety mean?",
+              "options": [
+                "It is cheap",
+                "It never needs updates",
+                "It looks modern",
+                "The system performs as expected and does not cause harm"
+              ],
+              "correct_answer": "The system performs as expected and does not cause harm",
+              "explanation": "It covers both dependable performance and avoiding harm."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which set lists core ideas of responsible AI?",
+            "options": [
+              "Fame, profit and growth",
+              "Speed, size, colour and price",
+              "Secrecy, luck and volume",
+              "Fairness, transparency, accountability, privacy and safety"
+            ],
+            "correct_answer": "Fairness, transparency, accountability, privacy and safety",
+            "explanation": "These ideas appear in most responsible AI frameworks."
+          },
+          {
+            "question": "Why does responsible AI matter more when AI is used at scale?",
+            "options": [
+              "Nobody is ever affected",
+              "One flaw can affect thousands of people at once",
+              "Scale makes bias impossible",
+              "Large systems never make mistakes"
+            ],
+            "correct_answer": "One flaw can affect thousands of people at once",
+            "explanation": "Scale multiplies the effect of mistakes."
+          },
+          {
+            "question": "A company says 'the algorithm decided, so nobody is responsible'. What does responsible AI say?",
+            "options": [
+              "Responsibility disappears",
+              "People and organisations remain accountable for AI decisions",
+              "The algorithm is legally a person",
+              "Only users are responsible"
+            ],
+            "correct_answer": "People and organisations remain accountable for AI decisions",
+            "explanation": "Accountability always rests with people and organisations."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 2,
+      "module_title": "AI Bias and Discrimination",
+      "module_goal": "Explain how bias enters AI, what harm it causes, and how it can be reduced and tested for.",
+      "lessons": [
+        {
+          "lesson_number": "2.1",
+          "lesson_title": "How Bias Gets Into AI",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=gV0_raKR2UQ",
+          "simple_explanation": "AI learns from data made by people, so it can learn our unfairness too. Bias can enter in several places: in the training data (some groups are missing or the data reflects old unfair habits), in how things are measured and labelled, and in the choices of the people who design and test the system. Once a biased system is used, its decisions can create new biased data, which makes the problem worse. This is called a feedback loop.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains algorithmic bias and fairness. Write down the types of bias it names.",
+            "Step 2: Learn three main sources. Data bias: the data leaves some groups out or reflects past discrimination. Label or measurement bias: the thing being measured stands in badly for what we care about. Design bias: the people building and testing the system did not think of everyone.",
+            "Step 3: Read scenario A: a hiring tool trained on ten years of past hires from a company that mostly hired men. Ask what pattern the tool may learn.",
+            "Step 4: Read scenario B: a voice assistant trained mostly on one accent. Ask who it may fail to understand.",
+            "Step 5: Read scenario C: a loan scoring model that uses postcode as an input. Ask how postcode could stand in for something unfair, such as income or ethnic group.",
+            "Step 6: Learn about feedback loops. If a system sends more checks to one neighbourhood, it finds more problems there, and the new data tells the system to send even more checks there.",
+            "Step 7: Learn about a famous research finding. Joy Buolamwini and Timnit Gebru tested commercial face analysis systems and found much higher error rates for darker skinned women than for lighter skinned men. After this work, some companies changed their products.",
+            "Step 8: Write in your own words how data, design and feedback loops can create bias."
+          ],
+          "key_terms": [
+            {
+              "term": "Bias (in AI)",
+              "meaning": "When a system works better for some people than for others or treats them unfairly."
+            },
+            {
+              "term": "Training data",
+              "meaning": "The examples an AI learns from."
+            },
+            {
+              "term": "Proxy",
+              "meaning": "An input, such as a postcode, that quietly stands in for something sensitive."
+            },
+            {
+              "term": "Feedback loop",
+              "meaning": "When a system's results create new data that strengthens the original bias."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Spot the source of bias",
+            "instructions": "For each of scenarios A, B and C above, write which source of bias is most likely, who might be harmed, and one fix. Then invent a fourth scenario from your own life.",
+            "expected_outcome": "Four scenarios, each with a bias source, who could be harmed and a suggested fix."
+          },
+          "lesson_quiz": [
+            {
+              "question": "A hiring tool is trained on ten years of past hires, mostly men. What might happen?",
+              "options": [
+                "It will automatically favour women",
+                "It will be perfectly fair",
+                "It may learn to favour men",
+                "It will ignore all data"
+              ],
+              "correct_answer": "It may learn to favour men",
+              "explanation": "Models learn patterns in their data, including unfair ones."
+            },
+            {
+              "question": "What is a feedback loop in bias?",
+              "options": [
+                "Biased results create new data that strengthens the bias",
+                "A new login",
+                "A faster server",
+                "A loop in a cable"
+              ],
+              "correct_answer": "Biased results create new data that strengthens the bias",
+              "explanation": "The system's decisions shape the data it learns from next."
+            }
+          ]
+        },
+        {
+          "lesson_number": "2.2",
+          "lesson_title": "Reducing Bias and Testing for Fairness",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=og67qeTZPYs",
+          "simple_explanation": "Bias cannot be removed by wishing it away, but it can be reduced and measured. Good teams check their data for missing groups, test how the system performs for different groups instead of only overall, keep humans in charge of important decisions, and keep monitoring after launch. They also involve the people affected and let people appeal a decision. Perfect fairness is not always possible, because there are different ideas of fairness, but careful testing and honest reporting make a big difference.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains what algorithmic bias is and how to reduce it. Note three actions it recommends.",
+            "Step 2: Learn the first fix: look at your data. Who is in it and who is missing? Is it recent? Does it include the people who will be affected?",
+            "Step 3: Learn the second fix: test by group. A system can be 95 percent accurate overall and only 70 percent accurate for one group. Always compare results across groups, such as men and women, urban and rural users, or different languages.",
+            "Step 4: Learn the third fix: keep a human in charge of important decisions, with the power to override the AI.",
+            "Step 5: Learn the fourth fix: monitor after launch. Data and behaviour change over time and new problems can appear.",
+            "Step 6: Learn the fifth fix: involve and inform the people affected. Explain how decisions are made and let people question or appeal them.",
+            "Step 7: Learn about limits. There are several definitions of fairness and they can conflict, and removing sensitive information does not always remove bias because proxies can remain.",
+            "Step 8: Imagine an app that screens scholarship applications. Write a five point fairness checklist for it, using the five fixes."
+          ],
+          "key_terms": [
+            {
+              "term": "Group testing",
+              "meaning": "Checking how a system performs separately for different groups of people."
+            },
+            {
+              "term": "Monitoring",
+              "meaning": "Watching how a system behaves after it is in use."
+            },
+            {
+              "term": "Appeal",
+              "meaning": "A way for a person to challenge a decision and have it reviewed."
+            },
+            {
+              "term": "Proxy variable",
+              "meaning": "An input that indirectly reveals sensitive information."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Fairness checklist for a scholarship app",
+            "instructions": "Write a five point checklist for an AI tool that helps screen scholarship applications. Include data checks, group testing, human review, monitoring and an appeal process. Add one risk for each point.",
+            "expected_outcome": "A five point checklist with one risk noted for each point."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which test helps spot unfair performance?",
+              "options": [
+                "Counting only the number of users",
+                "Reading the privacy notice only",
+                "Checking accuracy separately for different groups",
+                "Checking the logo colour"
+              ],
+              "correct_answer": "Checking accuracy separately for different groups",
+              "explanation": "Group level testing reveals gaps that overall accuracy hides."
+            },
+            {
+              "question": "Why should an AI system be monitored after launch?",
+              "options": [
+                "Data and use change, so new problems can appear",
+                "Laws require data deletion",
+                "Problems never appear later",
+                "Monitoring makes it faster"
+              ],
+              "correct_answer": "Data and use change, so new problems can appear",
+              "explanation": "A system that worked at launch can drift or meet new situations."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which is a source of AI bias?",
+            "options": [
+              "A short password",
+              "A bright screen",
+              "A fast internet connection",
+              "Training data that leaves some groups out"
+            ],
+            "correct_answer": "Training data that leaves some groups out",
+            "explanation": "Missing groups in data lead to poorer results for those groups."
+          },
+          {
+            "question": "A model is 95 percent accurate overall but only 70 percent accurate for one group. What does this show?",
+            "options": [
+              "Overall accuracy can hide unfair gaps between groups",
+              "The model is fair",
+              "That group is the problem",
+              "Overall accuracy is all that matters"
+            ],
+            "correct_answer": "Overall accuracy can hide unfair gaps between groups",
+            "explanation": "Group level testing is needed."
+          },
+          {
+            "question": "Which action helps reduce bias?",
+            "options": [
+              "Using less data about people",
+              "Hiding the test results",
+              "Testing performance separately for different groups",
+              "Never reviewing results"
+            ],
+            "correct_answer": "Testing performance separately for different groups",
+            "explanation": "Testing by group makes unfairness visible so it can be fixed."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 3,
+      "module_title": "Privacy and Data Protection",
+      "module_goal": "Protect personal and confidential information when using AI, and understand basic data protection rights.",
+      "lessons": [
+        {
+          "lesson_number": "3.1",
+          "lesson_title": "What Never to Share With AI",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=WtkCFC1PUyw",
+          "simple_explanation": "Anything you type into an AI tool is sent to a company's computers, and depending on the tool and your settings it may be stored, reviewed or used to improve the service. So the safest habit is to keep sensitive information out of your prompts. Sensitive means things like passwords, one-time codes, card and bank details, national ID numbers such as your BVN or NIN, health records, and private details about other people. It also means confidential work and client material that you are not allowed to share.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It lists things you should not tell an AI chatbot. Compare its list with the one in the next steps.",
+            "Step 2: Learn the never list: passwords and PINs, one-time codes (OTP), bank and card details, national ID numbers such as BVN and NIN, private health information, and anything that proves who you are.",
+            "Step 3: Learn the careful list: private details about other people, confidential work files, client information, unpublished work and copyrighted material that you do not have rights to share.",
+            "Step 4: Learn the safe method called anonymising. Replace real names and numbers with placeholders such as Customer A, Company X or 000. Remove anything that could identify a person.",
+            "Step 5: Learn the minimum rule. Share only what the AI needs to do the job. If it can help with the structure of a letter, it does not need the real names.",
+            "Step 6: Read three risky prompts. Prompt 1: Here is my customer list with names, phone numbers and BVNs. Find duplicates. Prompt 2: My doctor says I have a condition. Write to my employer with my full diagnosis and employee number. Prompt 3: Summarise this client contract, with the client's company name and prices.",
+            "Step 7: Rewrite each prompt so it is safe: remove or replace the sensitive details and say what you actually need help with.",
+            "Step 8: Write your personal never share list on a card and keep it near your computer."
+          ],
+          "key_terms": [
+            {
+              "term": "Sensitive information",
+              "meaning": "Details that could cause harm if exposed, such as passwords, IDs, health or financial data."
+            },
+            {
+              "term": "OTP",
+              "meaning": "A one-time code sent to your phone or email that must never be shared."
+            },
+            {
+              "term": "Anonymise",
+              "meaning": "Remove or replace details that identify a person."
+            },
+            {
+              "term": "Placeholder",
+              "meaning": "A stand-in word such as Customer A that replaces a real name."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Safe prompt makeover",
+            "instructions": "Rewrite the three risky prompts so they ask for the same kind of help without sharing sensitive details. Then write your own never share list with at least eight items.",
+            "expected_outcome": "Three rewritten safe prompts and a personal never share list."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which should you never type into an AI tool?",
+              "options": [
+                "A cooking question",
+                "A request to shorten text",
+                "Your OTP or bank PIN",
+                "A request to fix grammar"
+              ],
+              "correct_answer": "Your OTP or bank PIN",
+              "explanation": "Codes and PINs give access to your money and accounts."
+            },
+            {
+              "question": "What is a safe way to get help with a real customer email?",
+              "options": [
+                "Replace names and details with placeholders",
+                "Add the customer's ID",
+                "Post it online first",
+                "Paste everything as it is"
+              ],
+              "correct_answer": "Replace names and details with placeholders",
+              "explanation": "Anonymising protects the customer."
+            }
+          ]
+        },
+        {
+          "lesson_number": "3.2",
+          "lesson_title": "Privacy Settings and Data Protection Rights",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=M1Cw1hXlZ5k",
+          "simple_explanation": "Most AI tools have settings that control what happens to your chats: whether they are used to train the model, whether they are saved, whether the tool remembers things about you, and which other apps can connect. Reading and adjusting these settings takes a few minutes and is one of the best privacy steps you can take. Laws also protect your personal data. In Nigeria, the Nigeria Data Protection Act 2023 sets rules for how organisations handle personal data and gives people rights over their data, and the Nigeria Data Protection Commission oversees it. Other places have their own laws, such as the GDPR in Europe.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows settings to check in an AI chatbot. Different tools use different names, so note the ideas.",
+            "Step 2: Open an AI tool you use and find its settings. Look for words like Data controls, Privacy, Personalisation, Memory, History and Connected apps.",
+            "Step 3: Check whether your chats can be used to improve the model. Read the description and decide what you want. If there is an option to turn it off, consider doing so.",
+            "Step 4: Check whether chat history and memory are on. Decide what you are comfortable with. Look for temporary or incognito style chats for sensitive topics.",
+            "Step 5: Review connected apps and delete any you do not use.",
+            "Step 6: Learn the core data protection ideas: personal data is any information that can identify a person. Organisations should have a lawful reason to use it, use it only for a clear purpose, collect no more than they need, keep it safe and not keep it longer than necessary.",
+            "Step 7: Learn your rights in general terms: to know how your data is used, to ask for correction, and in some cases to ask for deletion or to object. The exact rights are set out in the law and in guidance from the Nigeria Data Protection Commission, so check the current text.",
+            "Step 8: Learn what to do if you think your data was misused: contact the organisation first, keep records, and if it is not resolved, contact the data protection regulator.",
+            "Step 9: Write a short privacy checklist of five settings and five habits."
+          ],
+          "key_terms": [
+            {
+              "term": "Personal data",
+              "meaning": "Any information that can identify a living person."
+            },
+            {
+              "term": "Data minimisation",
+              "meaning": "Collecting and using only the data that is needed."
+            },
+            {
+              "term": "Data protection law",
+              "meaning": "Rules that protect people's personal data, such as Nigeria's Data Protection Act 2023."
+            },
+            {
+              "term": "Memory (in AI tools)",
+              "meaning": "A feature that lets a tool remember details about you between chats."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Privacy audit of one tool",
+            "instructions": "Pick one AI tool. Record at least five privacy related settings you found, what each is set to, and whether you want to change it. Write three habits that you will follow when using it.",
+            "expected_outcome": "An audit table with five settings and decisions plus three personal habits."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is personal data?",
+              "options": [
+                "Information that can identify a person",
+                "A list of public holidays",
+                "The colour blue",
+                "Any weather report"
+              ],
+              "correct_answer": "Information that can identify a person",
+              "explanation": "Names, phone numbers and IDs are examples of personal data."
+            },
+            {
+              "question": "What does data minimisation mean?",
+              "options": [
+                "Sharing data widely",
+                "Only collecting and using the data you need",
+                "Collecting everything possible",
+                "Deleting all data every day"
+              ],
+              "correct_answer": "Only collecting and using the data you need",
+              "explanation": "Less data means less risk."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which of these is personal data?",
+            "options": [
+              "A public holiday date",
+              "A name together with a phone number",
+              "The weather forecast",
+              "The word hello"
+            ],
+            "correct_answer": "A name together with a phone number",
+            "explanation": "It identifies a specific person."
+          },
+          {
+            "question": "Which prompt is safer?",
+            "options": [
+              "Here is my password, please fix my account",
+              "Rewrite this complaint reply for a customer, using Customer A instead of the real name",
+              "Here is Ada Obi's BVN and address, draft her reply",
+              "Here is my OTP, help me log in"
+            ],
+            "correct_answer": "Rewrite this complaint reply for a customer, using Customer A instead of the real name",
+            "explanation": "Placeholders keep identity and secrets out."
+          },
+          {
+            "question": "What is a sensible first step if you think a tool is misusing your data?",
+            "options": [
+              "Ignore it",
+              "Check privacy settings and contact the provider, then the regulator if needed",
+              "Share more data to prove who you are",
+              "Post your password online"
+            ],
+            "correct_answer": "Check privacy settings and contact the provider, then the regulator if needed",
+            "explanation": "Use the available settings and complaint routes in order."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 4,
+      "module_title": "AI Ethics: Copyright, Ownership and Responsible Use",
+      "module_goal": "Understand the main copyright and ownership questions around AI and use AI honestly.",
+      "lessons": [
+        {
+          "lesson_number": "4.1",
+          "lesson_title": "AI and Copyright: Training and Outputs",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=jeLX5eJBNj8",
+          "simple_explanation": "Generative AI raises three big copyright questions: whether it is allowed to train on copyrighted books, images and music, whether its outputs can copy or too closely resemble existing works, and who owns what it creates. The law is still developing, differs from country to country and is being tested in courts, so nobody can give one simple answer. What you can do is follow careful habits: use material you have rights to, read the tool's terms, avoid asking AI to copy living artists or reproduce books, and be honest about how you used AI.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains three key copyright issues in generative AI. Write the three issues in your notebook.",
+            "Step 2: Issue one: training data. AI models were trained on huge collections that include copyrighted work. Whether this is allowed is being argued in courts in several countries.",
+            "Step 3: Issue two: outputs. An AI can sometimes produce text, images or music that is very close to existing work. If you publish it, you could be copying someone's work without meaning to.",
+            "Step 4: Issue three: ownership. Who owns something an AI helped to create? The answer depends on the country, the level of human involvement and the tool's terms of service.",
+            "Step 5: Learn practical habits. Use images, music and text that you created, that are in the public domain or that you have a licence to use. Check the tool's terms for commercial use. Do not ask AI to copy a living artist's style or to reproduce passages of a book.",
+            "Step 6: Be careful with what you upload. Do not upload other people's copyrighted work or paid material to AI tools unless you have permission or the licence allows it.",
+            "Step 7: Learn that this is general information, not legal advice. For important commercial work, ask a qualified lawyer in your country.",
+            "Step 8: Read five scenarios and decide if you can proceed, need to check, or should not: 1 Using an AI image on your business poster. 2 Asking AI to write a story in the exact style of a named living author and selling it. 3 Pasting a paid textbook chapter into AI and posting the summary online. 4 Using AI to draft your own product description. 5 Using AI music as a background in a video you monetise.",
+            "Step 9: Write a short note explaining each decision."
+          ],
+          "key_terms": [
+            {
+              "term": "Copyright",
+              "meaning": "The legal right of creators to control how their original work is copied and used."
+            },
+            {
+              "term": "Training data",
+              "meaning": "The collection of examples an AI model learned from."
+            },
+            {
+              "term": "Licence",
+              "meaning": "Permission to use something under stated conditions."
+            },
+            {
+              "term": "Public domain",
+              "meaning": "Works whose copyright has expired or been given up, so anyone may use them."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Can I use this?",
+            "instructions": "Decide whether to proceed, check first or not do it for each of the five scenarios. Write your reasons and name one thing you would check, such as the tool's terms or the licence.",
+            "expected_outcome": "Five decisions with reasons and one check for each."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which is one of the main copyright questions around AI?",
+              "options": [
+                "Whether training on copyrighted works is allowed",
+                "Whether screens are bright",
+                "Whether files are small",
+                "Whether AI enjoys music"
+              ],
+              "correct_answer": "Whether training on copyrighted works is allowed",
+              "explanation": "Training data and rights are central to the debate."
+            },
+            {
+              "question": "Before using AI output in a product you sell, you should:",
+              "options": [
+                "Remove the date",
+                "Check the tool's terms and the law in your country",
+                "Ask the AI to promise it is fine",
+                "Assume it is free"
+              ],
+              "correct_answer": "Check the tool's terms and the law in your country",
+              "explanation": "Rights and terms vary, so check them."
+            }
+          ]
+        },
+        {
+          "lesson_number": "4.2",
+          "lesson_title": "Who Owns the Output?",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=Mb1m7VQIuXA",
+          "simple_explanation": "Ownership of AI generated work is not simple. In many countries copyright protects works that have a human author. That means material produced entirely by AI may have weak or no copyright protection, while work where a human makes real creative choices may be protected for that human part. The tool you use also has terms of service that say what you may do with the output. This is general information, not legal advice. Rules are changing, so for important decisions talk to a lawyer.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. A lawyer explains who owns AI output. It is long, so watch it in two parts and note the main points.",
+            "Step 2: Write the key idea: in many places copyright needs a human author, so fully AI made work may not be protected the way human work is.",
+            "Step 3: Learn that human input matters. Writing detailed instructions, selecting, arranging and editing the output can add human authorship, but where exactly the line is drawn differs by country and is still being decided.",
+            "Step 4: Learn about the terms of service. Read what the tool says about who owns the output, whether you may use it commercially and whether your inputs can be used for training.",
+            "Step 5: Learn about business impact. If your business relies on work that may not be protected, competitors might be able to copy it. Keep trade secrets out of public AI tools.",
+            "Step 6: Learn about contracts. If you are a freelancer or run a small business, check whether clients require you to say if you use AI and who owns the work. Ask clients and agree in writing.",
+            "Step 7: Learn about risk of infringement. Even when you own the output, it could still copy someone else's work. Check important work for similarity.",
+            "Step 8: Write three rules for how you will use AI in your own freelance, study or business work, including one rule about checking terms and one about client agreements."
+          ],
+          "key_terms": [
+            {
+              "term": "Authorship",
+              "meaning": "Being the creator of a work."
+            },
+            {
+              "term": "Terms of service",
+              "meaning": "The rules you agree to when you use a tool, including what you may do with its output."
+            },
+            {
+              "term": "Trade secret",
+              "meaning": "Confidential business information that gives an advantage."
+            },
+            {
+              "term": "Infringement",
+              "meaning": "Using someone's protected work without permission."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "My three ownership rules",
+            "instructions": "Write three rules for using AI in your own work that deal with checking terms of service, agreeing with clients and protecting confidential information. Add a short sentence explaining each rule.",
+            "expected_outcome": "Three clear rules with one sentence of reasoning each."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Why might fully AI generated work have weaker copyright protection in some places?",
+              "options": [
+                "Copyright only applies to paper",
+                "AI is too slow",
+                "Copyright often requires human authorship",
+                "Computers cannot save files"
+              ],
+              "correct_answer": "Copyright often requires human authorship",
+              "explanation": "Many legal systems link copyright to human creators."
+            },
+            {
+              "question": "Which is a smart habit for freelancers who use AI?",
+              "options": [
+                "Hide all AI use",
+                "Copy other people's work",
+                "Check client contracts and disclose AI use where required",
+                "Ignore contracts"
+              ],
+              "correct_answer": "Check client contracts and disclose AI use where required",
+              "explanation": "Clear agreements prevent disputes."
+            }
+          ]
+        },
+        {
+          "lesson_number": "4.3",
+          "lesson_title": "Honest Use: Disclosure, Plagiarism and Thinking for Yourself",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=3lPnN8omdPA",
+          "simple_explanation": "Using AI honestly means following the rules of your school, workplace or client, saying how you used it when that is required, and never passing off AI work as your own when that is not allowed. It also means protecting your own thinking. If you let AI do all your reasoning, your skills and judgement can weaken. The best use of AI is as a helper that challenges and supports your thinking, not one that replaces it.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains how to stop AI from weakening your critical thinking. Note two ideas you can apply.",
+            "Step 2: Check the rules. Find the AI policy of your school, employer or client. Write down what is allowed, what must be disclosed and what is banned.",
+            "Step 3: Learn about plagiarism. Presenting AI generated text as your own writing where it is not allowed counts as dishonest, even if the AI wrote new words. Copying someone else's text without credit is also plagiarism.",
+            "Step 4: Learn about disclosure. Where it is allowed, say how you used AI. Example: I used an AI assistant to suggest an outline and to check grammar. I wrote and verified the final text myself.",
+            "Step 5: Learn about checking. You are responsible for the accuracy of anything you submit, so verify facts and references before you rely on them.",
+            "Step 6: Learn about over-reliance. If you always ask AI first, you may stop practising skills like planning, writing and problem solving. Try attempting a task yourself first, then use AI to compare and improve.",
+            "Step 7: Try the challenge method. After you make a plan or argument, ask AI: What is the weakest part of this? What am I missing? Then decide yourself what to change.",
+            "Step 8: Write your personal AI honesty code with five rules and a one sentence disclosure statement that you can reuse."
+          ],
+          "key_terms": [
+            {
+              "term": "Plagiarism",
+              "meaning": "Presenting someone else's work, or work you are not allowed to claim, as your own."
+            },
+            {
+              "term": "Disclosure",
+              "meaning": "Saying openly how AI was used in your work."
+            },
+            {
+              "term": "Over-reliance",
+              "meaning": "Depending on a tool so much that your own skills and judgement weaken."
+            },
+            {
+              "term": "Academic integrity",
+              "meaning": "Honest behaviour in study and research."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "My AI honesty code",
+            "instructions": "Write a five rule honesty code for using AI in study or work. Include one rule about checking the policy, one about disclosure, one about verifying facts, one about not over-relying and one about protecting privacy. Add a reusable disclosure sentence.",
+            "expected_outcome": "A five rule honesty code and a one sentence disclosure statement."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which is an honest way to use AI for study?",
+              "options": [
+                "Use it secretly where it is banned",
+                "Let it do all your thinking",
+                "Claim AI work as entirely yours",
+                "Follow the rules and say how you used it"
+              ],
+              "correct_answer": "Follow the rules and say how you used it",
+              "explanation": "Honesty means respecting rules and being open."
+            },
+            {
+              "question": "Why can over-reliance on AI be a problem?",
+              "options": [
+                "It deletes your files",
+                "It can weaken your own skills and judgement",
+                "AI becomes tired",
+                "It changes your height"
+              ],
+              "correct_answer": "It can weaken your own skills and judgement",
+              "explanation": "Skills grow through practice."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Who may own fully AI generated content?",
+            "options": [
+              "Nobody may ever use it",
+              "It depends on the country and the tool's terms, and may be unclear",
+              "Always the user in every country",
+              "Always the AI company"
+            ],
+            "correct_answer": "It depends on the country and the tool's terms, and may be unclear",
+            "explanation": "The law and terms vary and are still developing."
+          },
+          {
+            "question": "Which action respects copyright?",
+            "options": [
+              "Pasting a whole book into a prompt to republish it",
+              "Removing the artist's name",
+              "Copying any picture from search results",
+              "Using images you created or have a licence to use"
+            ],
+            "correct_answer": "Using images you created or have a licence to use",
+            "explanation": "Rights come from creating or licensing."
+          },
+          {
+            "question": "What is an honest way to use AI on an assignment?",
+            "options": [
+              "Follow the rules, use it only for allowed help and disclose how you used it",
+              "Share answers with friends",
+              "Hide it and claim the work as fully yours",
+              "Use it even if banned"
+            ],
+            "correct_answer": "Follow the rules, use it only for allowed help and disclose how you used it",
+            "explanation": "Honesty means following the rules and being open."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 5,
+      "module_title": "AI Safety: Risks, Misuse, Reliability and Oversight",
+      "module_goal": "Recognise real AI risks, defend against scams, understand human oversight and know how rules are being developed.",
+      "lessons": [
+        {
+          "lesson_number": "5.1",
+          "lesson_title": "Real Harms of AI Today",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=eXdVDhOGqoE",
+          "simple_explanation": "People often picture AI dangers as science fiction robots. Many researchers say we should pay attention to harms that AI is already causing now: biased decisions, copyright disputes, misinformation and the environmental cost of the energy that powers large AI systems. Looking at real, present harms helps us decide what to fix first and what to ask of companies and governments.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. A researcher explains why present harms matter. Note which harms she mentions.",
+            "Step 2: Make a list of harm types: unfair decisions (bias), misuse of creative work, false information, privacy leaks, scams, and environmental costs.",
+            "Step 3: Learn about environmental impact. Training and running large AI systems uses significant electricity and water in data centres. Estimates vary, but the cost is real and growing, so it is fair to ask companies to report it.",
+            "Step 4: Learn about misinformation. AI can create convincing text, images and audio at very low cost, which makes false content easier to produce and spread.",
+            "Step 5: Learn about overtrust. People may trust a confident answer too much, even when it is wrong.",
+            "Step 6: Choose one AI tool you use. For each harm type, write whether it applies, how likely it is, and how serious it would be: low, medium or high.",
+            "Step 7: Circle the two highest risks and write one thing you can do about each.",
+            "Step 8: Write a sentence about why it helps to focus on real harms first."
+          ],
+          "key_terms": [
+            {
+              "term": "Harm",
+              "meaning": "Damage or disadvantage to people or the world."
+            },
+            {
+              "term": "Misinformation",
+              "meaning": "False or misleading information that spreads."
+            },
+            {
+              "term": "Overtrust",
+              "meaning": "Believing an AI output without enough checking."
+            },
+            {
+              "term": "Environmental cost",
+              "meaning": "The energy, water and resources used by AI systems."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Harm map for one tool",
+            "instructions": "Pick one AI tool you use. Map six harm types against it, scoring likelihood and seriousness as low, medium or high. Choose your top two risks and write one action for each.",
+            "expected_outcome": "A harm map with six rows and two action points."
+          },
+          "lesson_quiz": [
+            {
+              "question": "The talk argues that attention should go to:",
+              "options": [
+                "Only distant future dangers",
+                "Harms that AI is already causing today",
+                "Only movie style robots",
+                "Nothing at all"
+              ],
+              "correct_answer": "Harms that AI is already causing today",
+              "explanation": "It focuses on real present day impacts."
+            },
+            {
+              "question": "Which is a real effect of AI beyond the screen?",
+              "options": [
+                "Making the sun brighter",
+                "Energy use by the data centres that run it",
+                "Nothing physical",
+                "Changing the alphabet"
+              ],
+              "correct_answer": "Energy use by the data centres that run it",
+              "explanation": "AI runs on physical infrastructure that uses energy."
+            }
+          ]
+        },
+        {
+          "lesson_number": "5.2",
+          "lesson_title": "Misuse, Scams and Deepfakes",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=r2hcq5NNQe8",
+          "simple_explanation": "AI makes it cheap for criminals to fake voices, faces and messages. Scammers can clone a voice from a short recording and call a relative pretending to be in trouble. Fake video calls and messages can imitate bosses to trick people into sending money. The defence is not to spot the fake by ear or eye, because fakes are getting better, but to use verification habits: slow down, check through a second channel and never act on voice or video alone for money or secrets.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how voice cloning scams work. Note the signs and the protections it mentions.",
+            "Step 2: Learn the scam pattern: a call or message creates panic, says it is urgent, asks for money, a code or a secret, and discourages you from checking.",
+            "Step 3: Learn about voice cloning. A short recording from social media or a video can be enough for a copy of someone's voice. Do not assume a familiar voice proves who is calling.",
+            "Step 4: Learn about deepfake video calls. It has been widely reported that fraudsters have used fake video of company managers in calls to trick staff into transferring large sums of money.",
+            "Step 5: Create a family code word. Choose a word or question only your family knows, and agree to ask for it when someone calls asking for urgent help.",
+            "Step 6: Learn the call back rule. If someone asks for money or secrets, hang up and call back on the number you already have for that person, or contact them another way.",
+            "Step 7: For work, learn about dual approval. Payments or account changes should need a second person to approve and should be confirmed through a trusted channel.",
+            "Step 8: Learn what to do if you are scammed: contact your bank at once, keep records, report to the police or the relevant cybercrime unit, and warn family and colleagues.",
+            "Step 9: Write a one page verification plan for your family and for your work."
+          ],
+          "key_terms": [
+            {
+              "term": "Voice cloning",
+              "meaning": "Using AI to copy a person's voice."
+            },
+            {
+              "term": "Deepfake",
+              "meaning": "A fake image, video or audio made with AI that looks or sounds real."
+            },
+            {
+              "term": "Call back rule",
+              "meaning": "Hanging up and contacting a person using a number you already trust."
+            },
+            {
+              "term": "Dual approval",
+              "meaning": "Requiring two people to approve a sensitive action."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "My verification plan",
+            "instructions": "Write a one page plan with a family code word, a call back rule, steps to follow for payment requests at work and who to contact if you are scammed. Share the family part with one relative.",
+            "expected_outcome": "A one page verification plan and evidence that you shared the family part."
+          },
+          "lesson_quiz": [
+            {
+              "question": "A video call shows your boss asking for an urgent payment. What is the safest response?",
+              "options": [
+                "Pay quickly",
+                "Share account details on the call",
+                "Ignore security rules",
+                "Verify through a second trusted channel before paying"
+              ],
+              "correct_answer": "Verify through a second trusted channel before paying",
+              "explanation": "Never act on video or voice alone for money."
+            },
+            {
+              "question": "Which makes voice cloning easier for scammers?",
+              "options": [
+                "Public audio and video of a person's voice",
+                "A locked phone",
+                "A strong password",
+                "A weak signal"
+              ],
+              "correct_answer": "Public audio and video of a person's voice",
+              "explanation": "Clones are built from recordings."
+            }
+          ]
+        },
+        {
+          "lesson_number": "5.3",
+          "lesson_title": "Reliability and Human Oversight",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=9iS-YYLIXiw",
+          "simple_explanation": "AI can be wrong, and the more important the decision, the more we need people involved. Human in the loop means a person reviews or approves AI decisions before they take effect. Human on the loop means a person monitors and can step in. Oversight only works if the person has the time, information, skill and authority to actually challenge the AI. If people just click approve without checking, the oversight is empty. A common trap is automation bias, trusting a computer's answer too much.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains human in the loop. Note the different ways humans can be involved.",
+            "Step 2: Learn the three levels. Human in the loop: a person approves each decision. Human on the loop: a person watches and can intervene. Human out of the loop: the system acts alone.",
+            "Step 3: Learn when to use which. For high stakes decisions about health, money, jobs, safety or legal rights, a person should review before the decision takes effect. For low stakes tasks, monitoring may be enough.",
+            "Step 4: Learn about automation bias. People tend to trust automated suggestions, especially when tired or busy. Counter it by asking for the reasons behind a result and by checking a sample.",
+            "Step 5: Learn what makes oversight real: the reviewer has enough time, can see the evidence, is trained, is allowed to say no and is not punished for overriding the AI.",
+            "Step 6: Learn about the rubber stamp problem: approving hundreds of AI decisions an hour without looking is not oversight.",
+            "Step 7: Design oversight for two scenarios. Scenario 1: an AI drafts replies to customer complaints. Scenario 2: an AI screens loan applications. For each, decide the level, who reviews, what they see and when they can override.",
+            "Step 8: Write one sentence explaining the difference between real and empty oversight."
+          ],
+          "key_terms": [
+            {
+              "term": "Human in the loop",
+              "meaning": "A person reviews or approves decisions before they take effect."
+            },
+            {
+              "term": "Human on the loop",
+              "meaning": "A person monitors the system and can step in."
+            },
+            {
+              "term": "Automation bias",
+              "meaning": "Trusting an automated result too much."
+            },
+            {
+              "term": "Rubber stamp",
+              "meaning": "Approving without really checking."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Design oversight",
+            "instructions": "For the two scenarios, write the oversight level, the reviewer, what the reviewer sees, the right to override and one safeguard against automation bias.",
+            "expected_outcome": "A two scenario table with five oversight details each."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is automation bias?",
+              "options": [
+                "Programming bias on purpose",
+                "Bias in the weather",
+                "Disliking all automation",
+                "Trusting automated output too much"
+              ],
+              "correct_answer": "Trusting automated output too much",
+              "explanation": "People often over-trust computer results."
+            },
+            {
+              "question": "Which arrangement is human in the loop?",
+              "options": [
+                "A person reads reports after a year",
+                "A person switches off the monitor",
+                "The AI acts and nobody sees",
+                "A person approves each decision before it takes effect"
+              ],
+              "correct_answer": "A person approves each decision before it takes effect",
+              "explanation": "Approval before action is the core idea."
+            }
+          ]
+        },
+        {
+          "lesson_number": "5.4",
+          "lesson_title": "Rules and Governance: The EU AI Act and Nigeria's Data Law",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=s_rxOnCt3HQ",
+          "simple_explanation": "Governments are writing rules for AI. The European Union's AI Act takes a risk-based approach: the higher the risk of harm, the stricter the rules. Some uses are banned, high-risk uses such as decisions about jobs, credit or education face strong requirements, some uses such as chatbots must tell people they are dealing with AI, and low risk uses face few rules. The Act is being phased in over several years and details can change. Nigeria's Data Protection Act 2023 already covers AI tools that process personal data, and Nigeria has been developing wider AI policy, so check the current position.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains the EU AI Act. Note the risk levels.",
+            "Step 2: Learn the four levels in simple terms: unacceptable risk is banned, such as certain social scoring. High risk has strict duties, such as AI used in hiring, credit scoring, education and law enforcement. Limited risk needs transparency, such as telling people when they are talking to a chatbot or when content is AI generated. Minimal risk has few rules.",
+            "Step 3: Learn why this matters outside Europe. Companies that sell to European customers may follow these rules, and other countries often look at them when writing their own.",
+            "Step 4: Learn about Nigeria. The Nigeria Data Protection Act 2023 applies whenever personal data is processed, including by AI. The Nigeria Data Protection Commission oversees it. National AI policy and strategy work is in progress, so check current official sources.",
+            "Step 5: Learn about company rules. Many organisations write an internal AI policy that states what tools are allowed, what data may be used, who approves new uses and how to report problems. Standards such as the NIST AI Risk Management Framework and ISO 42001 guide these.",
+            "Step 6: Classify six uses by risk level in your notebook: 1 AI that suggests songs. 2 AI that decides who gets a job interview. 3 A shop chatbot. 4 AI that scores loan applications. 5 A spelling checker. 6 AI that creates realistic fake videos of public figures for entertainment without labels.",
+            "Step 7: Write a reason for each classification.",
+            "Step 8: Write down one rule you would put in a company AI policy."
+          ],
+          "key_terms": [
+            {
+              "term": "Risk-based approach",
+              "meaning": "Regulating AI more strictly when the possible harm is greater."
+            },
+            {
+              "term": "High-risk AI",
+              "meaning": "AI used for important decisions about people, such as hiring or credit."
+            },
+            {
+              "term": "AI policy",
+              "meaning": "A set of rules that an organisation sets for using AI."
+            },
+            {
+              "term": "Regulator",
+              "meaning": "An official body that checks that laws are followed."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Classify six AI uses",
+            "instructions": "Classify the six AI uses by risk level with a reason for each. Then write three rules for a small company AI policy covering data, checking and who approves new tools.",
+            "expected_outcome": "Six classified uses with reasons and three policy rules."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is a risk-based approach to AI rules?",
+              "options": [
+                "Stricter rules for uses that can cause more harm",
+                "Rules only for games",
+                "The same rule for every system",
+                "No rules for hiring"
+              ],
+              "correct_answer": "Stricter rules for uses that can cause more harm",
+              "explanation": "The greater the harm, the stronger the rules."
+            },
+            {
+              "question": "Why does Nigeria's data protection law matter for AI use?",
+              "options": [
+                "It bans all AI",
+                "AI tools that process personal data must respect it",
+                "It applies only outside Nigeria",
+                "It only covers paper files"
+              ],
+              "correct_answer": "AI tools that process personal data must respect it",
+              "explanation": "Processing personal data with AI is still processing personal data."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which is the best defence against a voice cloning scam?",
+            "options": [
+              "Send money fast",
+              "Trust the voice",
+              "Share your OTP to prove it is you",
+              "Hang up and call back on a number you already know"
+            ],
+            "correct_answer": "Hang up and call back on a number you already know",
+            "explanation": "Independent verification beats trusting a voice."
+          },
+          {
+            "question": "What does 'human in the loop' mean?",
+            "options": [
+              "AI works in secret",
+              "A person reviews or approves AI decisions",
+              "Computers loop forever",
+              "AI replaces all people"
+            ],
+            "correct_answer": "A person reviews or approves AI decisions",
+            "explanation": "It keeps a person responsible for decisions."
+          },
+          {
+            "question": "In a risk-based law, which AI use is usually treated as higher risk?",
+            "options": [
+              "Suggesting a song",
+              "Fixing spelling",
+              "Deciding who gets a job or a loan",
+              "Choosing a wallpaper"
+            ],
+            "correct_answer": "Deciding who gets a job or a loan",
+            "explanation": "Decisions that affect people's opportunities carry higher risk."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 6,
+      "module_title": "Practical Case Studies",
+      "module_goal": "Analyse real cases of AI going wrong and turn the lessons into your own responsible AI plan.",
+      "lessons": [
+        {
+          "lesson_number": "6.1",
+          "lesson_title": "Case Studies in Bias and Fairness",
+          "estimated_minutes": 50,
+          "youtube_url": "https://www.youtube.com/watch?v=RfuQ5B1sjfM",
+          "simple_explanation": "Real cases make principles concrete. A good case analysis follows a simple pattern: what happened, who was harmed, what caused it, who was responsible, what was done about it and what we can learn. In this lesson you analyse well known cases where AI systems treated people unfairly. The facts below are based on widely reported accounts, so check current sources for the latest details.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It gives examples of AI bias. Note any that you recognise.",
+            "Step 2: Learn the six question template: What happened? Who was harmed? What caused it? Who was responsible? What was done? What is the lesson?",
+            "Step 3: Case 1: a hiring tool. It was widely reported that a large online retailer built an experimental recruiting tool that learned from past resumes and favoured male candidates, and the company stopped using it. Lesson: models copy bias found in past data.",
+            "Step 4: Case 2: face analysis. Researchers Joy Buolamwini and Timnit Gebru found that some commercial systems had much higher error rates for darker skinned women than for lighter skinned men. Several companies later improved or changed their products. Lesson: test by group and publish results.",
+            "Step 5: Case 3: risk scores in courts. An analysis by journalists of a tool used in some US courts to estimate the risk of reoffending reported different error patterns for different racial groups, and the company disputed the conclusions. Lesson: fairness can be defined in different ways, and people deserve clear explanations.",
+            "Step 6: Case 4: a benefits scandal. In the Netherlands, an automated system used to flag suspected childcare benefit fraud wrongly accused many families, with serious consequences, and the government resigned in 2021. Lesson: automated flags need human review, appeals and oversight.",
+            "Step 7: Choose one case. Search for a recent reliable source and check whether any facts have changed since this lesson.",
+            "Step 8: Answer the six questions for your chosen case in a one page lessons learned note."
+          ],
+          "key_terms": [
+            {
+              "term": "Case study",
+              "meaning": "A detailed look at a real event used to learn lessons."
+            },
+            {
+              "term": "Risk score",
+              "meaning": "A number that estimates how likely something is, used to help make decisions."
+            },
+            {
+              "term": "Appeal",
+              "meaning": "A process for challenging a decision."
+            },
+            {
+              "term": "Lessons learned",
+              "meaning": "The main points to apply next time."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "One page case analysis",
+            "instructions": "Choose one of the four cases. Check a reliable source for current facts. Answer the six questions and add two practical recommendations that would have prevented the harm.",
+            "expected_outcome": "A one page analysis answering six questions with two recommendations."
+          },
+          "lesson_quiz": [
+            {
+              "question": "A good first step in a case analysis is to:",
+              "options": [
+                "Describe what happened using facts",
+                "Blame someone quickly",
+                "Skip to the fix",
+                "Guess the cause"
+              ],
+              "correct_answer": "Describe what happened using facts",
+              "explanation": "Start from the facts before judging."
+            },
+            {
+              "question": "What does the reported hiring tool case teach?",
+              "options": [
+                "AI can copy bias found in past data",
+                "AI always removes bias",
+                "Hiring tools are never used",
+                "Bias cannot be measured"
+              ],
+              "correct_answer": "AI can copy bias found in past data",
+              "explanation": "The model learned from biased history."
+            }
+          ]
+        },
+        {
+          "lesson_number": "6.2",
+          "lesson_title": "Case Studies in Privacy, Reliability and Misuse",
+          "estimated_minutes": 50,
+          "youtube_url": "https://www.youtube.com/watch?v=kyJ1vd7yEPc",
+          "simple_explanation": "This lesson looks at cases where AI went wrong because of leaked data, unreliable answers or fraud. In each case, the lesson is practical: keep confidential data out of public tools, verify AI output before relying on it, make organisations answerable for their chatbots, and build verification into money requests. You will finish by writing your own responsible AI plan that uses all the lessons from this course.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains how AI can expose data. Note the ways data can leak that you had not thought of.",
+            "Step 2: Case 1: confidential code. In 2023 it was reported that employees at a large electronics company pasted confidential source code into a public chatbot, and the company restricted the use of such tools. Lesson: keep confidential material out of public AI tools unless the organisation has approved them.",
+            "Step 3: Case 2: a chatbot's wrong advice. In a 2024 tribunal decision in Canada, an airline was held responsible after its website chatbot gave a customer wrong information about refunds. Lesson: organisations are answerable for what their chatbots say.",
+            "Step 4: Case 3: invented court cases. In 2023, lawyers in the US were sanctioned after filing a document containing legal cases that an AI chatbot had made up. Lesson: always verify AI output before relying on it, especially in high stakes work.",
+            "Step 5: Case 4: a deepfake call. In 2024 it was reported that an employee at an engineering firm was tricked by a fake video call into transferring a very large sum of money. Lesson: use second channel verification and dual approval.",
+            "Step 6: Pick two cases and answer the six question template for each, checking a reliable source for current facts.",
+            "Step 7: Now write your responsible AI plan on one page. Include: what data you will never share, how you will check outputs, when you will disclose AI use, where a human must review, and what you will do if something goes wrong.",
+            "Step 8: Review your plan against the six principles from Module 1. Add anything that is missing.",
+            "Step 9: Keep the plan where you can find it and review it every three months."
+          ],
+          "key_terms": [
+            {
+              "term": "Data leak",
+              "meaning": "When private or confidential information is exposed to people who should not have it."
+            },
+            {
+              "term": "Incident",
+              "meaning": "An event where something goes wrong and needs a response."
+            },
+            {
+              "term": "Responsible AI plan",
+              "meaning": "A short personal or team document stating the rules you will follow when using AI."
+            },
+            {
+              "term": "Verification",
+              "meaning": "Checking that information is true before using it."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "My responsible AI plan",
+            "instructions": "Analyse two cases from this lesson, then write a one page responsible AI plan for your own study or work. Cover data you will never share, how you will check outputs, when you will disclose AI use, where a human must review and what you will do if something goes wrong.",
+            "expected_outcome": "Two case analyses and a one page responsible AI plan."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What did the airline chatbot case show?",
+              "options": [
+                "Chatbots have legal rights",
+                "Chatbots can never be wrong",
+                "Organisations can be held responsible for what their chatbots say",
+                "Customers are always responsible"
+              ],
+              "correct_answer": "Organisations can be held responsible for what their chatbots say",
+              "explanation": "The company was held accountable for its chatbot's advice."
+            },
+            {
+              "question": "What is the lesson of lawyers filing AI-invented case citations?",
+              "options": [
+                "AI is always right",
+                "Citations are optional",
+                "Always verify AI output before relying on it",
+                "Lawyers should not read"
+              ],
+              "correct_answer": "Always verify AI output before relying on it",
+              "explanation": "Unchecked AI output can be fabricated."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What is the value of studying real AI failures?",
+            "options": [
+              "They remove the need for rules",
+              "They are entertainment only",
+              "They prove AI is useless",
+              "They show causes, harms and fixes that you can apply to your own work"
+            ],
+            "correct_answer": "They show causes, harms and fixes that you can apply to your own work",
+            "explanation": "Cases turn principles into practice."
+          },
+          {
+            "question": "A company's chatbot gives a customer wrong information. Who is likely to be held responsible?",
+            "options": [
+              "The internet",
+              "The organisation that runs the chatbot",
+              "Nobody",
+              "Only the customer"
+            ],
+            "correct_answer": "The organisation that runs the chatbot",
+            "explanation": "Organisations answer for the tools they deploy."
+          },
+          {
+            "question": "What belongs in a personal responsible AI plan?",
+            "options": [
+              "A password list",
+              "Only a list of AI news",
+              "Only a favourite tool",
+              "Rules for data, checking, disclosure and oversight"
+            ],
+            "correct_answer": "Rules for data, checking, disclosure and oversight",
+            "explanation": "The plan turns principles into daily habits."
+          }
+        ]
+      }
+    }
+  ],
+  "final_assessment": {
+    "passing_score_percentage": 80,
+    "questions": [
+      {
+        "question": "Which of these is NOT part of responsible AI?",
+        "options": [
+          "Protecting personal data",
+          "Hiding how a system works from everyone affected",
+          "Keeping people accountable",
+          "Testing for unfair results"
+        ],
+        "correct_answer": "Hiding how a system works from everyone affected",
+        "explanation": "Transparency is part of responsible AI. Hiding how a system works is not."
+      },
+      {
+        "question": "A loan app rejects many applicants from one neighbourhood. What check should you do first?",
+        "options": [
+          "Speed up the server",
+          "Add more adverts",
+          "Change the app colour",
+          "Compare approval rates and errors across groups"
+        ],
+        "correct_answer": "Compare approval rates and errors across groups",
+        "explanation": "Group comparisons reveal unfair patterns."
+      },
+      {
+        "question": "You want AI help writing a message about a colleague's illness. What is the safest approach?",
+        "options": [
+          "Add their ID number",
+          "Include their full name and diagnosis",
+          "Leave out identifying and health details and use placeholders",
+          "Upload their medical records"
+        ],
+        "correct_answer": "Leave out identifying and health details and use placeholders",
+        "explanation": "Sensitive information about others should not go into prompts."
+      },
+      {
+        "question": "Which statement about AI and copyright is the most accurate?",
+        "options": [
+          "Rules are still developing and differ by country, so check terms and local law",
+          "AI output is always protected",
+          "Copyright does not apply to AI",
+          "AI output is always free to use"
+        ],
+        "correct_answer": "Rules are still developing and differ by country, so check terms and local law",
+        "explanation": "The legal position is not settled."
+      },
+      {
+        "question": "A manager wants AI to reject job applicants automatically with no human review. What is the main concern?",
+        "options": [
+          "Applicants will enjoy it",
+          "It uses too much paper",
+          "Unreviewed AI decisions about people can be unfair and need oversight",
+          "AI cannot read names"
+        ],
+        "correct_answer": "Unreviewed AI decisions about people can be unfair and need oversight",
+        "explanation": "High stakes decisions about people need human oversight."
+      },
+      {
+        "question": "Why is a family code word useful against deepfake scams?",
+        "options": [
+          "It makes phones faster",
+          "It blocks all calls",
+          "It proves identity in a way a copied voice cannot",
+          "It improves audio quality"
+        ],
+        "correct_answer": "It proves identity in a way a copied voice cannot",
+        "explanation": "A shared secret cannot be guessed from a recording."
+      },
+      {
+        "question": "What does accountability mean in AI?",
+        "options": [
+          "Clear people or organisations answer for the system's decisions and effects",
+          "Nobody checks",
+          "The AI pays fines itself",
+          "Only the user is blamed"
+        ],
+        "correct_answer": "Clear people or organisations answer for the system's decisions and effects",
+        "explanation": "Someone must answer for what the system does."
+      },
+      {
+        "question": "Which is an example of automation bias?",
+        "options": [
+          "Asking an expert to review",
+          "Checking every result carefully",
+          "Refusing to use AI",
+          "Accepting an AI result without checking because it came from a computer"
+        ],
+        "correct_answer": "Accepting an AI result without checking because it came from a computer",
+        "explanation": "Automation bias is over-trusting automated output."
+      },
+      {
+        "question": "Under the EU's risk-based approach, what is typically required of chatbots?",
+        "options": [
+          "Telling people they are interacting with AI",
+          "Nothing at all",
+          "A paid licence for each user",
+          "A ban"
+        ],
+        "correct_answer": "Telling people they are interacting with AI",
+        "explanation": "Transparency duties apply to chatbots."
+      },
+      {
+        "question": "What is the best last step before sending an AI-written report to a client?",
+        "options": [
+          "Verify facts, remove private data and decide how to disclose AI help",
+          "Add more adjectives",
+          "Send it immediately",
+          "Ask the AI to say it is perfect"
+        ],
+        "correct_answer": "Verify facts, remove private data and decide how to disclose AI help",
+        "explanation": "Checking, privacy and honesty come before sending."
+      }
+    ]
+  },
+  "completion_requirements": {
+    "complete_all_lessons": true,
+    "lesson_knowledge_checks": "Ungraded. They help you learn and can be repeated.",
+    "module_quiz_passing_score_percentage": 70,
+    "final_assessment_passing_score_percentage": 80,
+    "practical_exercises": "Recommended. You check your own work against the expected outcome. They are not graded."
+  },
+  "certificate": {
+    "eligible": true,
+    "type": "Certificate of completion",
+    "requirements": "Complete all lessons, pass every module quiz and pass the final assessment.",
+    "verification": "Each certificate carries a unique ID so anyone can check that it is genuine."
+  }
+}

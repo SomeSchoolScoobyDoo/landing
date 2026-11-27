@@ -1,0 +1,857 @@
+{
+  "course_id": "S2",
+  "title": "AI Toolkit Setup",
+  "category": "Setup Courses",
+  "level": "Beginner",
+  "audience": "Beginner. Made for people who can use a browser and email but have never set up or used an AI assistant. If you have never used a computer properly, Course S1 can help, but it is not required.",
+  "estimated_duration": "About 3 hours in total. Spread it over 1 week at 20 to 30 minutes a day.",
+  "description": "In this course you will set up the three AI assistants most people use today: ChatGPT, Claude and Gemini. You will have your first real conversations, learn how to write clear instructions (called prompts), learn why AI sometimes gets things wrong, practise checking its answers, and learn how to protect your private information. By the end you will have working accounts, a safe routine, and the confidence to use AI in every other Kaizora course.",
+  "what_you_will_need": [
+    {
+      "item": "A laptop, desktop computer or a smartphone",
+      "details": "A computer is best because the lessons use a keyboard and a big screen. Windows or Mac both work. A phone also works for most steps, but typing long prompts is slower on a phone.",
+      "cost": "Paid (you may already own one)"
+    },
+    {
+      "item": "Internet connection",
+      "details": "You need a connection that is stable enough to load websites and play YouTube videos. AI chats use little data, but the lesson videos use more. Lower the video quality to 360p or 480p if you are on mobile data.",
+      "cost": "Paid (Wi-Fi subscription or mobile data)"
+    },
+    {
+      "item": "Google Chrome (or another modern browser)",
+      "details": "We use Chrome in the steps. If you do not have it, go to google.com/chrome and download it. Course S1 shows how if you need help.",
+      "cost": "Free"
+    },
+    {
+      "item": "A Google account",
+      "details": "You will use it to sign in to Gemini and, if you like, to sign in to the other tools. If you do not have one, create it at accounts.google.com/signup. Course S1 walks you through it if you need help.",
+      "cost": "Free"
+    },
+    {
+      "item": "An email address you can open right now",
+      "details": "The AI tools send a verification email or code. Keep your inbox open in another tab so you can copy the code quickly.",
+      "cost": "Free"
+    },
+    {
+      "item": "A phone number that can receive text messages",
+      "details": "Some AI tools ask for a phone number to verify that you are a real person. Use your own number and keep your phone with you. If a tool is not available in your country or refuses your number, skip that tool. You only need one working assistant to continue.",
+      "cost": "Free (use your existing number)"
+    },
+    {
+      "item": "A notebook and a pen",
+      "details": "For writing down new words, your account email addresses, and your exercise answers. Do not write your passwords here if other people can read your notebook.",
+      "cost": "Paid (very cheap)"
+    },
+    {
+      "item": "A curious and careful mindset",
+      "details": "AI is a helpful tool, not a magic brain. It can be wrong, so we will practise checking its answers. Be curious, be patient with yourself, and be careful with your private information.",
+      "cost": "Free"
+    }
+  ],
+  "learning_objectives": [
+    "Create and sign in to ChatGPT, Claude and Gemini accounts",
+    "Hold a conversation with an AI assistant and improve its answers with follow-up messages",
+    "Write clear prompts using task, context, role, format and tone",
+    "Explain why AI sometimes makes things up and check its answers using reliable sources",
+    "Protect private information and review privacy settings in AI tools"
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "module_title": "Create Your AI Accounts",
+      "module_goal": "Set up free accounts for ChatGPT, Claude and Gemini so you have a working AI assistant ready for every future course.",
+      "lessons": [
+        {
+          "lesson_number": "1.1",
+          "lesson_title": "Creating Your ChatGPT Account",
+          "estimated_minutes": 20,
+          "youtube_url": "https://www.youtube.com/watch?v=9HtgDtpo2co",
+          "simple_explanation": "ChatGPT is an AI assistant made by a company called OpenAI. You type a message and it replies in plain language. It can explain ideas, help you write, plan, summarise and brainstorm. A free plan exists, which is enough to follow this course. The free plan has limits on how much you can use it, and those limits can change, so do not be surprised if it asks you to wait sometimes.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch how to sign up for ChatGPT. The screens may look slightly different from yours because websites change often. Follow the idea, not the exact picture.",
+            "Step 2: Open Google Chrome. In the address bar at the top, type chatgpt.com and press Enter. Always type the address yourself. Do not click links from messages, because scammers copy these sites.",
+            "Step 3: Click the button that says Sign up. It is usually at the top right or in the middle of the page.",
+            "Step 4: Choose how to sign up. You can continue with your Google account or type an email address. If you pick Google, choose your account from the list and click it. If you pick email, type your email address and click Continue.",
+            "Step 5: If you used email, create a password. Make it long, with at least 12 characters. Use the four-word method: pick four unrelated words, join them with dashes and add a number. Do not reuse your Gmail password.",
+            "Step 6: Check your email. Open your inbox in a new tab, find the message from OpenAI, and click the verification link or copy the code. Go back to the ChatGPT tab and paste the code if asked.",
+            "Step 7: ChatGPT may ask for your name and your date of birth. Use your real details. You may also be asked for a phone number to confirm you are a real person. Type it and enter the code that arrives by text message.",
+            "Step 8: When you reach the chat screen, you will see a message box at the bottom. Type: Hello, I am new to AI. What can you help me with? Press Enter and read the reply.",
+            "Step 9: Write in your notebook: ChatGPT is set up. Date: (today). Which sign-in method I used: (Google or email).",
+            "Step 10: Safety check. In the top corner of the page, check the web address says chatgpt.com. If you ever land on a site with a strange address that asks for your password, close it at once."
+          ],
+          "key_terms": [
+            {
+              "term": "AI assistant",
+              "meaning": "A program you can chat with that answers questions and helps with tasks using artificial intelligence."
+            },
+            {
+              "term": "Chatbot",
+              "meaning": "A computer program designed to have a conversation by text or voice."
+            },
+            {
+              "term": "Free plan",
+              "meaning": "A version you can use without paying. It has limits on how much or how often you can use it."
+            },
+            {
+              "term": "Sign up",
+              "meaning": "Creating a new account on a website."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Say hello to ChatGPT",
+            "instructions": "Create your ChatGPT account. Send your first message. Then send a second message: Explain what an AI assistant is in 3 short sentences for a complete beginner. Read the reply and write the three sentences in your notebook in your own words.",
+            "expected_outcome": "A working ChatGPT account, two messages sent, and three sentences in your notebook explaining what an AI assistant is."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is the safest way to reach the ChatGPT website?",
+              "options": [
+                "Search for a free cracked version",
+                "Open any website that says ChatGPT in the name",
+                "Type chatgpt.com yourself in the address bar",
+                "Click a link a stranger sent on WhatsApp"
+              ],
+              "correct_answer": "Type chatgpt.com yourself in the address bar",
+              "explanation": "Typing the official address yourself protects you from fake copies of the website."
+            },
+            {
+              "question": "What does the free plan usually mean?",
+              "options": [
+                "You must pay later without being told",
+                "You can use it with no limits ever",
+                "You can use it with some limits",
+                "It works without the internet"
+              ],
+              "correct_answer": "You can use it with some limits",
+              "explanation": "Free plans work, but they limit how much or how often you can use the tool."
+            }
+          ]
+        },
+        {
+          "lesson_number": "1.2",
+          "lesson_title": "Creating Your Claude Account",
+          "estimated_minutes": 25,
+          "youtube_url": "https://www.youtube.com/watch?v=WSPChlfxJyA",
+          "simple_explanation": "Claude is an AI assistant made by a company called Anthropic. It is good at writing, reading long documents and explaining things clearly. Like ChatGPT, it has a free plan with limits. Having more than one assistant is useful because each one answers a little differently, and you can compare their answers.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link. It is a tutorial on how to use Claude. For now, you only need the opening part about getting started. You can watch the rest later when you feel comfortable.",
+            "Step 2: Open Chrome. In the address bar, type claude.ai and press Enter.",
+            "Step 3: Click the button to sign up or continue. You will see options such as Continue with Google or Continue with email.",
+            "Step 4: If you choose Continue with Google, click it and select your Google account. If you choose email, type your email address and click Continue.",
+            "Step 5: If you chose email, Claude sends a verification code or link to your inbox. Open your email in another tab, copy the code, return to the Claude tab and paste it into the box.",
+            "Step 6: Claude may ask for your name and ask you to confirm that you are an adult. Use your real name and answer honestly.",
+            "Step 7: You may be asked to verify your phone number. Type your number and enter the code sent by text message. If Claude does not accept your number or is not available in your area, skip this tool and move to the next lesson.",
+            "Step 8: When the chat screen appears, type: Hello, I am new to AI. Explain in simple words what you can help me with. Press Enter and read the reply.",
+            "Step 9: Notice how this reply is different from ChatGPT. Is it shorter or longer? Is it friendlier or more formal? Write one difference in your notebook.",
+            "Step 10: Check the address bar. It should say claude.ai. Never type your Claude password on a different address."
+          ],
+          "key_terms": [
+            {
+              "term": "Claude",
+              "meaning": "An AI assistant made by the company Anthropic."
+            },
+            {
+              "term": "Verification code",
+              "meaning": "A short number sent to your email or phone to prove that it is you."
+            },
+            {
+              "term": "Prompt",
+              "meaning": "The message or instruction you type to an AI assistant."
+            },
+            {
+              "term": "Compare",
+              "meaning": "Looking at two things side by side to see how they are alike and different."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Ask the same question twice",
+            "instructions": "In Claude, type: Explain what an AI assistant is in 3 short sentences for a complete beginner. Then open ChatGPT in a new tab and ask exactly the same thing. Write one way the two answers are alike and one way they are different.",
+            "expected_outcome": "A working Claude account and two comparison notes in your notebook."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Why is it useful to have more than one AI assistant?",
+              "options": [
+                "You can compare their answers",
+                "It removes the need for passwords",
+                "They never make mistakes together",
+                "It makes your computer faster"
+              ],
+              "correct_answer": "You can compare their answers",
+              "explanation": "Different assistants answer differently, so comparing them helps you spot weak or wrong answers."
+            },
+            {
+              "question": "What is a prompt?",
+              "options": [
+                "A type of internet cable",
+                "A kind of virus",
+                "A password reset email",
+                "The instruction or message you type to an AI"
+              ],
+              "correct_answer": "The instruction or message you type to an AI",
+              "explanation": "A prompt is whatever you type to tell the AI what you want."
+            }
+          ]
+        },
+        {
+          "lesson_number": "1.3",
+          "lesson_title": "Getting Started With Google Gemini",
+          "estimated_minutes": 20,
+          "youtube_url": "https://www.youtube.com/watch?v=8aRJYpExTfs",
+          "simple_explanation": "Gemini is the AI assistant made by Google. Because you already have a Google account, you can start almost at once. It works with other Google tools like Gmail and Google Drive, which makes it handy for school and work. It also has a free plan with limits.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link. It is a long tutorial, so you do not need to watch all of it today. Watch the first few minutes about opening Gemini and sending your first message.",
+            "Step 2: Open Chrome. In the address bar, type gemini.google.com and press Enter.",
+            "Step 3: Sign in with your Google account. If you are already signed in to Chrome, you will land on the Gemini page straight away.",
+            "Step 4: If Gemini shows a welcome page or terms, read the short summary and click the button to continue. You may be asked about your age and your privacy choices.",
+            "Step 5: Find the message box at the bottom of the screen. Type: Hello, I am new to AI. What can you help me with? Press Enter.",
+            "Step 6: Read the reply. Look around the screen. You will see a menu on the left for your past chats and a button to start a new one.",
+            "Step 7: Try a second question: Give me 3 tips for learning a new skill in 30 minutes a day. Notice how the answer looks.",
+            "Step 8: Write in your notebook the three web addresses you now use: chatgpt.com, claude.ai and gemini.google.com.",
+            "Step 9: Bookmark each of the three sites. On each page, click the star at the right end of the address bar and click Done. Press Ctrl, Shift and B to show your bookmarks bar.",
+            "Step 10: If your account or country does not show Gemini, check that you are signed in and that your Google account is a personal account. If it still does not work, move on. You still have your other tools."
+          ],
+          "key_terms": [
+            {
+              "term": "Gemini",
+              "meaning": "The AI assistant made by Google."
+            },
+            {
+              "term": "Bookmark",
+              "meaning": "A saved shortcut to a web page."
+            },
+            {
+              "term": "New chat",
+              "meaning": "A fresh conversation with a blank start, separate from your older chats."
+            },
+            {
+              "term": "Chat history",
+              "meaning": "The list of your past conversations with an assistant."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Build your three-tool bookmark bar",
+            "instructions": "Open all three tools in separate tabs and bookmark each one. Send the same message to all three: Give me a 3-step plan to learn how to type faster. Notice which answer you like best and write one reason in your notebook.",
+            "expected_outcome": "Three bookmarks on your bookmarks bar and one sentence in your notebook explaining which answer you liked and why."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which website do you type to open Gemini?",
+              "options": [
+                "openai.com/gemini-login",
+                "gemini.google.com",
+                "claude.ai",
+                "gemini-free-download.xyz"
+              ],
+              "correct_answer": "gemini.google.com",
+              "explanation": "gemini.google.com is Google's official address for Gemini."
+            },
+            {
+              "question": "Why is it useful to bookmark your AI tools?",
+              "options": [
+                "You can reach the real website quickly without clicking risky links",
+                "It removes the need for a password",
+                "It speeds up your internet",
+                "It makes the tools free for ever"
+              ],
+              "correct_answer": "You can reach the real website quickly without clicking risky links",
+              "explanation": "Bookmarks take you to the real site every time, which protects you from fake copies."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which company makes Gemini?",
+            "options": [
+              "Anthropic",
+              "Google",
+              "OpenAI",
+              "Microsoft"
+            ],
+            "correct_answer": "Google",
+            "explanation": "Gemini is Google's AI assistant."
+          },
+          {
+            "question": "You get a text message with a link that says 'Free ChatGPT login here'. What should you do?",
+            "options": [
+              "Forward it to your friends",
+              "Click it quickly",
+              "Type your password on that page",
+              "Ignore the link and type chatgpt.com yourself"
+            ],
+            "correct_answer": "Ignore the link and type chatgpt.com yourself",
+            "explanation": "Links in messages can lead to fake websites. Typing the address yourself is safer."
+          },
+          {
+            "question": "What does a verification code prove?",
+            "options": [
+              "That the AI is always correct",
+              "That you own the email address or phone number",
+              "That you have paid",
+              "That your computer is fast"
+            ],
+            "correct_answer": "That you own the email address or phone number",
+            "explanation": "The code is sent to you so the service can confirm it is really you."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 2,
+      "module_title": "Your First Conversations",
+      "module_goal": "Have your first chats with AI and learn how to write clear prompts that get useful answers.",
+      "lessons": [
+        {
+          "lesson_number": "2.1",
+          "lesson_title": "Your First Chat and a Tour of the Screen",
+          "estimated_minutes": 20,
+          "youtube_url": "https://www.youtube.com/watch?v=JzkZGGX3MxY",
+          "simple_explanation": "Using an AI assistant is a bit like texting a very fast, very well-read friend who sometimes gets things wrong. You type a message in the box, press Enter and read the reply. You can reply again in the same chat and the assistant remembers what was said earlier in that chat. You do not need special words. You only need to say clearly what you want.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the short beginner video about starting with ChatGPT. It is about five minutes long.",
+            "Step 2: Open ChatGPT with your bookmark. Look at the screen. At the bottom is the message box. On the left (or behind a menu button on a phone) is a list of your past chats and a button to start a new chat.",
+            "Step 3: Click the message box and type a clear question, for example: Explain what the internet is in simple words, like I am 12 years old. Press Enter.",
+            "Step 4: While the answer appears, notice the small buttons under it. One copies the text. Others let you rate the answer or ask for the answer again. Hover over each button with your mouse to see its name.",
+            "Step 5: Reply in the same chat. Type: Now give me one real-life example. Press Enter. The assistant remembers the first question because you are in the same conversation.",
+            "Step 6: Start a new chat using the New chat button. Type: What did I just ask you? Notice that the assistant does not know. A new chat starts with a blank memory of your earlier chats unless a memory feature is turned on.",
+            "Step 7: Go back to your first chat by clicking it in the list on the left. It is still there.",
+            "Step 8: Learn how to tidy up. Find the three dots next to a chat in the list. You can rename or delete a chat from there. Delete the new chat you just made.",
+            "Step 9: Repeat Step 3 in Claude and in Gemini, using the exact same question. Look at the three answers side by side.",
+            "Step 10: Write one thing you learned in your notebook, for example: Replying in the same chat lets me improve an answer."
+          ],
+          "key_terms": [
+            {
+              "term": "Message box",
+              "meaning": "The place at the bottom of the screen where you type to the AI."
+            },
+            {
+              "term": "Chat",
+              "meaning": "One conversation with an AI. The assistant remembers earlier messages in the same chat."
+            },
+            {
+              "term": "Reply",
+              "meaning": "The answer the AI writes back to you."
+            },
+            {
+              "term": "Follow-up",
+              "meaning": "A new message in the same chat that builds on what was said before."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "A three-message conversation",
+            "instructions": "In one chat, ask the AI to explain something you are curious about. Then send a follow-up asking for a real-life example. Then send a third message asking it to shorten the explanation to two sentences. Copy the final two sentences into your notebook.",
+            "expected_outcome": "A single chat with three messages and a two-sentence summary in your notebook."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is a follow-up message?",
+              "options": [
+                "A new message in the same chat that builds on earlier ones",
+                "A message to a stranger",
+                "A message that logs you out",
+                "A message that deletes the chat"
+              ],
+              "correct_answer": "A new message in the same chat that builds on earlier ones",
+              "explanation": "Follow-ups let you improve and shape an answer without starting from the beginning."
+            },
+            {
+              "question": "You start a brand new chat. What should you expect?",
+              "options": [
+                "The AI deletes your account",
+                "The AI turns off",
+                "The AI starts fresh and does not know what you said in other chats",
+                "The AI remembers every word from every chat"
+              ],
+              "correct_answer": "The AI starts fresh and does not know what you said in other chats",
+              "explanation": "A new chat begins with a clean start unless a special memory feature is switched on."
+            }
+          ]
+        },
+        {
+          "lesson_number": "2.2",
+          "lesson_title": "Writing Clear Prompts and Improving Answers",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=8yqcDL4TmzM",
+          "simple_explanation": "The quality of the answer depends a lot on the quality of your instruction. If you ask something vague, the AI has to guess, and it often guesses wrong. If you give clear details, you get a much better answer. A good prompt has up to six parts: the task, the context, an example, a role for the AI, the format you want, and the tone. You do not need all six every time.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the beginner video about mastering prompting. Pause when a new idea appears and write it in your notebook.",
+            "Step 2: Learn the six parts. Task: what you want done. Context: why you need it and who it is for. Example: a sample of what you like. Role: who the AI should act as. Format: how the answer should look, such as a list, a table or steps. Tone: how it should sound, such as friendly or formal.",
+            "Step 3: Try a vague prompt first. In ChatGPT type: Help me with my CV. Read the reply. Notice how general it is.",
+            "Step 4: Now try a clear prompt: Task: Write a short professional summary for my CV. Context: I am a final-year student in Ibadan looking for an internship in marketing. Role: Act as a career coach. Format: Two sentences. Tone: Confident but humble. Press Enter and compare.",
+            "Step 5: Use the clarifying trick. Type: Before you answer, ask me 5 questions to clarify what you need. Then answer the AI's questions in your own words. This helps when you are not sure what details matter.",
+            "Step 6: Improve an answer with follow-ups instead of starting over. Try these in the same chat: Make it shorter. That is too advanced, explain it like I am brand new. Rewrite this as a checklist. Give me 3 options: simple, medium and advanced.",
+            "Step 7: Ask the AI to write the reusable prompt. Type: Create a reusable prompt that would produce the best result we arrived at. Use brackets for anything I should fill in next time.",
+            "Step 8: Save your best reusable prompt. Open Notepad or Google Docs, create a file called Prompt Library, and paste the prompt in. Name it with the goal, such as CV summary for students.",
+            "Step 9: Try the same clear prompt in Claude and Gemini. Notice that clear prompts work well in all three tools."
+          ],
+          "key_terms": [
+            {
+              "term": "Prompt",
+              "meaning": "The instruction or question you type to an AI."
+            },
+            {
+              "term": "Context",
+              "meaning": "Background details that help the AI understand your situation, like who the answer is for."
+            },
+            {
+              "term": "Role",
+              "meaning": "A job or character you ask the AI to act as, such as career coach or teacher."
+            },
+            {
+              "term": "Format",
+              "meaning": "The shape of the answer, such as a list, table, email or short paragraph."
+            },
+            {
+              "term": "Iterate",
+              "meaning": "Improve an answer step by step with follow-up messages."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Turn a vague prompt into a clear one",
+            "instructions": "Pick a real task from your life, such as writing a message to a landlord, planning a study timetable or preparing for an interview. First send a vague one-line prompt. Then rewrite it using task, context, role, format and tone. Compare both answers. Save the clear prompt in a file called Prompt Library.",
+            "expected_outcome": "A vague prompt, a clear prompt, a short note on which answer was better, and a saved reusable prompt in your Prompt Library file."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which prompt is clearer?",
+              "options": [
+                "Do something with my paper",
+                "CV",
+                "Help me with my CV",
+                "Write a 2-sentence CV summary for a final-year marketing student, in a confident tone"
+              ],
+              "correct_answer": "Write a 2-sentence CV summary for a final-year marketing student, in a confident tone",
+              "explanation": "It states the task, the length, the person and the tone. The others leave the AI to guess."
+            },
+            {
+              "question": "What is a good way to improve an answer you do not like?",
+              "options": [
+                "Type the same question ten times",
+                "Delete your account",
+                "Reply in the same chat and say what to change",
+                "Close the computer"
+              ],
+              "correct_answer": "Reply in the same chat and say what to change",
+              "explanation": "Follow-up instructions like make it shorter or simpler help the AI correct itself."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which of these is part of a good prompt?",
+            "options": [
+              "A random emoji",
+              "Only the word please",
+              "The task and the context",
+              "Your password"
+            ],
+            "correct_answer": "The task and the context",
+            "explanation": "Saying what you want and giving background helps the AI answer well."
+          },
+          {
+            "question": "What does it mean to give the AI a role?",
+            "options": [
+              "Turn it into a person",
+              "Ask it to act as a certain expert, like a teacher or coach",
+              "Rename your account",
+              "Give it a job in your company"
+            ],
+            "correct_answer": "Ask it to act as a certain expert, like a teacher or coach",
+            "explanation": "A role guides the style and depth of the answer."
+          },
+          {
+            "question": "You are unsure what details to give. Which trick helps?",
+            "options": [
+              "Ask it to guess",
+              "Ask the AI to ask you clarifying questions first",
+              "Paste your passwords",
+              "Type the prompt in capital letters"
+            ],
+            "correct_answer": "Ask the AI to ask you clarifying questions first",
+            "explanation": "The AI can ask you what it needs, which gives it better information."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 3,
+      "module_title": "Using AI Safely and Wisely",
+      "module_goal": "Understand why AI sometimes makes things up, check its answers properly, and protect your private information.",
+      "lessons": [
+        {
+          "lesson_number": "3.1",
+          "lesson_title": "Why AI Sometimes Makes Things Up",
+          "estimated_minutes": 20,
+          "youtube_url": "https://www.youtube.com/watch?v=cfqtFvWOfg0",
+          "simple_explanation": "AI assistants do not look up facts the way a library does. They predict which words are likely to come next, based on patterns they learned from huge amounts of text. Most of the time this works well. Sometimes it produces something that sounds confident and sensible but is false. This is called a hallucination. Knowing this will save you from many mistakes.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video on why large language models hallucinate. It may use a few technical words. Do not worry. You only need the main idea: the AI predicts words, it does not check facts.",
+            "Step 2: In your notebook, write this in your own words: A hallucination is when an AI gives a false answer that sounds confident.",
+            "Step 3: Run a safe experiment. In ChatGPT type: Tell me about the novel called The Silver River of Ibadan and its main characters. This book does not exist. See whether the AI admits it does not know it or invents details.",
+            "Step 4: Run the same experiment in Claude and in Gemini. Write down which tools admitted they did not know and which invented details.",
+            "Step 5: Now ask a question you already know the answer to, for example: What is the capital city of Nigeria? Notice that it answers correctly. AI is often right about common facts.",
+            "Step 6: Learn where mistakes are most common: exact numbers and statistics, dates, names of people, quotes, links and sources, small or local topics, recent events, and legal or medical details.",
+            "Step 7: Learn why it sounds confident. The AI writes in a smooth, certain tone even when it is wrong. A confident tone is not a sign of a correct answer.",
+            "Step 8: Learn the safe jobs for AI. Low-risk jobs: drafting, summarising text you give it, explaining ideas, brainstorming and rewriting. High-risk jobs: facts you will repeat to others, health, law, money and exam answers.",
+            "Step 9: Write your own rule in your notebook, for example: I will check names, numbers, dates and links before I trust or share an AI answer."
+          ],
+          "key_terms": [
+            {
+              "term": "Hallucination",
+              "meaning": "When an AI gives a false or invented answer that sounds confident and believable."
+            },
+            {
+              "term": "Large language model (LLM)",
+              "meaning": "The kind of AI behind chat assistants. It predicts the next words based on patterns in text it learned from."
+            },
+            {
+              "term": "Training data",
+              "meaning": "The huge collection of text and other material an AI learned patterns from."
+            },
+            {
+              "term": "Verify",
+              "meaning": "To check that something is true using a reliable source."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Catch an invented answer",
+            "instructions": "Ask two different AI assistants about something that does not exist, such as a made-up book, a made-up person or a made-up law. Write down what each one said. Mark which parts you believe are invented. Then ask each assistant: Are you sure this exists? and note the reply.",
+            "expected_outcome": "A written comparison of two assistants' answers about a fake topic, with the invented parts clearly marked."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Why do AI assistants sometimes make things up?",
+              "options": [
+                "They predict likely words and do not check facts",
+                "Their screens are too small",
+                "They are always lying on purpose",
+                "They look up every answer in a library"
+              ],
+              "correct_answer": "They predict likely words and do not check facts",
+              "explanation": "The AI generates text from patterns. It has no built-in fact check, so it can produce confident but false statements."
+            },
+            {
+              "question": "Which of these is the riskiest thing to trust without checking?",
+              "options": [
+                "An exact statistic with a source link",
+                "A friendly greeting",
+                "A rhyme for the word cat",
+                "A synonym for the word happy"
+              ],
+              "correct_answer": "An exact statistic with a source link",
+              "explanation": "Numbers and links are common places for AI mistakes, so they need checking."
+            }
+          ]
+        },
+        {
+          "lesson_number": "3.2",
+          "lesson_title": "Checking AI Answers Step by Step",
+          "estimated_minutes": 25,
+          "youtube_url": "https://www.youtube.com/watch?v=imBL73lFwbk",
+          "simple_explanation": "Checking an AI answer does not have to be hard. You break the answer into small claims, pick the ones that matter, and check them with reliable sources. This takes a few minutes and protects you from sharing wrong information. It is a habit that serious professionals use every day.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the demonstration of how to fact-check an AI answer claim by claim. Pause often and follow along in your notebook.",
+            "Step 2: Ask an AI a factual question. Type: Give me 5 facts about the history of Ibadan, each in one sentence. Read the answer.",
+            "Step 3: Break it into claims. Write each fact on its own line in your notebook. These are your claims.",
+            "Step 4: Mark the risky claims. Circle anything with a number, a date, a name or a quote. These need checking first.",
+            "Step 5: Check each circled claim with a reliable source. Open Chrome and search for it. Prefer government sites, universities, well-known news organisations and encyclopedias. Look for at least two sources that agree.",
+            "Step 6: If the AI gave you a link or a source, open every link. A source you cannot find, or a link that goes nowhere, may not exist.",
+            "Step 7: Ask the AI to help you check itself. Type: Which of these facts are you least sure about, and how could I verify each? Treat the answer as a guide, not as proof.",
+            "Step 8: Compare tools. Ask the same question in a second assistant. If the two answers disagree, that is a signal to check more carefully.",
+            "Step 9: For health, legal and money questions, use AI only to understand and prepare questions. Then talk to a qualified person such as a doctor, lawyer or bank officer.",
+            "Step 10: Write your three-step habit in your notebook: Break it into claims, check the risky ones, and ask a professional for high-stakes matters."
+          ],
+          "key_terms": [
+            {
+              "term": "Claim",
+              "meaning": "One specific statement that can be true or false, such as a date or a number."
+            },
+            {
+              "term": "Reliable source",
+              "meaning": "A trustworthy place for facts, like a university, a government site or a respected news organisation."
+            },
+            {
+              "term": "Fact-check",
+              "meaning": "Checking whether information is true by comparing it with trusted sources."
+            },
+            {
+              "term": "High-stakes",
+              "meaning": "Matters where a mistake could cause serious harm, such as health, law or money."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Fact-check five claims",
+            "instructions": "Ask an AI for five facts about any topic you like. Write each fact on its own line. Check each one with at least one reliable source. Mark each as Correct, Wrong or Could not confirm. Note one thing that surprised you.",
+            "expected_outcome": "A list of five claims, each marked Correct, Wrong or Could not confirm, with the source you used for each."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is the first thing to do when you want to check a long AI answer?",
+              "options": [
+                "Break it into small claims",
+                "Delete it",
+                "Ask the AI to say it louder",
+                "Share it at once"
+              ],
+              "correct_answer": "Break it into small claims",
+              "explanation": "Small claims are easier to check one by one."
+            },
+            {
+              "question": "The AI gives you a link as a source but the page does not exist. What should you assume?",
+              "options": [
+                "You must have typed the link wrong in a dream",
+                "The AI is always correct",
+                "The internet is broken",
+                "The source may be invented, so do not rely on it"
+              ],
+              "correct_answer": "The source may be invented, so do not rely on it",
+              "explanation": "AI sometimes invents links and sources, so always open them to see if they are real."
+            }
+          ]
+        },
+        {
+          "lesson_number": "3.3",
+          "lesson_title": "Protecting Your Privacy and Your Accounts",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=yt9pNziBbm0",
+          "simple_explanation": "When you type something into an AI assistant, you are sending it to a company's computers. Many companies may keep chats for a period and some may use them to improve their tools unless you change the settings. So the golden rule is simple: if you would not shout it in a public place, do not type it into an AI. You can also tighten your settings and keep your accounts safe with strong passwords and two-step verification.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link. It is a long tutorial. Watch the part that talks about privacy and settings. You can pause and return later.",
+            "Step 2: Learn what you must never type into an AI: passwords, one-time codes (OTP), card numbers and PINs, your BVN or national ID number, private medical records, and private details about other people.",
+            "Step 3: Learn what to be careful with: your school or work documents, client information, and anything marked confidential. Get permission before pasting these. If in doubt, replace real names and numbers with made-up ones, such as Person A and Company X.",
+            "Step 4: Open ChatGPT and click your profile picture or name in a corner. Open Settings. Look for sections with names like Data controls, Personalization or Memory. Names change often, so look for these words.",
+            "Step 5: In Data controls, look for the option about improving the model for everyone. If you do not want your chats used for training, turn it off. Read what the option says before you change it.",
+            "Step 6: Look for Memory. Memory lets the assistant remember things about you between chats. Decide if you want it on. You can manage or turn it off if you prefer a clean start each time.",
+            "Step 7: Learn how to delete a chat. Hover over a chat in the left list, click the three dots and choose Delete. Delete any chat where you typed something private by mistake.",
+            "Step 8: Repeat a quick check in Claude and in Gemini. Open each tool's settings and look for words like Privacy, Activity or Data. Read what is on by default and change what you are not happy with.",
+            "Step 9: Protect your accounts. For each AI account, use a strong, different password and turn on two-step verification if it is offered. This is the same two-step idea you can set up for your Google account.",
+            "Step 10: Public computers. If you use a cyber cafe or a shared computer, always sign out when you finish and never let the browser save your password."
+          ],
+          "key_terms": [
+            {
+              "term": "Privacy",
+              "meaning": "Your right to keep personal information to yourself."
+            },
+            {
+              "term": "Sensitive information",
+              "meaning": "Private details like passwords, ID numbers, card numbers and health records."
+            },
+            {
+              "term": "Memory (in AI)",
+              "meaning": "A feature that lets an assistant remember facts about you across chats."
+            },
+            {
+              "term": "Data controls",
+              "meaning": "Settings that let you choose how your chats and information are stored or used."
+            },
+            {
+              "term": "Confidential",
+              "meaning": "Private information that should not be shared without permission."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Do a privacy check-up",
+            "instructions": "Open settings in ChatGPT, Claude and Gemini. For each, write down three things: where the privacy or data settings are, whether your chats may be used to improve the tool, and whether memory is on. Change any setting you are not comfortable with. Then write your own list of 5 things you will never type into an AI.",
+            "expected_outcome": "A page in your notebook with the settings notes for three tools and your personal list of five things you will never type into an AI."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which of these should you never type into an AI assistant?",
+              "options": [
+                "A request to explain what the internet is",
+                "A question about cooking rice",
+                "A request to rewrite a polite email",
+                "Your bank PIN or OTP"
+              ],
+              "correct_answer": "Your bank PIN or OTP",
+              "explanation": "PINs and OTP codes give access to your money and accounts and must stay secret."
+            },
+            {
+              "question": "You have to share a client letter with an AI to rewrite it. What is the safest approach?",
+              "options": [
+                "Paste everything as it is",
+                "Replace real names and numbers with made-up ones first, and get permission",
+                "Post it publicly",
+                "Send it to ten friends"
+              ],
+              "correct_answer": "Replace real names and numbers with made-up ones first, and get permission",
+              "explanation": "Removing real details and getting permission protects the people involved."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What is a hallucination in AI?",
+            "options": [
+              "A false answer that sounds confident",
+              "A message that fails to send",
+              "A picture made by AI",
+              "A very fast answer"
+            ],
+            "correct_answer": "A false answer that sounds confident",
+            "explanation": "AI can write smoothly even when it is wrong. That is a hallucination."
+          },
+          {
+            "question": "Which habit best protects you from wrong AI answers?",
+            "options": [
+              "Never read the answer",
+              "Check names, numbers, dates and links with reliable sources",
+              "Trust the first answer always",
+              "Ask the AI to say it louder"
+            ],
+            "correct_answer": "Check names, numbers, dates and links with reliable sources",
+            "explanation": "These are the places where AI mistakes are most common and most damaging."
+          },
+          {
+            "question": "Which is the best rule for private information?",
+            "options": [
+              "Type everything for better answers",
+              "Post your password in the chat",
+              "If you would not say it in public, do not type it into an AI",
+              "Share your OTP to get help faster"
+            ],
+            "correct_answer": "If you would not say it in public, do not type it into an AI",
+            "explanation": "Chats go to company computers, so keep sensitive details out."
+          }
+        ]
+      }
+    }
+  ],
+  "final_assessment": {
+    "passing_score_percentage": 80,
+    "questions": [
+      {
+        "question": "What is the safest way to open ChatGPT?",
+        "options": [
+          "Use any site with ChatGPT in the name",
+          "Download a free cracked app",
+          "Type chatgpt.com yourself in the address bar",
+          "Click a link in an unknown message"
+        ],
+        "correct_answer": "Type chatgpt.com yourself in the address bar",
+        "explanation": "Typing the official address avoids fake copies of the site."
+      },
+      {
+        "question": "What does a verification code do?",
+        "options": [
+          "Speeds up the internet",
+          "Pays for your plan",
+          "Proves you own the email or phone number",
+          "Makes the AI smarter"
+        ],
+        "correct_answer": "Proves you own the email or phone number",
+        "explanation": "The code is sent to you so the service knows it is really you."
+      },
+      {
+        "question": "Which prompt is the clearest?",
+        "options": [
+          "Write a friendly 3-sentence message to my landlord asking for a repair date next week",
+          "Landlord",
+          "Write something",
+          "Do my message"
+        ],
+        "correct_answer": "Write a friendly 3-sentence message to my landlord asking for a repair date next week",
+        "explanation": "It names the task, the tone, the length, the person and the goal."
+      },
+      {
+        "question": "An answer is too long and too advanced. What is the best next step?",
+        "options": [
+          "Delete your account",
+          "Reply in the same chat and ask for a shorter, simpler version",
+          "Ask the AI to repeat itself louder",
+          "Close the browser and give up"
+        ],
+        "correct_answer": "Reply in the same chat and ask for a shorter, simpler version",
+        "explanation": "Follow-up instructions are the easiest way to improve an answer."
+      },
+      {
+        "question": "What happens when you start a brand new chat?",
+        "options": [
+          "The AI shuts down",
+          "The AI knows every word you ever typed",
+          "Your account is deleted",
+          "The AI starts fresh and does not know your earlier chats unless memory is on"
+        ],
+        "correct_answer": "The AI starts fresh and does not know your earlier chats unless memory is on",
+        "explanation": "A new chat begins without the earlier conversation unless a memory feature is switched on."
+      },
+      {
+        "question": "What is a hallucination?",
+        "options": [
+          "A password error",
+          "A false answer that sounds confident",
+          "A picture on the screen",
+          "A very fast reply"
+        ],
+        "correct_answer": "A false answer that sounds confident",
+        "explanation": "A hallucination is an AI making up information while sounding sure."
+      },
+      {
+        "question": "A friend says: AI is like a search engine, so everything it writes has been checked. Why is that wrong?",
+        "options": [
+          "AI checks every sentence with a human",
+          "AI is never used for facts",
+          "AI only repeats what you typed",
+          "AI writes likely words from patterns and does not check facts"
+        ],
+        "correct_answer": "AI writes likely words from patterns and does not check facts",
+        "explanation": "An AI assistant generates text from patterns. It has no built-in fact check, so it can sound sure and still be wrong."
+      },
+      {
+        "question": "The AI gives you a link as a source but the page does not exist. What should you do?",
+        "options": [
+          "Do not rely on that source, because it may be invented",
+          "Ignore all other sources",
+          "Share it anyway",
+          "Pay for the page"
+        ],
+        "correct_answer": "Do not rely on that source, because it may be invented",
+        "explanation": "AI can invent sources, so always open them and check they are real."
+      },
+      {
+        "question": "A stranger asks you to paste a one-time code from your phone into an AI tool to verify your account. What should you do?",
+        "options": [
+          "Post it in a group chat",
+          "Send it to a friend first",
+          "Paste it quickly",
+          "Refuse, because one-time codes must never be shared"
+        ],
+        "correct_answer": "Refuse, because one-time codes must never be shared",
+        "explanation": "One-time codes give access to your accounts. Nobody legitimate needs you to share one."
+      },
+      {
+        "question": "What should you do after using an AI on a shared computer or in a cyber cafe?",
+        "options": [
+          "Save the password in the browser",
+          "Tell the next person your password",
+          "Sign out and do not save your password",
+          "Leave the account open"
+        ],
+        "correct_answer": "Sign out and do not save your password",
+        "explanation": "Signing out and not saving passwords stops the next person from using your account."
+      }
+    ]
+  },
+  "completion_requirements": {
+    "complete_all_lessons": true,
+    "lesson_knowledge_checks": "Ungraded. They help you learn and can be repeated.",
+    "module_quiz_passing_score_percentage": 70,
+    "final_assessment_passing_score_percentage": 80,
+    "practical_exercises": "Recommended. You check your own work against the expected outcome. They are not graded."
+  },
+  "certificate": {
+    "eligible": true,
+    "type": "Certificate of completion",
+    "requirements": "Complete all lessons, pass every module quiz and pass the final assessment.",
+    "verification": "Each certificate carries a unique ID so anyone can check that it is genuine."
+  }
+}

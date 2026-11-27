@@ -12,7 +12,7 @@ type Question = {
 };
 type Props = {
   assessmentId: string;
-  lessonId: string;
+  lessonId?: string;
   courseSlug: string;
   title: string;
   instructions: string;
@@ -37,7 +37,7 @@ export function AssessmentQuiz(props: Props) {
   const remaining = Math.max(0, props.maxAttempts - props.attemptsUsed);
   const complete = props.questions.length > 0 &&
     props.questions.every((question) => Boolean(answers[question.id]));
-  const exhausted = remaining === 0;
+  const exhausted = remaining === 0 && !props.latestAttempt?.passed;
 
   return (
     <section className="assessment-card" aria-labelledby="assessment-title">
@@ -46,7 +46,7 @@ export function AssessmentQuiz(props: Props) {
         <h2 id="assessment-title">{props.title}</h2>
         <p>{props.instructions || "Choose one answer for each question."}</p>
         <p className="assessment-meta">
-          Pass mark: {props.passingScore}% · Attempts remaining: {remaining}
+          {props.latestAttempt?.passed ? `Passed · ${Number(props.latestAttempt.score_percentage).toFixed(0)}%` : `Pass mark: ${props.passingScore}% · Attempts remaining: ${remaining}`}
         </p>
       </div>
 
@@ -62,7 +62,7 @@ export function AssessmentQuiz(props: Props) {
       ) : (
         <form action={submitAssessmentAction}>
           <input type="hidden" name="assessmentId" value={props.assessmentId} />
-          <input type="hidden" name="lessonId" value={props.lessonId} />
+          {props.lessonId && <input type="hidden" name="lessonId" value={props.lessonId} />}
           <input type="hidden" name="courseSlug" value={props.courseSlug} />
           <input type="hidden" name="answers" value={answerPayload} />
           {props.questions.map((question) => (

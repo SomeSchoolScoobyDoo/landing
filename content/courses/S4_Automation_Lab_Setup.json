@@ -1,0 +1,859 @@
+{
+  "course_id": "S4",
+  "title": "Automation Lab Setup",
+  "category": "Setup Courses",
+  "level": "Beginner",
+  "audience": "Beginner. Made for people who can use a browser and a Google account and are willing to type a few terminal commands. Courses S1 and S3 cover these skills, but they are not required. No automation experience needed.",
+  "estimated_duration": "About 5 hours in total. Spread it over 1 week at 30 to 40 minutes a day.",
+  "description": "This course builds your personal automation lab on your own computer. You will start n8n (a free automation tool) in one of two ways, with Node.js or with Docker, create your owner account, tour the editor, and build and run your first workflow. You will connect n8n to your Google account so it can read and write Google Sheets. Then you will make your local n8n reachable from the internet with a Cloudflare Tunnel and watch its health with cron-job.org. Every lesson ends with something you can see working, so you always know you did it right.",
+  "what_you_will_need": [
+    {
+      "item": "A laptop or desktop computer that can run a browser and a terminal side by side",
+      "details": "Windows 10 or Windows 11 is best because the steps use Windows. A Mac also works and the lessons say where it differs. 8 GB of memory is comfortable. 4 GB can work but may feel slow, so close other programs. Keep the charger plugged in during this course.",
+      "cost": "Paid (you may already own one)"
+    },
+    {
+      "item": "Node.js, version 20.19 up to 24.x (for the Node.js way of running n8n)",
+      "details": "n8n runs on Node.js. If you do not have it, install the LTS version from nodejs.org (Course S3 shows how). The n8n documentation says it needs a version from 20.19 up to 24.x. In the terminal, type node --version. If the number starts with v20, v22 or v24 you are fine. If it starts with a higher number, use the Docker way in Lesson 1.3 or follow the fix in Lesson 1.1.",
+      "cost": "Free"
+    },
+    {
+      "item": "Docker Desktop (optional second way of running n8n)",
+      "details": "Lesson 1.3 shows how to run n8n inside Docker instead of using Node.js. You only need one way. Docker is heavier than Node.js, so 8 GB of memory is recommended. On Windows it needs Windows 10 or 11 (64-bit), administrator access, around 5 GB of free disk space, and virtualization switched on in your computer. Docker Desktop is free for personal learning use. Read its terms on the Docker website to be sure it fits you.",
+      "cost": "Free"
+    },
+    {
+      "item": "A terminal and a code editor such as Visual Studio Code",
+      "details": "You will type short commands in a terminal and keep your exported workflows in your n8n-lab folder. Course S3 shows how to set these up if you need help.",
+      "cost": "Free"
+    },
+    {
+      "item": "Permission to install and run programs",
+      "details": "Windows may show a firewall box the first time n8n starts. You must be able to click Allow. If the computer belongs to a school or office, ask the owner first.",
+      "cost": "Free"
+    },
+    {
+      "item": "A Google account",
+      "details": "Use a personal Gmail account. Course S1 shows how to create one if you need help. You will use it for Google Sheets in Lesson 2.2. A work or school Google account may block some steps, so a personal one is best.",
+      "cost": "Free"
+    },
+    {
+      "item": "A Google Sheet with sample rows",
+      "details": "Create a sheet called Task Tracker with the headers Task Name, Assigned To, Email, Deadline and Status in row 1, and add three sample rows. You will read it from n8n in Lesson 2.2.",
+      "cost": "Free"
+    },
+    {
+      "item": "Google Chrome",
+      "details": "n8n opens in your browser. Chrome is recommended.",
+      "cost": "Free"
+    },
+    {
+      "item": "A free cron-job.org account (you will create it in Lesson 3.2)",
+      "details": "You only need an email address that you can open.",
+      "cost": "Free"
+    },
+    {
+      "item": "A steady internet connection",
+      "details": "Downloads and Google sign-in need a connection that does not drop often. Use Wi-Fi if you can.",
+      "cost": "Paid (Wi-Fi subscription or mobile data)"
+    },
+    {
+      "item": "A notebook and a pen",
+      "details": "For writing your n8n email address, your public tunnel link and your notes. Never write passwords where others can read them.",
+      "cost": "Paid (very cheap)"
+    },
+    {
+      "item": "A patient mindset",
+      "details": "Connecting tools to Google has a few screens that look unfamiliar. That is normal. Go slowly, follow the steps in order, and if one step fails, read the message on the screen before trying again.",
+      "cost": "Free"
+    }
+  ],
+  "learning_objectives": [
+    "Start n8n on your own computer with Node.js or with Docker",
+    "Create an owner account and find your way around the n8n editor",
+    "Build and run a simple workflow that uses items and expressions",
+    "Connect n8n to Google Sheets safely using OAuth",
+    "Make your local n8n reachable with a Cloudflare Tunnel and watch it with a cron-job.org health check"
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "module_title": "Start n8n on Your Computer",
+      "module_goal": "Start n8n for the first time, create your owner account and find your way around the editor.",
+      "lessons": [
+        {
+          "lesson_number": "1.1",
+          "lesson_title": "Checking Node.js and Starting n8n",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=zQywCe4IRM0",
+          "simple_explanation": "n8n is a free tool where you connect apps by drawing steps on a canvas, instead of writing code. It runs as a small program on your computer and you use it through your browser at the address localhost:5678. The word localhost means this computer. Because n8n is built on Node.js, you need the right Node.js version before you start it.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the n8n installation video for Windows. It is older, so some details may look different. You only need the main idea: Node.js is installed first, then n8n is started with a command.",
+            "Step 2: Open a terminal. In Windows, click Start, type Terminal and press Enter. On a Mac, press Command and Space, type Terminal and press Enter.",
+            "Step 3: Type node --version and press Enter. Write the number you see in your notebook, for example v24.1.0. The n8n documentation says n8n needs Node.js from version 20.19 up to 24.x. If your number starts with v20, v22 or v24, you can continue. If the terminal says node is not recognized, Node.js is not installed. Go to nodejs.org, download the LTS installer (or an older 24.x release), run it with the default choices, then open a new terminal and try again.",
+            "Step 4: If your number is higher than 24, n8n may not start. Do not panic. You have two choices. Choice one: go to nodejs.org, open the Downloads page, choose an older release in the 24.x line, install it, open a new terminal and check node --version again. Choice two: skip the Node.js way and use Docker instead, which avoids the problem. Lesson 1.3 shows how.",
+            "Step 5: Make a folder for your n8n practice. Type cd Documents and press Enter. If it says it cannot find the path, your Documents folder may be inside OneDrive, so type cd OneDrive first, then cd Documents. Then type mkdir n8n-lab and press Enter, then cd n8n-lab and press Enter. If the folder already exists, just go into it.",
+            "Step 6: Start n8n by typing npx n8n and pressing Enter. The first time, the terminal may ask if you want to install the n8n package. Type y and press Enter. The download can take a few minutes. Be patient and do not close the window.",
+            "Step 7: If Windows shows a firewall box asking if Node.js can communicate on networks, tick Private networks and click Allow access.",
+            "Step 8: Wait until you see a message saying that the editor is accessible at http://localhost:5678. This means n8n is running.",
+            "Step 9: Open Chrome. In the address bar type localhost:5678 and press Enter. The n8n setup page appears.",
+            "Step 10: Important rule. n8n only works while that terminal window stays open. If you close the terminal, n8n stops. To stop it on purpose, click inside the terminal and press Ctrl and C.",
+            "Step 11: To start n8n again another day, open a terminal, go to your folder and type npx n8n again. Your account and workflows are saved on your computer, so they will still be there.",
+            "Step 12: If you see an error about scripts being disabled, open Command Prompt (search for cmd in the Start menu) and run npx n8n there instead."
+          ],
+          "key_terms": [
+            {
+              "term": "n8n",
+              "meaning": "A free automation tool where you connect apps by building workflows on a canvas."
+            },
+            {
+              "term": "localhost",
+              "meaning": "A word that means this computer. localhost:5678 is the address of n8n running on your own machine."
+            },
+            {
+              "term": "Port",
+              "meaning": "A numbered door on your computer. n8n uses port 5678."
+            },
+            {
+              "term": "npx",
+              "meaning": "A command that downloads and runs a Node.js program in one go."
+            },
+            {
+              "term": "Self-hosted",
+              "meaning": "Running a tool on your own computer or server instead of using a company's website."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Start and stop n8n",
+            "instructions": "Check your Node.js version and write it down. Start n8n with npx n8n and open localhost:5678 in Chrome. Then go back to the terminal, press Ctrl and C to stop n8n, refresh the browser and note what happens. Start n8n again.",
+            "expected_outcome": "n8n starts, the page loads at localhost:5678, stops loading when you press Ctrl and C, and works again after you restart it."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What does localhost:5678 mean?",
+              "options": [
+                "n8n running on your own computer",
+                "An email address",
+                "A website on the other side of the world",
+                "A Google service"
+              ],
+              "correct_answer": "n8n running on your own computer",
+              "explanation": "localhost means this computer, and 5678 is the port n8n uses."
+            },
+            {
+              "question": "What happens if you close the terminal window where n8n is running?",
+              "options": [
+                "Your computer shuts down",
+                "n8n stops",
+                "Your Google account is deleted",
+                "n8n keeps running forever"
+              ],
+              "correct_answer": "n8n stops",
+              "explanation": "n8n runs inside that terminal window. Closing it stops n8n until you start it again."
+            }
+          ]
+        },
+        {
+          "lesson_number": "1.2",
+          "lesson_title": "Creating Your Owner Account and Touring the Editor",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=HiZwAkf1ao0",
+          "simple_explanation": "The first time n8n opens, it asks you to create an owner account. This account lives only on your computer and is not the same as a Google account. After that you land on the dashboard, where your workflows live. A workflow is a series of steps, called nodes, joined by lines. Learning where things are on the screen now will make every later lesson easier.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link. It is a beginner walkthrough of getting started in n8n. Watch it once to see the screens before you do the steps yourself.",
+            "Step 2: Make sure n8n is running (Lesson 1.1) and open localhost:5678 in Chrome.",
+            "Step 3: On the setup page, type your email address, your first name, your last name and a password. Use a strong password. A good method is four unrelated words joined with dashes plus a number. Click Next or Get started.",
+            "Step 4: n8n may ask a few questions about you or offer a free licence key. You can skip optional questions. If it asks about a key, you can click Skip.",
+            "Step 5: You will land on the n8n home screen. Look for a button that says Create workflow. Look at the menu on the left. You should see areas such as Overview, Personal, Credentials and Executions. Click each one and look at it for a moment.",
+            "Step 6: Click Create workflow. A blank canvas opens. This is the editor.",
+            "Step 7: Look for the box that says Add first step. This is where you pick a trigger, the node that starts a workflow.",
+            "Step 8: Look at the top of the editor. You should see the workflow name, a Save button, and a button to test or run the workflow. Click the name, type My first lab and press Enter.",
+            "Step 9: Learn four words. Workflow: the whole automation. Node: one step. Trigger: the first node that starts it. Execution: one run of the workflow.",
+            "Step 10: Close the editor without building anything by clicking the n8n logo or the back arrow, and choose to leave without saving if it asks.",
+            "Step 11: Write your n8n login email in your notebook. Keep the password somewhere safe."
+          ],
+          "key_terms": [
+            {
+              "term": "Owner account",
+              "meaning": "The first account you create in n8n. It manages everything on your copy of n8n."
+            },
+            {
+              "term": "Workflow",
+              "meaning": "A series of connected steps that automates a task."
+            },
+            {
+              "term": "Node",
+              "meaning": "One step in a workflow, such as send an email or read a sheet."
+            },
+            {
+              "term": "Trigger",
+              "meaning": "The first node that starts a workflow, for example a schedule or a webhook."
+            },
+            {
+              "term": "Execution",
+              "meaning": "One run of a workflow, with a record of what happened."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Name your lab and label the screen",
+            "instructions": "Create your owner account. Open a blank workflow and name it My first lab. On paper, draw the screen and label four things: the workflow name, the Add first step box, the left menu, and the Save button. Write one sentence for each of the four key terms in your own words.",
+            "expected_outcome": "A working owner account, a workflow named My first lab, a labelled drawing, and four sentences in your notebook."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is a node in n8n?",
+              "options": [
+                "A web browser",
+                "One step in a workflow",
+                "A type of password",
+                "A phone number"
+              ],
+              "correct_answer": "One step in a workflow",
+              "explanation": "A workflow is made of nodes. Each node does one job."
+            },
+            {
+              "question": "Which node starts a workflow?",
+              "options": [
+                "The browser tab",
+                "The last node",
+                "The password",
+                "The trigger"
+              ],
+              "correct_answer": "The trigger",
+              "explanation": "The trigger is the first node. It decides when the workflow runs."
+            }
+          ]
+        },
+        {
+          "lesson_number": "1.3",
+          "lesson_title": "Optional: Running n8n With Docker",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=V2DGlMoRD74",
+          "simple_explanation": "Docker is another way to run n8n. Instead of installing n8n on your computer, you run it inside a container, which is a sealed box that already has everything n8n needs, including the right Node.js version. Many developers prefer it because it keeps your computer tidy and avoids version problems. The price is that it is heavier and has more steps to set up. You only need one way, so treat this lesson as your plan B or your upgrade.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch how to install n8n on Windows with Docker. Notice the part about creating a volume. A volume is how your work is saved. We will explain it below.",
+            "Step 2: Decide if you need this lesson. Use Docker if your Node.js version is too new for n8n, or if the Node.js way did not work for you, or if you want a cleaner setup. If npx n8n already works for you, you can skip this lesson and come back later.",
+            "Step 3: Important rule. Only one copy of n8n can use port 5678 at a time. If n8n is running from Lesson 1.1, click inside that terminal and press Ctrl and C to stop it before you start Docker.",
+            "Step 4: Check your computer. On Windows you need Windows 10 or 11 (64-bit), administrator access, around 5 GB of free disk space, and virtualization switched on. If Docker later says virtualization is disabled, you must switch it on in your computer's BIOS settings. Ask for help through the course support channel, because the steps differ between computer brands.",
+            "Step 5: Open Chrome and go to docker.com/products/docker-desktop. Click the download button for your system. On most Windows computers choose the AMD64 version. On a Mac choose Apple chip or Intel to match your Mac. Docker Desktop is free for personal learning use.",
+            "Step 6: Open the installer from your Downloads folder. If Windows asks for permission, click Yes. Keep the option to use WSL 2 ticked if it is offered. Click OK and wait. Restart your computer if the installer asks you to.",
+            "Step 7: Open Docker Desktop from the Start menu. Accept the terms. If it asks you to sign in, look for a Skip option. Wait until the bottom left of the window shows that Docker is running. This can take a few minutes the first time.",
+            "Step 8: If Docker Desktop asks you to install or update WSL, open Command Prompt as Administrator (search for cmd, right-click it, choose Run as administrator), type wsl --install and press Enter. Restart when it finishes, then open Docker Desktop again.",
+            "Step 9: Open a normal terminal. Type docker --version and press Enter. You should see a version number. If you see an error, make sure Docker Desktop is open and running.",
+            "Step 10: Create the volume. Type docker volume create n8n_data and press Enter. This makes a safe storage place called n8n_data on your computer. Without it, your workflows and account would be lost every time the container stops.",
+            "Step 11: Start n8n. Type this on one line and press Enter: docker run -it --rm --name n8n -p 5678:5678 -e GENERIC_TIMEZONE=Africa/Lagos -e TZ=Africa/Lagos -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n",
+            "Step 12: The first time, Docker downloads the n8n image, which can take several minutes on a slow connection. Be patient. When you see a message that the editor is accessible at http://localhost:5678, open Chrome and go to localhost:5678.",
+            "Step 13: Create your owner account. This is a brand new copy of n8n, so it does not know the account or workflows from the Node.js way. If you want to move a workflow across, export it as a file in the old one and import it in the new one.",
+            "Step 14: Stop n8n by clicking in the terminal and pressing Ctrl and C. Start it again with the same docker run command from Step 11. Open localhost:5678 and sign in. Your account and workflows should still be there. That proves the volume works.",
+            "Step 15: When you use a tunnel (Lesson 3.1), add one more piece to the docker run command, before the part that says docker.n8n.io: -e WEBHOOK_URL=https://your-name.trycloudflare.com using your own address.",
+            "Step 16: Docker Desktop uses memory even when n8n is stopped. When you finish studying, quit Docker Desktop from the icon near the clock on the taskbar so your computer stays fast.",
+            "Step 17: Remember the rule: pick one way at a time. Use either npx n8n or Docker, never both together."
+          ],
+          "key_terms": [
+            {
+              "term": "Docker",
+              "meaning": "A tool that runs programs inside sealed boxes called containers."
+            },
+            {
+              "term": "Container",
+              "meaning": "A sealed box that holds a program and everything it needs to run."
+            },
+            {
+              "term": "Image",
+              "meaning": "The ready-made package a container is started from. n8n publishes an official image."
+            },
+            {
+              "term": "Volume",
+              "meaning": "A storage place outside the container that keeps your data safe after the container stops."
+            },
+            {
+              "term": "Docker Desktop",
+              "meaning": "The app that lets you run Docker on Windows or Mac."
+            },
+            {
+              "term": "WSL 2",
+              "meaning": "A Windows feature that lets Docker run Linux programs inside Windows."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Prove your volume works",
+            "instructions": "Run n8n with Docker using the command from this lesson. Create your owner account and a blank workflow called Docker test. Stop the container with Ctrl and C. Start it again with the same command and check that the workflow Docker test is still there. Write the exact docker run command in your notebook.",
+            "expected_outcome": "n8n runs in Docker, and your account and the Docker test workflow are still there after you stop and start the container."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Why do you create a volume before running n8n in Docker?",
+              "options": [
+                "So your workflows and account are saved after the container stops",
+                "To turn off the internet",
+                "To change your Google password",
+                "To make n8n louder"
+              ],
+              "correct_answer": "So your workflows and account are saved after the container stops",
+              "explanation": "Without a volume, everything inside the container disappears when it stops."
+            },
+            {
+              "question": "n8n is already running from Lesson 1.1 and you want to try Docker. What must you do first?",
+              "options": [
+                "Delete your Google account",
+                "Nothing, both can use port 5678",
+                "Start a third copy",
+                "Stop the first n8n with Ctrl and C"
+              ],
+              "correct_answer": "Stop the first n8n with Ctrl and C",
+              "explanation": "Only one copy of n8n can use port 5678 at a time."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which command starts n8n?",
+            "options": [
+              "npx n8n",
+              "start-n8n-now",
+              "git n8n",
+              "python n8n.py"
+            ],
+            "correct_answer": "npx n8n",
+            "explanation": "npx downloads and runs n8n."
+          },
+          {
+            "question": "Why do you create a volume when running n8n in Docker?",
+            "options": [
+              "So n8n runs faster than anything else",
+              "So the terminal looks nicer",
+              "So Google can see your files",
+              "So your workflows and account are saved after the container stops"
+            ],
+            "correct_answer": "So your workflows and account are saved after the container stops",
+            "explanation": "A volume keeps your data outside the container, so it survives when the container stops."
+          },
+          {
+            "question": "You are not sure whether your Node.js version is supported. What is the safest first step?",
+            "options": [
+              "Uninstall Windows",
+              "Ignore the version",
+              "Guess",
+              "Run node --version and compare it with the range in the n8n documentation"
+            ],
+            "correct_answer": "Run node --version and compare it with the range in the n8n documentation",
+            "explanation": "Checking the version tells you whether n8n will start, and the documentation lists the supported range."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 2,
+      "module_title": "Your First Workflow and Google",
+      "module_goal": "Build and run a simple workflow, then connect n8n to Google Sheets safely.",
+      "lessons": [
+        {
+          "lesson_number": "2.1",
+          "lesson_title": "Building and Running Your First Workflow",
+          "estimated_minutes": 35,
+          "youtube_url": "https://www.youtube.com/watch?v=4cQWJViybAQ",
+          "simple_explanation": "In n8n every piece of data is passed from one node to the next as an item. You will build a tiny workflow with a manual trigger and a node that sets some data, then use an expression to turn that data into a sentence. The video uses a form and a Slack message as its example. You do not need Slack. Watch it to see how triggers, items and data mapping work, then follow the steps below on your own screen.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the official n8n quick start. Do not worry if you do not understand every word. Watch for these ideas: triggers, actions, items of data, and how data moves between steps.",
+            "Step 2: In n8n, open a blank workflow. Click Add first step.",
+            "Step 3: In the search box type manual. Choose Trigger manually. A node called When clicking Test workflow appears on the canvas.",
+            "Step 4: Click the small plus (+) sign on the right of that node. In the search box type Edit Fields. Choose Edit Fields (Set).",
+            "Step 5: Inside the Edit Fields node, click Add Field. Set the name to student_name and the value to your first name. Click Add Field again. Set the name to course and the value to Automation Lab. Close the node.",
+            "Step 6: Click Execute workflow (or Test workflow) at the bottom or top of the canvas. Both nodes should turn green with a tick.",
+            "Step 7: Double-click the Edit Fields node. On the right you will see the Output. It shows your data as a small list: student_name and course. This list is one item.",
+            "Step 8: Add a second Edit Fields node after the first. Add a field called message. For the value, click Expression and type exactly: Hello {{ $json.student_name }}, welcome to {{ $json.course }}. The double curly brackets tell n8n to insert real data.",
+            "Step 9: Click Execute workflow again. Open the second node and look at the Output. The message field should show a full sentence with your name and the course.",
+            "Step 10: If an expression turns red or shows undefined, check your spelling. The field names must match exactly, including the underscore.",
+            "Step 11: Rename the workflow to Hello workflow and save it with Ctrl and S.",
+            "Step 12: Export your work. Click the three dots menu near the top right, choose Download, and save the file in your n8n-lab folder. This file is a copy of your workflow in JSON format."
+          ],
+          "key_terms": [
+            {
+              "term": "Item",
+              "meaning": "One piece of data passed between nodes. It looks like a small list of fields and values."
+            },
+            {
+              "term": "Expression",
+              "meaning": "A small instruction inside double curly brackets that pulls in real data, like {{ $json.student_name }}."
+            },
+            {
+              "term": "Execute",
+              "meaning": "To run the workflow once so you can see what it does."
+            },
+            {
+              "term": "Export",
+              "meaning": "Saving a copy of your workflow as a file you can keep or share."
+            },
+            {
+              "term": "JSON",
+              "meaning": "A simple way of writing data as names and values. n8n uses it to pass data around."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Make a greeting workflow",
+            "instructions": "Build the workflow from this lesson. Add a third field called favourite_tool and use an expression to build a message that also mentions it. Run the workflow and check the output. Then export the workflow into your n8n-lab folder.",
+            "expected_outcome": "A workflow with a manual trigger and two Edit Fields nodes that produces a full sentence using three fields, plus an exported JSON file in your folder."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What do double curly brackets like {{ }} do in n8n?",
+              "options": [
+                "Close the workflow",
+                "Delete a node",
+                "Turn on Wi-Fi",
+                "Insert real data from earlier steps"
+              ],
+              "correct_answer": "Insert real data from earlier steps",
+              "explanation": "An expression inside double curly brackets pulls values from the data passed between nodes."
+            },
+            {
+              "question": "What does a green tick on a node after you run the workflow tell you?",
+              "options": [
+                "The node ran successfully",
+                "The workflow is on Google",
+                "The node was deleted",
+                "Your password is wrong"
+              ],
+              "correct_answer": "The node ran successfully",
+              "explanation": "A green tick means that node finished without an error."
+            }
+          ]
+        },
+        {
+          "lesson_number": "2.2",
+          "lesson_title": "Connecting Your Google Account to n8n",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=bceUAI378ig",
+          "simple_explanation": "When n8n runs on your own computer, it cannot simply log in with Google. Google needs to know which app is asking, so you create your own small app in Google Cloud Console. This gives you two codes, a Client ID and a Client Secret, that you paste into n8n. It is the longest setup in this course. Take it slowly. Once it works, you can use Google Sheets in all your automations.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the Google credentials setup for n8n. Screens in Google Cloud Console change often, so your screen may look different. Follow the same order of steps.",
+            "Step 2: Keep two browser tabs open: one with n8n at localhost:5678 and one for Google Cloud Console. Use the same personal Google account in both.",
+            "Step 3: In the n8n tab, open any workflow, add a Google Sheets node, choose the action Get row(s) in sheet, then click the credential box and choose Create new credential. A box opens with a field called OAuth Redirect URL. Leave this window open. You will copy that address in Step 9.",
+            "Step 4: In the other tab, go to console.cloud.google.com and sign in. If it asks you to accept terms, accept them.",
+            "Step 5: Create a project. Click the project drop-down at the top, click New project, name it n8n-lab and click Create. Make sure the new project is selected.",
+            "Step 6: Turn on the Google APIs. Open the menu, go to APIs and services, then Library. Search for Google Sheets API and click Enable. Go back to the Library, search Google Drive API and click Enable. Do it once more for Gmail API and click Enable. You will need Gmail if you want n8n to send emails.",
+            "Step 7: Set up the consent screen. In APIs and services open OAuth consent screen (Google may call this Google Auth Platform). Choose External. Fill in an app name such as n8n lab, your email as the support email and contact email. Find the Audience or Test users section and add your own Gmail address as a test user.",
+            "Step 8: Create the credentials. Go to Credentials, click Create credentials, choose OAuth client ID, and for Application type choose Web application. Give it a name such as n8n local.",
+            "Step 9: Under Authorized redirect URIs, click Add URI and paste the OAuth Redirect URL you copied from n8n in Step 3. It usually looks like http://localhost:5678/rest/oauth2-credential/callback. Click Create.",
+            "Step 10: Google shows your Client ID and Client Secret. Copy the Client ID, go back to the n8n credential box and paste it in. Do the same with the Client Secret. Treat the secret like a password. Never share it or post it online.",
+            "Step 11: In n8n, click Sign in with Google. Choose your Google account. Google may show a warning that says Google has not verified this app. This is normal for your own test app. Click Advanced, then Go to the app, then click Continue or Allow on the permission screens.",
+            "Step 12: When n8n says the account is connected, click Save. Name the credential Google Sheets personal.",
+            "Step 13: Test it. In the Google Sheets node, choose your Task Tracker spreadsheet and the sheet name, then click Execute step. Your rows should appear in the Output.",
+            "Step 14: Know the limits. While your Google app is in testing mode, Google may ask you to sign in again after about 7 days. When that happens, open the credential in n8n and click Sign in with Google again.",
+            "Step 15: Safety. Only approve your own test app with your own account. Never approve unknown apps that ask for access to your Google account."
+          ],
+          "key_terms": [
+            {
+              "term": "OAuth",
+              "meaning": "A safe way to let one app use another app's data without sharing your password."
+            },
+            {
+              "term": "Client ID and Client Secret",
+              "meaning": "Two codes from Google that identify your app. The secret must be kept private."
+            },
+            {
+              "term": "Redirect URL",
+              "meaning": "The address Google sends you back to after you approve access. It must match exactly in both places."
+            },
+            {
+              "term": "Credential",
+              "meaning": "A saved connection in n8n to an outside service, stored safely so it is not pasted into every node."
+            },
+            {
+              "term": "Test user",
+              "meaning": "A Google account that is allowed to use an app that has not been published yet."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Read your Google Sheet from n8n",
+            "instructions": "Complete the Google connection. Use a Google Sheets node to read the rows from your Task Tracker sheet. Add an Edit Fields node after it that creates a field called summary containing the task name and the deadline using expressions. Run the workflow and check that three summaries appear.",
+            "expected_outcome": "A saved Google Sheets credential and a workflow that reads three rows and shows a summary for each."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Why must you create your own OAuth app in Google Cloud Console when n8n runs on your computer?",
+              "options": [
+                "To change your password",
+                "To speed up your internet",
+                "Google needs to know which app is asking for access",
+                "To pay for Google"
+              ],
+              "correct_answer": "Google needs to know which app is asking for access",
+              "explanation": "The Client ID and Secret identify your app, so Google can safely ask you to approve it."
+            },
+            {
+              "question": "What should you do with your Client Secret?",
+              "options": [
+                "Write it on a public wall",
+                "Send it to friends",
+                "Keep it private like a password",
+                "Post it on social media"
+              ],
+              "correct_answer": "Keep it private like a password",
+              "explanation": "Anyone with your secret could pretend to be your app."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What is the first node in a workflow that starts it called?",
+            "options": [
+              "The credential",
+              "The export",
+              "The expression",
+              "The trigger"
+            ],
+            "correct_answer": "The trigger",
+            "explanation": "The trigger starts the workflow."
+          },
+          {
+            "question": "Which of these correctly inserts a field called course into text?",
+            "options": [
+              "$$course$$",
+              "{{ $json.course }}",
+              "<course>",
+              "[course]"
+            ],
+            "correct_answer": "{{ $json.course }}",
+            "explanation": "n8n expressions use double curly brackets with $json and the field name."
+          },
+          {
+            "question": "Google shows a warning that says Google has not verified this app while you connect your own test app. What should you do?",
+            "options": [
+              "Send the link to friends",
+              "Continue only if it is your own app and your own account",
+              "Approve any app that asks",
+              "Close Google forever"
+            ],
+            "correct_answer": "Continue only if it is your own app and your own account",
+            "explanation": "The warning is normal for your own unpublished test app. Never approve unknown apps."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 3,
+      "module_title": "Reaching n8n From the Internet",
+      "module_goal": "Give your local n8n a public address with a Cloudflare Tunnel, and watch it with cron-job.org.",
+      "lessons": [
+        {
+          "lesson_number": "3.1",
+          "lesson_title": "Making Your Local n8n Reachable With a Cloudflare Tunnel",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=O9dpO81dEQ0",
+          "simple_explanation": "Your n8n at localhost:5678 can only be opened from your own computer. For a webhook to work, another website or app must be able to send data to it. A tunnel creates a temporary public web address that passes visitors through to your local n8n. We use Cloudflare Tunnel because it is free. The quick tunnel address changes each time you restart it, so treat it as a tool for learning and testing.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link. It is from the official n8n documentation and shows how to set up a tunnel with Cloudflare or ngrok. We will use Cloudflare.",
+            "Step 2: Install cloudflared, the Cloudflare tunnel program. On Windows, open a terminal and type winget install --id Cloudflare.cloudflared and press Enter. If winget is not available, download the Windows installer from the official Cloudflare downloads page and run it. On a Mac, type brew install cloudflared.",
+            "Step 3: Close the terminal and open a new one. Type cloudflared --version and press Enter. You should see a version number. If you see an error, restart your computer and try again.",
+            "Step 4: Make sure n8n is running in its own terminal window. Leave that window open.",
+            "Step 5: Open a second terminal window. Type cloudflared tunnel --url http://localhost:5678 and press Enter.",
+            "Step 6: After a few seconds, the terminal prints a web address that ends in trycloudflare.com. Copy it and write it in your notebook. This is your public address for now.",
+            "Step 7: Test the tunnel. Open that address in your browser or on your phone using mobile data. You should see the n8n sign-in page. It is now reachable from anywhere, so keep your password strong.",
+            "Step 8: Check the health address. Add /healthz to the end of your address, for example https://your-name.trycloudflare.com/healthz, and open it. You should see a short message saying the status is ok.",
+            "Step 9: Tell n8n its public address. Stop n8n (Ctrl and C in its terminal). In PowerShell, type $env:WEBHOOK_URL=\"https://your-name.trycloudflare.com\" then press Enter, then type npx n8n. In Command Prompt, type set WEBHOOK_URL=https://your-name.trycloudflare.com then npx n8n. On a Mac, type WEBHOOK_URL=https://your-name.trycloudflare.com npx n8n. Use your own address. If you run n8n with Docker, add -e WEBHOOK_URL=https://your-name.trycloudflare.com to your docker run command, before the part that says docker.n8n.io/n8nio/n8n.",
+            "Step 10: In n8n, create a new workflow with a Webhook node. Open the node and look at the Production URL. It should now begin with your trycloudflare.com address, not localhost.",
+            "Step 11: Important limits. If you close the cloudflared terminal, or restart your computer, the public address stops working and you get a new one next time. Repeat Steps 5, 6 and 9 whenever that happens.",
+            "Step 12: Safety. Your n8n is now visible to the internet. Do not share your tunnel address publicly, keep your owner password strong, and stop the tunnel with Ctrl and C when you are not using it."
+          ],
+          "key_terms": [
+            {
+              "term": "Tunnel",
+              "meaning": "A connection that passes internet visitors through to a program running on your computer."
+            },
+            {
+              "term": "Cloudflare Tunnel (cloudflared)",
+              "meaning": "A free program from Cloudflare that creates a public web address for your local app."
+            },
+            {
+              "term": "Webhook",
+              "meaning": "A web address that waits for data from another app and starts your workflow when it arrives."
+            },
+            {
+              "term": "Public address",
+              "meaning": "A web address that anyone on the internet can open."
+            },
+            {
+              "term": "Environment variable",
+              "meaning": "A setting you give to a program before it starts, like WEBHOOK_URL for n8n."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Open your n8n from your phone",
+            "instructions": "Start n8n and a Cloudflare quick tunnel. Open your trycloudflare.com address on your phone using mobile data and check that the n8n sign-in page loads. Then open the same address with /healthz at the end and write down what it shows. Stop the tunnel with Ctrl and C and refresh the page on your phone to see that it no longer works.",
+            "expected_outcome": "The n8n sign-in page loads on your phone while the tunnel runs, the health page shows an ok status, and the address stops working when you stop the tunnel."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Why do you need a tunnel for webhooks on a home computer?",
+              "options": [
+                "To delete old files",
+                "Other apps on the internet cannot reach localhost on your computer",
+                "To make the screen brighter",
+                "To save electricity"
+              ],
+              "correct_answer": "Other apps on the internet cannot reach localhost on your computer",
+              "explanation": "localhost only works on your own computer, so a tunnel gives outside services a public address to reach."
+            },
+            {
+              "question": "What happens to a Cloudflare quick tunnel address when you restart the tunnel?",
+              "options": [
+                "It turns into an email",
+                "You usually get a new address",
+                "It becomes a Google address",
+                "It stays the same forever"
+              ],
+              "correct_answer": "You usually get a new address",
+              "explanation": "Quick tunnel addresses are temporary and change each time you start a new tunnel."
+            }
+          ]
+        },
+        {
+          "lesson_number": "3.2",
+          "lesson_title": "Watching Your Public Address With cron-job.org",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=v952m13p-b4",
+          "simple_explanation": "A cron job is a task that a computer repeats on a schedule. The website cron-job.org offers this for free: you give it a web address and a schedule, and it visits that address for you every few minutes. For us, it checks that your public n8n address still answers. It is a health check. It cannot keep a sleeping laptop awake and it cannot restart a closed tunnel, so you also need to change your computer's sleep settings. The video explains the idea of cron jobs in general. The steps below show how to use cron-job.org itself.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link. It is about cron on Linux. You do not need to follow its commands. Watch the first few minutes to understand the idea that a computer can repeat a task on a schedule.",
+            "Step 2: Open Chrome and go to cron-job.org. Click Sign up and create a free account with your email. Open your inbox, find the confirmation email and click the link to confirm.",
+            "Step 3: Sign in. Click Create cronjob.",
+            "Step 4: In Title, type n8n health check.",
+            "Step 5: In URL, paste your tunnel address with /healthz on the end, for example https://your-name.trycloudflare.com/healthz.",
+            "Step 6: Under the execution schedule, choose every 5 minutes. Leave the other settings as they are.",
+            "Step 7: Look for notification settings on the page or in the cron-job.org settings. If you see an option to be told when a job fails, turn it on.",
+            "Step 8: Click Create. Your job now appears in the list.",
+            "Step 9: Wait about 5 minutes. Open the job and look at its history or last execution. A result that says OK with a status of 200 means your public address answered.",
+            "Step 10: Break it on purpose to see what a failure looks like. Stop the tunnel with Ctrl and C and wait for the next check. The job should show a failure. Start a new tunnel and edit the job with the new address.",
+            "Step 11: Remember what cron-job.org cannot do. It cannot stop your laptop from sleeping. On Windows 11, open Settings, then System, then Power and battery, then Screen and sleep, and set When plugged in, put my device to sleep after to Never. On Windows 10, open Settings, System, then Power and sleep.",
+            "Step 12: Remember that your quick tunnel address changes when you restart it. Every time it changes, edit the cron-job.org job and paste the new address.",
+            "Step 13: When you finish studying for the day, disable or delete the job so it does not keep sending failure messages."
+          ],
+          "key_terms": [
+            {
+              "term": "Cron job",
+              "meaning": "A task that a computer repeats on a schedule."
+            },
+            {
+              "term": "Health check",
+              "meaning": "A small test that checks whether a service is up and answering."
+            },
+            {
+              "term": "Status 200",
+              "meaning": "A reply code that means the request worked."
+            },
+            {
+              "term": "/healthz",
+              "meaning": "A special address on n8n that answers with a short status message when n8n is healthy."
+            },
+            {
+              "term": "Sleep settings",
+              "meaning": "Your computer's rules for when it goes to sleep. A sleeping computer cannot run n8n."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Create and test a health check",
+            "instructions": "Create a cron-job.org job that checks your /healthz address every 5 minutes. Wait for at least one successful check. Then stop your tunnel, wait for a failed check, and write down what the failure looks like. Start a new tunnel, update the job with the new address, and confirm it succeeds again.",
+            "expected_outcome": "A cron-job.org job that shows a successful check, a recorded failed check when the tunnel was stopped, and a successful check again after you updated the address."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What does a cron-job.org health check do for your n8n?",
+              "options": [
+                "Restarts your tunnel",
+                "Visits your public address on a schedule to check it answers",
+                "Keeps your laptop awake",
+                "Fixes broken workflows"
+              ],
+              "correct_answer": "Visits your public address on a schedule to check it answers",
+              "explanation": "It only checks and reports. It cannot wake or restart anything on your computer."
+            },
+            {
+              "question": "How do you stop your laptop from going to sleep while you test n8n?",
+              "options": [
+                "Close Chrome",
+                "Delete n8n",
+                "Ask cron-job.org",
+                "Change the sleep settings in Windows power settings"
+              ],
+              "correct_answer": "Change the sleep settings in Windows power settings",
+              "explanation": "Sleep is controlled by your computer's power settings, not by an outside website."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which command starts a Cloudflare quick tunnel to n8n?",
+            "options": [
+              "cloudflared tunnel --url http://localhost:5678",
+              "npx cloudflare 5678",
+              "tunnel start n8n",
+              "cloudflared delete 5678"
+            ],
+            "correct_answer": "cloudflared tunnel --url http://localhost:5678",
+            "explanation": "This command points the tunnel at the local n8n address."
+          },
+          {
+            "question": "What should you do when your quick tunnel address changes?",
+            "options": [
+              "Buy a new computer",
+              "Nothing, it updates itself",
+              "Delete your Google account",
+              "Update the WEBHOOK_URL and the cron-job.org address"
+            ],
+            "correct_answer": "Update the WEBHOOK_URL and the cron-job.org address",
+            "explanation": "Both n8n and cron-job.org need the new address."
+          },
+          {
+            "question": "Why is it a good idea to stop the tunnel when you are not using it?",
+            "options": [
+              "It saves paper",
+              "Your n8n is visible on the internet while it runs",
+              "It makes Google faster",
+              "It charges your phone"
+            ],
+            "correct_answer": "Your n8n is visible on the internet while it runs",
+            "explanation": "A running tunnel exposes your n8n sign-in page to anyone who has the address, so close it when you are done."
+          }
+        ]
+      }
+    }
+  ],
+  "final_assessment": {
+    "passing_score_percentage": 80,
+    "questions": [
+      {
+        "question": "What does localhost mean?",
+        "options": [
+          "A website in another country",
+          "An email provider",
+          "This computer",
+          "A Google server"
+        ],
+        "correct_answer": "This computer",
+        "explanation": "localhost is the name for your own computer."
+      },
+      {
+        "question": "Which of these is a way to run n8n on your own computer, as taught in this course?",
+        "options": [
+          "Only by typing it into Google Docs",
+          "Only by buying a new laptop",
+          "With npx and Node.js, or inside a Docker container",
+          "Only on a phone"
+        ],
+        "correct_answer": "With npx and Node.js, or inside a Docker container",
+        "explanation": "The course teaches two ways: the Node.js way with npx n8n, and the Docker way."
+      },
+      {
+        "question": "What happens when you close the terminal window where n8n is running?",
+        "options": [
+          "n8n stops",
+          "Your workflows are deleted for ever",
+          "Google signs you out",
+          "n8n keeps running"
+        ],
+        "correct_answer": "n8n stops",
+        "explanation": "n8n runs inside that window, so closing it stops n8n. Your saved workflows are still on your computer."
+      },
+      {
+        "question": "What is a trigger in n8n?",
+        "options": [
+          "The node that starts a workflow",
+          "A password",
+          "A browser tab",
+          "A type of email"
+        ],
+        "correct_answer": "The node that starts a workflow",
+        "explanation": "A trigger is the first node and decides when the workflow runs."
+      },
+      {
+        "question": "What does the expression {{ $json.name }} do?",
+        "options": [
+          "Inserts the value of the name field from earlier data",
+          "Makes a backup",
+          "Opens a website",
+          "Deletes the node"
+        ],
+        "correct_answer": "Inserts the value of the name field from earlier data",
+        "explanation": "Expressions pull real data into a field."
+      },
+      {
+        "question": "Why do you create your own OAuth app in Google Cloud Console for a self-hosted n8n?",
+        "options": [
+          "To pay for Google",
+          "To make n8n faster",
+          "Google needs to know which app is asking for access",
+          "To remove your password"
+        ],
+        "correct_answer": "Google needs to know which app is asking for access",
+        "explanation": "The Client ID and Secret identify your app so Google can ask you to approve it."
+      },
+      {
+        "question": "What should you do with the Client Secret?",
+        "options": [
+          "Print it on your CV",
+          "Post it online",
+          "Keep it private like a password",
+          "Share it with friends"
+        ],
+        "correct_answer": "Keep it private like a password",
+        "explanation": "Anyone who has your secret could pretend to be your app."
+      },
+      {
+        "question": "Why do you need a tunnel to receive webhooks on your home computer?",
+        "options": [
+          "To use Google Sheets",
+          "To save data",
+          "Outside services cannot reach localhost",
+          "To get a free licence"
+        ],
+        "correct_answer": "Outside services cannot reach localhost",
+        "explanation": "A tunnel gives your local n8n a public address that other services can reach."
+      },
+      {
+        "question": "What does a cron-job.org health check do?",
+        "options": [
+          "Visits your address on a schedule to see if it answers",
+          "Writes workflows for you",
+          "Keeps your laptop awake",
+          "Restarts the tunnel"
+        ],
+        "correct_answer": "Visits your address on a schedule to see if it answers",
+        "explanation": "It reports whether your address answers. It cannot wake or fix your computer."
+      },
+      {
+        "question": "When your quick tunnel address changes, what must you update?",
+        "options": [
+          "Your keyboard layout",
+          "Nothing",
+          "The WEBHOOK_URL setting and the cron-job.org address",
+          "Your Google password only"
+        ],
+        "correct_answer": "The WEBHOOK_URL setting and the cron-job.org address",
+        "explanation": "Both tools must use the new public address, or webhooks and checks will fail."
+      }
+    ]
+  },
+  "completion_requirements": {
+    "complete_all_lessons": true,
+    "lesson_knowledge_checks": "Ungraded. They help you learn and can be repeated.",
+    "module_quiz_passing_score_percentage": 70,
+    "final_assessment_passing_score_percentage": 80,
+    "practical_exercises": "Recommended. You check your own work against the expected outcome. They are not graded."
+  },
+  "certificate": {
+    "eligible": true,
+    "type": "Certificate of completion",
+    "requirements": "Complete all lessons, pass every module quiz and pass the final assessment.",
+    "verification": "Each certificate carries a unique ID so anyone can check that it is genuine."
+  }
+}

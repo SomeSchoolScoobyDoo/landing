@@ -1,0 +1,1958 @@
+{
+  "course_id": "3",
+  "title": "AI Research and Productivity",
+  "category": "Category 1: AI Foundations",
+  "level": "Intermediate",
+  "audience": "Intermediate. Made for students, professionals and business owners who are comfortable with the web and everyday apps and who have used an AI assistant. No coding is needed.",
+  "estimated_duration": "About 12 hours in total. Spread it over 3 weeks at around 1 hour a day.",
+  "description": "This course teaches you to research properly with AI as a helper, not a replacement for your judgement. You will learn a research workflow, search with operators and AI tools, check sources and claims like a fact-checker, and catch AI invented references. You will form strong research questions, search academic literature, synthesise sources, find gaps, and use tools that answer from your own documents. You will also build a note system and finish with a short, well-sourced research brief and an honest AI use disclosure.",
+  "what_you_will_need": [
+    {
+      "item": "A laptop or desktop computer",
+      "details": "A computer is best for reading papers, using spreadsheets and writing. A tablet or phone can help for reading and quick searches.",
+      "cost": "Paid (you may already own one)"
+    },
+    {
+      "item": "Internet connection",
+      "details": "Stable enough to run searches, open papers and watch lesson videos. Lower video quality to 360p or 480p if you use mobile data.",
+      "cost": "Paid (Wi-Fi subscription or mobile data)"
+    },
+    {
+      "item": "At least one AI assistant with web search or a deep research mode",
+      "details": "Free plans of tools such as Perplexity, ChatGPT or Gemini are enough to follow the course. Free limits and features change, so you may need to pause and continue later. Use whichever you can access.",
+      "cost": "Free (limits apply)"
+    },
+    {
+      "item": "A Google account",
+      "details": "For Google Scholar, Google Drive, Google Sheets and NotebookLM. If NotebookLM is not available to you, any assistant that accepts uploaded files can be used instead.",
+      "cost": "Free"
+    },
+    {
+      "item": "A spreadsheet app",
+      "details": "Google Sheets or Excel, for source lists, search logs and synthesis tables.",
+      "cost": "Free"
+    },
+    {
+      "item": "A notes tool",
+      "details": "Notion, Google Docs, OneNote, Obsidian or a simple folder of text files, for your knowledge system and project folder.",
+      "cost": "Free"
+    },
+    {
+      "item": "A reference manager (recommended)",
+      "details": "Zotero is free and helps you store sources and format citations. You will set it up in Lesson 4.4.",
+      "cost": "Free"
+    },
+    {
+      "item": "A research topic you care about",
+      "details": "Choose something real from your study, work or business. You will use it in every module and finish with a short research brief.",
+      "cost": "Free"
+    },
+    {
+      "item": "A notebook and a pen",
+      "details": "For quick notes while watching videos and sketching your workflow.",
+      "cost": "Paid (very cheap)"
+    },
+    {
+      "item": "Honesty about AI use",
+      "details": "Check your school or workplace rules on AI. Never present AI text as your own where it is not allowed, never cite sources you have not opened, and keep private information out of AI tools.",
+      "cost": "Free"
+    }
+  ],
+  "learning_objectives": [
+    "Describe a full research workflow and decide where AI helps and where you must lead",
+    "Search effectively using operators, Boolean strings and AI search and deep research tools",
+    "Judge sources and fact-check claims using lateral reading and tracing to original sources",
+    "Detect AI hallucinations and fabricated citations and verify references",
+    "Write strong research questions and plan a literature review",
+    "Synthesise sources, build a synthesis table and identify research gaps",
+    "Use source-grounded AI tools and a note system to work with documents and knowledge",
+    "Plan, carry out and document a short research project with an honest AI use disclosure"
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "module_title": "AI-Powered Research Fundamentals",
+      "module_goal": "Understand a complete research workflow, where AI helps, and where a human must stay in charge.",
+      "lessons": [
+        {
+          "lesson_number": "1.1",
+          "lesson_title": "The AI-Assisted Research Workflow",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=27AxmEh3qEA",
+          "simple_explanation": "Good research is a process, not a single search. A simple workflow has six stages: define your question, find sources, evaluate them, read and extract the useful parts, synthesise what you found, then write and cite. AI can speed up several stages by suggesting leads, summarising text and organising notes. But judging whether a source is trustworthy, deciding what the evidence means and standing behind the final claims remain human jobs. This lesson gives you the map you will follow for the rest of the course.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows a research workflow that combines an AI search tool with a tool for working with documents. Note which job each tool does.",
+            "Step 2: Draw the six stages in your notebook in a row: Question, Find, Evaluate, Extract, Synthesise, Write and cite.",
+            "Step 3: Under each stage write one way AI can help. Examples: suggest keywords, find related papers, summarise a long article, spot themes across notes, check the structure of a draft.",
+            "Step 4: Under each stage write one thing only you can do. Examples: decide what matters, judge source quality, spot a claim that does not fit, take responsibility for the conclusion.",
+            "Step 5: Learn two source types. A primary source is original material, such as a dataset, an interview, a law or a study that reports its own results. A secondary source discusses or summarises other work, such as a textbook or a news article about a study.",
+            "Step 6: Start an AI use log in a document or spreadsheet with the columns: date, tool, what I asked, what I used, what I checked. You will keep it for the whole course.",
+            "Step 7: Choose a topic you care about, for example solar power for small businesses, mobile money and traders, or AI tools for teachers. Write it as a broad topic for now.",
+            "Step 8: Write a one page plan with your topic, the six stages, and which tools you expect to use at each stage."
+          ],
+          "key_terms": [
+            {
+              "term": "Research workflow",
+              "meaning": "The series of steps from asking a question to writing up and citing findings."
+            },
+            {
+              "term": "Primary source",
+              "meaning": "Original material such as data, interviews or a study reporting its own results."
+            },
+            {
+              "term": "Secondary source",
+              "meaning": "A source that discusses or summarises other work."
+            },
+            {
+              "term": "AI use log",
+              "meaning": "A record of where and how you used AI, so your work stays honest and checkable."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Map your workflow",
+            "instructions": "Create a one page workflow for a topic you care about. For each of the six stages, write one thing AI can help with, one thing you must do yourself, and which tool you plan to use. Start your AI use log with one entry.",
+            "expected_outcome": "A one page workflow map, a chosen topic and an AI use log with a first entry."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which of these is a primary source?",
+              "options": [
+                "A news article about a study",
+                "A blog post summarising a report",
+                "A study's original dataset or an interview transcript",
+                "A social media comment about research"
+              ],
+              "correct_answer": "A study's original dataset or an interview transcript",
+              "explanation": "Primary sources are the original evidence, not someone's summary of it."
+            },
+            {
+              "question": "Why keep an AI use log?",
+              "options": [
+                "To hide AI use",
+                "To make AI answer faster",
+                "So you can show how AI helped and check what you relied on",
+                "To store passwords"
+              ],
+              "correct_answer": "So you can show how AI helped and check what you relied on",
+              "explanation": "A log keeps your work transparent and checkable."
+            }
+          ]
+        },
+        {
+          "lesson_number": "1.2",
+          "lesson_title": "AI Search With Citations: Using Perplexity",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=YoWdogtZRw8",
+          "simple_explanation": "AI search tools such as Perplexity answer a question in plain language and attach numbered citations to the sources they used. This is faster than reading ten pages yourself, and the citations give you something to check. But a citation does not prove a claim. The tool can cite a page that says something different, rely on a weak website, or miss important sources. Treat the answer as a lead and the citations as the starting point for your own checking.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It is a beginner guide to Perplexity. Pause and note the features that help research, such as sources, follow-up questions and focus modes.",
+            "Step 2: Open perplexity.ai. A free account may be offered. The free version has limits that change, so check what you can use.",
+            "Step 3: Ask a factual question about your topic, for example: What does research say about the effect of mobile money on small business income in Nigeria?",
+            "Step 4: Read the answer. Then click every numbered citation and open the source. For each one, write whether the page really supports the sentence it is attached to.",
+            "Step 5: Ask two follow-up questions in the same thread to narrow the topic, such as: Which of these sources are academic studies? and What are the main disagreements?",
+            "Step 6: Look for search focus or mode options such as an academic focus or a deeper research mode. Names change, so look in the search box area. Run the same question with an academic focus if you can and compare the sources.",
+            "Step 7: Ask the same question to Google and to a chat assistant that has no web search. Compare the three results.",
+            "Step 8: Write down two strengths and two weaknesses of AI search with citations in your own words."
+          ],
+          "key_terms": [
+            {
+              "term": "AI search",
+              "meaning": "A tool that searches the web and writes a short answer with citations."
+            },
+            {
+              "term": "Citation",
+              "meaning": "A reference that shows where information came from."
+            },
+            {
+              "term": "Follow-up question",
+              "meaning": "A new question in the same thread that builds on the last answer."
+            },
+            {
+              "term": "Focus mode",
+              "meaning": "A setting that tells a search tool what kind of sources to prefer."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Three way comparison",
+            "instructions": "Choose three research questions from your topic. Ask each to Perplexity, to Google, and to a chat assistant without web search. For Perplexity, check every citation. Score each tool from 1 to 5 for usefulness and for how well the sources supported the answer. Write a short conclusion.",
+            "expected_outcome": "A comparison table for three questions, a citation check log and a short written conclusion."
+          },
+          "lesson_quiz": [
+            {
+              "question": "A tool shows a citation beside a sentence. What should you do next?",
+              "options": [
+                "Delete the sentence",
+                "Ignore the citation",
+                "Assume the citation is correct",
+                "Open the source and check that it really says that"
+              ],
+              "correct_answer": "Open the source and check that it really says that",
+              "explanation": "Citations are leads. They do not prove the claim."
+            },
+            {
+              "question": "Which is a known weakness of AI search?",
+              "options": [
+                "It only works offline",
+                "It can cite weak sources or pages that do not support the claim",
+                "It cannot answer questions",
+                "It never uses the web"
+              ],
+              "correct_answer": "It can cite weak sources or pages that do not support the claim",
+              "explanation": "Quality depends on the pages it finds and how it reads them."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which job should stay with the human in AI-assisted research?",
+            "options": [
+              "Saving a file",
+              "Choosing a font",
+              "Judging whether a source is trustworthy and deciding what the evidence means",
+              "Typing the keywords faster"
+            ],
+            "correct_answer": "Judging whether a source is trustworthy and deciding what the evidence means",
+            "explanation": "Judgement and responsibility cannot be handed to a tool."
+          },
+          {
+            "question": "An answer from an AI search tool has numbered citations. What should you still do?",
+            "options": [
+              "Copy the answer unchanged",
+              "Ignore the citations",
+              "Assume numbers prove accuracy",
+              "Open the cited pages and check they really support each claim"
+            ],
+            "correct_answer": "Open the cited pages and check they really support each claim",
+            "explanation": "Citations only help if you check them."
+          },
+          {
+            "question": "Which of these is a secondary source?",
+            "options": [
+              "A law as originally published",
+              "A textbook chapter that summarises many studies",
+              "An interview transcript",
+              "A raw dataset"
+            ],
+            "correct_answer": "A textbook chapter that summarises many studies",
+            "explanation": "Secondary sources discuss or summarise original work."
+          },
+          {
+            "question": "What is the purpose of an AI use log?",
+            "options": [
+              "To speed up the AI",
+              "To impress readers",
+              "To store login details",
+              "To record where and how AI helped so your work stays honest and checkable"
+            ],
+            "correct_answer": "To record where and how AI helped so your work stays honest and checkable",
+            "explanation": "Transparency lets others, and you, trust the work."
+          },
+          {
+            "question": "Why compare an AI search answer with a normal search?",
+            "options": [
+              "AI search cannot use the web",
+              "It saves data",
+              "Normal search is always wrong",
+              "Differences can reveal gaps, errors or missing sources"
+            ],
+            "correct_answer": "Differences can reveal gaps, errors or missing sources",
+            "explanation": "Comparing methods exposes weak spots."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 2,
+      "module_title": "Finding Information",
+      "module_goal": "Build search strategies, use search operators, and use deep research tools to discover sources without trusting them blindly.",
+      "lessons": [
+        {
+          "lesson_number": "2.1",
+          "lesson_title": "Search Strategies That Work",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=s9XZk9CLxK4",
+          "simple_explanation": "Most people type a question and click the first result. Researchers plan their search. They list key ideas and synonyms, combine them with operators, and run several searches in different engines and databases. A few search operators make a big difference: quotation marks for exact phrases, a minus sign to exclude words, site: to search one website or type of site, filetype: to find documents, and OR to allow alternatives. Search engines also rank pages by many factors besides quality, so the first page is never the whole picture.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows Google search tricks for research. Write down each trick it mentions.",
+            "Step 2: Pick your topic. Write the two or three main ideas in it. For each idea, list three synonyms or related words, including words used by experts and words used by ordinary people.",
+            "Step 3: Learn the operators. Quotation marks search an exact phrase, for example \"small business\". A minus sign removes a word, for example solar -panels. site: limits results to a site or domain, for example site:gov.ng. filetype: finds a document type, for example filetype:pdf. OR allows either term. intitle: requires a word in the page title.",
+            "Step 4: Build a query. Try: site:gov.ng \"digital economy\" filetype:pdf. Open two results and note what kind of documents appear. Results vary, and not every site is indexed in the same way.",
+            "Step 5: Use the search tools under the search box to filter by date. Run the same search for the last year and note what changes.",
+            "Step 6: Run the same query on at least two search engines, for example Google and Bing or DuckDuckGo. Compare the first ten results.",
+            "Step 7: Record every query you run and a note on how useful it was in a search log. Good researchers can repeat their search.",
+            "Step 8: Notice search engine bias. Pages that are good at being found are not always the most accurate. Scroll beyond the first page and try specific domains such as edu.ng, gov.ng or org."
+          ],
+          "key_terms": [
+            {
+              "term": "Search operator",
+              "meaning": "A symbol or word, such as quotation marks or site:, that changes how a search works."
+            },
+            {
+              "term": "Exact phrase",
+              "meaning": "Words searched together in the same order when placed in quotation marks."
+            },
+            {
+              "term": "Synonym",
+              "meaning": "A different word with a similar meaning."
+            },
+            {
+              "term": "Search log",
+              "meaning": "A record of the searches you ran and what they returned."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Five smart searches",
+            "instructions": "For your topic, write five different search queries using at least three different operators. Run them, record the first three useful sources from each, and write a note on which operator helped most and why.",
+            "expected_outcome": "A search log with five queries, results noted and a short reflection on the most useful operator."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What does the minus sign do in a search such as solar -panels?",
+              "options": [
+                "It excludes results containing that word",
+                "It limits to one site",
+                "It adds the word",
+                "It searches for negative numbers"
+              ],
+              "correct_answer": "It excludes results containing that word",
+              "explanation": "A minus sign removes a term from the results."
+            },
+            {
+              "question": "Why list synonyms before searching?",
+              "options": [
+                "It removes the need for quotation marks",
+                "Search engines need three synonyms",
+                "It makes searches longer for no reason",
+                "Different sources use different words for the same idea"
+              ],
+              "correct_answer": "Different sources use different words for the same idea",
+              "explanation": "Using several words finds sources that use different vocabulary."
+            }
+          ]
+        },
+        {
+          "lesson_number": "2.2",
+          "lesson_title": "Deep Research Tools and Source Discovery",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=UobQwGTli5w",
+          "simple_explanation": "Deep research tools take a question, run many searches, read many pages and write a long report with citations, often in a few minutes. They are useful for getting an overview and for finding leads you would not have searched for. They are not authorities. They tend to rely on what is easy to find on the open web, may miss paywalled work, can include weak pages, and can still misstate what a source says. Use the report as a map, then verify the best sources yourself.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to use a deep research feature. Note how the person writes the question and how the results are checked.",
+            "Step 2: Learn what makes a good research brief for these tools. Include the exact question, the scope, the time frame, the kind of sources you want such as peer reviewed studies or official reports, and what to exclude such as blogs and adverts.",
+            "Step 3: Write a brief for your topic using that structure, in four to six sentences.",
+            "Step 4: Choose a deep research tool you can access, such as the deep research modes in Perplexity, ChatGPT or Gemini. Availability and free limits change, so use whichever one is available to you. Run your brief.",
+            "Step 5: While it runs, write down how long it takes and how much you expect to trust it.",
+            "Step 6: When the report arrives, do not read only the summary. Copy the list of sources into a spreadsheet with the columns: title, publisher, type, date, link, checked or not.",
+            "Step 7: Verify the top five sources. Open each one, confirm it exists and says what the report claims, and mark it as checked. Note any that do not support the report.",
+            "Step 8: Add anything missing. Ask yourself what kinds of sources are absent, such as local studies or paywalled journals, and plan how to find them."
+          ],
+          "key_terms": [
+            {
+              "term": "Deep research",
+              "meaning": "An AI mode that runs many searches and writes a long, cited report."
+            },
+            {
+              "term": "Research brief",
+              "meaning": "A clear description of what you want researched, including scope and source types."
+            },
+            {
+              "term": "Source list",
+              "meaning": "A table of the sources found, with notes on whether you checked them."
+            },
+            {
+              "term": "Scope",
+              "meaning": "The limits of a research task, such as topic, place and time."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Brief, run, verify",
+            "instructions": "Write a research brief and run it in a deep research tool. Create a source list from the report. Verify the five most important sources. Write a half page on what the tool did well, what it missed and which claims you could not confirm.",
+            "expected_outcome": "A brief, a source list with five verified entries and a half page evaluation."
+          },
+          "lesson_quiz": [
+            {
+              "question": "How should you treat a long deep research report?",
+              "options": [
+                "As proof of every claim",
+                "As a map of leads to verify, not a final authority",
+                "As a verified finished report",
+                "As a replacement for reading sources"
+              ],
+              "correct_answer": "As a map of leads to verify, not a final authority",
+              "explanation": "The report points you to sources. You still verify them."
+            },
+            {
+              "question": "What belongs in a good research brief?",
+              "options": [
+                "A list of favourite websites only",
+                "The question, scope, time frame, preferred source types and what to exclude",
+                "Only the word research",
+                "A joke"
+              ],
+              "correct_answer": "The question, scope, time frame, preferred source types and what to exclude",
+              "explanation": "A precise brief produces more relevant results."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which search finds PDF documents on Nigerian government sites about the digital economy?",
+            "options": [
+              "gov.ng AND economy OR pdf",
+              "digital economy gov.ng pdf please",
+              "site:gov.ng \"digital economy\" filetype:pdf",
+              "\"digital economy\" NOT pdf gov"
+            ],
+            "correct_answer": "site:gov.ng \"digital economy\" filetype:pdf",
+            "explanation": "It uses site:, an exact phrase and filetype: correctly."
+          },
+          {
+            "question": "Why run the same search in more than one search engine?",
+            "options": [
+              "Different engines rank and index differently, so you see more sources",
+              "It deletes bias automatically",
+              "Every engine shows identical results",
+              "It saves time"
+            ],
+            "correct_answer": "Different engines rank and index differently, so you see more sources",
+            "explanation": "Comparing engines widens your view."
+          },
+          {
+            "question": "What does an exact phrase search with quotation marks do?",
+            "options": [
+              "Finds pages containing those words together in that order",
+              "Removes the words from results",
+              "Finds pages with any of the words",
+              "Finds only images"
+            ],
+            "correct_answer": "Finds pages containing those words together in that order",
+            "explanation": "Quotation marks bind the words together."
+          },
+          {
+            "question": "Which is a sensible first step after a deep research tool gives you a report?",
+            "options": [
+              "Delete the citations",
+              "Trust the first paragraph only",
+              "Copy the report into your assignment",
+              "Extract the sources into a list and verify the most important ones"
+            ],
+            "correct_answer": "Extract the sources into a list and verify the most important ones",
+            "explanation": "Verification turns leads into evidence."
+          },
+          {
+            "question": "Why is it risky to rely only on the first page of search results?",
+            "options": [
+              "Search engines delete good pages",
+              "Ranking reflects many factors besides accuracy",
+              "Pages are always sorted by truth",
+              "The first page is the only one that exists"
+            ],
+            "correct_answer": "Ranking reflects many factors besides accuracy",
+            "explanation": "Visibility and quality are not the same thing."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 3,
+      "module_title": "Research Verification",
+      "module_goal": "Check sources and claims like a professional fact-checker, and catch AI errors and invented references.",
+      "lessons": [
+        {
+          "lesson_number": "3.1",
+          "lesson_title": "Lateral Reading: Judging a Source Quickly",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=GoQG6Tin-1E",
+          "simple_explanation": "When people want to judge a website, they often read it from top to bottom and look at how professional it looks. Professional fact-checkers do the opposite. They leave the page quickly and open new tabs to see what other, independent sources say about who is behind it. This is called lateral reading. It is faster and more reliable than judging by design, because anyone can make a convincing website.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It teaches lateral reading. Write down the three questions it asks about any source.",
+            "Step 2: Learn the mindset. Do not ask Does this page look trustworthy? Ask Who is behind this, what is their evidence, and what do others say about them?",
+            "Step 3: Learn the moves. Stop and check whether you know the source. Investigate the source by opening a new tab and searching its name with words like about, review or reliability. Find better coverage from sources you trust. Trace the claim to its original context.",
+            "Step 4: Practise on a real example. Choose a website that appeared in your searches. Without reading it in depth, open a new tab and search for its name.",
+            "Step 5: Check who owns it, who funds it and what experts or fact-checkers say about it. Look at several results, not only the first.",
+            "Step 6: Use encyclopedia entries only as a starting point. They can help you learn who is behind a source, but follow their references to confirm.",
+            "Step 7: Decide using three levels: trustworthy for this purpose, use with care, or do not use. Write a one sentence reason.",
+            "Step 8: Repeat for three sources. Time yourself. Aim for about two minutes each."
+          ],
+          "key_terms": [
+            {
+              "term": "Lateral reading",
+              "meaning": "Leaving a page to check what other sources say about it."
+            },
+            {
+              "term": "Vertical reading",
+              "meaning": "Judging a page only by reading it from top to bottom."
+            },
+            {
+              "term": "Reliable source",
+              "meaning": "A source with a good track record, clear authorship and verifiable evidence."
+            },
+            {
+              "term": "Context",
+              "meaning": "The surrounding facts needed to understand a claim properly."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Three source checks",
+            "instructions": "Pick three websites related to your topic, including one you expect to be weak. Use lateral reading to investigate each in under five minutes. For each, record who is behind it, what others say about it, your verdict and your reasons.",
+            "expected_outcome": "A table of three sources with ownership, independent opinions, verdicts and reasons."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is lateral reading?",
+              "options": [
+                "Reading every word slowly",
+                "Reading a page from side to side",
+                "Reading only the footer",
+                "Leaving a page to check what other sources say about it"
+              ],
+              "correct_answer": "Leaving a page to check what other sources say about it",
+              "explanation": "Lateral reading uses other tabs and sources to judge a source."
+            },
+            {
+              "question": "Why is a professional looking website not enough to trust it?",
+              "options": [
+                "Professional sites are always false",
+                "Design proves accuracy",
+                "Websites are never trustworthy",
+                "Anyone can build a convincing website"
+              ],
+              "correct_answer": "Anyone can build a convincing website",
+              "explanation": "Appearance is cheap. Evidence is what counts."
+            }
+          ]
+        },
+        {
+          "lesson_number": "3.2",
+          "lesson_title": "Fact-Checking Claims Step by Step",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=EZsaA0w_0z0",
+          "simple_explanation": "A claim is a statement that can be true or false, such as a number, a date, a quote or a cause. Fact-checking means tracing each claim back to its original source and checking it against evidence. A claim in an article may have lost context, changed numbers or come from a weak source. You do not need to check every sentence. You need to check the claims that matter to your conclusion.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how professional fact-checkers work. Note the steps they follow.",
+            "Step 2: Choose a short article or report related to your topic. Highlight five claims: numbers, dates, quotes and cause and effect statements.",
+            "Step 3: For each claim, find the original source. Look for a link, a named study or an official body, such as a national statistics office, a ministry, the World Bank or the World Health Organization.",
+            "Step 4: Check the details: Is the number the same? Is the date right? Was the quote shortened or taken out of context? Does the source say what the article claims?",
+            "Step 5: For images and videos, use a reverse image search such as Google Lens or TinEye to see where else the picture appeared and when.",
+            "Step 6: Check fact-checking organisations that may already have examined the claim, for example Africa Check, Dubawa or AFP Fact Check, and read their method.",
+            "Step 7: Give each claim a label: supported, partly supported, not supported or cannot verify. Never use true or false when your evidence is thin.",
+            "Step 8: Look for red flags: no named author, no sources, a very emotional tone, a surprising claim with no link, and numbers with no date or place."
+          ],
+          "key_terms": [
+            {
+              "term": "Claim",
+              "meaning": "A specific statement that can be checked, such as a number or a quote."
+            },
+            {
+              "term": "Original source",
+              "meaning": "The place where information first appeared."
+            },
+            {
+              "term": "Reverse image search",
+              "meaning": "A search that uses a picture to find where else it appeared."
+            },
+            {
+              "term": "Red flag",
+              "meaning": "A warning sign that a source or claim may be unreliable."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Fact-check five claims",
+            "instructions": "Choose an article or report on your topic and fact-check five claims. For each, record the claim, the original source, what you found, and a label. Write a short summary of how reliable the article was overall.",
+            "expected_outcome": "A table of five checked claims with sources and labels, and a short reliability summary."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is the first move when checking a surprising statistic?",
+              "options": [
+                "Find where it originally came from",
+                "Trust it because it is a number",
+                "Share it quickly",
+                "Round it up"
+              ],
+              "correct_answer": "Find where it originally came from",
+              "explanation": "Tracing to the original shows whether it was changed."
+            },
+            {
+              "question": "Which label is best when you cannot find evidence either way?",
+              "options": [
+                "Peer reviewed",
+                "Cannot verify",
+                "Definitely false",
+                "Proven"
+              ],
+              "correct_answer": "Cannot verify",
+              "explanation": "Honest labels avoid overclaiming."
+            }
+          ]
+        },
+        {
+          "lesson_number": "3.3",
+          "lesson_title": "Catching AI Hallucinations and Fake Citations",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=imBL73lFwbk",
+          "simple_explanation": "AI assistants can write references that look completely real: plausible author names, a believable journal, a year and even a DOI, yet the paper does not exist or does not say what is claimed. This is a hallucination. For researchers it is dangerous because fabricated citations can slip into essays and reports. The rule is simple: never cite a paper you have not found and opened yourself.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to fact-check AI answers. Note the checks it demonstrates.",
+            "Step 2: Ask an AI assistant: Give me ten academic references on a topic of your choice, with authors, year, journal and DOI.",
+            "Step 3: Number the ten references. For each one, search the exact title in Google Scholar or a library database and note whether it exists.",
+            "Step 4: Check the DOI. Paste it after doi.org/ in your browser. A real DOI takes you to the paper page. A broken one is a warning sign.",
+            "Step 5: If the paper exists, check the details: same authors, year, journal and title? Open the abstract.",
+            "Step 6: Check whether the paper really supports the claim the AI attached to it. Read the abstract and look for the claim in the paper.",
+            "Step 7: Label each reference: real and relevant, real but not relevant, real with wrong details, or not found.",
+            "Step 8: Write your rule for using AI generated references. A good rule: I only cite sources I have found and opened myself. AI can suggest leads, and I verify them."
+          ],
+          "key_terms": [
+            {
+              "term": "Hallucination",
+              "meaning": "A confident but false output from an AI model, such as an invented reference."
+            },
+            {
+              "term": "DOI",
+              "meaning": "Digital Object Identifier, a permanent link code for a published paper."
+            },
+            {
+              "term": "Reference audit",
+              "meaning": "Checking each reference in a list to confirm it exists and is accurate."
+            },
+            {
+              "term": "Fabricated citation",
+              "meaning": "A reference that looks real but refers to a paper that does not exist."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Reference audit",
+            "instructions": "Ask an AI assistant for ten references on your topic. Audit all ten using Google Scholar and DOI checks. Record the result for each. Write what percentage were real and relevant, and what rule you will follow in future.",
+            "expected_outcome": "A ten row audit table with labels, a percentage summary and a written rule."
+          },
+          "lesson_quiz": [
+            {
+              "question": "An AI gives a reference with a DOI that does not resolve. What is the safest conclusion?",
+              "options": [
+                "It is correct anyway",
+                "The paper is secret",
+                "The reference may be fabricated until you find it elsewhere",
+                "The DOI is just slow"
+              ],
+              "correct_answer": "The reference may be fabricated until you find it elsewhere",
+              "explanation": "A broken DOI plus an unfindable title strongly suggests an invented reference."
+            },
+            {
+              "question": "What is the safest rule for citing sources suggested by AI?",
+              "options": [
+                "Copy the whole list",
+                "Only cite sources you have found and opened yourself",
+                "Cite the AI itself as the source",
+                "Cite anything that looks real"
+              ],
+              "correct_answer": "Only cite sources you have found and opened yourself",
+              "explanation": "Opening the paper is the only way to know it exists and what it says."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What is lateral reading?",
+            "options": [
+              "Reading only headlines",
+              "Leaving a page to check what other sources say about it",
+              "Reading from left to right only",
+              "Reading the page faster"
+            ],
+            "correct_answer": "Leaving a page to check what other sources say about it",
+            "explanation": "It uses independent sources to judge a source."
+          },
+          {
+            "question": "What should you do before relying on a surprising statistic in an article?",
+            "options": [
+              "Add it to your report",
+              "Round the figure",
+              "Trace it to the original source and check the details",
+              "Ask the author on social media only"
+            ],
+            "correct_answer": "Trace it to the original source and check the details",
+            "explanation": "Originals reveal changes and missing context."
+          },
+          {
+            "question": "An AI reference looks perfect, but the title cannot be found anywhere. What is the best action?",
+            "options": [
+              "Change the title until it works",
+              "Add it to the middle of the list",
+              "Cite it anyway",
+              "Treat it as possibly fabricated and do not cite it"
+            ],
+            "correct_answer": "Treat it as possibly fabricated and do not cite it",
+            "explanation": "If you cannot find it, you cannot cite it."
+          },
+          {
+            "question": "Which claim label is best when evidence is thin?",
+            "options": [
+              "Cannot verify",
+              "Proven",
+              "Obvious",
+              "Peer reviewed"
+            ],
+            "correct_answer": "Cannot verify",
+            "explanation": "Honest labels are part of good research."
+          },
+          {
+            "question": "Why is checking the original source important?",
+            "options": [
+              "Only lawyers do it",
+              "It makes citations longer",
+              "Originals are always shorter",
+              "Summaries can change numbers, drop context or invent details"
+            ],
+            "correct_answer": "Summaries can change numbers, drop context or invent details",
+            "explanation": "Second hand reports can distort the original."
+          },
+          {
+            "question": "Which is a red flag for a page?",
+            "options": [
+              "Links to original data",
+              "No named author or sources and a very emotional tone",
+              "A clear author and date",
+              "A visible correction notice"
+            ],
+            "correct_answer": "No named author or sources and a very emotional tone",
+            "explanation": "Missing authorship and evidence reduce trust."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 4,
+      "module_title": "Academic Research",
+      "module_goal": "Form strong research questions, search the literature properly, use AI tools to find and screen papers, and plan a literature review.",
+      "lessons": [
+        {
+          "lesson_number": "4.1",
+          "lesson_title": "Developing a Strong Research Question",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=71-GucBaM8U",
+          "simple_explanation": "A research question is the question your whole project tries to answer. A weak question is too broad, too vague or cannot be answered with evidence. A strong one is focused, specific, researchable, feasible and relevant. A handy pattern is: What is the effect of X on Y for group Z in place P over time T? You can use AI to suggest versions at different scales, but you must choose and justify the final one.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains how to develop a strong research question. Note the criteria it lists.",
+            "Step 2: Write your broad topic at the top of a page, for example Mobile money and small businesses.",
+            "Step 3: Narrow it by adding specifics. Who exactly? Where? When? What outcome? For example: How has mobile money use affected the monthly income of small shop owners in Kano since 2018?",
+            "Step 4: Test your question against five criteria: focused, specific, researchable with available evidence, feasible in your time, and relevant to a real need.",
+            "Step 5: Ask an AI assistant: Suggest five versions of this research question at different scopes, from very narrow to broad. Then evaluate each yourself against the criteria.",
+            "Step 6: Check whether evidence exists. Do a ten minute search. If nothing exists, the question may be too narrow or too new. If thousands of results appear, it may be too broad.",
+            "Step 7: Write your best question and three sentences justifying it. Add two sub-questions that will help answer it.",
+            "Step 8: Save it in your project notes."
+          ],
+          "key_terms": [
+            {
+              "term": "Research question",
+              "meaning": "The central question a project tries to answer."
+            },
+            {
+              "term": "Scope",
+              "meaning": "How broad or narrow a question is."
+            },
+            {
+              "term": "Feasible",
+              "meaning": "Possible to complete with the time and resources you have."
+            },
+            {
+              "term": "Sub-question",
+              "meaning": "A smaller question that helps answer the main one."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "From topic to question",
+            "instructions": "Start from a broad topic. Write three candidate research questions at different scopes. Test each against the five criteria, do a ten minute search for each, choose one and write a half page justifying it with two sub-questions.",
+            "expected_outcome": "Three candidate questions with criteria scores, a chosen question, two sub-questions and a half page justification."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which is the strongest research question?",
+              "options": [
+                "How has mobile money use affected monthly income of small shop owners in Kano since 2018?",
+                "Everything about money in Nigeria",
+                "Mobile money",
+                "Is mobile money good?"
+              ],
+              "correct_answer": "How has mobile money use affected monthly income of small shop owners in Kano since 2018?",
+              "explanation": "It names the group, place, time and outcome."
+            },
+            {
+              "question": "What is a sensible use of AI when writing research questions?",
+              "options": [
+                "Skipping the evidence check",
+                "Letting it choose for you",
+                "Copying its first idea",
+                "Generating options that you evaluate and choose yourself"
+              ],
+              "correct_answer": "Generating options that you evaluate and choose yourself",
+              "explanation": "AI can brainstorm. The judgement is yours."
+            }
+          ]
+        },
+        {
+          "lesson_number": "4.2",
+          "lesson_title": "Searching the Literature With Boolean Operators",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=u0KVJ0lj8rw",
+          "simple_explanation": "Academic databases and scholarly search engines work best with structured searches. Boolean operators combine your terms: AND narrows a search by requiring both terms, OR widens it by allowing alternatives, and NOT removes a term. Brackets group terms, quotation marks bind phrases and an asterisk can stand for word endings. A good search string is built from a concept table, run and then improved, and recorded in a search log so it can be repeated.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to use Boolean operators for literature searches. Note the three main operators.",
+            "Step 2: Make a concept table with one column for each main idea in your research question. In each column, list the main term and its synonyms.",
+            "Step 3: Join synonyms inside each column with OR and wrap them in brackets, for example (\"mobile money\" OR \"digital wallet\" OR \"mobile payments\").",
+            "Step 4: Join the columns with AND, for example (mobile money terms) AND (small business OR micro enterprise OR trader*) AND (income OR revenue).",
+            "Step 5: Run the string in Google Scholar. Many databases have their own help pages because operator rules differ slightly. Check the help or tips page of each tool.",
+            "Step 6: Run a similar search in a free source such as Semantic Scholar, CORE, DOAJ or African Journals Online. Note how many results each returns.",
+            "Step 7: Refine. Too many results: add an AND concept or a date filter. Too few: add synonyms with OR or remove a concept.",
+            "Step 8: Try snowballing. Open a very relevant paper and look at its reference list and at the Cited by link. Note two new useful papers.",
+            "Step 9: Record every search string, tool, date and number of results in your search log."
+          ],
+          "key_terms": [
+            {
+              "term": "Boolean operator",
+              "meaning": "A word such as AND, OR or NOT that combines search terms."
+            },
+            {
+              "term": "Concept table",
+              "meaning": "A table that lists the main ideas of a question and their synonyms."
+            },
+            {
+              "term": "Snowballing",
+              "meaning": "Finding new papers through the references and citations of a relevant paper."
+            },
+            {
+              "term": "Truncation",
+              "meaning": "Using a symbol like * to find different endings of a word."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Build and refine a search string",
+            "instructions": "Make a concept table for your question and build a Boolean search string. Run it in two tools, record the numbers, refine it twice and note what each change did. Add at least three snowballed papers to your list.",
+            "expected_outcome": "A concept table, a search log with at least four searches and a list of papers including three from snowballing."
+          },
+          "lesson_quiz": [
+            {
+              "question": "You get 40,000 results. Which change narrows them most?",
+              "options": [
+                "Add another concept connected with AND",
+                "Search a single letter",
+                "Remove all quotation marks",
+                "Add more OR synonyms"
+              ],
+              "correct_answer": "Add another concept connected with AND",
+              "explanation": "AND requires more conditions, which narrows results."
+            },
+            {
+              "question": "What is snowballing?",
+              "options": [
+                "Copying a literature review",
+                "Deleting old papers",
+                "Using a paper's references and citations to find more relevant papers",
+                "Searching in winter"
+              ],
+              "correct_answer": "Using a paper's references and citations to find more relevant papers",
+              "explanation": "Following references and citations expands your set of relevant sources."
+            }
+          ]
+        },
+        {
+          "lesson_number": "4.3",
+          "lesson_title": "AI Tools for Finding and Screening Papers",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=0dJj3XpTey0",
+          "simple_explanation": "Several AI tools help with academic literature: Semantic Scholar, Elicit, Consensus, Connected Papers and ResearchRabbit are examples. They can find papers by meaning, not just keywords, summarise abstracts, and show connections between papers. They are helpful for discovery, but their summaries can miss limits or misstate findings, their coverage is uneven and they often favour English language papers from large journals. Always open the paper, and use clear screening rules to decide what to keep.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It reviews free AI tools for literature review. Note which tools do which job.",
+            "Step 2: Choose two tools from the video or the list in the explanation. Check what you can use on their free plans, because limits and features change.",
+            "Step 3: Enter your research question in each. Record the first ten results from each tool in a spreadsheet: title, authors, year, journal, link.",
+            "Step 4: Write screening rules before you screen. Examples: inclusion criteria such as published after 2015, about small businesses, includes data from Africa. Exclusion criteria such as opinion pieces only or no full text.",
+            "Step 5: Screen the ten papers against your rules. Mark each include, exclude or maybe, with a reason.",
+            "Step 6: Open two included papers in full. Compare what the AI summary said with what the abstract and results actually say. Note any mismatch.",
+            "Step 7: Find full text legitimately. Look for open access links, author pages, preprint servers, a browser extension such as Unpaywall, or your school or library access. Avoid illegal download sites.",
+            "Step 8: Write down two limits of AI literature tools that you noticed, such as missing local studies or wrong summaries."
+          ],
+          "key_terms": [
+            {
+              "term": "Semantic search",
+              "meaning": "Search that matches meaning, not only exact words."
+            },
+            {
+              "term": "Screening",
+              "meaning": "Deciding which papers to keep using clear rules."
+            },
+            {
+              "term": "Inclusion criteria",
+              "meaning": "Rules that a paper must meet to be kept."
+            },
+            {
+              "term": "Open access",
+              "meaning": "Research that is free to read."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Screen ten papers",
+            "instructions": "Use two AI tools to find papers on your question. Write inclusion and exclusion rules. Screen ten papers with reasons, open two in full and compare them with the AI summaries. Write a half page evaluation of the tools.",
+            "expected_outcome": "A spreadsheet of ten screened papers with reasons, a comparison of two summaries with the originals and a half page evaluation."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Why write screening rules before screening papers?",
+              "options": [
+                "It keeps your decisions consistent and explainable",
+                "It guarantees the best papers",
+                "It removes the need to read",
+                "It makes the tool free"
+              ],
+              "correct_answer": "It keeps your decisions consistent and explainable",
+              "explanation": "Clear rules reduce bias and guesswork."
+            },
+            {
+              "question": "What should you do after an AI tool summarises a paper?",
+              "options": [
+                "Open the paper and check the summary against it",
+                "Ask for a longer summary",
+                "Delete the paper",
+                "Cite the summary only"
+              ],
+              "correct_answer": "Open the paper and check the summary against it",
+              "explanation": "Summaries can miss limits or misstate findings."
+            }
+          ]
+        },
+        {
+          "lesson_number": "4.4",
+          "lesson_title": "Planning a Literature Review",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=zIYC6zG265E",
+          "simple_explanation": "A literature review is not a list of summaries. It is an organised discussion of what is known about your question: what sources agree on, where they disagree and what is missing. Planning follows five steps: search for sources, evaluate them, identify themes, debates and gaps, outline the structure, and write. Planning before writing saves a lot of time and gives your review a clear shape.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It is a short guide to writing a literature review. Write down its five steps.",
+            "Step 2: Gather your list of verified papers from earlier lessons. You need at least eight.",
+            "Step 3: For each paper, write one line: the main finding, the method and one limitation. Keep the lines short.",
+            "Step 4: Group the papers into themes. A theme is an idea that several papers discuss, such as benefits, barriers, measurement methods or context.",
+            "Step 5: Within each theme, write what papers agree on, where they disagree and what is missing.",
+            "Step 6: Create an outline: introduction, three or four theme sections, a section on gaps, a short conclusion.",
+            "Step 7: Draft one paragraph for one theme. Use the pattern: point, evidence from two or three sources, your comparison, link to the next point.",
+            "Step 8: Set up a reference manager such as Zotero, which is free, and add your sources so citations are easier later."
+          ],
+          "key_terms": [
+            {
+              "term": "Literature review",
+              "meaning": "An organised discussion of what existing research says about a question."
+            },
+            {
+              "term": "Theme",
+              "meaning": "An idea that appears across several sources."
+            },
+            {
+              "term": "Outline",
+              "meaning": "A plan showing how a piece of writing will be organised."
+            },
+            {
+              "term": "Reference manager",
+              "meaning": "Software that stores sources and formats citations."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Outline a literature review",
+            "instructions": "Use eight or more verified sources. Create a one line note for each, group them into themes, and write an outline with a gaps section. Draft one theme paragraph that compares at least three sources.",
+            "expected_outcome": "Eight source notes, theme groups, an outline and one drafted comparison paragraph."
+          },
+          "lesson_quiz": [
+            {
+              "question": "A literature review should mainly:",
+              "options": [
+                "Copy long quotes",
+                "List each abstract in order",
+                "Avoid comparing sources",
+                "Organise sources around themes, agreements and gaps"
+              ],
+              "correct_answer": "Organise sources around themes, agreements and gaps",
+              "explanation": "Organisation by theme makes the review useful."
+            },
+            {
+              "question": "Why plan with an outline before writing?",
+              "options": [
+                "It removes the need for sources",
+                "It gives the review a clear shape and saves time",
+                "It makes the review longer",
+                "It replaces reading"
+              ],
+              "correct_answer": "It gives the review a clear shape and saves time",
+              "explanation": "Planning prevents a messy list of summaries."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which is the strongest research question?",
+            "options": [
+              "How have solar home systems affected monthly sales of market traders in Ibadan since 2020?",
+              "All energy in Africa",
+              "Solar power",
+              "Is solar good?"
+            ],
+            "correct_answer": "How have solar home systems affected monthly sales of market traders in Ibadan since 2020?",
+            "explanation": "It specifies group, place, time and outcome."
+          },
+          {
+            "question": "In a database search, what does OR do?",
+            "options": [
+              "Excludes a term",
+              "Requires both terms",
+              "Limits to one author",
+              "Finds results containing either term, which widens the search"
+            ],
+            "correct_answer": "Finds results containing either term, which widens the search",
+            "explanation": "OR allows alternatives such as synonyms."
+          },
+          {
+            "question": "After an AI tool summarises a paper, why open the paper itself?",
+            "options": [
+              "To increase downloads",
+              "Papers are always shorter",
+              "Summaries are illegal",
+              "Summaries can omit limits or misstate findings"
+            ],
+            "correct_answer": "Summaries can omit limits or misstate findings",
+            "explanation": "The paper is the evidence, the summary is not."
+          },
+          {
+            "question": "What is snowballing?",
+            "options": [
+              "Copying someone's review",
+              "Deleting old papers",
+              "Using a paper's references and citations to find more relevant papers",
+              "Searching only in winter"
+            ],
+            "correct_answer": "Using a paper's references and citations to find more relevant papers",
+            "explanation": "References and citations lead to related work."
+          },
+          {
+            "question": "Which statement describes a good screening rule?",
+            "options": [
+              "A clear inclusion or exclusion rule written before you screen",
+              "Keep only the shortest papers",
+              "Keep papers with the most pictures",
+              "Choose papers you like"
+            ],
+            "correct_answer": "A clear inclusion or exclusion rule written before you screen",
+            "explanation": "Rules reduce bias."
+          },
+          {
+            "question": "Which sentence is closest to what a literature review does?",
+            "options": [
+              "Repeat the abstract of each paper",
+              "Summarise each source separately",
+              "List all authors alphabetically",
+              "Compare what sources agree on, where they differ and what is missing"
+            ],
+            "correct_answer": "Compare what sources agree on, where they differ and what is missing",
+            "explanation": "A review analyses the whole body of work."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 5,
+      "module_title": "Research Analysis",
+      "module_goal": "Move from summarising sources to synthesising them, and spot gaps that new research could fill.",
+      "lessons": [
+        {
+          "lesson_number": "5.1",
+          "lesson_title": "From Summary to Synthesis",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=qod1J5xSd5s",
+          "simple_explanation": "Summarising reports what each source says, one after another. Synthesising combines the sources around ideas: where they agree, where they disagree and what the pattern means. Synthesis is the thinking that makes research useful, and it is the part AI is weakest at without your guidance. Five questions help: what do the sources agree on, where do they disagree, why might they differ, what is missing, and what does it all mean for my question?",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains how to synthesise rather than describe the literature. Write down the five key questions.",
+            "Step 2: Take three sources on one theme from your project. Write one sentence for each describing its main claim.",
+            "Step 3: Ask: What do they agree on? Write one sentence showing the common ground.",
+            "Step 4: Ask: Where do they disagree? Write one sentence naming the disagreement.",
+            "Step 5: Ask: Why might they differ? Think about method, sample, place and date. Write one sentence of explanation.",
+            "Step 6: Ask: What is missing? What would you need to know to be confident? Write one sentence.",
+            "Step 7: Combine your sentences into a paragraph that starts with the idea, not the author. Instead of Smith says, write Several studies find, although one reports.",
+            "Step 8: Ask an AI assistant to suggest themes from your three one line notes, then compare its suggestions with yours. Keep only what holds up."
+          ],
+          "key_terms": [
+            {
+              "term": "Synthesis",
+              "meaning": "Combining and comparing sources around ideas to form a new overall understanding."
+            },
+            {
+              "term": "Summary",
+              "meaning": "A short account of what one source says."
+            },
+            {
+              "term": "Common ground",
+              "meaning": "What several sources agree on."
+            },
+            {
+              "term": "Disagreement",
+              "meaning": "A point where sources report different findings or views."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Summary to synthesis",
+            "instructions": "Choose three sources on one theme. Write a paragraph that merely summarises them, then rewrite it as a synthesis that groups them by idea, notes agreements and disagreements and gives a reason for the differences.",
+            "expected_outcome": "A summary paragraph, a synthesis paragraph and a short note on what changed."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What separates synthesis from summary?",
+              "options": [
+                "Summary uses AI, synthesis does not",
+                "Synthesis is shorter",
+                "There is no difference",
+                "Synthesis combines and compares sources around ideas, summary reports each source separately"
+              ],
+              "correct_answer": "Synthesis combines and compares sources around ideas, summary reports each source separately",
+              "explanation": "Synthesis shows relationships between sources."
+            },
+            {
+              "question": "Two studies disagree. What is the best next step?",
+              "options": [
+                "Ignore both",
+                "Pick the one you like",
+                "Compare their methods, samples and context to explain the difference",
+                "Average them blindly"
+              ],
+              "correct_answer": "Compare their methods, samples and context to explain the difference",
+              "explanation": "Differences in design often explain different results."
+            }
+          ]
+        },
+        {
+          "lesson_number": "5.2",
+          "lesson_title": "Building a Synthesis Table",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=WG6uKQjOhaU",
+          "simple_explanation": "A synthesis table, or matrix, is a simple grid that organises your sources so patterns become visible. Each row is a source. Each column is something you want to compare, such as the method, the sample, the country, the main finding and the limits. Reading across a row tells you about one source. Reading down a column shows how the sources compare. It turns scattered notes into evidence you can write from.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to use a table to organise information from sources. Note which columns it uses.",
+            "Step 2: Create a spreadsheet. Column A: source (author and year). Then add columns for method, sample or data, country or context, main finding, limitation and link.",
+            "Step 3: Add your verified sources, one per row. Keep entries short, a phrase or one sentence.",
+            "Step 4: Add columns for each theme in your outline, with a tick or short note when a source discusses it.",
+            "Step 5: Read down each column. Write what patterns you see. For example, most studies use surveys, few use data from small towns.",
+            "Step 6: Use a filter or sort to group sources by method or by finding. Note any clusters.",
+            "Step 7: Optionally ask an AI to suggest columns or to spot patterns from your table text. Treat its suggestions as ideas and check each against the table.",
+            "Step 8: Write three observations from the table that you could use as sentences in your review."
+          ],
+          "key_terms": [
+            {
+              "term": "Synthesis table",
+              "meaning": "A grid that compares sources across features such as method, sample and findings."
+            },
+            {
+              "term": "Column",
+              "meaning": "A vertical list of one feature across all sources."
+            },
+            {
+              "term": "Pattern",
+              "meaning": "A repeated feature or result across several sources."
+            },
+            {
+              "term": "Filter",
+              "meaning": "A spreadsheet tool that shows only the rows you choose."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Synthesis table",
+            "instructions": "Build a synthesis table for at least eight sources with at least six columns. Write three observations about patterns and one about an inconsistency or gap.",
+            "expected_outcome": "A spreadsheet with eight rows and six columns plus four written observations."
+          },
+          "lesson_quiz": [
+            {
+              "question": "In a synthesis table, what usually forms the columns?",
+              "options": [
+                "Page numbers only",
+                "Features you compare, such as method, sample and findings",
+                "The reader's names",
+                "Font choices"
+              ],
+              "correct_answer": "Features you compare, such as method, sample and findings",
+              "explanation": "Columns are the dimensions of comparison."
+            },
+            {
+              "question": "Why read down a column?",
+              "options": [
+                "To see how all the sources compare on one feature",
+                "To check spelling",
+                "To count pages",
+                "To delete rows"
+              ],
+              "correct_answer": "To see how all the sources compare on one feature",
+              "explanation": "Reading down shows patterns across sources."
+            }
+          ]
+        },
+        {
+          "lesson_number": "5.3",
+          "lesson_title": "Finding Research Gaps",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=q6eeBaHg8Kk",
+          "simple_explanation": "A research gap is something the existing studies have not answered or have answered poorly. It might be a missing group, place or time, a result that studies disagree about, a weak method, or a question that nobody has asked. Gaps are where new work, new projects and good questions come from. You find them by reading carefully, comparing sources and looking at what the authors say they could not do.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to find research gaps quickly. Note the sources of gaps it mentions.",
+            "Step 2: Learn the kinds of gap. Population gap: a group that has not been studied. Place gap: a country or region missing from the evidence. Time gap: findings that are old. Method gap: only one method has been used. Conflict gap: studies disagree. Practice gap: research exists but is not applied.",
+            "Step 3: Open your synthesis table. Look at each column for empty cells, repeated methods or missing contexts. Write down any gap you notice.",
+            "Step 4: Open three papers and find their limitations and future research sections. Write each limitation the authors admit.",
+            "Step 5: Search for recent review articles on your topic. Reviews usually list gaps in their conclusions. Note two.",
+            "Step 6: Ask an AI assistant to suggest possible gaps based on your table. Then check each suggestion against real sources to see if the gap is real. Remove any that already have studies.",
+            "Step 7: Choose the two most promising gaps. Write each as a question, such as What happens to small traders in smaller Nigerian towns, where almost all studies have focused on big cities?",
+            "Step 8: Write a short paragraph explaining why this gap matters."
+          ],
+          "key_terms": [
+            {
+              "term": "Research gap",
+              "meaning": "A question or area the existing research has not answered or has answered poorly."
+            },
+            {
+              "term": "Limitation",
+              "meaning": "A weakness or boundary of a study that the authors admit."
+            },
+            {
+              "term": "Future research",
+              "meaning": "Suggestions in a paper about what should be studied next."
+            },
+            {
+              "term": "Review article",
+              "meaning": "A paper that summarises and evaluates many studies."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Two verified gaps",
+            "instructions": "Using your synthesis table, papers and one recent review article, identify two research gaps. For each, name its type, give evidence from at least two sources and write it as a question. Check any AI suggestions against real sources.",
+            "expected_outcome": "Two gaps with types, evidence from sources, and a question for each."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Where can a paper hint at a research gap?",
+              "options": [
+                "In its reference style",
+                "In its font choice",
+                "In its limitations and suggestions for future research",
+                "In its page count"
+              ],
+              "correct_answer": "In its limitations and suggestions for future research",
+              "explanation": "Authors usually describe what they could not do."
+            },
+            {
+              "question": "Which is a possible research gap?",
+              "options": [
+                "A missing page number",
+                "A long abstract",
+                "A group or place that existing studies have not covered",
+                "A spelling mistake"
+              ],
+              "correct_answer": "A group or place that existing studies have not covered",
+              "explanation": "Gaps are unanswered questions or missing evidence."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which statement best describes synthesis?",
+            "options": [
+              "Copying a paper's abstract",
+              "Listing sources alphabetically",
+              "Combining sources around ideas, agreements and disagreements",
+              "Only quoting the most famous author"
+            ],
+            "correct_answer": "Combining sources around ideas, agreements and disagreements",
+            "explanation": "Synthesis creates an overall picture."
+          },
+          {
+            "question": "What can a synthesis table reveal that notes on separate papers hide?",
+            "options": [
+              "The colour of each paper",
+              "The age of the authors",
+              "Patterns, clusters and gaps across sources",
+              "The length of the title"
+            ],
+            "correct_answer": "Patterns, clusters and gaps across sources",
+            "explanation": "Side by side comparison reveals patterns."
+          },
+          {
+            "question": "An AI suggests a research gap. What should you do before using it?",
+            "options": [
+              "Delete your table",
+              "Use it immediately",
+              "Check real sources to see whether the gap really exists",
+              "Assume the AI searched everything"
+            ],
+            "correct_answer": "Check real sources to see whether the gap really exists",
+            "explanation": "A suggested gap may already be studied."
+          },
+          {
+            "question": "Which is a method gap?",
+            "options": [
+              "Almost all studies use the same survey method",
+              "A journal has a blue cover",
+              "Papers are too long",
+              "No author has a PhD"
+            ],
+            "correct_answer": "Almost all studies use the same survey method",
+            "explanation": "A method gap means few approaches have been tried."
+          },
+          {
+            "question": "Two studies disagree. What is the best step?",
+            "options": [
+              "Choose the shorter paper",
+              "Merge the numbers without checking",
+              "Compare their methods, samples and context",
+              "Ignore the disagreement"
+            ],
+            "correct_answer": "Compare their methods, samples and context",
+            "explanation": "Study design often explains differences."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 6,
+      "module_title": "AI for Productivity",
+      "module_goal": "Summarise and question documents safely, and build a note and knowledge system you can actually use.",
+      "lessons": [
+        {
+          "lesson_number": "6.1",
+          "lesson_title": "Summarising and Questioning Documents With NotebookLM",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=flLPOPmYj8s",
+          "simple_explanation": "Some AI tools answer only from documents you give them. NotebookLM is one example: you upload sources such as PDFs, web pages and notes, then ask questions, get summaries and see which passages the answers came from. This is called source-grounded AI. It reduces invented answers because the tool points to your sources, but it does not remove errors, so you still check the cited passages. Features and limits change, so check what is available to you.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows NotebookLM used for academic research. Note the features it uses.",
+            "Step 2: Go to notebooklm.google.com and sign in with your Google account. Check what is available in your country and plan. If you cannot use it, use any assistant that accepts uploaded files and add the instruction: Use only the documents provided. If the answer is not there, say not found.",
+            "Step 3: Create a new notebook and give it a clear name that matches your project.",
+            "Step 4: Upload four to six sources you have already verified, such as open access PDFs or web pages. Do not upload confidential or private documents.",
+            "Step 5: Ask a question and read the answer. Click each citation and read the passage it points to. Mark whether it supports the sentence.",
+            "Step 6: Ask for a summary of each source, then ask: Compare these sources on method and main finding in a table.",
+            "Step 7: Ask a question that the sources cannot answer and check that the tool says so. If it invents an answer, note it.",
+            "Step 8: Ask for a list of open questions or disagreements across the sources, and verify two of them against the text.",
+            "Step 9: Record in your AI use log what you asked and what you verified."
+          ],
+          "key_terms": [
+            {
+              "term": "Source-grounded AI",
+              "meaning": "AI that answers using documents you provide and points to the passages used."
+            },
+            {
+              "term": "Notebook",
+              "meaning": "A workspace holding a set of sources for the tool to use."
+            },
+            {
+              "term": "Citation passage",
+              "meaning": "The exact part of a source the answer is based on."
+            },
+            {
+              "term": "Confidential document",
+              "meaning": "A document you are not allowed to share with outside tools."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Build a verified notebook",
+            "instructions": "Create a notebook from four to six verified sources. Ask ten questions, including one the sources cannot answer. For each answer, check the cited passage and mark it supported or not. Write a short report on accuracy and on what the tool saved you.",
+            "expected_outcome": "A notebook, ten question and check records, and a short accuracy report."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is the main advantage of a source-grounded tool?",
+              "options": [
+                "It knows the future",
+                "It replaces reading",
+                "Answers are based on your uploaded sources and show where they came from",
+                "It never makes mistakes"
+              ],
+              "correct_answer": "Answers are based on your uploaded sources and show where they came from",
+              "explanation": "Traceable answers are easier to check."
+            },
+            {
+              "question": "What should you avoid uploading to AI tools?",
+              "options": [
+                "Confidential or private documents you are not allowed to share",
+                "Your own research notes without private data",
+                "A public report",
+                "Public articles you verified"
+              ],
+              "correct_answer": "Confidential or private documents you are not allowed to share",
+              "explanation": "Privacy and permissions come first."
+            }
+          ]
+        },
+        {
+          "lesson_number": "6.2",
+          "lesson_title": "Organising What You Learn: A Knowledge System",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=K-ssUVyfn5g",
+          "simple_explanation": "Research produces many notes, quotes, links and ideas. Without a system, they get lost. A knowledge system, sometimes called a second brain, is a simple way to capture, organise and reuse what you learn. A widely used idea is to capture useful items, organise them by how actionable they are, distil them into short summaries, and use them in your work. The best system is the one you will actually keep using, so start small.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains building a second brain. You do not need the exact tools shown. Focus on the ideas of capture, organise, distil and express.",
+            "Step 2: Choose one place for notes. Good options: Notion, Google Docs with folders, OneNote, Obsidian or a simple folder of text files. Pick the one you will open daily.",
+            "Step 3: Create four top level folders or pages: Projects (things with a deadline), Areas (ongoing responsibilities), Resources (topics you are interested in) and Archive (finished items).",
+            "Step 4: Create a capture rule. Every note records three things: the idea, where it came from (author, title, link) and why it matters to you.",
+            "Step 5: Capture ten items from your research as notes. Write each in your own words. Add a link to the source.",
+            "Step 6: Add tags such as theme names, and write a one line summary at the top of each note. This is called distilling.",
+            "Step 7: Set a weekly review time of 20 minutes. During it, move notes, merge duplicates and write one insight.",
+            "Step 8: Use AI carefully. You can ask it to suggest tags or to turn a long note into three bullet points, but check against the original and never paste in private information.",
+            "Step 9: Back up your notes in a second place."
+          ],
+          "key_terms": [
+            {
+              "term": "Knowledge system",
+              "meaning": "A simple structure for capturing and reusing what you learn."
+            },
+            {
+              "term": "Capture",
+              "meaning": "Saving useful information as you meet it."
+            },
+            {
+              "term": "Distil",
+              "meaning": "Reducing a note to its most useful points."
+            },
+            {
+              "term": "Weekly review",
+              "meaning": "A regular short session to tidy and connect your notes."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Set up your knowledge base",
+            "instructions": "Create the four folders, a capture rule and ten notes from your research with sources and one line summaries. Run a 20 minute weekly review and write what you changed.",
+            "expected_outcome": "A working note system with ten captured notes and a review log."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which should every saved note include?",
+              "options": [
+                "A picture of the app logo",
+                "Where the information came from, so you can find and cite it again",
+                "Only your mood",
+                "Only a nice title"
+              ],
+              "correct_answer": "Where the information came from, so you can find and cite it again",
+              "explanation": "Source details make notes usable in real writing."
+            },
+            {
+              "question": "Why do a weekly review of your notes?",
+              "options": [
+                "To delete all notes",
+                "Because notes expire weekly",
+                "To lose track of sources",
+                "To keep notes organised, connected and useful"
+              ],
+              "correct_answer": "To keep notes organised, connected and useful",
+              "explanation": "Reviewing keeps the system working."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What is a main benefit of a document-grounded AI tool?",
+            "options": [
+              "It replaces all reading",
+              "Answers are based on your sources and show where they came from",
+              "It never errs",
+              "It predicts the future"
+            ],
+            "correct_answer": "Answers are based on your sources and show where they came from",
+            "explanation": "Grounding makes answers easier to check."
+          },
+          {
+            "question": "After getting an answer from such a tool, what should you do?",
+            "options": [
+              "Change the font",
+              "Open the cited passage and confirm it says what the answer claims",
+              "Check only the length",
+              "Nothing"
+            ],
+            "correct_answer": "Open the cited passage and confirm it says what the answer claims",
+            "explanation": "Verification is still your job."
+          },
+          {
+            "question": "Which note practice supports good citation later?",
+            "options": [
+              "Saving only screenshots without titles",
+              "Saving only quotes",
+              "Saving nothing",
+              "Recording the source details with every note"
+            ],
+            "correct_answer": "Recording the source details with every note",
+            "explanation": "Without source details you may be unable to cite."
+          },
+          {
+            "question": "Why keep a weekly review habit?",
+            "options": [
+              "It speeds up the AI",
+              "It is required by law",
+              "It deletes duplicates automatically for free",
+              "It keeps notes tidy, connected and actionable"
+            ],
+            "correct_answer": "It keeps notes tidy, connected and actionable",
+            "explanation": "A short regular review prevents a messy system."
+          },
+          {
+            "question": "What should you avoid when using AI with notes?",
+            "options": [
+              "Adding tags",
+              "Pasting confidential or personal information into tools you cannot trust",
+              "Writing in your own words",
+              "Using public sources"
+            ],
+            "correct_answer": "Pasting confidential or personal information into tools you cannot trust",
+            "explanation": "Protect private data."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 7,
+      "module_title": "Practical Project: A Structured Research Exercise",
+      "module_goal": "Plan, carry out and document a complete research exercise from question to written brief.",
+      "lessons": [
+        {
+          "lesson_number": "7.1",
+          "lesson_title": "Planning Your Research Project",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=Hp8eCzYYxbg",
+          "simple_explanation": "A short research plan turns a topic into a doable project. It states the question, why it matters, the scope, how you will search and verify sources, how AI will be used, a timeline and what you will deliver. Having a plan keeps you from wandering, and it makes it easy to see later whether you did what you set out to do. The video explains how to write a research proposal. You will write a shorter plan suited to a brief research exercise.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains how to write a strong research proposal. Note the parts of a proposal and which you can use in a shorter plan.",
+            "Step 2: Choose the project question from Module 4, or refine it. Make sure it can be answered with evidence in about a week of part time work.",
+            "Step 3: Write the plan in six short sections: Question and sub-questions, Why it matters, Scope (who, where, when), Search plan (tools, search strings, source types), Verification plan (how you will check sources and claims), and AI use plan (what AI will and will not do).",
+            "Step 4: Add a timeline. For example: day 1 search, day 2 screening, day 3 verification, day 4 synthesis table, day 5 writing, day 6 review.",
+            "Step 5: Define the deliverable: a two page research brief with a source table and an AI use log.",
+            "Step 6: Add ethics notes. Do not use private data about real people, cite only sources you opened, and follow your school or workplace rules on AI use.",
+            "Step 7: Review the plan with a friend or on a second read. Remove anything vague.",
+            "Step 8: Save the plan as the first page of your project folder."
+          ],
+          "key_terms": [
+            {
+              "term": "Research plan",
+              "meaning": "A short document stating what you will research, how and when."
+            },
+            {
+              "term": "Scope",
+              "meaning": "The limits of a project in terms of topic, place and time."
+            },
+            {
+              "term": "Deliverable",
+              "meaning": "The thing you will produce at the end."
+            },
+            {
+              "term": "AI use plan",
+              "meaning": "A statement of what AI will and will not be used for in the project."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "One page research plan",
+            "instructions": "Write a one page plan with all six sections, a timeline, a deliverable and an ethics note. Share it with one person and write down one improvement from their feedback.",
+            "expected_outcome": "A one page research plan and a note on feedback received."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What does a research plan help you decide?",
+              "options": [
+                "Which phone to buy",
+                "The question, scope, search approach, timeline and deliverable",
+                "The weather",
+                "Which colour to use"
+              ],
+              "correct_answer": "The question, scope, search approach, timeline and deliverable",
+              "explanation": "A plan makes the project doable."
+            },
+            {
+              "question": "Why include an AI use plan?",
+              "options": [
+                "It states what AI will and will not do, so your work stays honest",
+                "It avoids reading sources",
+                "It makes the AI work faster",
+                "It hides AI use"
+              ],
+              "correct_answer": "It states what AI will and will not do, so your work stays honest",
+              "explanation": "Clear boundaries support integrity."
+            }
+          ]
+        },
+        {
+          "lesson_number": "7.2",
+          "lesson_title": "Writing Up and Presenting Your Findings",
+          "estimated_minutes": 50,
+          "youtube_url": "https://www.youtube.com/watch?v=yt6zuQbETMI",
+          "simple_explanation": "The last step is to turn your work into something others can read and trust. A short research brief has a clear structure: a summary, background, how you searched, findings organised by theme, limits, a conclusion and references. Include a source table that shows you opened and verified each source, and an AI use disclosure that explains what AI did. Good writing reports what the evidence supports and no more.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It gives five steps for writing a research paper. Use its ideas about structure and planning.",
+            "Step 2: Open your plan, your synthesis table and your verified source list. You should have at least eight sources.",
+            "Step 3: Write a one paragraph summary of your answer to the question. Write it last if it helps, but place it first.",
+            "Step 4: Write the sections: Background (one paragraph), Method (how you searched and verified, in four to five sentences), Findings (two or three themes with evidence from sources), Limits (what the evidence cannot show), Conclusion (answer to your question and one gap for future work).",
+            "Step 5: Cite sources in a consistent style such as APA or Harvard, as your school or workplace prefers. Use your reference manager to format them.",
+            "Step 6: Add the source table as an appendix with columns: source, type, how you checked it, checked on date.",
+            "Step 7: Add an AI use disclosure of three or four sentences, based on your AI use log. For example: I used an AI assistant to suggest search terms and to summarise two documents. I checked all cited passages myself.",
+            "Step 8: Proofread. Check that every claim is backed by a source you opened. Remove any claim you cannot support.",
+            "Step 9: Present your brief in two minutes to a friend. Ask them to tell you what the main finding was."
+          ],
+          "key_terms": [
+            {
+              "term": "Research brief",
+              "meaning": "A short report that answers a research question using verified sources."
+            },
+            {
+              "term": "Appendix",
+              "meaning": "Extra material placed at the end, such as a source table."
+            },
+            {
+              "term": "AI use disclosure",
+              "meaning": "A short statement that explains how AI was used in the work."
+            },
+            {
+              "term": "Limitations",
+              "meaning": "The boundaries and weaknesses of the evidence or method."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Final research brief",
+            "instructions": "Produce a two page research brief with a summary, background, method, findings by theme, limits, conclusion and references. Add a source table showing how you checked each source and an AI use disclosure. Present it in two minutes to one person.",
+            "expected_outcome": "A two page brief with references, a verified source table, an AI disclosure and a short presentation."
+          },
+          "lesson_quiz": [
+            {
+              "question": "In a findings section, results are best organised by:",
+              "options": [
+                "Random order",
+                "Alphabetical order of titles",
+                "The order you found them",
+                "Theme or sub-question"
+              ],
+              "correct_answer": "Theme or sub-question",
+              "explanation": "Themes make findings easier to follow."
+            },
+            {
+              "question": "Why include a limits section?",
+              "options": [
+                "It is only decoration",
+                "It shows honestly what the evidence can and cannot show",
+                "To make the brief longer",
+                "To hide weak sources"
+              ],
+              "correct_answer": "It shows honestly what the evidence can and cannot show",
+              "explanation": "Honest limits increase trust."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What does a research plan help you decide?",
+            "options": [
+              "The question, scope, search approach, timeline and deliverable",
+              "The paper colour",
+              "The brand of laptop",
+              "The font"
+            ],
+            "correct_answer": "The question, scope, search approach, timeline and deliverable",
+            "explanation": "A plan sets the direction of the project."
+          },
+          {
+            "question": "Where should you record how AI was used in your final work?",
+            "options": [
+              "Only in your phone settings",
+              "In a short disclosure based on your AI use log",
+              "Nowhere",
+              "In the file name only"
+            ],
+            "correct_answer": "In a short disclosure based on your AI use log",
+            "explanation": "Disclosure keeps work transparent."
+          },
+          {
+            "question": "Why include a source table with how you checked each source?",
+            "options": [
+              "It shows you opened and verified each source",
+              "It hides weak sources",
+              "It makes the brief longer",
+              "It is required by search engines"
+            ],
+            "correct_answer": "It shows you opened and verified each source",
+            "explanation": "A verification record proves your sources are real."
+          },
+          {
+            "question": "How should findings be organised?",
+            "options": [
+              "By the date you found them",
+              "By the length of the paper",
+              "By theme or sub-question, with evidence from several sources",
+              "By random order"
+            ],
+            "correct_answer": "By theme or sub-question, with evidence from several sources",
+            "explanation": "Thematic order helps the reader."
+          },
+          {
+            "question": "What should you do with a claim you cannot support with a source you opened?",
+            "options": [
+              "Hide it in the appendix",
+              "Add a fake citation",
+              "Remove it or mark it as unverified",
+              "Keep it because it sounds good"
+            ],
+            "correct_answer": "Remove it or mark it as unverified",
+            "explanation": "Every claim needs real support."
+          }
+        ]
+      }
+    }
+  ],
+  "final_assessment": {
+    "passing_score_percentage": 80,
+    "questions": [
+      {
+        "question": "You ask an AI assistant for ten references and cannot find three of them anywhere. What should you do with those three?",
+        "options": [
+          "Cite them anyway",
+          "Change their titles until they appear",
+          "Leave them out, because you cannot cite what you cannot find",
+          "Move them to the appendix"
+        ],
+        "correct_answer": "Leave them out, because you cannot cite what you cannot find",
+        "explanation": "Unfindable references may be invented."
+      },
+      {
+        "question": "A website looks professional but you know nothing about its owner. What is the fastest reliable check?",
+        "options": [
+          "Open a new tab and see what independent sources say about it",
+          "Check the number of ads",
+          "Read every page on the site",
+          "Trust the logo"
+        ],
+        "correct_answer": "Open a new tab and see what independent sources say about it",
+        "explanation": "Lateral reading judges a source from outside."
+      },
+      {
+        "question": "Which search is the best way to find official reports as documents on a Nigerian university website about farming?",
+        "options": [
+          "farming -edu.ng -pdf",
+          "farming edu.ng nice pdf",
+          "site:edu.ng farming filetype:pdf",
+          "edu.ng AND farming OR soup"
+        ],
+        "correct_answer": "site:edu.ng farming filetype:pdf",
+        "explanation": "It uses site: and filetype: correctly."
+      },
+      {
+        "question": "A deep research tool returns a 3,000 word report with 25 sources. Which step comes first?",
+        "options": [
+          "Share it with your teacher",
+          "Delete the sources",
+          "Paste it into your assignment",
+          "Extract the sources and verify the most important ones"
+        ],
+        "correct_answer": "Extract the sources and verify the most important ones",
+        "explanation": "Treat the report as leads, not proof."
+      },
+      {
+        "question": "An article says unemployment rose by 8 percent, but gives no source. What should you do?",
+        "options": [
+          "Accept it",
+          "Round it to 10 percent",
+          "Quote the article as the primary source",
+          "Search for the original statistic from an official source"
+        ],
+        "correct_answer": "Search for the original statistic from an official source",
+        "explanation": "Trace claims to their original source."
+      },
+      {
+        "question": "Which research question is best?",
+        "options": [
+          "How did mobile banking apps change loan repayment among market women in Onitsha between 2019 and 2023?",
+          "Is banking useful?",
+          "Banking",
+          "All finance in Africa"
+        ],
+        "correct_answer": "How did mobile banking apps change loan repayment among market women in Onitsha between 2019 and 2023?",
+        "explanation": "It is focused and researchable."
+      },
+      {
+        "question": "You get only 12 results for a Boolean search. What should you try?",
+        "options": [
+          "Add synonyms with OR or remove one AND concept",
+          "Add an unrelated term",
+          "Add more AND concepts",
+          "Remove all synonyms"
+        ],
+        "correct_answer": "Add synonyms with OR or remove one AND concept",
+        "explanation": "Widening the search increases results."
+      },
+      {
+        "question": "An AI literature tool summarises a paper as strongly supporting your idea. What is the best next step?",
+        "options": [
+          "Cite the summary",
+          "Read the paper's abstract and results to confirm",
+          "Ask for another summary only",
+          "Assume it is right"
+        ],
+        "correct_answer": "Read the paper's abstract and results to confirm",
+        "explanation": "The paper is the evidence."
+      },
+      {
+        "question": "What is a sensible inclusion rule for screening papers?",
+        "options": [
+          "Papers I like",
+          "Published after 2015 and includes data from African countries",
+          "Papers with the shortest titles",
+          "Papers with images"
+        ],
+        "correct_answer": "Published after 2015 and includes data from African countries",
+        "explanation": "Clear, relevant rules improve consistency."
+      },
+      {
+        "question": "Which paragraph shows synthesis?",
+        "options": [
+          "The paper is 12 pages long.",
+          "Several studies find higher incomes, although one reports no effect, possibly because its sample was rural",
+          "Smith wrote a paper in 2020.",
+          "Smith found income rose. Jones found no change. Lee found loans rose."
+        ],
+        "correct_answer": "Several studies find higher incomes, although one reports no effect, possibly because its sample was rural",
+        "explanation": "It compares sources and gives a possible reason."
+      },
+      {
+        "question": "What does a synthesis table help you do?",
+        "options": [
+          "Reduce the number of sources",
+          "Replace reading",
+          "See patterns and gaps across sources side by side",
+          "Hide weak sources"
+        ],
+        "correct_answer": "See patterns and gaps across sources side by side",
+        "explanation": "A grid shows how sources compare."
+      },
+      {
+        "question": "Which is a population gap?",
+        "options": [
+          "Studies cover city traders but none cover rural traders",
+          "Authors cite each other",
+          "Papers have long titles",
+          "Journals use different fonts"
+        ],
+        "correct_answer": "Studies cover city traders but none cover rural traders",
+        "explanation": "A group is missing from the evidence."
+      },
+      {
+        "question": "A source-grounded AI tool gives an answer with a citation. How do you confirm it?",
+        "options": [
+          "Open the cited passage and read whether it supports the answer",
+          "Count the citations",
+          "Trust the answer if it is detailed",
+          "Ask the tool if it is sure"
+        ],
+        "correct_answer": "Open the cited passage and read whether it supports the answer",
+        "explanation": "Checking the passage verifies the claim."
+      },
+      {
+        "question": "Which privacy practice is correct when using AI tools with documents?",
+        "options": [
+          "Do not upload confidential or personal documents you are not allowed to share",
+          "Upload a client's ID",
+          "Upload everything for better answers",
+          "Paste your passwords as examples"
+        ],
+        "correct_answer": "Do not upload confidential or personal documents you are not allowed to share",
+        "explanation": "Protect private data."
+      },
+      {
+        "question": "A weekly review of your notes is mainly for:",
+        "options": [
+          "Making notes secret",
+          "Deleting evidence",
+          "Keeping notes organised, connected and useful",
+          "Making the system complicated"
+        ],
+        "correct_answer": "Keeping notes organised, connected and useful",
+        "explanation": "Short regular maintenance keeps a system alive."
+      },
+      {
+        "question": "Why should your research plan include an AI use plan?",
+        "options": [
+          "It states what AI will and will not do so the work stays honest",
+          "It hides the sources",
+          "It speeds up the project",
+          "It replaces the method"
+        ],
+        "correct_answer": "It states what AI will and will not do so the work stays honest",
+        "explanation": "It sets boundaries from the start."
+      },
+      {
+        "question": "What best describes a limitation in a research brief?",
+        "options": [
+          "A mistake you hide",
+          "A boundary or weakness of the evidence or method, stated honestly",
+          "A feature of the font",
+          "A secret"
+        ],
+        "correct_answer": "A boundary or weakness of the evidence or method, stated honestly",
+        "explanation": "Limits show the reader how far the conclusions go."
+      },
+      {
+        "question": "Which citation practice is right when AI suggested a paper?",
+        "options": [
+          "Cite from the AI's list",
+          "Cite the DOI without checking",
+          "Cite it only after you have found and opened the paper yourself",
+          "Cite the AI chat"
+        ],
+        "correct_answer": "Cite it only after you have found and opened the paper yourself",
+        "explanation": "Opening the paper confirms it is real."
+      },
+      {
+        "question": "Which claim label is most honest when evidence is thin?",
+        "options": [
+          "Proven",
+          "Confirmed",
+          "Obvious",
+          "Cannot verify"
+        ],
+        "correct_answer": "Cannot verify",
+        "explanation": "Honest labelling avoids overclaiming."
+      },
+      {
+        "question": "A friend says 'AI search tools are always accurate because they show citations.' What is wrong?",
+        "options": [
+          "Citations always mean the answer is wrong",
+          "Citations can point to pages that do not support the claim, so you must check them",
+          "Citations are illegal",
+          "AI search never uses sources"
+        ],
+        "correct_answer": "Citations can point to pages that do not support the claim, so you must check them",
+        "explanation": "A citation is a lead, not proof."
+      }
+    ]
+  },
+  "completion_requirements": {
+    "complete_all_lessons": true,
+    "lesson_knowledge_checks": "Ungraded. They help you learn and can be repeated.",
+    "module_quiz_passing_score_percentage": 70,
+    "final_assessment_passing_score_percentage": 80,
+    "practical_exercises": "Recommended. You check your own work against the expected outcome. They are not graded and are not part of the final assessment."
+  },
+  "certificate": {
+    "eligible": true,
+    "type": "Certificate of completion",
+    "requirements": "Complete all lessons, pass every module quiz and pass the final assessment.",
+    "verification": "Each certificate carries a unique ID so anyone can check that it is genuine."
+  }
+}

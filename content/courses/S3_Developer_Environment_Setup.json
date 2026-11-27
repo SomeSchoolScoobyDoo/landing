@@ -1,0 +1,787 @@
+{
+  "course_id": "S3",
+  "title": "Developer Environment Setup",
+  "category": "Setup Courses",
+  "level": "Beginner",
+  "audience": "Beginner. Made for people who can use a browser and files but have never installed developer tools or typed commands in a terminal. Nothing here needs coding experience.",
+  "estimated_duration": "About 3 hours in total. Spread it over 1 week at 20 to 30 minutes a day.",
+  "description": "This course gets your computer ready for coding and building with AI. You will learn what a terminal is and type your first commands. You will install Visual Studio Code (a free code editor), Python and Node.js (two popular programming tools), and Git (a tool that saves versions of your work). You will also create a GitHub account and your first repository. Each lesson ends with something you can see working on your own screen, so you always know you did it right.",
+  "what_you_will_need": [
+    {
+      "item": "A laptop or desktop computer you are allowed to install software on",
+      "details": "Windows 10 or Windows 11 is best because the steps use Windows. A Mac also works and the lessons say where Mac is different. You must be able to install programs. If the computer belongs to a school or office, ask the owner for permission before you start. Keep the charger plugged in during installs.",
+      "cost": "Paid (you may already own one)"
+    },
+    {
+      "item": "Free storage space",
+      "details": "Several hundred megabytes for the programs plus room for your projects. At least 5 GB of free space is a safe amount. To check on Windows, open File Explorer, click This PC and look under your main drive.",
+      "cost": "Free"
+    },
+    {
+      "item": "Internet connection",
+      "details": "You will download installer files from official websites. Use Wi-Fi if you can, because downloads use mobile data. Start downloads when your connection is steady.",
+      "cost": "Paid (Wi-Fi subscription or mobile data)"
+    },
+    {
+      "item": "Google Chrome or another modern browser",
+      "details": "You will use it to visit the official download pages and to sign up for GitHub.",
+      "cost": "Free"
+    },
+    {
+      "item": "An email address you can open right now",
+      "details": "GitHub will send a verification code to your email. Use the same email you want to use for your coding work. A professional address based on your real name is best.",
+      "cost": "Free"
+    },
+    {
+      "item": "A notebook and a pen",
+      "details": "For writing down the commands you learn and the version numbers you see on your screen. Do not write passwords where other people can read them.",
+      "cost": "Paid (very cheap)"
+    },
+    {
+      "item": "A patient, careful mindset",
+      "details": "Installing tools can feel scary the first time. If something goes wrong, read the error message slowly, try the step again, and ask for help. Only download programs from the official websites named in the lessons. Never install anything from links sent by strangers.",
+      "cost": "Free"
+    }
+  ],
+  "learning_objectives": [
+    "Open a terminal and use basic commands to move around and create folders",
+    "Install Visual Studio Code and create and save files in it",
+    "Install Python and Node.js and run one small program in each",
+    "Install Git and set your name and email",
+    "Create a GitHub account and make your first repository and commit"
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "module_title": "Meet the Terminal",
+      "module_goal": "Open the terminal and use a handful of simple commands to move around folders and create new ones.",
+      "lessons": [
+        {
+          "lesson_number": "1.1",
+          "lesson_title": "Opening the Terminal and Your First Commands",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=mABpAI-pCw0",
+          "simple_explanation": "The terminal is a window where you control your computer by typing short instructions called commands instead of clicking. Developers use it all the time because many tools work through it. It looks plain and a bit scary at first, but it is only a text box where you type, press Enter and read the reply. In this lesson you will learn five commands that are safe and useful.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link. It is a long video, so do not try to watch all of it today. Watch the first part where the presenter opens the terminal and uses basic commands. Stop when it gets harder and come back later if you like.",
+            "Step 2: Open the terminal on Windows. Click the Start button, type Terminal, and press Enter. If you do not have Terminal, type PowerShell instead. A black or dark blue window appears with some text and a blinking cursor.",
+            "Step 3: On a Mac, press the Command key and the Space bar together, type Terminal, and press Enter.",
+            "Step 4: Look at the last line. It is called the prompt. On Windows it looks like PS C:\\Users\\YourName> . It shows which folder you are in right now. Think of the folder as the room of a house where you are standing.",
+            "Step 5: Type pwd and press Enter. pwd means print working directory. It tells you the full path of the folder you are in. Write what you see in your notebook.",
+            "Step 6: Type ls and press Enter. ls means list. It shows everything inside the current folder. You should see names like Documents, Downloads and Desktop.",
+            "Step 7: Type cd Documents and press Enter. cd means change directory, which means go into a folder. Notice the prompt now ends with Documents. If it says it cannot find the path, check your spelling. On some computers the Documents folder is inside OneDrive. If so, type cd OneDrive first, then type cd Documents.",
+            "Step 8: Type mkdir kaizora-code and press Enter. mkdir means make directory, which means create a new folder. Type ls again and you should see kaizora-code in the list.",
+            "Step 9: Type cd kaizora-code to go into your new folder. Then type cd .. (cd, a space, then two dots) to go back up one level.",
+            "Step 10: Type clear and press Enter to wipe the screen. This is only for tidiness. Nothing is deleted.",
+            "Step 11: Learn two shortcuts. Press the Up arrow key to bring back your last command so you do not retype it. Type the first letters of a folder name and press the Tab key and the terminal finishes the name for you.",
+            "Step 12: Safety rule. Never paste a command you do not understand. Some commands can delete files. Only type the commands your lessons give you."
+          ],
+          "key_terms": [
+            {
+              "term": "Terminal",
+              "meaning": "A window where you control your computer by typing commands."
+            },
+            {
+              "term": "Command",
+              "meaning": "A short instruction you type and run by pressing Enter."
+            },
+            {
+              "term": "Prompt",
+              "meaning": "The last line in the terminal that shows where you are and waits for you to type."
+            },
+            {
+              "term": "Directory",
+              "meaning": "Another word for folder."
+            },
+            {
+              "term": "Path",
+              "meaning": "The full address of a folder or file, like C:\\Users\\Ada\\Documents."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Build a folder using only the terminal",
+            "instructions": "Open the terminal. Go into your Documents folder with cd Documents. Create a folder called kaizora-code with mkdir. Go into it. Create a folder called day1 inside it. Run pwd and write the full path in your notebook. Then go back up two levels with cd .. twice.",
+            "expected_outcome": "A folder called day1 inside kaizora-code inside Documents, and the full path written in your notebook."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What does the command cd do?",
+              "options": [
+                "Shuts down the computer",
+                "Closes the terminal",
+                "Deletes a folder",
+                "Changes the folder you are in"
+              ],
+              "correct_answer": "Changes the folder you are in",
+              "explanation": "cd means change directory, which means move into another folder."
+            },
+            {
+              "question": "You want to see what is inside the current folder. Which command do you type?",
+              "options": [
+                "clear",
+                "ls",
+                "mkdir",
+                "exit"
+              ],
+              "correct_answer": "ls",
+              "explanation": "ls lists the files and folders in the folder you are in."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What is the terminal?",
+            "options": [
+              "A kind of Wi-Fi router",
+              "A web browser",
+              "A window where you control your computer by typing commands",
+              "A video game"
+            ],
+            "correct_answer": "A window where you control your computer by typing commands",
+            "explanation": "The terminal lets you type instructions instead of clicking."
+          },
+          {
+            "question": "Which command creates a new folder?",
+            "options": [
+              "mkdir",
+              "ls",
+              "cd",
+              "pwd"
+            ],
+            "correct_answer": "mkdir",
+            "explanation": "mkdir means make directory, which creates a new folder."
+          },
+          {
+            "question": "What should you do before pasting a command someone sent you?",
+            "options": [
+              "Make sure you understand it first",
+              "Run it as many times as possible",
+              "Share it with ten friends",
+              "Paste it quickly"
+            ],
+            "correct_answer": "Make sure you understand it first",
+            "explanation": "Some commands can delete files or change settings, so only run commands you understand."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 2,
+      "module_title": "Your Code Editor",
+      "module_goal": "Install Visual Studio Code and use it to open a folder, create a file and open a terminal inside it.",
+      "lessons": [
+        {
+          "lesson_number": "2.1",
+          "lesson_title": "Installing Visual Studio Code",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=5rd8tHEqjs8",
+          "simple_explanation": "A code editor is a program for writing code, the way Microsoft Word is a program for writing letters. Visual Studio Code, often called VS Code, is free and is the most popular editor in the world. It colours your code so it is easier to read, helps you spot mistakes, and has a terminal built in. You will use it in many Kaizora courses.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch how to install Visual Studio Code on Windows. It is short. Your screen may look a little different because the website and installer get updated.",
+            "Step 2: Open Chrome and type code.visualstudio.com in the address bar. Press Enter. Check that the address matches exactly. This is the official site.",
+            "Step 3: Click the big blue button that says Download for Windows (or Download for Mac). Wait for the file to finish downloading. It appears at the bottom or top of Chrome.",
+            "Step 4: Open your Downloads folder and double-click the file you just downloaded. If Windows asks Do you want to allow this app to make changes, click Yes.",
+            "Step 5: Click I accept the agreement, then click Next. Keep clicking Next on the following screens and leave the default choices as they are. If you see the option Add to PATH, make sure it is ticked.",
+            "Step 6: Click Install and wait. When it finishes, make sure Launch Visual Studio Code is ticked and click Finish.",
+            "Step 7: On a Mac, open the downloaded file, drag Visual Studio Code into the Applications folder, and open it from there.",
+            "Step 8: VS Code opens with a Welcome tab. Look at the strip of small icons down the left side. The top icon (two pieces of paper) is the Explorer, where your files appear.",
+            "Step 9: Click File at the top left, then Open Folder. Find Documents, then kaizora-code, click it once, and click Select Folder. If a box asks Do you trust the authors, click Yes, I trust the authors, because you made this folder yourself.",
+            "Step 10: In the Explorer panel, hover over the folder name and click the small New File icon. Type notes.txt and press Enter. Type Hello from my first file. Press Ctrl and S to save.",
+            "Step 11: Open the built-in terminal. Click Terminal in the top menu, then New Terminal. A terminal opens at the bottom, already inside your kaizora-code folder. Type ls and press Enter. You should see notes.txt.",
+            "Step 12: Write in your notebook: VS Code is installed. Today's date: (write the date)."
+          ],
+          "key_terms": [
+            {
+              "term": "Code editor",
+              "meaning": "A program made for writing and editing code."
+            },
+            {
+              "term": "Visual Studio Code (VS Code)",
+              "meaning": "A free code editor from Microsoft that many developers use."
+            },
+            {
+              "term": "Explorer panel",
+              "meaning": "The list of your files and folders on the left side of VS Code."
+            },
+            {
+              "term": "Installer",
+              "meaning": "A file you run to put a program on your computer."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Create and run your first file in VS Code",
+            "instructions": "Open your kaizora-code folder in VS Code. Create a file called notes.txt and write three sentences about why you want to learn to build with AI. Save it. Open the built-in terminal and use ls to confirm the file is there.",
+            "expected_outcome": "VS Code installed, notes.txt saved in kaizora-code, and the file visible when you run ls in the VS Code terminal."
+          },
+          "lesson_quiz": [
+            {
+              "question": "From which website should you download VS Code?",
+              "options": [
+                "A link sent on WhatsApp",
+                "Any website that shows the VS Code logo",
+                "A random free download site",
+                "code.visualstudio.com"
+              ],
+              "correct_answer": "code.visualstudio.com",
+              "explanation": "Only download from the official website to avoid fake or harmful copies."
+            },
+            {
+              "question": "What is the Explorer panel in VS Code?",
+              "options": [
+                "The list of your files and folders",
+                "The shutdown button",
+                "A music player",
+                "A web browser"
+              ],
+              "correct_answer": "The list of your files and folders",
+              "explanation": "The Explorer panel on the left shows the folder you opened and the files inside it."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What is a code editor used for?",
+            "options": [
+              "Sending email",
+              "Making phone calls",
+              "Writing and editing code",
+              "Watching videos"
+            ],
+            "correct_answer": "Writing and editing code",
+            "explanation": "A code editor is made for writing code, and it helps you read it and spot mistakes."
+          },
+          {
+            "question": "A box asks Do you trust the authors of the files in this folder. You made the folder yourself. What do you choose?",
+            "options": [
+              "Restart the computer",
+              "Close VS Code forever",
+              "Yes, I trust the authors",
+              "Delete the folder"
+            ],
+            "correct_answer": "Yes, I trust the authors",
+            "explanation": "You created the folder, so you can trust it. Be more careful with folders from strangers."
+          },
+          {
+            "question": "How do you open a terminal inside VS Code?",
+            "options": [
+              "Click Help, then Delete",
+              "You cannot",
+              "Press the power button",
+              "Click Terminal, then New Terminal"
+            ],
+            "correct_answer": "Click Terminal, then New Terminal",
+            "explanation": "VS Code has a built-in terminal that opens in the folder you are working in."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 3,
+      "module_title": "Python and Node.js",
+      "module_goal": "Install Python and Node.js, check that both work, and run one small program in each.",
+      "lessons": [
+        {
+          "lesson_number": "3.1",
+          "lesson_title": "Installing Python and Running Your First Program",
+          "estimated_minutes": 35,
+          "youtube_url": "https://www.youtube.com/watch?v=u5H7lVBg93g",
+          "simple_explanation": "Python is a friendly programming language used for automation, data and AI. On Windows, python.org now recommends installing Python with a small tool called the Python install manager, which you can get from the Microsoft Store. It gives you a command called py that finds and runs Python for you. On a Mac you download an installer from python.org. After installing, you check that it worked by asking for the version number, and then you run your first program.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch how to install Python on Windows using the Python install manager. This is the method used in this lesson. Your screens may look a little different because websites and installers get updated. The idea is the same: install Python, check the version in the terminal, then run a small program.",
+            "Step 2: On Windows, open the Microsoft Store. Click Start, type Microsoft Store and press Enter.",
+            "Step 3: In the Store search box, type Python install manager and press Enter. Choose the result published by the Python Software Foundation. Click Get or Install and wait for it to finish.",
+            "Step 4: If the Store is blocked on your computer, open a terminal instead, type winget install 9NQ7512CXL7T and press Enter. That is the Store code that python.org gives for the same tool. If that also fails, go to python.org/downloads and follow its instructions for Windows.",
+            "Step 5: Open a new terminal. It must be a new one, because an old terminal does not know about the new install. Type py --version and press Enter.",
+            "Step 6: The first time you use py, it may ask a few questions to finish the setup, such as whether to install Python or set up commands. Read each question. If it is about installing Python or configuring commands, type y and press Enter. If you are unsure, press Enter to accept the suggested answer. Wait for it to finish.",
+            "Step 7: You should see something like Python 3.14.6. The numbers may be different. Write them in your notebook.",
+            "Step 8: On a Mac, go to python.org/downloads, download the macOS installer, open it and click Continue through the screens. Then open Terminal and type python3 --version.",
+            "Step 9: If you see an error saying py is not recognized, close every terminal, open a new one and try again. If it still fails, restart the computer and try again. You can also try python --version.",
+            "Step 10: Install the Python extension in VS Code. Open VS Code, click the Extensions icon on the left (it looks like four squares), type Python in the search box, choose the one made by Microsoft, and click Install.",
+            "Step 11: In VS Code, open your kaizora-code folder. Create a new file called hello.py. Type this exactly: print(\"Hello, Kaizora!\") and press Ctrl and S to save.",
+            "Step 12: Open the terminal in VS Code (Terminal, then New Terminal). On Windows type py hello.py and press Enter. On a Mac type python3 hello.py. You should see Hello, Kaizora! printed on the screen. You just ran your first program. Python may also let you type python hello.py on your computer. Both are fine."
+          ],
+          "key_terms": [
+            {
+              "term": "Python",
+              "meaning": "A popular and beginner-friendly programming language used for automation, data and AI."
+            },
+            {
+              "term": "Programming language",
+              "meaning": "A set of words and rules used to give instructions to a computer."
+            },
+            {
+              "term": "Python install manager",
+              "meaning": "The tool python.org recommends on Windows for installing Python. It gives you the py command."
+            },
+            {
+              "term": "PATH",
+              "meaning": "A list of places on your computer where the terminal looks for programs. Older Python installers had a tick box to add Python to it."
+            },
+            {
+              "term": "Extension",
+              "meaning": "A small add-on that gives VS Code new features."
+            },
+            {
+              "term": "Version",
+              "meaning": "A number that shows which release of a program you have, like Python 3.14.6."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Print your own message",
+            "instructions": "Change hello.py so it prints two lines: your name and the sentence I am learning to build with AI. You will need two print statements, one on each line. Save the file and run it with py hello.py (python3 hello.py on a Mac). Take a screenshot or write the output in your notebook.",
+            "expected_outcome": "Running your file shows your two lines in the terminal."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which command checks that Python is installed on Windows?",
+              "options": [
+                "py --delete",
+                "version python now",
+                "py --version",
+                "python --shutdown"
+              ],
+              "correct_answer": "py --version",
+              "explanation": "py --version prints the installed Python version if Python is set up correctly."
+            },
+            {
+              "question": "On Windows, which tool does python.org recommend for installing Python?",
+              "options": [
+                "The Python install manager, for example from the Microsoft Store",
+                "A random free download site",
+                "A video game launcher",
+                "A file someone sends on WhatsApp"
+              ],
+              "correct_answer": "The Python install manager, for example from the Microsoft Store",
+              "explanation": "The Python install manager is the official tool, and python.org points most Windows users to it."
+            }
+          ]
+        },
+        {
+          "lesson_number": "3.2",
+          "lesson_title": "Installing Node.js and Running JavaScript",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=uI0rq7h7-GY",
+          "simple_explanation": "Node.js lets you run JavaScript, the language of websites, outside the browser. It comes with a helper called npm that downloads ready-made code packages. Many automation and AI tools, including n8n, are built on Node.js, so you will need it later. You will install the LTS version. LTS stands for Long Term Support, which is the stable one.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch how to install Node.js on Windows. It is a short video.",
+            "Step 2: Open Chrome and go to nodejs.org. Check the address carefully.",
+            "Step 3: Click the button for the LTS version. It is usually the green or highlighted download button. Wait for the download to finish.",
+            "Step 4: Double-click the installer in your Downloads folder. If Windows asks for permission, click Yes.",
+            "Step 5: Click Next, accept the license agreement, and keep clicking Next to accept the default choices. Click Install and wait. Click Finish when done.",
+            "Step 6: Close all open terminals. Open a new one. This is important because old terminals do not know Node is installed.",
+            "Step 7: Type node --version and press Enter. You should see a number starting with v, like v22.0.0. Write it in your notebook.",
+            "Step 8: Type npm --version and press Enter. You should see a version number too. npm was installed with Node.",
+            "Step 9: If PowerShell shows an error that running scripts is disabled when you type npm, do not worry. Open Command Prompt instead (search for cmd in the Start menu) and run the same command there. Ask for help through the course support channel if you are unsure.",
+            "Step 10: In VS Code, open your kaizora-code folder. Create a file called hello.js. Type: console.log(\"Hello from Node!\") and save it with Ctrl and S.",
+            "Step 11: Open the VS Code terminal. Type node hello.js and press Enter. You should see Hello from Node! You just ran JavaScript on your own computer.",
+            "Step 12: Look ahead. The n8n documentation says n8n needs Node.js from version 20.19 up to 24.x. Write your Node.js version number in your notebook. If it starts with a number higher than 24, do not worry. Course S4 (Automation Lab Setup) shows exactly what to do."
+          ],
+          "key_terms": [
+            {
+              "term": "Node.js",
+              "meaning": "A tool that lets you run JavaScript on your computer, outside the browser."
+            },
+            {
+              "term": "JavaScript",
+              "meaning": "The programming language used to make websites interactive. It also runs many automation tools."
+            },
+            {
+              "term": "npm",
+              "meaning": "Node Package Manager. A tool that downloads ready-made code packages for your projects."
+            },
+            {
+              "term": "LTS",
+              "meaning": "Long Term Support. The stable version of Node.js that most people should install."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Run two programs side by side",
+            "instructions": "In your kaizora-code folder you now have hello.py and hello.js. Run both from the terminal. Write down in your notebook which command ran each file, and what each printed. Then change hello.js so it prints your name.",
+            "expected_outcome": "Both files run successfully, and your notebook lists the two commands, python hello.py and node hello.js, with their output."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which Node.js version should most beginners install?",
+              "options": [
+                "A version from a stranger's link",
+                "The version with the longest name",
+                "LTS",
+                "A random old version"
+              ],
+              "correct_answer": "LTS",
+              "explanation": "LTS is the stable version with long term support."
+            },
+            {
+              "question": "What is npm?",
+              "options": [
+                "A web browser",
+                "A tool that downloads ready-made code packages",
+                "A type of Wi-Fi",
+                "A video editor"
+              ],
+              "correct_answer": "A tool that downloads ready-made code packages",
+              "explanation": "npm is the Node Package Manager. It installs code that other people have shared."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "You installed Python but your old terminal says py is not recognized. What should you try first?",
+            "options": [
+              "Buy a new laptop",
+              "Delete Windows",
+              "Open a new terminal and try again",
+              "Uninstall Chrome"
+            ],
+            "correct_answer": "Open a new terminal and try again",
+            "explanation": "Old terminals do not know about newly installed programs. A new terminal usually fixes it."
+          },
+          {
+            "question": "Which command runs a Python file called hello.py on Windows?",
+            "options": [
+              "py hello.py",
+              "run hello.py now",
+              "open python",
+              "node hello.py"
+            ],
+            "correct_answer": "py hello.py",
+            "explanation": "py followed by the file name runs the program."
+          },
+          {
+            "question": "Which command checks your Node.js version?",
+            "options": [
+              "node --version",
+              "node --delete",
+              "version node",
+              "npm --hello"
+            ],
+            "correct_answer": "node --version",
+            "explanation": "node --version prints the version if Node is installed correctly."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 4,
+      "module_title": "Git and GitHub",
+      "module_goal": "Install Git, tell it who you are, and create a GitHub account with your first repository.",
+      "lessons": [
+        {
+          "lesson_number": "4.1",
+          "lesson_title": "Installing Git and Setting Your Name",
+          "estimated_minutes": 30,
+          "youtube_url": "https://www.youtube.com/watch?v=2j7fD92g-gE",
+          "simple_explanation": "Git is a tool that saves versions of your work, like save points in a video game. If you break something, you can go back to an earlier save point. It also lets many people work on the same project without overwriting each other. You install Git once and tell it your name and email so every save point is labelled with who made it.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch how to install Git on Windows. Notice that the presenter mostly keeps the default choices.",
+            "Step 2: Open Chrome and go to git-scm.com. Check the address. Click Download for Windows (or the right version for your system).",
+            "Step 3: When the download finishes, open the installer from your Downloads folder. If Windows asks for permission, click Yes.",
+            "Step 4: Click Next on each screen and leave the default choices alone. There are many screens. This is normal. When you reach Install, click it and wait.",
+            "Step 5: Click Finish. If a box offers to open the release notes, you can untick it.",
+            "Step 6: Close every terminal and open a new one. In VS Code you can use Terminal, then New Terminal.",
+            "Step 7: Type git --version and press Enter. You should see something like git version 2.45.0. Write it in your notebook. On a Mac, if a box offers to install developer tools, click Install and wait.",
+            "Step 8: Tell Git your name. Type git config --global user.name \"Your Full Name\" using your real name inside the quotation marks. Press Enter. Nothing visible happens and that is correct.",
+            "Step 9: Tell Git your email. Type git config --global user.email \"you@example.com\" using the same email you will use for GitHub. Press Enter.",
+            "Step 10: Check your settings. Type git config --list and press Enter. Look for the lines user.name and user.email. If the list is long and stops, press the Q key to leave it.",
+            "Step 11: Write in your notebook one sentence about what Git does, in your own words."
+          ],
+          "key_terms": [
+            {
+              "term": "Git",
+              "meaning": "A tool that saves versions of your work so you can go back if something breaks."
+            },
+            {
+              "term": "Version control",
+              "meaning": "Keeping a history of changes to your files so nothing is lost."
+            },
+            {
+              "term": "Configuration",
+              "meaning": "Settings that tell a program how you want it to behave."
+            },
+            {
+              "term": "Global setting",
+              "meaning": "A setting that applies to everything you do on this computer."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Check your Git setup",
+            "instructions": "Open a new terminal. Run git --version and write down the result. Run git config --global user.name and git config --global user.email without anything after them to see what Git has saved. Write both results in your notebook. Fix them if they are wrong.",
+            "expected_outcome": "A Git version number, your real name and your email, all written in your notebook."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What does Git do?",
+              "options": [
+                "Connects to Wi-Fi",
+                "Saves versions of your work so you can go back",
+                "Plays music",
+                "Browses the internet"
+              ],
+              "correct_answer": "Saves versions of your work so you can go back",
+              "explanation": "Git keeps a history of your changes, like save points in a game."
+            },
+            {
+              "question": "Why do you give Git your name and email?",
+              "options": [
+                "So every save point shows who made it",
+                "To get a free phone",
+                "To unlock Windows",
+                "To speed up the internet"
+              ],
+              "correct_answer": "So every save point shows who made it",
+              "explanation": "Each change you save is labelled with the name and email you set."
+            }
+          ]
+        },
+        {
+          "lesson_number": "4.2",
+          "lesson_title": "Creating Your GitHub Account and First Repository",
+          "estimated_minutes": 35,
+          "youtube_url": "https://www.youtube.com/watch?v=iv8rSLsi1xo",
+          "simple_explanation": "GitHub is a website where developers store their projects online and share them. Git works on your computer, and GitHub keeps a copy on the internet. A repository, or repo, is a project folder stored on GitHub. Employers and clients often look at your GitHub to see what you have built, so it works like a portfolio.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the GitHub beginner tutorial. Follow along on your own screen if you can.",
+            "Step 2: Open Chrome and go to github.com. Click Sign up.",
+            "Step 3: Type your email address. Use the same email you gave to Git in the last lesson. Click Continue.",
+            "Step 4: Create a password. Make it long and different from your other passwords. Use the four-word method: pick four unrelated words, join them with dashes and add a number.",
+            "Step 5: Choose a username. It will be part of your public GitHub address, so keep it professional, for example adaobi-dev. Do not use jokes or private details.",
+            "Step 6: GitHub may show a puzzle to prove you are not a robot. Solve it. Then check your email for a verification code, copy it, and paste it into GitHub.",
+            "Step 7: Choose the free plan. You do not need to pay.",
+            "Step 8: Turn on two-step verification. Click your profile picture at the top right, then Settings, then Password and authentication. Follow the steps to turn on two-factor authentication and save any recovery codes in your notebook.",
+            "Step 9: Create your first repository. Click the plus (+) sign at the top right, then New repository. Name it hello-kaizora. Leave it Public. Tick Add a README file. Click Create repository.",
+            "Step 10: Your repository opens. You will see a file called README.md. Click it, then click the small pencil icon to edit it.",
+            "Step 11: On a new line, type: I am learning to build with AI at Kaizora AI Academy. Click Commit changes. In the box, type a clear message such as Update README with my learning goal. Click Commit changes again.",
+            "Step 12: Refresh the page. Your new line is now saved in the repository. A commit is a save point, and a good message helps you and others understand what changed.",
+            "Step 13: Copy your repository address from the browser address bar and write it in your notebook. You will use it in later courses."
+          ],
+          "key_terms": [
+            {
+              "term": "GitHub",
+              "meaning": "A website where developers store and share their projects online."
+            },
+            {
+              "term": "Repository (repo)",
+              "meaning": "A project folder stored on GitHub, with its full history of changes."
+            },
+            {
+              "term": "README",
+              "meaning": "A file that explains what a project is about."
+            },
+            {
+              "term": "Commit",
+              "meaning": "A saved set of changes, like a save point, with a short message describing what you changed."
+            },
+            {
+              "term": "Two-factor authentication",
+              "meaning": "A second check, such as a code from your phone, after your password."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Make your first commit",
+            "instructions": "In your hello-kaizora repository, edit the README and add two lines: your name and one skill you want to learn this year. Write a clear commit message that describes the change. Commit it. Then open the History link on the repository page and find your commit.",
+            "expected_outcome": "A GitHub repository with an updated README and a visible commit with a clear message."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is a repository on GitHub?",
+              "options": [
+                "A type of password",
+                "A web browser",
+                "A video call",
+                "A project folder stored online with its history"
+              ],
+              "correct_answer": "A project folder stored online with its history",
+              "explanation": "A repo holds your project files and the history of every change."
+            },
+            {
+              "question": "Which commit message is the most useful?",
+              "options": [
+                "stuff",
+                "Update README with my learning goal",
+                "changes",
+                "asdf"
+              ],
+              "correct_answer": "Update README with my learning goal",
+              "explanation": "A clear message says exactly what changed, so you can understand it later."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What is the difference between Git and GitHub?",
+            "options": [
+              "Git runs on your computer and saves versions, GitHub is a website that stores projects online",
+              "They are exactly the same",
+              "Git is a website and GitHub is a program on your laptop",
+              "GitHub only works offline"
+            ],
+            "correct_answer": "Git runs on your computer and saves versions, GitHub is a website that stores projects online",
+            "explanation": "Git is the tool on your computer. GitHub is the online home where you can store and share your Git projects."
+          },
+          {
+            "question": "Why should you turn on two-factor authentication on GitHub?",
+            "options": [
+              "It deletes old projects",
+              "It makes your code run faster",
+              "It is required to type code",
+              "It protects your account even if someone learns your password"
+            ],
+            "correct_answer": "It protects your account even if someone learns your password",
+            "explanation": "A second check stops thieves who only have your password."
+          },
+          {
+            "question": "What should a good GitHub username look like?",
+            "options": [
+              "Your phone number",
+              "Professional, like adaobi-dev",
+              "Your password",
+              "A joke with private details"
+            ],
+            "correct_answer": "Professional, like adaobi-dev",
+            "explanation": "Your username is public, so keep it neat and never include private details."
+          }
+        ]
+      }
+    }
+  ],
+  "final_assessment": {
+    "passing_score_percentage": 80,
+    "questions": [
+      {
+        "question": "Which of these would you do in the terminal?",
+        "options": [
+          "Play a film",
+          "Type mkdir to create a folder",
+          "Edit a photo",
+          "Draw a picture"
+        ],
+        "correct_answer": "Type mkdir to create a folder",
+        "explanation": "The terminal is for typing commands, such as mkdir to make a folder."
+      },
+      {
+        "question": "Which command shows you the folders and files inside the current folder?",
+        "options": [
+          "mkdir",
+          "clear",
+          "cd",
+          "ls"
+        ],
+        "correct_answer": "ls",
+        "explanation": "ls lists what is in the current folder."
+      },
+      {
+        "question": "Which command creates a new folder called projects?",
+        "options": [
+          "ls projects",
+          "cd projects",
+          "mkdir projects",
+          "pwd projects"
+        ],
+        "correct_answer": "mkdir projects",
+        "explanation": "mkdir means make directory, which creates a folder."
+      },
+      {
+        "question": "From where should you download VS Code?",
+        "options": [
+          "Any site that looks similar",
+          "A link sent in a group chat",
+          "A random pop-up advert",
+          "code.visualstudio.com"
+        ],
+        "correct_answer": "code.visualstudio.com",
+        "explanation": "Always use the official website to avoid fake downloads."
+      },
+      {
+        "question": "What is Python used for in this course?",
+        "options": [
+          "Printing documents",
+          "Writing programs that automate tasks and work with data and AI",
+          "Editing photos only",
+          "Making phone calls"
+        ],
+        "correct_answer": "Writing programs that automate tasks and work with data and AI",
+        "explanation": "Python is a general-purpose programming language that is popular for automation, data and AI."
+      },
+      {
+        "question": "You installed Node.js, but your open terminal cannot find it. What is the first thing to try?",
+        "options": [
+          "Delete VS Code",
+          "Reinstall Windows",
+          "Buy a new laptop",
+          "Close it and open a new terminal"
+        ],
+        "correct_answer": "Close it and open a new terminal",
+        "explanation": "Old terminals do not know about programs installed after they opened."
+      },
+      {
+        "question": "Which command prints the Git version on your computer?",
+        "options": [
+          "git --version",
+          "git start",
+          "git --hello",
+          "version git"
+        ],
+        "correct_answer": "git --version",
+        "explanation": "git --version prints the installed version if Git is set up correctly."
+      },
+      {
+        "question": "You broke your project and want to go back to the version you had yesterday. Which tool helps most?",
+        "options": [
+          "A web browser",
+          "Git",
+          "A Wi-Fi router",
+          "A music player"
+        ],
+        "correct_answer": "Git",
+        "explanation": "Git keeps versions of your work, so you can go back to an earlier save point."
+      },
+      {
+        "question": "What is a commit?",
+        "options": [
+          "A computer virus",
+          "A saved set of changes with a short message",
+          "A kind of keyboard",
+          "A type of email"
+        ],
+        "correct_answer": "A saved set of changes with a short message",
+        "explanation": "A commit is a save point that records what changed and why."
+      },
+      {
+        "question": "Which is the best way to protect your GitHub account?",
+        "options": [
+          "Use your name as the password",
+          "Use the same password everywhere",
+          "Use a strong, different password and turn on two-factor authentication",
+          "Share your password with a friend"
+        ],
+        "correct_answer": "Use a strong, different password and turn on two-factor authentication",
+        "explanation": "A strong unique password plus a second check makes it very hard for thieves to get in."
+      }
+    ]
+  },
+  "completion_requirements": {
+    "complete_all_lessons": true,
+    "lesson_knowledge_checks": "Ungraded. They help you learn and can be repeated.",
+    "module_quiz_passing_score_percentage": 70,
+    "final_assessment_passing_score_percentage": 80,
+    "practical_exercises": "Recommended. You check your own work against the expected outcome. They are not graded."
+  },
+  "certificate": {
+    "eligible": true,
+    "type": "Certificate of completion",
+    "requirements": "Complete all lessons, pass every module quiz and pass the final assessment.",
+    "verification": "Each certificate carries a unique ID so anyone can check that it is genuine."
+  }
+}

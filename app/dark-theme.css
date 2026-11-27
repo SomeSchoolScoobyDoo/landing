@@ -1,9 +1,9 @@
 /* Kaizora AI Academy brand palette and dark appearance. */
 :root {
   --navy: #112E5D;
-  --orange: #F97316;
+  --orange: #FCBC25;
 }
-html { --orange: #F97316; }
+html { --orange: #FCBC25; }
 html[data-theme="dark"] {
   color-scheme: dark;
   --navy: #F1F5F9;
@@ -107,9 +107,9 @@ html[data-theme="dark"] .button-secondary {
 }
 html[data-theme="dark"] .button-primary,
 html[data-theme="dark"] .auth-submit {
-  background: #F97316 !important;
+  background: #FCBC25 !important;
   color: #17202B !important;
-  border-color: #F97316 !important;
+  border-color: #FCBC25 !important;
 }
 html[data-theme="dark"] .theme-toggle {
   background: #18212C !important;
@@ -125,7 +125,7 @@ html[data-theme="dark"] h2 span,
 html[data-theme="dark"] .catalogue-hero h1 span,
 html[data-theme="dark"] .course-preview-heading h2 span,
 html[data-theme="dark"] .course-detail-body h2 span {
-  color: #F97316 !important;
+  color: #FCBC25 !important;
 }
 html[data-theme="dark"] .brand-mark {
   background: #112E5D !important;
@@ -135,7 +135,7 @@ html[data-theme="dark"] .progress-track {
   background: #344253;
 }
 html[data-theme="dark"] .progress-track span {
-  background: #F97316;
+  background: #FCBC25;
 }
 html[data-theme="dark"] .form-alert,
 html[data-theme="dark"] .form-error {
@@ -161,7 +161,7 @@ html[data-theme="dark"] a:focus-visible,
 html[data-theme="dark"] input:focus-visible,
 html[data-theme="dark"] select:focus-visible,
 html[data-theme="dark"] textarea:focus-visible {
-  outline-color: #F97316;
+  outline-color: #FCBC25;
 }
 
 /* Shared 404 layout. Theme-specific surfaces inherit the same brand palette. */
@@ -269,7 +269,7 @@ html[data-theme="dark"] .institution-note {
 html[data-theme="dark"] a:not(.button):not(.button-primary):not(.button-secondary):not(.brand),
 html[data-theme="dark"] .text-link,
 html[data-theme="dark"] .brand-light {
-  color: #F97316;
+  color: #FCBC25;
 }
 html[data-theme="dark"] input,
 html[data-theme="dark"] textarea,
@@ -286,9 +286,9 @@ html[data-theme="dark"] textarea::placeholder {
 html[data-theme="dark"] .button-primary,
 html[data-theme="dark"] .header-link,
 html[data-theme="dark"] .theme-toggle {
-  background: #F97316 !important;
+  background: #FCBC25 !important;
   color: #112E5D !important;
-  border-color: #F97316 !important;
+  border-color: #FCBC25 !important;
 }
 html[data-theme="dark"] .button-primary *,
 html[data-theme="dark"] .header-link *,
@@ -296,7 +296,7 @@ html[data-theme="dark"] .theme-toggle * {
   color: #112E5D !important;
 }
 html[data-theme="dark"] :focus-visible {
-  outline: 3px solid #F97316 !important;
+  outline: 3px solid #FCBC25 !important;
   outline-offset: 3px;
 }
 
@@ -315,7 +315,7 @@ html[data-theme="dark"] :focus-visible {
 }
 .service-unavailable-code {
   margin: 0 0 12px;
-  color: #F97316;
+  color: #FCBC25;
   font: 800 clamp(76px, 16vw, 144px)/.9 Manrope, sans-serif;
   letter-spacing: -.08em;
 }
@@ -351,17 +351,32 @@ html[data-theme="dark"] .not-found-secondary {
   color: #F1F4F8;
 }
 html[data-theme="dark"] .assessment-option:has(input:checked) {
-  border-color: #F97316 !important;
+  border-color: #FCBC25 !important;
 }
 html[data-theme="dark"] .brand-light {
-  color: #F97316 !important;
+  color: #FCBC25 !important;
 }
 html:not([data-theme="dark"]) .brand-light {
-  color: #F97316;
+  color: #FCBC25;
 }
 @media (max-width: 560px) {
   .not-found-header { min-height: 70px; padding: 0 18px; }
   .not-found-content { min-height: calc(100vh - 70px); padding: 64px 0; }
   .not-found-actions { gap: 18px; }
   .not-found-footnote { margin-top: 54px; line-height: 1.7; }
+}
+
+
+/* Keep the passed-quiz result readable on dark surfaces. */
+html[data-theme="dark"] .assessment-result.is-passed {
+  background: #173626 !important;
+  border-color: #34764b !important;
+  color: #D9FBE3 !important;
+}
+html[data-theme="dark"] .assessment-result.is-passed strong,
+html[data-theme="dark"] .assessment-result.is-passed span {
+  color: #D9FBE3 !important;
+}
+html[data-theme="dark"] .lesson-completed-status {
+  color: #9DE4B1 !important;
 }

@@ -1,0 +1,1208 @@
+{
+  "course_id": "1",
+  "title": "Introduction to Artificial Intelligence",
+  "category": "Category 1: AI Foundations",
+  "level": "Beginner",
+  "audience": "Beginner. Made for anyone who is curious about AI and has never studied it. No coding, maths or technical background needed. You only need to be able to use a web browser.",
+  "estimated_duration": "About 8 hours in total. Spread it over 2 weeks at 30 to 40 minutes a day.",
+  "description": "This course explains artificial intelligence in plain language. You will learn what AI is, where it came from, how machines learn from examples, how chatbots and image generators work, where AI is used in daily life and in industries, and why AI makes mistakes and can be unfair. You will then try an AI assistant safely and learn to judge its answers with a simple scorecard. Every lesson is short and every step is spelled out, so you can learn at your own pace.",
+  "what_you_will_need": [
+    {
+      "item": "A laptop, desktop computer or smartphone",
+      "details": "A computer is best because you will write notes, watch videos and use an AI assistant. A smartphone also works. Keep the charger nearby.",
+      "cost": "Paid (you may already own one)"
+    },
+    {
+      "item": "Internet connection",
+      "details": "You need a connection that can play a short YouTube video. Lower the video quality to 360p or 480p if you use mobile data. AI chats use little data.",
+      "cost": "Paid (Wi-Fi subscription or mobile data)"
+    },
+    {
+      "item": "A web browser",
+      "details": "Google Chrome or any modern browser. You will use it to watch the lesson videos and open an AI assistant.",
+      "cost": "Free"
+    },
+    {
+      "item": "A free account on one AI assistant",
+      "details": "You will use ChatGPT (chatgpt.com), Claude (claude.ai) or Gemini (gemini.google.com) in the last module. You only need one. If a tool is not available in your country, choose another. Lesson 6.1 shows how to start. Always type the website address yourself.",
+      "cost": "Free"
+    },
+    {
+      "item": "An email address you can open",
+      "details": "You need it to create an account on an AI assistant. Keep your inbox open in another tab when you sign up.",
+      "cost": "Free"
+    },
+    {
+      "item": "A notebook and a pen",
+      "details": "For timelines, diagrams, scorecards and notes. Many exercises ask you to write or draw on paper.",
+      "cost": "Paid (very cheap)"
+    },
+    {
+      "item": "A curious and careful mindset",
+      "details": "AI is a tool that can be wrong. Stay curious, ask questions, and check important answers. You do not need to know maths or coding for this course.",
+      "cost": "Free"
+    }
+  ],
+  "learning_objectives": [
+    "Explain in simple words what artificial intelligence is and give everyday examples",
+    "Describe the main events and the booms and winters in the history of AI",
+    "Tell the difference between AI, machine learning and deep learning",
+    "Explain how chatbots and image generators work at a basic level",
+    "Recognise how AI is used in daily life and in different industries",
+    "Explain why AI makes mistakes and shows bias, and why humans must stay in charge",
+    "Try an AI assistant safely and judge its answers with a simple scorecard"
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "module_title": "Understanding AI",
+      "module_goal": "Explain what artificial intelligence is, where it came from, and the difference between the AI we have today and the AI of science fiction.",
+      "lessons": [
+        {
+          "lesson_number": "1.1",
+          "lesson_title": "What Is Artificial Intelligence?",
+          "estimated_minutes": 35,
+          "youtube_url": "https://www.youtube.com/watch?v=b0KaGBOU4Ys",
+          "simple_explanation": "Artificial intelligence, or AI, is the ability of a computer system to do things that normally need human thinking, like understanding language, recognising pictures, making predictions or choosing what to do next. An AI system does not think or feel like a person. It finds patterns in data and uses them to produce answers. All the AI you can use today is called narrow AI, which means it is good at one kind of job. A chess program cannot write a poem, and a translation app cannot drive a car.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains what AI is in simple words. Have your notebook open.",
+            "Step 2: Watch the video once without stopping. Then watch it again and pause every time a new idea appears. Write the idea in your own words.",
+            "Step 3: Write this sentence in your notebook and finish it: AI is a computer system that ______. Compare your sentence with the explanation at the top of this lesson.",
+            "Step 4: Learn the three kinds of AI that people talk about. Narrow AI does one job or a small set of jobs. It is the only kind that exists today. General AI would be able to learn and do any thinking task a human can. It does not exist yet. Superintelligent AI would be smarter than people at everything. It is only an idea for now.",
+            "Step 5: List five things you used in the last week that might use AI, for example a phone camera, a map app, a video recommendation, a spam filter or a voice assistant. Put a star next to the ones that you are sure about.",
+            "Step 6: For each star, write what job the AI does and what data it might use. For a map app the job is finding a fast route and the data is traffic and locations.",
+            "Step 7: Notice the difference between a normal program and an AI system. A normal program follows rules a person wrote. An AI system learns patterns from examples and uses them on new cases.",
+            "Step 8: Read the key terms below and say each one aloud once."
+          ],
+          "key_terms": [
+            {
+              "term": "Artificial intelligence (AI)",
+              "meaning": "A computer system that does tasks which normally need human intelligence, like understanding language or recognising pictures."
+            },
+            {
+              "term": "Narrow AI",
+              "meaning": "AI built for one job or a small set of jobs. All AI in use today is narrow AI."
+            },
+            {
+              "term": "General AI",
+              "meaning": "A future idea of AI that could learn and do any thinking task a human can. It does not exist yet."
+            },
+            {
+              "term": "Data",
+              "meaning": "Information, like text, photos or numbers, that an AI system learns from or works on."
+            },
+            {
+              "term": "Pattern",
+              "meaning": "Something that repeats in data, such as the words that often follow other words."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "My AI spotting list",
+            "instructions": "Make a table with three columns: What I used, What the AI does, What data it uses. Fill in at least five rows from your own life. Then circle the one you use most.",
+            "expected_outcome": "A table of at least five everyday AI examples with the job and data for each."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which kind of AI exists today?",
+              "options": [
+                "Narrow AI",
+                "Human-level AI",
+                "Superintelligent AI",
+                "General AI"
+              ],
+              "correct_answer": "Narrow AI",
+              "explanation": "Every AI system in use today is built for specific jobs, so it is narrow AI."
+            },
+            {
+              "question": "A phone app can recognise faces in photos but cannot write a story. What does this show?",
+              "options": [
+                "It is general AI",
+                "It is a normal calculator",
+                "It is narrow AI built for one job",
+                "It has feelings"
+              ],
+              "correct_answer": "It is narrow AI built for one job",
+              "explanation": "Doing only one kind of task well is the sign of narrow AI."
+            }
+          ]
+        },
+        {
+          "lesson_number": "1.2",
+          "lesson_title": "A Short History of AI",
+          "estimated_minutes": 35,
+          "youtube_url": "https://www.youtube.com/watch?v=7m8aWoJ2klY",
+          "simple_explanation": "AI is much older than ChatGPT. The big questions began in 1950, when Alan Turing asked whether machines can think. The name 'artificial intelligence' was proposed in 1955 and the field began at a workshop at Dartmouth College in 1956. Since then AI has gone through exciting booms and quiet periods called AI winters, when money and trust dried up because promises were too big. The current boom started to build after 2012 and reached everyone with ChatGPT in November 2022.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It tells the story of AI booms and winters. It is long and detailed, so watch it in two or three sittings if you like.",
+            "Step 2: Draw a straight line across a page in your notebook. This is your timeline. Mark the years 1950, 1956, 1980, 1987, 1997, 2012 and 2022 along it.",
+            "Step 3: Add 1950 and write: Alan Turing asks 'Can machines think?' and proposes a test where a person chats with a machine and tries to tell if it is a human.",
+            "Step 4: Add 1956 and write: the Dartmouth workshop. The field of AI gets its name and its first big goals.",
+            "Step 5: Add 1974 to 1980 and write: the first AI winter. Governments cut funding after big promises were not met. Add 1980 and write: expert systems become useful in business.",
+            "Step 6: Add 1987 and write: the second AI winter. The market for special AI computers collapsed and funding fell again.",
+            "Step 7: Add 1997 and write: a computer called Deep Blue beats the world chess champion Garry Kasparov. Add 2012 and write: a deep learning system called AlexNet wins an image recognition contest by a large margin. This starts the modern boom.",
+            "Step 8: Add 2022 and write: ChatGPT is launched on 30 November 2022 and spreads very fast. Reports estimate it reached about a million users in five days and about a hundred million in two months. These are estimates, not audited counts.",
+            "Step 9: Look at your timeline. Write one sentence about what repeats in AI history. A good answer is: big promises, then disappointment and lost funding, then slow progress, then a new boom.",
+            "Step 10: Write why this matters to you: when you hear huge claims about AI, remember that earlier booms also made huge promises."
+          ],
+          "key_terms": [
+            {
+              "term": "AI winter",
+              "meaning": "A period when funding and interest in AI fell sharply because the results did not match the promises."
+            },
+            {
+              "term": "Turing test",
+              "meaning": "A test proposed by Alan Turing in 1950 where a person chats with a machine and a human and tries to tell which is which."
+            },
+            {
+              "term": "Expert system",
+              "meaning": "An early kind of AI that used hand-written rules from human experts to make decisions."
+            },
+            {
+              "term": "Deep learning",
+              "meaning": "A way of training AI with many layers of connections. It drove the big improvements after 2012."
+            },
+            {
+              "term": "Boom and bust",
+              "meaning": "A cycle of great excitement followed by disappointment."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Draw your AI timeline",
+            "instructions": "Create a neat timeline on one page with at least seven events from this lesson. Add one picture or symbol beside each. At the bottom, write your own sentence about what repeats in AI history.",
+            "expected_outcome": "A one-page timeline with seven or more events and a sentence about the repeating pattern."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What happened at Dartmouth College in 1956?",
+              "options": [
+                "ChatGPT was released",
+                "The first smartphone was sold",
+                "Deep Blue beat a chess champion",
+                "A workshop that gave the field of AI its name and early goals"
+              ],
+              "correct_answer": "A workshop that gave the field of AI its name and early goals",
+              "explanation": "The Dartmouth workshop of 1956 is widely seen as the birth of AI as a research field."
+            },
+            {
+              "question": "What is an AI winter?",
+              "options": [
+                "A period when funding and trust in AI fell after big promises were not met",
+                "A new kind of chip",
+                "A season when computers stop working",
+                "A very cold data centre"
+              ],
+              "correct_answer": "A period when funding and trust in AI fell after big promises were not met",
+              "explanation": "AI winters happened when results did not match the promises, so money and interest dropped."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What is the main difference between narrow AI and general AI?",
+            "options": [
+              "Narrow AI does specific jobs, general AI would do any thinking job a human can",
+              "There is no difference",
+              "Narrow AI costs money, general AI is free",
+              "Narrow AI is older, general AI is smaller"
+            ],
+            "correct_answer": "Narrow AI does specific jobs, general AI would do any thinking job a human can",
+            "explanation": "Narrow AI is what exists. General AI is a future idea."
+          },
+          {
+            "question": "Which year is usually given as the start of AI as a research field?",
+            "options": [
+              "2012",
+              "2022",
+              "1856",
+              "1956"
+            ],
+            "correct_answer": "1956",
+            "explanation": "The Dartmouth workshop of 1956 gave the field its name and goals."
+          },
+          {
+            "question": "What does the history of AI teach us about big promises?",
+            "options": [
+              "Nothing ever goes wrong",
+              "Promises always come true quickly",
+              "Past booms also made big promises and some were followed by winters",
+              "AI began in 2022"
+            ],
+            "correct_answer": "Past booms also made big promises and some were followed by winters",
+            "explanation": "Remembering earlier booms helps you judge new claims calmly."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 2,
+      "module_title": "Machine Learning and Deep Learning",
+      "module_goal": "Explain how computers learn from examples, and tell the difference between AI, machine learning and deep learning.",
+      "lessons": [
+        {
+          "lesson_number": "2.1",
+          "lesson_title": "How Machines Learn: Machine Learning",
+          "estimated_minutes": 35,
+          "youtube_url": "https://www.youtube.com/watch?v=F1wlCerC40E",
+          "simple_explanation": "Machine learning, or ML, is a way of building AI where the computer learns from examples instead of following rules that a person wrote step by step. You show it many examples, it finds patterns, and then it uses those patterns on new cases. There are three main ways of learning. In supervised learning the examples come with the right answers. In unsupervised learning the computer looks for groups on its own. In reinforcement learning it learns by trying things and getting rewards.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains how machine learning works. Pause and write down any word you do not know.",
+            "Step 2: Think about how you taught yourself to tell ripe fruit from unripe fruit. You looked at many examples and slowly learned the signs. Machine learning works in a similar way.",
+            "Step 3: Learn supervised learning. You give the computer many examples with the right answer attached. Example: thousands of emails, each marked spam or not spam. The computer learns what spam looks like and can then label new emails.",
+            "Step 4: Learn unsupervised learning. You give the computer examples without answers and it finds groups by itself. Example: a shop gives the computer its customers' purchase records and it finds groups of customers who buy similar things.",
+            "Step 5: Learn reinforcement learning. The computer tries actions and receives rewards or penalties. Example: a program learns to play a game by playing it millions of times and keeping what scores well.",
+            "Step 6: Learn the three steps of most ML projects: collect data, train a model on the data, then test the model on new data it has never seen. Write the three steps in your notebook.",
+            "Step 7: Understand why data quality matters. If the examples are poor, wrong or one-sided, the model will learn the wrong patterns. People say garbage in, garbage out.",
+            "Step 8: Write one example of each of the three kinds of learning from your own life or from things you use."
+          ],
+          "key_terms": [
+            {
+              "term": "Machine learning (ML)",
+              "meaning": "A way of building AI where a computer learns patterns from examples instead of following hand-written rules."
+            },
+            {
+              "term": "Model",
+              "meaning": "The result of training. It is the program that has learned patterns and can make predictions on new data."
+            },
+            {
+              "term": "Training",
+              "meaning": "The process of showing a model many examples so it can learn patterns."
+            },
+            {
+              "term": "Supervised learning",
+              "meaning": "Learning from examples that come with the right answers."
+            },
+            {
+              "term": "Unsupervised learning",
+              "meaning": "Learning to find groups or patterns in data that has no answers attached."
+            },
+            {
+              "term": "Reinforcement learning",
+              "meaning": "Learning by trying actions and getting rewards or penalties."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Teach spam filtering to a friend",
+            "instructions": "Explain to a friend or family member, in three or four sentences, how a spam filter learns what spam looks like. Use the words example, pattern and training. Write your explanation in your notebook afterwards.",
+            "expected_outcome": "A short written explanation using the words example, pattern and training correctly."
+          },
+          "lesson_quiz": [
+            {
+              "question": "A computer is shown thousands of photos labelled cat or dog and then labels new photos. Which learning type is this?",
+              "options": [
+                "Supervised learning",
+                "No learning at all",
+                "Reinforcement learning",
+                "Unsupervised learning"
+              ],
+              "correct_answer": "Supervised learning",
+              "explanation": "The examples come with the correct labels, which is supervised learning."
+            },
+            {
+              "question": "Why does the quality of training data matter?",
+              "options": [
+                "It does not matter",
+                "Because better data makes the screen brighter",
+                "Because data is only for storage",
+                "A model learns patterns from its data, so poor data leads to poor results"
+              ],
+              "correct_answer": "A model learns patterns from its data, so poor data leads to poor results",
+              "explanation": "Models learn whatever patterns are in the data, good or bad."
+            }
+          ]
+        },
+        {
+          "lesson_number": "2.2",
+          "lesson_title": "Neural Networks and Deep Learning",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=aircAruvnKk",
+          "simple_explanation": "A neural network is a way of building AI that is loosely inspired by the brain. It is made of many small units arranged in layers. Each unit takes in numbers, does a little calculation and passes the result on. When a network has many layers it is called deep, and training it is called deep learning. Deep learning is a part of machine learning, and machine learning is a part of AI. Deep learning is behind most of the big AI results since 2012, including image recognition, voice assistants and chatbots.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains neural networks using handwritten digits. Some parts use maths. You do not need to follow the maths. Focus on the idea of layers of small units and how the network gets better by training. Stop when it becomes too technical.",
+            "Step 2: Draw three columns of circles in your notebook. The left column is the input, such as the pixels of a photo. The middle column is the hidden layers. The right column is the output, such as the answer 'this is the number 7'. Draw lines between the circles.",
+            "Step 3: Learn what happens in training. At first the network guesses badly. It compares its guess with the right answer, measures how wrong it was and makes tiny changes to all its connections. It repeats this millions of times until the guesses are good.",
+            "Step 4: Learn why it is called deep. A shallow network has one or two layers. A deep network has many layers, and each layer picks out more complex features. In a face recogniser, early layers find edges, later layers find shapes like eyes and noses, and the final layers recognise a face.",
+            "Step 5: Draw three nested circles. The biggest is AI, inside it is machine learning, and inside that is deep learning. Label them. This picture answers the common question about the difference between the three.",
+            "Step 6: Note the cost of deep learning. It usually needs a lot of data and a lot of computing power. This is why it only took off after 2012, when large datasets and fast chips called GPUs became available.",
+            "Step 7: Write the difference between AI, ML and deep learning in one sentence each."
+          ],
+          "key_terms": [
+            {
+              "term": "Neural network",
+              "meaning": "A system made of many small units arranged in layers that pass numbers to each other and learn by adjusting their connections."
+            },
+            {
+              "term": "Layer",
+              "meaning": "A group of units in a neural network that works on the output of the previous group."
+            },
+            {
+              "term": "Deep learning",
+              "meaning": "Training neural networks with many layers. It is a part of machine learning."
+            },
+            {
+              "term": "Input and output",
+              "meaning": "The input is what you give the network, like a photo. The output is what it gives back, like a label."
+            },
+            {
+              "term": "GPU",
+              "meaning": "A computer chip that can do many calculations at once. It makes training big networks practical."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Three circles diagram",
+            "instructions": "Draw the nested circles of AI, machine learning and deep learning. Put one real example inside each circle. Then write two sentences explaining the diagram in your own words.",
+            "expected_outcome": "A neat diagram with three nested circles, an example in each, and a two sentence explanation."
+          },
+          "lesson_quiz": [
+            {
+              "question": "How is deep learning related to machine learning?",
+              "options": [
+                "They are unrelated",
+                "Deep learning is bigger than AI",
+                "Machine learning is a part of deep learning",
+                "Deep learning is a part of machine learning"
+              ],
+              "correct_answer": "Deep learning is a part of machine learning",
+              "explanation": "Deep learning is one way of doing machine learning, and machine learning is a part of AI."
+            },
+            {
+              "question": "What does 'deep' mean in deep learning?",
+              "options": [
+                "The data is hidden underground",
+                "The screen is large",
+                "The network has many layers",
+                "The computer is very old"
+              ],
+              "correct_answer": "The network has many layers",
+              "explanation": "A deep network is one with many layers of units."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which of these is an example of unsupervised learning?",
+            "options": [
+              "Typing a document",
+              "Learning from emails labelled spam",
+              "A program learning a game by rewards",
+              "Grouping customers who buy similar things, with no labels given"
+            ],
+            "correct_answer": "Grouping customers who buy similar things, with no labels given",
+            "explanation": "Finding groups in unlabelled data is unsupervised learning."
+          },
+          {
+            "question": "Which statement is correct?",
+            "options": [
+              "They are three separate fields",
+              "Machine learning is bigger than AI",
+              "AI is a part of deep learning",
+              "Deep learning is a part of machine learning, which is a part of AI"
+            ],
+            "correct_answer": "Deep learning is a part of machine learning, which is a part of AI",
+            "explanation": "The three form nested circles: AI contains ML, and ML contains deep learning."
+          },
+          {
+            "question": "A model is trained and then tested on data it has never seen. Why?",
+            "options": [
+              "To delete the training data",
+              "To check that it learned patterns that work on new cases",
+              "To make it look more complicated",
+              "To make the training longer"
+            ],
+            "correct_answer": "To check that it learned patterns that work on new cases",
+            "explanation": "Testing on new data shows whether the model can handle cases beyond the ones it practised on."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 3,
+      "module_title": "Generative AI",
+      "module_goal": "Explain in simple words how chatbots like ChatGPT work, and how AI makes images, sound and video.",
+      "lessons": [
+        {
+          "lesson_number": "3.1",
+          "lesson_title": "Large Language Models: How Chatbots Work",
+          "estimated_minutes": 35,
+          "youtube_url": "https://www.youtube.com/watch?v=LPZh9BOjkQs",
+          "simple_explanation": "A large language model, or LLM, is the AI behind chatbots like ChatGPT, Claude and Gemini. At its heart it does one thing: given some text, it predicts what word should come next. It repeats this again and again to write whole answers. It learned to do this by reading a huge amount of text and adjusting hundreds of billions of internal settings, called parameters. It is generative AI because it generates new text instead of only sorting or labelling things.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains large language models briefly. It is about eight minutes long. Watch it twice.",
+            "Step 2: Learn the big idea. An LLM is a very advanced next word predictor. If you type 'The sun rises in the', it assigns a high chance to 'east' and a low chance to 'kitchen'. It picks a likely word, adds it, and repeats.",
+            "Step 3: Learn about randomness. A model does not always pick the single most likely word. It picks from the likely options, which is why you can ask the same question twice and get two different answers.",
+            "Step 4: Learn about tokens. Models work on small pieces of text called tokens, which may be a whole word or part of a word. Costs and limits in AI tools are often measured in tokens.",
+            "Step 5: Learn about training. First, the model reads a huge amount of text and learns patterns about which words follow which. Then it is further tuned using feedback from people so that its answers are more helpful and safer.",
+            "Step 6: Learn about parameters. These are the internal settings that the model adjusts while learning. Large models have hundreds of billions of them. People do not set them by hand. The model adjusts them through training.",
+            "Step 7: Try this thought experiment. Open your phone keyboard and tap the suggested next word several times in a row. This is a tiny, weak version of the same idea.",
+            "Step 8: Write one reason why an AI can sound sure but still be wrong. A good answer is: it predicts likely words, it does not check facts."
+          ],
+          "key_terms": [
+            {
+              "term": "Generative AI",
+              "meaning": "AI that creates new content, such as text, images, audio or video."
+            },
+            {
+              "term": "Large language model (LLM)",
+              "meaning": "An AI model trained on huge amounts of text to predict the next word, used in chatbots."
+            },
+            {
+              "term": "Token",
+              "meaning": "A small piece of text, like a word or part of a word, that a model reads and writes."
+            },
+            {
+              "term": "Parameter",
+              "meaning": "An internal setting that a model adjusts while it learns. Big models have billions of them."
+            },
+            {
+              "term": "Prompt",
+              "meaning": "The text you type to tell an AI model what you want."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Play the next word game",
+            "instructions": "Write the start of five different sentences on paper. Ask a friend, or yourself, to finish each with the most likely next word. Then write two sentences about how this is like an LLM and how it is different.",
+            "expected_outcome": "Five sentence starts with predicted next words and a short explanation linking them to LLMs."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is the basic job of a large language model?",
+              "options": [
+                "To store your files",
+                "To look up facts in a library",
+                "To predict the next word, one word at a time",
+                "To think and feel like a person"
+              ],
+              "correct_answer": "To predict the next word, one word at a time",
+              "explanation": "An LLM generates text by repeatedly predicting what comes next."
+            },
+            {
+              "question": "Why might you get different answers if you ask a chatbot the same question twice?",
+              "options": [
+                "The chatbot forgets the question",
+                "The model picks from several likely words, so there is some randomness",
+                "It refuses to answer twice",
+                "The internet changes every second"
+              ],
+              "correct_answer": "The model picks from several likely words, so there is some randomness",
+              "explanation": "Models sample from likely words, so answers can vary."
+            }
+          ]
+        },
+        {
+          "lesson_number": "3.2",
+          "lesson_title": "AI That Makes Images, Sound and Video",
+          "estimated_minutes": 35,
+          "youtube_url": "https://www.youtube.com/watch?v=SVcsDDABEkM",
+          "simple_explanation": "Generative AI does not only write text. Image generators turn a written description into a picture. Other models can create speech in a chosen voice, write music, and make short videos. They work by learning patterns from huge collections of pictures, sounds or clips, together with descriptions of them. They are exciting tools for creative work, and they also bring new risks, such as fake photos, fake voices and questions about who owns the training material.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. The video explains how AI art is made. It focuses on images. Sound and video work in a similar way, and the steps below cover them.",
+            "Step 2: Learn how image generators work in simple terms. They learn from millions of pictures paired with descriptions. Many of them start from random noise and shape it step by step into a picture that fits your words. You do not need to remember the details.",
+            "Step 3: Learn about audio. Text-to-speech turns written words into a spoken voice. Voice cloning copies a person's voice from a sample. Music generators create songs from a description.",
+            "Step 4: Learn about video. Text-to-video tools make short clips from a written description, and other tools can change a face or a voice in an existing video.",
+            "Step 5: Learn the benefits. These tools help people make posters, illustrations, voiceovers and prototypes quickly, even without special skills.",
+            "Step 6: Learn the risks. Fake images and videos, called deepfakes, can be used to spread lies or to copy a person without their permission. Artists and writers also argue about whether training on their work without asking is fair.",
+            "Step 7: Learn how to be careful. Do not trust a shocking photo or recording just because it looks real. Check where it came from. Never create or share AI images or voices of real people without their permission.",
+            "Step 8: Write three questions you would ask yourself before believing or sharing a surprising photo, video or voice message."
+          ],
+          "key_terms": [
+            {
+              "term": "Image generator",
+              "meaning": "An AI tool that creates a picture from a written description."
+            },
+            {
+              "term": "Text-to-speech",
+              "meaning": "Turning written text into spoken audio."
+            },
+            {
+              "term": "Voice cloning",
+              "meaning": "Copying a person's voice with AI. It needs the person's permission to be used fairly."
+            },
+            {
+              "term": "Deepfake",
+              "meaning": "A fake photo, video or audio made with AI that looks or sounds real."
+            },
+            {
+              "term": "Training data",
+              "meaning": "The pictures, text or sounds an AI model learned from."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "The believe or check list",
+            "instructions": "Write a checklist of five questions to ask before you believe or share a surprising photo, video or voice message. Test your checklist on one viral post you have seen recently, without sharing it.",
+            "expected_outcome": "A checklist of five questions and a short note on testing it on one example."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which of these is a real risk of AI-generated video and audio?",
+              "options": [
+                "Internet cables get shorter",
+                "Fake content that makes it look like a real person said or did something",
+                "The screen becomes too bright",
+                "Files become smaller"
+              ],
+              "correct_answer": "Fake content that makes it look like a real person said or did something",
+              "explanation": "Deepfakes can be used to mislead people or to impersonate them."
+            },
+            {
+              "question": "What do image generators learn from?",
+              "options": [
+                "Your private phone calls",
+                "Large collections of pictures paired with descriptions",
+                "A single drawing",
+                "A dictionary only"
+              ],
+              "correct_answer": "Large collections of pictures paired with descriptions",
+              "explanation": "They learn patterns linking words and images from very large sets of examples."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What kind of AI creates new text, images or audio?",
+            "options": [
+              "Reactive AI",
+              "Hardware AI",
+              "Mechanical AI",
+              "Generative AI"
+            ],
+            "correct_answer": "Generative AI",
+            "explanation": "Generative AI creates new content instead of only labelling existing data."
+          },
+          {
+            "question": "A friend says a chatbot 'looks everything up in a big library'. What is a better description?",
+            "options": [
+              "It thinks exactly like a person",
+              "It predicts likely next words based on patterns it learned",
+              "It calls a human to type the answer",
+              "It copies one web page"
+            ],
+            "correct_answer": "It predicts likely next words based on patterns it learned",
+            "explanation": "Chatbots predict words from learned patterns. They do not search a library by default."
+          },
+          {
+            "question": "You see a shocking video of a famous person saying something odd. What is the wisest first step?",
+            "options": [
+              "Delete your phone",
+              "Believe it because it looks real",
+              "Check who published it and look for reliable sources before believing or sharing",
+              "Share it at once"
+            ],
+            "correct_answer": "Check who published it and look for reliable sources before believing or sharing",
+            "explanation": "Realistic fakes exist, so check the source before you trust or share."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 4,
+      "module_title": "AI in the Real World",
+      "module_goal": "Recognise how AI is used in everyday life and across industries, and think about who benefits and who might be left out.",
+      "lessons": [
+        {
+          "lesson_number": "4.1",
+          "lesson_title": "AI in Everyday Life and Across Industries",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=CiSaY2xl9V4",
+          "simple_explanation": "You already use AI many times a day, often without noticing. It suggests the next video, filters spam, plans your route, translates a sentence and unlocks your phone with your face. Behind the scenes, AI also helps banks catch fraud, helps doctors look at scans, helps farmers spot plant diseases from a photo, helps weather services make forecasts and helps schools give students extra practice. In each case AI usually helps a person do a job faster. It does not replace the need for human judgement.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video from IBM Technology about ten everyday uses of machine learning. It is about seven minutes long. Pause whenever an example makes you think of something you use. Then continue with the table below to cover more areas.",
+            "Step 2: Make a table with two columns. In the first column write home, school or work, health, money, farming, transport and entertainment. Leave the second column empty for now.",
+            "Step 3: Fill in everyday life. Examples: recommendations on video apps, spam filters in email, maps predicting traffic, voice assistants, camera features, translation and autocorrect.",
+            "Step 4: Fill in health. Examples: software that helps doctors spot signs of disease in scans, and tools that help hospitals manage appointments. A doctor stays responsible for the decision.",
+            "Step 5: Fill in money. Examples: banks using AI to spot fraud in card and mobile payments, and apps that help people budget.",
+            "Step 6: Fill in farming. Examples: apps that identify plant diseases from a photo, tools that predict weather, and systems that guide how much water or fertiliser to use.",
+            "Step 7: Fill in school and work. Examples: tools that give students extra practice, writing and summarising assistants, and customer service chatbots.",
+            "Step 8: Think about who might be left out. Write answers to these questions: Who needs a smartphone or data to use these tools? Which languages do they support well? Who might be treated unfairly?",
+            "Step 9: Choose one example from your table that could help your own community. Write two sentences about how and one sentence about a possible problem."
+          ],
+          "key_terms": [
+            {
+              "term": "Recommendation system",
+              "meaning": "AI that suggests things you may like, such as videos or products, based on your past activity and what similar people liked."
+            },
+            {
+              "term": "Fraud detection",
+              "meaning": "Using AI to spot suspicious payments or account activity."
+            },
+            {
+              "term": "Precision farming",
+              "meaning": "Using data and AI to decide when and where to water, plant or treat crops."
+            },
+            {
+              "term": "Chatbot",
+              "meaning": "A program that talks with people by text or voice, often used for customer service."
+            },
+            {
+              "term": "Access",
+              "meaning": "Whether people can actually use a technology, depending on things like devices, data costs, language and skills."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "AI around me",
+            "instructions": "Complete the table of everyday life and industries. Then write a half page about one AI use that could help your community and one problem it could cause.",
+            "expected_outcome": "A completed table across at least six areas plus a half page reflection with one benefit and one concern."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which is an example of AI used in banking?",
+              "options": [
+                "Painting the bank walls",
+                "Counting coins by hand",
+                "Spotting suspicious transactions that may be fraud",
+                "Printing cheque books"
+              ],
+              "correct_answer": "Spotting suspicious transactions that may be fraud",
+              "explanation": "Fraud detection is a common AI use in banks and mobile payments."
+            },
+            {
+              "question": "Why should we ask who might be left out when AI tools are introduced?",
+              "options": [
+                "Some people may lack devices, data, language support or skills to benefit",
+                "Because AI only works on weekends",
+                "Because everyone benefits equally",
+                "Because it has no effect"
+              ],
+              "correct_answer": "Some people may lack devices, data, language support or skills to benefit",
+              "explanation": "Benefits are not shared equally, so we must consider access and fairness."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "An app that identifies a plant disease from a photo is an example of AI in which area?",
+            "options": [
+              "Farming",
+              "Music only",
+              "Space travel only",
+              "Banking only"
+            ],
+            "correct_answer": "Farming",
+            "explanation": "Photo recognition is used to help farmers diagnose crop problems."
+          },
+          {
+            "question": "When AI helps doctors look at scans, who remains responsible for the final decision?",
+            "options": [
+              "The software company",
+              "Nobody",
+              "The doctor",
+              "The scanner"
+            ],
+            "correct_answer": "The doctor",
+            "explanation": "AI supports the doctor. A trained human stays responsible."
+          },
+          {
+            "question": "Which is the best description of how AI is mostly used in jobs today?",
+            "options": [
+              "It only works in factories",
+              "It helps people do tasks faster, with humans still checking the results",
+              "It works with no data",
+              "It replaces all human judgement"
+            ],
+            "correct_answer": "It helps people do tasks faster, with humans still checking the results",
+            "explanation": "Most real uses are tools that assist people."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 5,
+      "module_title": "The Limits of AI",
+      "module_goal": "Understand why AI makes mistakes, why it can be biased, and why humans must stay in charge of important decisions.",
+      "lessons": [
+        {
+          "lesson_number": "5.1",
+          "lesson_title": "Hallucinations and Mistakes",
+          "estimated_minutes": 35,
+          "youtube_url": "https://www.youtube.com/watch?v=cfqtFvWOfg0",
+          "simple_explanation": "AI is useful but it is not always right. A language model can produce a confident answer that is completely false. This is called a hallucination. It happens because the model predicts likely words, so it can produce a smooth sentence that sounds right without any check on the facts. Mistakes are most likely with exact numbers, dates, names, quotes, sources and recent events. This is why reliability depends on you checking important answers.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains why large language models hallucinate. Some words are technical. Focus on the main idea: the model predicts words and does not check facts.",
+            "Step 2: Write in your notebook: A hallucination is a confident answer that is false.",
+            "Step 3: Learn where mistakes are common: exact statistics, dates, names of people, quotes, web links and references, small local topics, and very recent events.",
+            "Step 4: Learn why the tone misleads you. The AI writes in a smooth and sure voice every time. A confident tone is not evidence that an answer is correct.",
+            "Step 5: Learn the safe jobs. AI is good for drafting, explaining ideas, brainstorming, rewriting and summarising text that you give it. It is risky for facts you will repeat, and for health, legal and money advice.",
+            "Step 6: Learn the checking habit. Pick out the facts in an answer, such as names, numbers and dates. Check each one in two reliable sources, such as an official website or a respected news source.",
+            "Step 7: Learn that AI can also make reasoning errors. For example it may make a maths mistake or contradict itself. If an answer matters, ask it to explain its steps and look for gaps.",
+            "Step 8: Write your own rule for using AI answers, for example: I will check any name, number, date or link before I use it."
+          ],
+          "key_terms": [
+            {
+              "term": "Hallucination",
+              "meaning": "A confident but false answer produced by an AI model."
+            },
+            {
+              "term": "Reliability",
+              "meaning": "How much you can trust a tool to be correct each time."
+            },
+            {
+              "term": "Verify",
+              "meaning": "To check that information is true using reliable sources."
+            },
+            {
+              "term": "Reliable source",
+              "meaning": "A trustworthy place for facts, like an official website, a university or a respected news outlet."
+            },
+            {
+              "term": "High-stakes",
+              "meaning": "Matters where a mistake could cause serious harm, such as health, law or money."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Catch an AI mistake",
+            "instructions": "Ask an AI assistant for five facts about any topic. Check each fact with a reliable source. Mark each one correct, wrong or unconfirmed. Write one sentence about what you learned.",
+            "expected_outcome": "A list of five facts, each marked correct, wrong or unconfirmed, with a sentence of reflection."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which kind of detail is AI most likely to get wrong?",
+              "options": [
+                "Exact numbers, dates, names and sources",
+                "Spelling of short words",
+                "Common rhymes",
+                "Simple greetings"
+              ],
+              "correct_answer": "Exact numbers, dates, names and sources",
+              "explanation": "Specific details are where invented or mixed-up information shows up most."
+            },
+            {
+              "question": "Why can a wrong answer from AI still sound very sure?",
+              "options": [
+                "The screen exaggerates",
+                "The model writes smooth text by predicting likely words and does not check facts",
+                "The AI wants to trick you",
+                "The AI is angry"
+              ],
+              "correct_answer": "The model writes smooth text by predicting likely words and does not check facts",
+              "explanation": "A confident tone comes from how text is generated, not from checking."
+            }
+          ]
+        },
+        {
+          "lesson_number": "5.2",
+          "lesson_title": "Bias, Fairness and Keeping Humans in Charge",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=gkbNH39QE0Q",
+          "simple_explanation": "AI learns from data made by people. If the data is unfair or leaves some groups out, the AI can become unfair too. This is called bias. A well-known example is face recognition: the researcher Joy Buolamwini found that some systems worked poorly on darker skin and on women, and after her work some companies updated their products. Bias can lead to real harm, such as unfair decisions about jobs, loans or safety. That is why important decisions should keep a human in charge, who can check, question and correct the AI.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the interview from Democracy Now! about the film Coded Bias, which looks at bias in face recognition and AI. It is about 17 minutes long. Watch it once, then pause and write what you noticed.",
+            "Step 2: Write a simple definition: Bias in AI is when a system works better for some people than for others, or treats them unfairly.",
+            "Step 3: Learn where bias comes from. Data may leave some groups out, such as pictures of mostly one skin tone. Data may carry old unfair habits from the past. The people who build and test the system may not think of everyone.",
+            "Step 4: Learn what bias can cause. A face unlock that fails for some people, a job screening tool that favours some applicants, or a loan tool that treats similar people differently.",
+            "Step 5: Learn how to reduce bias. Use varied and balanced data. Test the system on many kinds of people before using it. Keep checking after it goes live. Let people appeal a decision.",
+            "Step 6: Learn about human oversight. For important decisions, a person should review what the AI suggests, have the power to override it, and be responsible for the result. This is sometimes called human in the loop.",
+            "Step 7: Take a decision from real life, for example choosing who gets a scholarship. Write which parts an AI could help with, like sorting applications, and which parts a human must decide, like the final choice.",
+            "Step 8: Write one question you would ask before trusting an AI system that makes decisions about people."
+          ],
+          "key_terms": [
+            {
+              "term": "Bias (in AI)",
+              "meaning": "When an AI system works better for some people than others or treats them unfairly, often because of its data."
+            },
+            {
+              "term": "Fairness",
+              "meaning": "Treating people equally and not harming some groups more than others."
+            },
+            {
+              "term": "Human in the loop",
+              "meaning": "A design where a person reviews or approves important decisions made with AI."
+            },
+            {
+              "term": "Oversight",
+              "meaning": "Checking and supervising what a system does, so mistakes can be caught."
+            },
+            {
+              "term": "Accountability",
+              "meaning": "Being responsible for the outcome of a decision."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Human or AI?",
+            "instructions": "Pick three decisions, such as sorting job applications, approving a loan and recommending a song. For each, write what the AI could help with, what a human must decide, and one risk of leaving it fully to AI.",
+            "expected_outcome": "A table with three decisions, each with AI help, human decision and one risk."
+          },
+          "lesson_quiz": [
+            {
+              "question": "A face recognition system works worse on some skin tones. What is the most likely cause?",
+              "options": [
+                "Its training data did not include enough variety",
+                "The system is too clever",
+                "The camera is shy",
+                "The internet is too slow"
+              ],
+              "correct_answer": "Its training data did not include enough variety",
+              "explanation": "Systems learn from their data, so missing groups in the data lead to poorer results for those groups."
+            },
+            {
+              "question": "Why keep a human in charge of important decisions made with AI?",
+              "options": [
+                "Humans are always faster",
+                "Computers are never used",
+                "A person can check, question and correct the AI",
+                "AI cannot read"
+              ],
+              "correct_answer": "A person can check, question and correct the AI",
+              "explanation": "Human oversight catches mistakes and unfairness before they cause harm."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What is the best way to use an AI answer that contains a statistic?",
+            "options": [
+              "Repeat it at once",
+              "Round it up",
+              "Check the statistic in a reliable source before using it",
+              "Delete the source"
+            ],
+            "correct_answer": "Check the statistic in a reliable source before using it",
+            "explanation": "Numbers are a common place for AI errors, so verify them."
+          },
+          {
+            "question": "Which of these is an example of bias?",
+            "options": [
+              "A tool that runs quickly",
+              "A tool that works well for some groups and poorly for others",
+              "A tool that needs charging",
+              "A tool with a long name"
+            ],
+            "correct_answer": "A tool that works well for some groups and poorly for others",
+            "explanation": "Bias means unequal performance or treatment, often from skewed data."
+          },
+          {
+            "question": "What does 'human in the loop' mean?",
+            "options": [
+              "A person reviews or approves important decisions",
+              "The AI works without people",
+              "The AI replaces the manager",
+              "A person is inside the computer"
+            ],
+            "correct_answer": "A person reviews or approves important decisions",
+            "explanation": "It keeps people responsible for decisions that matter."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 6,
+      "module_title": "Hands-On: Exploring and Judging AI Tools",
+      "module_goal": "Try an AI assistant safely and learn to judge AI tools and their answers with a simple scorecard.",
+      "lessons": [
+        {
+          "lesson_number": "6.1",
+          "lesson_title": "Trying an AI Assistant Safely",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=JzkZGGX3MxY",
+          "simple_explanation": "The best way to understand AI is to use it with care. In this lesson you will try a free AI chat assistant on a few small tasks and watch what it does well and what it does badly. You only need one assistant. The most important rules are to keep private details out of your chats and to treat every answer as a draft that you must check.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It is a beginner video on starting with ChatGPT. You can use any free assistant, such as ChatGPT, Claude or Gemini. If your favourite is not shown, the ideas are the same.",
+            "Step 2: Open the assistant by typing its address yourself: chatgpt.com, claude.ai or gemini.google.com. Create a free account if you need one, using your own email. Never click a link from a message to reach it.",
+            "Step 3: Set your safety rules before you type anything. Do not enter passwords, one-time codes, bank details, ID numbers, or private information about other people.",
+            "Step 4: Task 1: type 'Explain what artificial intelligence is to a 12 year old in four sentences.' Read the answer and mark anything that seems unclear.",
+            "Step 5: Task 2: copy a short paragraph from a website or book you have rights to use, about three to five sentences. Type 'Summarise this in one sentence:' and paste it. Compare the summary with the original.",
+            "Step 6: Task 3: type 'Give me five ideas for a small business I can start with 20 000 naira.' Notice that the ideas are drafts. Which ones fit your situation? Which need checking?",
+            "Step 7: Task 4: ask a question you already know the answer to, such as the capital of Nigeria. Then ask something made up, such as 'Tell me about the novel The Silver River of Ibadan.' See whether it admits it does not know.",
+            "Step 8: Task 5: reply in the same chat and ask for a change, such as 'Make it simpler' or 'Give me a table'. Notice how follow-up messages improve answers.",
+            "Step 9: Write down in your notebook what the assistant did well, what it did badly, and what surprised you."
+          ],
+          "key_terms": [
+            {
+              "term": "AI assistant",
+              "meaning": "A chatbot you can ask questions and give tasks, using a large language model."
+            },
+            {
+              "term": "Prompt",
+              "meaning": "The message or instruction you type to an AI assistant."
+            },
+            {
+              "term": "Follow-up",
+              "meaning": "A new message in the same chat that builds on earlier messages."
+            },
+            {
+              "term": "Draft",
+              "meaning": "A first version that you must read and check before using."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "My five task trial",
+            "instructions": "Complete the five tasks. For each, write the task, a one line summary of the answer, a mark from 1 to 5 for how useful it was, and any mistake you found.",
+            "expected_outcome": "A table of five tasks with answers summarised, ratings and any mistakes noted."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which of these should you never type into an AI assistant?",
+              "options": [
+                "Your bank PIN or a one-time code",
+                "A request to explain a word",
+                "A request to shorten a paragraph",
+                "A question about cooking rice"
+              ],
+              "correct_answer": "Your bank PIN or a one-time code",
+              "explanation": "PINs and codes give access to your money and accounts, so keep them secret."
+            },
+            {
+              "question": "An AI gives you five business ideas. How should you treat them?",
+              "options": [
+                "As exam answers",
+                "As legal advice",
+                "As drafts to check and adapt to your situation",
+                "As guaranteed plans"
+              ],
+              "correct_answer": "As drafts to check and adapt to your situation",
+              "explanation": "AI outputs are starting points that you need to check."
+            }
+          ]
+        },
+        {
+          "lesson_number": "6.2",
+          "lesson_title": "Judging AI Tools With a Simple Scorecard",
+          "estimated_minutes": 40,
+          "youtube_url": "https://www.youtube.com/watch?v=imBL73lFwbk",
+          "simple_explanation": "Not every AI tool is worth trusting, and not every answer is good. A scorecard is a short checklist that helps you judge an AI answer or an AI tool fairly. You score a few things, such as how accurate, clear, useful, safe and fair the result is. The scorecard in this lesson works for any tool, and it will help you decide when to trust an answer and when to double check.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to fact-check AI answers step by step. Pause and follow along in your notebook.",
+            "Step 2: Draw a scorecard in your notebook with six rows: Accuracy, Clarity, Usefulness, Safety, Fairness and Effort. Add a column for scores from 1 (poor) to 5 (excellent) and a column for notes.",
+            "Step 3: Learn Accuracy. Are the facts, numbers and names correct? Check the important ones using reliable sources.",
+            "Step 4: Learn Clarity. Is the answer easy to understand and well organised for the person who needs it?",
+            "Step 5: Learn Usefulness. Does it actually help you do your task, or is it vague and general?",
+            "Step 6: Learn Safety. Did it ask for or reveal private information? Did it give risky advice about health, money or law that needs a professional?",
+            "Step 7: Learn Fairness. Does the answer treat different groups of people respectfully, or does it use stereotypes?",
+            "Step 8: Learn Effort. How much checking and fixing did you have to do? A tool that needs hours of correction may not save time.",
+            "Step 9: Pick one task, such as 'Write a short message inviting people to a class.' Get answers from two different assistants. Score both on the scorecard.",
+            "Step 10: Decide which answer to use and what you must check before using it. Write your decision and your reasons in your notebook."
+          ],
+          "key_terms": [
+            {
+              "term": "Scorecard",
+              "meaning": "A checklist for judging something fairly using several points."
+            },
+            {
+              "term": "Accuracy",
+              "meaning": "How correct the facts in an answer are."
+            },
+            {
+              "term": "Fairness",
+              "meaning": "Whether an answer treats different people equally and respectfully."
+            },
+            {
+              "term": "Fact-check",
+              "meaning": "Checking claims against trusted sources."
+            },
+            {
+              "term": "Compare",
+              "meaning": "Looking at two results side by side to see which is better and why."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Score two AI answers",
+            "instructions": "Choose one real task. Ask two assistants to do it. Score both answers on the six-point scorecard, pick a winner and write what you will check before using it.",
+            "expected_outcome": "A completed scorecard for two answers, a chosen winner and a short list of things to verify."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which of these is a good question to put on an AI scorecard?",
+              "options": [
+                "Did I check the important facts against reliable sources?",
+                "Is the font nice?",
+                "How long is the answer's title?",
+                "Was it created on a Monday?"
+              ],
+              "correct_answer": "Did I check the important facts against reliable sources?",
+              "explanation": "Checking facts against reliable sources is central to judging an AI answer."
+            },
+            {
+              "question": "Why is it useful to get answers from two different assistants?",
+              "options": [
+                "It makes mistakes impossible",
+                "It uses less data",
+                "It deletes your history",
+                "You can compare them and spot differences that need checking"
+              ],
+              "correct_answer": "You can compare them and spot differences that need checking",
+              "explanation": "Differences between tools are a clue that something needs verifying."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which of these is the safest habit when using AI?",
+            "options": [
+              "Treat answers as drafts and check important details",
+              "Paste private information to get better results",
+              "Trust the first answer always",
+              "Never read the answer"
+            ],
+            "correct_answer": "Treat answers as drafts and check important details",
+            "explanation": "Checking protects you from errors, and keeping private details out protects your privacy."
+          },
+          {
+            "question": "An answer looks smooth, but you cannot find the source it mentioned. What should you do?",
+            "options": [
+              "Pay for the missing page",
+              "Assume the source is real because the answer is polite",
+              "Treat the source as possibly invented and do not rely on it",
+              "Share the answer anyway"
+            ],
+            "correct_answer": "Treat the source as possibly invented and do not rely on it",
+            "explanation": "AI can invent sources, so a missing source is a warning sign."
+          },
+          {
+            "question": "What is the main purpose of a scorecard for AI answers?",
+            "options": [
+              "To make answers longer",
+              "To make the AI faster",
+              "To hide mistakes",
+              "To judge answers fairly across points like accuracy, clarity and safety"
+            ],
+            "correct_answer": "To judge answers fairly across points like accuracy, clarity and safety",
+            "explanation": "A scorecard makes your judgement clear and repeatable."
+          }
+        ]
+      }
+    }
+  ],
+  "final_assessment": {
+    "passing_score_percentage": 80,
+    "questions": [
+      {
+        "question": "A chess program is brilliant at chess but cannot do anything else. How is it best described?",
+        "options": [
+          "A human mind",
+          "Narrow AI",
+          "Superintelligent AI",
+          "General AI"
+        ],
+        "correct_answer": "Narrow AI",
+        "explanation": "AI built for one specific job is narrow AI."
+      },
+      {
+        "question": "Which event is widely seen as the birth of AI as a research field?",
+        "options": [
+          "The first video call",
+          "The Dartmouth workshop of 1956",
+          "The launch of the first smartphone",
+          "The invention of email"
+        ],
+        "correct_answer": "The Dartmouth workshop of 1956",
+        "explanation": "The 1956 workshop gave the field its name and goals."
+      },
+      {
+        "question": "A spam filter is trained on thousands of emails that were each labelled spam or not spam. What kind of learning is this?",
+        "options": [
+          "Reinforcement learning",
+          "Unsupervised learning",
+          "No learning",
+          "Supervised learning"
+        ],
+        "correct_answer": "Supervised learning",
+        "explanation": "The examples come with the right answers, which is supervised learning."
+      },
+      {
+        "question": "What makes deep learning 'deep'?",
+        "options": [
+          "It only works underground",
+          "Neural networks with many layers",
+          "It has deep colours",
+          "It uses very deep water cooling"
+        ],
+        "correct_answer": "Neural networks with many layers",
+        "explanation": "Deep learning uses neural networks with many layers."
+      },
+      {
+        "question": "A chatbot has just written a long answer. How did it produce that text?",
+        "options": [
+          "By copying one web page exactly",
+          "By phoning a human expert",
+          "By drawing it from a printed book",
+          "One word at a time, by predicting what is likely to come next"
+        ],
+        "correct_answer": "One word at a time, by predicting what is likely to come next",
+        "explanation": "Chatbots build their answers word by word from learned patterns."
+      },
+      {
+        "question": "Which of these is a real concern about AI-made video and voice?",
+        "options": [
+          "They use less electricity",
+          "They remove the need for the internet",
+          "They make phones lighter",
+          "They can be used to fake a real person's words or actions"
+        ],
+        "correct_answer": "They can be used to fake a real person's words or actions",
+        "explanation": "Deepfakes can mislead people and harm reputations."
+      },
+      {
+        "question": "Which is an example of AI in a bank?",
+        "options": [
+          "Detecting suspicious card or mobile payments",
+          "Counting stairs",
+          "Cleaning the floor",
+          "Printing posters"
+        ],
+        "correct_answer": "Detecting suspicious card or mobile payments",
+        "explanation": "Fraud detection is a common AI use in banking."
+      },
+      {
+        "question": "Before sharing a statistic that an AI wrote for you, what should you do?",
+        "options": [
+          "Delete the unit",
+          "Check it in a reliable source",
+          "Add more decimals",
+          "Round it up"
+        ],
+        "correct_answer": "Check it in a reliable source",
+        "explanation": "Numbers are a common place for AI errors."
+      },
+      {
+        "question": "A hiring tool works well for some applicants and poorly for others. What is this problem called?",
+        "options": [
+          "Backup",
+          "Bias",
+          "Booting",
+          "Browsing"
+        ],
+        "correct_answer": "Bias",
+        "explanation": "Unequal performance across groups is bias."
+      },
+      {
+        "question": "Which question belongs on a simple scorecard for AI answers?",
+        "options": [
+          "Is the answer written in blue?",
+          "Did it take exactly ten seconds?",
+          "Did I verify the important facts?",
+          "Is the first letter a capital?"
+        ],
+        "correct_answer": "Did I verify the important facts?",
+        "explanation": "Verifying facts is central to judging AI output."
+      }
+    ]
+  },
+  "completion_requirements": {
+    "complete_all_lessons": true,
+    "lesson_knowledge_checks": "Ungraded. They help you learn and can be repeated.",
+    "module_quiz_passing_score_percentage": 70,
+    "final_assessment_passing_score_percentage": 80,
+    "practical_exercises": "Recommended. You check your own work against the expected outcome. They are not graded."
+  },
+  "certificate": {
+    "eligible": true,
+    "type": "Certificate of completion",
+    "requirements": "Complete all lessons, pass every module quiz and pass the final assessment.",
+    "verification": "Each certificate carries a unique ID so anyone can check that it is genuine."
+  }
+}

@@ -1,0 +1,1407 @@
+{
+  "course_id": "S1",
+  "title": "Computer and Internet Readiness",
+  "category": "Setup Courses",
+  "level": "Beginner",
+  "audience": "Beginner. Made for people who have never used a computer properly, or who feel nervous about it. No experience needed.",
+  "estimated_duration": "About 5 hours in total. Spread it over 2 weeks at 20 to 30 minutes a day so you never feel rushed.",
+  "description": "This course gets you ready for everything else at Kaizora AI Academy. You will learn what is inside a computer, how to find your way around Windows, how to keep your files tidy, how the internet works, how to use a browser, how to create a safe Google account, how to spot scams, and how to join an online class. Every lesson is short and every step is spelled out. If you get stuck, pause, breathe, and try the step again. Nobody is timing you.",
+  "what_you_will_need": [
+    {
+      "item": "A laptop or desktop computer",
+      "details": "Windows 10 or Windows 11 is best because the steps in this course use Windows. A Mac also works, and the lessons tell you where Mac is different. The computer must switch on, have a working keyboard and screen, and have some free storage space (at least 1 GB). Keep the charger nearby.",
+      "cost": "Paid (you may already own one)"
+    },
+    {
+      "item": "Internet connection",
+      "details": "Home Wi-Fi, an office connection, or mobile data shared from your phone. You need a connection that can play a short YouTube video without stopping every few seconds. Videos use a lot of data, so Lesson 3.1 shows you how to lower video quality to save data.",
+      "cost": "Paid (Wi-Fi subscription or mobile data)"
+    },
+    {
+      "item": "A web browser",
+      "details": "Windows already has Microsoft Edge. We will use Google Chrome in this course. If Chrome is not on your computer yet, Lesson 3.2 shows you how to get it. Both are free.",
+      "cost": "Free"
+    },
+    {
+      "item": "A phone number that can receive text messages",
+      "details": "Google will send a code to your phone when you create your account in Lesson 4.1. Use a number you own and keep with you.",
+      "cost": "Free (use your existing number)"
+    },
+    {
+      "item": "A Google account (you will create it in Lesson 4.1)",
+      "details": "You do not need one before you start. You will make one together with this course. It gives you a Gmail address, Google Drive and Google Meet.",
+      "cost": "Free"
+    },
+    {
+      "item": "A notebook and a pen",
+      "details": "For writing down new words, answers to exercises and your backup codes. Keep the notebook somewhere safe at home.",
+      "cost": "Paid (very cheap)"
+    },
+    {
+      "item": "Headphones or earphones",
+      "details": "Optional but helpful. They make video lessons easier to hear and they are useful for online classes.",
+      "cost": "Paid (optional)"
+    },
+    {
+      "item": "A calm, patient mindset",
+      "details": "You will make mistakes, and that is completely fine. Every expert started exactly where you are. Take breaks. Finish one lesson at a time. You are allowed to repeat any lesson as many times as you like.",
+      "cost": "Free"
+    }
+  ],
+  "learning_objectives": [
+    "Name the main parts of a computer and explain the difference between hardware and software",
+    "Start, move around and shut down Windows correctly",
+    "Create, rename, move and delete files and folders in an organised way",
+    "Explain in simple words how the internet works and use Google Chrome",
+    "Create a Google account and protect it with a strong password and two-step verification",
+    "Recognise common scam and phishing messages and know what to do",
+    "Upload and share files in Google Drive and join an online meeting"
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "module_title": "Meet Your Computer",
+      "module_goal": "Understand what a computer is made of, switch it on and off correctly, move around the screen with confidence, and use the keyboard and mouse.",
+      "lessons": [
+        {
+          "lesson_number": "1.1",
+          "lesson_title": "What Is Inside a Computer?",
+          "estimated_minutes": 20,
+          "youtube_url": "https://www.youtube.com/watch?v=AkFi90lZmXA",
+          "simple_explanation": "A computer is a machine that follows instructions very quickly. It is made of two kinds of things. Hardware is everything you can touch, like the screen and keyboard. Software is the set of instructions that tells the hardware what to do, like Windows or Google Chrome. You do not need to memorise how the inside works. You only need to know the main parts so that computer talk stops sounding strange.",
+          "step_by_step_guide": [
+            "Step 1: Sit somewhere comfortable and quiet with your notebook and pen next to you.",
+            "Step 2: Click the video link for this lesson. A YouTube page opens. Click the big play button (a triangle in the middle of the video).",
+            "Step 3: Watch the whole video once without pausing. It is short. You are not being tested. Just let the ideas wash over you.",
+            "Step 4: Watch it a second time. This time, pause (click the video once) every time the speaker names a part of the computer. Write each name in your notebook.",
+            "Step 5: Now look at your own computer. Find these parts and touch each one: the screen, the keyboard, the touchpad (the flat square under the keyboard) or the mouse, the power button, the charging port, and any USB ports (small rectangular holes on the side).",
+            "Step 6: Find the power button. Look at the symbol on it. It is usually a small circle with a short line at the top. Draw this symbol in your notebook so you recognise it.",
+            "Step 7: Copy this into your notebook in your own handwriting: The processor is the brain that does the thinking. Memory (RAM) is the short-term workspace that the computer uses while you are busy. Storage is the long-term cupboard where your files stay even when the computer is off.",
+            "Step 8: Write one example of hardware and one example of software in your notebook. For example, hardware: keyboard. Software: Google Chrome.",
+            "Step 9: Read the key terms below out loud once. Saying them aloud helps your brain remember them."
+          ],
+          "key_terms": [
+            {
+              "term": "Hardware",
+              "meaning": "The parts of a computer that you can see and touch, like the screen, keyboard and mouse."
+            },
+            {
+              "term": "Software",
+              "meaning": "The instructions and programs that run on the computer, like Windows or Chrome. You cannot touch software."
+            },
+            {
+              "term": "Processor (CPU)",
+              "meaning": "The brain of the computer. It does the thinking and follows instructions."
+            },
+            {
+              "term": "Memory (RAM)",
+              "meaning": "The short-term workspace. It holds what you are working on right now and is cleared when you switch the computer off."
+            },
+            {
+              "term": "Storage",
+              "meaning": "The place where files are saved for the long term, even when the computer is off."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Label your own computer",
+            "instructions": "Take a sheet of paper. Draw a simple box for your computer. Draw arrows to the screen, keyboard, touchpad or mouse, power button, charging port and USB ports. Write the correct name next to each arrow. Then write two examples of hardware and two examples of software at the bottom of the page.",
+            "expected_outcome": "A labelled drawing with at least six parts named correctly, plus two examples of hardware and two of software."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which of these is hardware?",
+              "options": [
+                "A website",
+                "The keyboard",
+                "Google Chrome",
+                "Windows"
+              ],
+              "correct_answer": "The keyboard",
+              "explanation": "Hardware is anything you can touch. You can touch a keyboard. Chrome, Windows and websites are software."
+            },
+            {
+              "question": "What is storage used for?",
+              "options": [
+                "Connecting to Wi-Fi",
+                "Making the screen brighter",
+                "Keeping files for a long time, even when the computer is off",
+                "Cooling the computer down"
+              ],
+              "correct_answer": "Keeping files for a long time, even when the computer is off",
+              "explanation": "Storage is the long-term cupboard of the computer. Your files stay there until you delete them."
+            }
+          ]
+        },
+        {
+          "lesson_number": "1.2",
+          "lesson_title": "Starting Out With Windows: Desktop, Start Menu and Taskbar",
+          "estimated_minutes": 25,
+          "youtube_url": "https://www.youtube.com/watch?v=HDpZKtE06J4",
+          "simple_explanation": "Windows is the main software on most laptops. It is called an operating system because it operates the whole computer for you. When you switch on, you see the desktop, which is like the top of a real desk. At the bottom is a bar called the taskbar, and in the middle or left of it is the Start button, which opens a list of everything on your computer.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link. This video is long, so do not try to watch all of it today. Watch only the opening part about the desktop, the Start menu and the taskbar. Stop the video when it moves on to other topics.",
+            "Step 2: Press the power button once and wait. Do not keep pressing it. The screen will light up and show a lock screen with the time.",
+            "Step 3: Click anywhere on the lock screen, or press any key. A sign-in box appears. Type your PIN or password and press the Enter key. If you are the only person using the computer and it has no password, just press Enter.",
+            "Step 4: You are now on the desktop. This is the main screen. The picture behind everything is the wallpaper. The small pictures with names under them are icons. Each icon opens a program or a file when you double-click it (click twice quickly).",
+            "Step 5: Look at the bottom of the screen. The long bar is the taskbar. Find the Start button. It looks like four small squares, the Windows logo.",
+            "Step 6: Click the Start button once. A menu opens with a list of programs. Click an empty part of the desktop to close it. You can also press the Windows key on your keyboard, which has the same logo, to open and close it.",
+            "Step 7: Click the search box on the taskbar (it says Search). Type the word Notepad. When you see Notepad in the results, press Enter. A small window opens. This is a simple program for typing notes.",
+            "Step 8: Look at the top right corner of the window. There are three buttons. The line (minimise) hides the window to the taskbar. The square (maximise) makes it fill the screen. The X (close) shuts the program. Click the line, then click the Notepad icon on the taskbar to bring it back. Then click the X to close it.",
+            "Step 9: Always shut down properly. Click Start, click the power icon, then click Shut down. Wait until the screen goes fully black. Never hold the power button to switch off unless the computer is frozen.",
+            "Step 10: If you use a Mac, the bottom bar is called the Dock, the menu at the top left with the apple symbol replaces the Start button, and the three coloured circles in the top left of a window are close, minimise and maximise."
+          ],
+          "key_terms": [
+            {
+              "term": "Operating system",
+              "meaning": "The main software that runs the computer. On most laptops it is Windows. On a Mac it is macOS."
+            },
+            {
+              "term": "Desktop",
+              "meaning": "The main screen you see after signing in, with your wallpaper and icons."
+            },
+            {
+              "term": "Taskbar",
+              "meaning": "The long bar at the bottom of the screen that shows the Start button and the programs that are open."
+            },
+            {
+              "term": "Start menu",
+              "meaning": "The menu that opens when you click the Start button. It lists your programs and has the power button."
+            },
+            {
+              "term": "Icon",
+              "meaning": "A small picture that stands for a program, file or folder."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Open, shrink and close Notepad",
+            "instructions": "Switch on your computer and sign in. Use the search box to open Notepad. Type your first name inside it. Click minimise, then bring it back from the taskbar. Click maximise, then click it again to make it smaller. Close it. When Windows asks if you want to save, click Don't save. Finally, shut down your computer the correct way.",
+            "expected_outcome": "You opened Notepad from the search box, used all three window buttons, and shut the computer down properly."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What does the minimise button (the line) do?",
+              "options": [
+                "Closes the program for good",
+                "Deletes the file",
+                "Hides the window down to the taskbar",
+                "Turns off the computer"
+              ],
+              "correct_answer": "Hides the window down to the taskbar",
+              "explanation": "Minimise only hides the window. The program is still running and you can bring it back by clicking its icon on the taskbar."
+            },
+            {
+              "question": "What is the safest way to switch off a Windows computer?",
+              "options": [
+                "Pull out the charger",
+                "Hold the power button until it goes dark",
+                "Close the laptop lid",
+                "Click Start, then the power icon, then Shut down"
+              ],
+              "correct_answer": "Click Start, then the power icon, then Shut down",
+              "explanation": "Shutting down properly lets Windows save its work and close everything safely."
+            }
+          ]
+        },
+        {
+          "lesson_number": "1.3",
+          "lesson_title": "Keyboard, Mouse and Time-Saving Shortcuts",
+          "estimated_minutes": 25,
+          "youtube_url": "https://www.youtube.com/watch?v=CpDyDwTPEzo",
+          "simple_explanation": "The keyboard is for typing and the mouse (or touchpad) is for pointing and clicking. A keyboard shortcut is a quick way to do something by pressing two keys together instead of hunting through menus. Learning just six shortcuts will save you hours over the next few months.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video about keyboard shortcuts. Pause it whenever you want to try a shortcut on your own computer.",
+            "Step 2: Open Notepad again using the search box on the taskbar, as you did in the last lesson.",
+            "Step 3: Look at your keyboard. The wide bar at the bottom is the Space bar and it makes a gap between words. The big key on the right is Enter and it starts a new line. The key at the top right with an arrow pointing left is Backspace and it erases the letter before the cursor. The cursor is the little blinking line that shows where your typing will appear.",
+            "Step 4: Type this sentence slowly: I am learning to use a computer. Use the Shift key (an up arrow on the left and right) together with a letter to make a capital letter. Hold Shift, tap the letter, then let go of both.",
+            "Step 5: Mouse practice. Move the mouse and watch the arrow on the screen. A single left click selects or presses something. A right click opens a small menu of choices. The wheel in the middle scrolls the page up and down.",
+            "Step 6: Touchpad practice if you have no mouse. Slide one finger to move the arrow. Tap once to left click. Tap with two fingers to right click. Slide two fingers up or down to scroll.",
+            "Step 7: Learn the shortcut pattern. Hold the first key down, tap the second key once, then let go of both. On a Mac, use the Command key where this lesson says Ctrl.",
+            "Step 8: Try Ctrl and A together. This selects everything you typed. It turns blue.",
+            "Step 9: Try Ctrl and C together. This copies what is selected. Click once at the end of your sentence, press Enter, then press Ctrl and V together. This pastes the copy. You now have the sentence twice.",
+            "Step 10: Press Ctrl and Z together. This is undo. The last thing you did is reversed. Undo is your best friend because it fixes mistakes.",
+            "Step 11: Write the six shortcuts in your notebook: Ctrl+C is copy, Ctrl+V is paste, Ctrl+X is cut (copy and remove), Ctrl+Z is undo, Ctrl+A is select all, Ctrl+S is save.",
+            "Step 12: Close Notepad with the X. If it asks to save, click Don't save."
+          ],
+          "key_terms": [
+            {
+              "term": "Cursor",
+              "meaning": "The small blinking line that shows where your typing will appear."
+            },
+            {
+              "term": "Click",
+              "meaning": "Pressing the left mouse button once. A double-click is pressing it twice quickly."
+            },
+            {
+              "term": "Right-click",
+              "meaning": "Pressing the right mouse button to open a menu of extra choices."
+            },
+            {
+              "term": "Keyboard shortcut",
+              "meaning": "Pressing two or more keys together to do something fast, like Ctrl and C to copy."
+            },
+            {
+              "term": "Undo",
+              "meaning": "A way to reverse your last action. The shortcut is Ctrl and Z."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Type, copy, paste and undo",
+            "instructions": "Open Notepad. Type a sentence about why you want to learn AI. Select everything with Ctrl+A, copy it with Ctrl+C, and paste it three times with Ctrl+V on new lines. Then press Ctrl+Z three times and watch the extra copies disappear. Close Notepad without saving.",
+            "expected_outcome": "You used select all, copy, paste and undo without clicking any menu."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which shortcut copies something you have selected?",
+              "options": [
+                "Ctrl and C",
+                "Ctrl and V",
+                "Ctrl and Z",
+                "Ctrl and S"
+              ],
+              "correct_answer": "Ctrl and C",
+              "explanation": "C stands for copy. V is paste, Z is undo and S is save."
+            },
+            {
+              "question": "You pressed a wrong key and deleted a paragraph by mistake. What is the fastest fix?",
+              "options": [
+                "Press Ctrl and V",
+                "Press Ctrl and Z",
+                "Restart the computer",
+                "Start typing it again"
+              ],
+              "correct_answer": "Press Ctrl and Z",
+              "explanation": "Ctrl and Z is undo. It reverses your most recent action."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which of these is an example of software?",
+            "options": [
+              "The touchpad",
+              "The screen",
+              "The charger",
+              "Windows"
+            ],
+            "correct_answer": "Windows",
+            "explanation": "Windows is a set of instructions that runs the computer, so it is software."
+          },
+          {
+            "question": "Where do you click to open the list of all your programs in Windows?",
+            "options": [
+              "The Start button",
+              "The minimise button",
+              "The Recycle Bin",
+              "The power cable"
+            ],
+            "correct_answer": "The Start button",
+            "explanation": "The Start button opens the Start menu, which lists your programs."
+          },
+          {
+            "question": "What does Ctrl and V do?",
+            "options": [
+              "Selects everything",
+              "Saves the file",
+              "Pastes what you copied",
+              "Closes the window"
+            ],
+            "correct_answer": "Pastes what you copied",
+            "explanation": "V stands for paste. It puts the copied or cut item in the new place."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 2,
+      "module_title": "Files and Folders",
+      "module_goal": "Understand what files and folders are, and create a tidy folder system where you can always find your work.",
+      "lessons": [
+        {
+          "lesson_number": "2.1",
+          "lesson_title": "Understanding Files, Folders and File Explorer",
+          "estimated_minutes": 20,
+          "youtube_url": "https://www.youtube.com/watch?v=7oE1-PmNd8E",
+          "simple_explanation": "Everything you save on a computer is a file. A photo, a typed document and a song are all files. A folder is like a real folder in an office drawer. You put related files inside it so you can find them later. File Explorer is the program that lets you look inside all your folders.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video about managing files and folders in Windows. Pause when you want to copy what the presenter does.",
+            "Step 2: Open File Explorer. Click the yellow folder icon on the taskbar at the bottom. If you do not see it, hold the Windows key and tap the letter E.",
+            "Step 3: Look at the left side of the window. You will see a list of places such as Desktop, Downloads, Documents and Pictures. Click Documents once. Its contents appear on the right.",
+            "Step 4: Look at the files. Each one has a name and a small picture. The picture tells you what kind of file it is. A yellow picture is a folder. Other pictures show photos, documents and so on.",
+            "Step 5: Learn the file type. At the end of a file name there can be a dot and a few letters, like .jpg for a photo, .pdf for a document that is hard to edit, .docx for a Word document and .txt for plain text. This ending is called the file extension.",
+            "Step 6: Show extensions. At the top of the window click View, then Show, then File name extensions. Now you can see the endings.",
+            "Step 7: Click Downloads on the left. This is the folder where Chrome puts everything you download from the internet. Remember this place because you will use it often.",
+            "Step 8: Click the back arrow at the top left to go back and the forward arrow to go forward, just like in a browser.",
+            "Step 9: If you use a Mac, the same program is called Finder. It is the blue smiling face icon in the Dock.",
+            "Step 10: In your notebook write: A file is one item. A folder is a container for files. File Explorer is how I look inside."
+          ],
+          "key_terms": [
+            {
+              "term": "File",
+              "meaning": "One saved item, such as a photo, document, song or video."
+            },
+            {
+              "term": "Folder",
+              "meaning": "A container that holds files, and other folders, so they stay organised."
+            },
+            {
+              "term": "File Explorer",
+              "meaning": "The Windows program for looking at your files and folders. On a Mac it is called Finder."
+            },
+            {
+              "term": "File extension",
+              "meaning": "The dot and letters at the end of a file name that show its type, like .pdf or .jpg."
+            },
+            {
+              "term": "Downloads folder",
+              "meaning": "The usual place where files from the internet are saved."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Explore four folders",
+            "instructions": "Open File Explorer. Visit Documents, Downloads, Pictures and Desktop. In each folder, count how many items you can see and write the number in your notebook. Find one file with the extension .jpg or .png and one with .pdf or .docx, if you have them. Write the name and the extension of each.",
+            "expected_outcome": "A list in your notebook with four folder names, an item count for each, and at least one file with its extension."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is a folder?",
+              "options": [
+                "A container that holds files",
+                "A kind of virus",
+                "A program for typing",
+                "A website"
+              ],
+              "correct_answer": "A container that holds files",
+              "explanation": "A folder is where you keep related files together."
+            },
+            {
+              "question": "Where do files you download from the internet usually go?",
+              "options": [
+                "The Start menu",
+                "The Recycle Bin",
+                "The Downloads folder",
+                "The taskbar"
+              ],
+              "correct_answer": "The Downloads folder",
+              "explanation": "Chrome and most browsers save downloads in the Downloads folder by default."
+            }
+          ]
+        },
+        {
+          "lesson_number": "2.2",
+          "lesson_title": "Creating, Renaming, Moving and Deleting Folders",
+          "estimated_minutes": 25,
+          "youtube_url": "https://www.youtube.com/watch?v=qrxAx1-AyZ4",
+          "simple_explanation": "Now you will build your own filing system. A good system has clear folder names, and each file lives in the right folder. When your files are tidy you never waste time searching, and you never lose your work. This is a habit that will help you in every Kaizora course.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch how to create a folder in Windows 11. It is short. Replay it if anything is unclear.",
+            "Step 2: Open File Explorer and click Documents on the left.",
+            "Step 3: Right-click on an empty white space in the middle of the window (not on a file). A menu appears. Click New, then click Folder.",
+            "Step 4: A new folder appears and its name is highlighted in blue. Type Kaizora Academy and press Enter. If you click away by mistake, see Step 8 to rename it.",
+            "Step 5: Double-click your Kaizora Academy folder to open it. It is empty. Create another folder inside it by repeating Step 3. Name this one S1 Computer Readiness.",
+            "Step 6: Open the S1 Computer Readiness folder. Right-click an empty space, click New, then click Text Document. Name it My First Note and press Enter.",
+            "Step 7: Double-click My First Note to open it in Notepad. Type Hello, I made this file. Press Ctrl and S to save, then close Notepad with the X.",
+            "Step 8: To rename something, click it once so it is highlighted, then press the F2 key at the top of your keyboard. Type the new name and press Enter. You can also right-click it and choose Rename.",
+            "Step 9: To move a file, click it once, press Ctrl and X to cut it, open the other folder, then press Ctrl and V to paste it. You can also drag it with the mouse. Try moving My First Note up into the Kaizora Academy folder.",
+            "Step 10: To delete, click the file once and press the Delete key. It goes to the Recycle Bin, which is like a wastebasket. Nothing is gone for good yet. To bring it back, open the Recycle Bin from the desktop, right-click the file and choose Restore.",
+            "Step 11: Safety rule. Only delete files you created or recognise. If you do not know what a file is, leave it alone."
+          ],
+          "key_terms": [
+            {
+              "term": "Right-click",
+              "meaning": "Pressing the right mouse button to open a menu of choices for the thing you clicked."
+            },
+            {
+              "term": "Rename",
+              "meaning": "Changing the name of a file or folder."
+            },
+            {
+              "term": "Cut and paste",
+              "meaning": "Cut removes an item and remembers it. Paste puts it in a new place. Together they move the item."
+            },
+            {
+              "term": "Recycle Bin",
+              "meaning": "A holding place for deleted files. You can restore files from it until you empty it."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Build your Kaizora folder system",
+            "instructions": "Inside Documents, create a folder called Kaizora Academy. Inside it, create folders named S1 Computer Readiness, Notes and Projects. Create a text file called My First Note in Notes. Rename it to Day 1 Note. Move it into S1 Computer Readiness. Delete it, then restore it from the Recycle Bin.",
+            "expected_outcome": "A folder called Kaizora Academy with three folders inside it, and a file called Day 1 Note sitting in S1 Computer Readiness."
+          },
+          "lesson_quiz": [
+            {
+              "question": "How do you open the menu to create a new folder?",
+              "options": [
+                "Press Ctrl and Z",
+                "Press the power button",
+                "Right-click an empty space and choose New, then Folder",
+                "Double-click the desktop"
+              ],
+              "correct_answer": "Right-click an empty space and choose New, then Folder",
+              "explanation": "Right-clicking on an empty space opens a menu that has the New option."
+            },
+            {
+              "question": "You deleted a file by mistake. What can you do?",
+              "options": [
+                "Nothing, it is gone forever",
+                "Open the Recycle Bin and restore it",
+                "Restart the computer",
+                "Reinstall Windows"
+              ],
+              "correct_answer": "Open the Recycle Bin and restore it",
+              "explanation": "Deleted files go to the Recycle Bin first, so you can restore them until the bin is emptied."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What does the file ending .pdf tell you?",
+            "options": [
+              "It is a virus",
+              "It is a website",
+              "It is a type of file, a document that is hard to edit",
+              "It is a folder"
+            ],
+            "correct_answer": "It is a type of file, a document that is hard to edit",
+            "explanation": "The ending after the dot tells you the type of file. PDF is a document format."
+          },
+          {
+            "question": "Which key lets you rename a selected file quickly?",
+            "options": [
+              "F2",
+              "Caps Lock",
+              "Esc",
+              "Tab"
+            ],
+            "correct_answer": "F2",
+            "explanation": "Pressing F2 puts the file name into edit mode so you can type a new one."
+          },
+          {
+            "question": "Why is a good folder system useful?",
+            "options": [
+              "It speeds up the internet",
+              "It makes the computer louder",
+              "It helps you find your work quickly and avoid losing it",
+              "It changes your password"
+            ],
+            "correct_answer": "It helps you find your work quickly and avoid losing it",
+            "explanation": "Organised folders save time and protect your work from getting lost."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 3,
+      "module_title": "The Internet and Your Browser",
+      "module_goal": "Understand in simple terms how the internet works and use Google Chrome to visit websites, search, and save pages.",
+      "lessons": [
+        {
+          "lesson_number": "3.1",
+          "lesson_title": "How the Internet Works",
+          "estimated_minutes": 20,
+          "youtube_url": "https://www.youtube.com/watch?v=7_LPdttKXPc",
+          "simple_explanation": "The internet is a giant network of computers all over the world that are connected so they can send information to each other. When you open a website, your computer asks another computer, called a server, to send the page. The information travels in tiny pieces and arrives in a fraction of a second. You do not need to know every technical detail. You need the big picture.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link. It is about five minutes long. Watch it once all the way through.",
+            "Step 2: Watch it again and pause when a new word appears, such as server or router. Write the word in your notebook.",
+            "Step 3: Understand the picture. Your phone or computer connects to a small box in your home or office called a router. The router connects to a company called an internet service provider, which connects to the wider internet. If you use mobile data, your phone connects to a mobile network instead.",
+            "Step 4: Check that you are connected. Look at the bottom right of the taskbar. Find the Wi-Fi symbol (curved lines) or a small globe or cable symbol. Click it. You will see the name of the network you are connected to.",
+            "Step 5: Learn how videos use your data. Videos use much more data than text. To save data on YouTube, click the gear icon at the bottom of a video, click Quality, and choose 360p or 480p instead of a high number like 1080p.",
+            "Step 6: Write down the answer to this question in your own words: When I open a website, what happens? A good answer is: My computer asks a server for the page, and the server sends it back in small pieces.",
+            "Step 7: Think about your own setup. Do you use Wi-Fi at home, an office connection or mobile data? Write it in your notebook so you remember which one you will use for this course."
+          ],
+          "key_terms": [
+            {
+              "term": "Internet",
+              "meaning": "A worldwide network of connected computers that share information."
+            },
+            {
+              "term": "Website",
+              "meaning": "A collection of pages stored on a computer called a server, which you can open with a browser."
+            },
+            {
+              "term": "Server",
+              "meaning": "A powerful computer that stores websites and sends them to you when you ask."
+            },
+            {
+              "term": "Router",
+              "meaning": "The small box that connects your devices to the internet through Wi-Fi or a cable."
+            },
+            {
+              "term": "Wi-Fi",
+              "meaning": "A way of connecting to the internet through the air, without a cable."
+            },
+            {
+              "term": "Data",
+              "meaning": "The amount of information you send and receive online. Videos use a lot."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Explain the internet to a friend",
+            "instructions": "Draw a simple picture with four boxes: your computer, a router, the internet, and a website server. Draw arrows between them. Then explain the picture out loud to a friend or family member in two or three sentences. If nobody is around, say it to yourself.",
+            "expected_outcome": "A drawing of four connected boxes and a clear spoken explanation of how a website reaches your screen."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is a server?",
+              "options": [
+                "A video game",
+                "A type of keyboard",
+                "A cable for charging",
+                "A computer that stores websites and sends them to you"
+              ],
+              "correct_answer": "A computer that stores websites and sends them to you",
+              "explanation": "Websites live on servers, which send pages to your device when you open them."
+            },
+            {
+              "question": "How can you save mobile data when watching YouTube?",
+              "options": [
+                "Lower the video quality",
+                "Close the keyboard",
+                "Use a bigger screen",
+                "Turn up the volume"
+              ],
+              "correct_answer": "Lower the video quality",
+              "explanation": "Lower quality such as 360p uses much less data than high quality such as 1080p."
+            }
+          ]
+        },
+        {
+          "lesson_number": "3.2",
+          "lesson_title": "Using Google Chrome",
+          "estimated_minutes": 25,
+          "youtube_url": "https://www.youtube.com/watch?v=FFk0r5VFa_w",
+          "simple_explanation": "A web browser is the program you use to visit websites. Google Chrome is one of the most popular ones and we will use it throughout Kaizora. At the top of Chrome is one long box called the address bar. You can type a website address or a question into it. Chrome also lets you keep many pages open in tabs and save favourites as bookmarks.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the Chrome tutorial. Some buttons may look slightly different from your screen because Chrome updates often. The ideas stay the same.",
+            "Step 2: Check if Chrome is on your computer. Click the search box on the taskbar and type Chrome. If you see a round red, yellow, green and blue icon, click it. If not, open Microsoft Edge, type google.com/chrome in the address bar at the top, press Enter, click Download Chrome, then open the file from your Downloads folder and follow the instructions.",
+            "Step 3: Open Chrome. Look at the very long white bar at the top. This is the address bar.",
+            "Step 4: Click in the address bar, type wikipedia.org and press Enter. The Wikipedia website opens. A website address like this is called a URL.",
+            "Step 5: Use the arrows at the top left. The left arrow goes back to the page you were on before. The right arrow goes forward. The circular arrow reloads (refreshes) the page.",
+            "Step 6: Open a new tab. Click the plus (+) sign at the top, next to the current tab, or press Ctrl and T. Type bbc.com and press Enter. You now have two pages open and you can click each tab to switch.",
+            "Step 7: Close a tab. Click the small X on the tab, or press Ctrl and W. Close the BBC tab.",
+            "Step 8: Search the web. Click in the address bar, type how to boil rice and press Enter. Google shows a list of results. Be careful with results marked Sponsored or Ad. Those are paid. Click a result from a website you recognise.",
+            "Step 9: Save a bookmark. On a page you like, click the star at the right end of the address bar, then click Done. To see your saved pages, press Ctrl, Shift and B together to show the bookmarks bar under the address bar.",
+            "Step 10: View your history. Press Ctrl and H. This shows a list of pages you visited recently. You can use it to find a page you forgot to save.",
+            "Step 11: Find your downloads. Press Ctrl and J to see everything you downloaded with Chrome."
+          ],
+          "key_terms": [
+            {
+              "term": "Browser",
+              "meaning": "A program for visiting websites, like Google Chrome, Microsoft Edge or Safari."
+            },
+            {
+              "term": "Address bar",
+              "meaning": "The long box at the top of the browser where you type a web address or a search."
+            },
+            {
+              "term": "URL",
+              "meaning": "A website address, like wikipedia.org."
+            },
+            {
+              "term": "Tab",
+              "meaning": "A page you have open. You can have many tabs in one browser window."
+            },
+            {
+              "term": "Bookmark",
+              "meaning": "A saved shortcut to a page you want to visit again."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Research and save three pages",
+            "instructions": "Open Chrome. Search for three things you are curious about, for example: what is artificial intelligence, best way to learn typing, and Lagos weather today. Open each result in its own tab. Bookmark one useful page from each search. Close all the tabs. Then open the bookmarks bar and open one of your bookmarks again.",
+            "expected_outcome": "Three bookmarked pages that open correctly from your bookmarks bar."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is the address bar used for?",
+              "options": [
+                "Turning on Wi-Fi",
+                "Changing the screen brightness",
+                "Typing a website address or a search",
+                "Deleting files"
+              ],
+              "correct_answer": "Typing a website address or a search",
+              "explanation": "The address bar at the top of the browser accepts both web addresses and search questions."
+            },
+            {
+              "question": "Which shortcut opens a new tab in Chrome?",
+              "options": [
+                "Ctrl and F",
+                "Ctrl and Q",
+                "Ctrl and P",
+                "Ctrl and T"
+              ],
+              "correct_answer": "Ctrl and T",
+              "explanation": "T stands for tab. Ctrl and T opens a fresh tab."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What does a router do?",
+            "options": [
+              "It stores all websites",
+              "It prints documents",
+              "It deletes viruses",
+              "It connects your devices to the internet"
+            ],
+            "correct_answer": "It connects your devices to the internet",
+            "explanation": "The router is the box that shares your internet connection with your devices."
+          },
+          {
+            "question": "What is a bookmark?",
+            "options": [
+              "A saved shortcut to a web page",
+              "A downloaded video",
+              "A password",
+              "A kind of virus"
+            ],
+            "correct_answer": "A saved shortcut to a web page",
+            "explanation": "A bookmark lets you return to a page quickly without searching again."
+          },
+          {
+            "question": "You see a search result marked Sponsored. What does that mean?",
+            "options": [
+              "It is a bookmark",
+              "It is the best answer",
+              "It is a virus",
+              "It is an advert that someone paid for"
+            ],
+            "correct_answer": "It is an advert that someone paid for",
+            "explanation": "Sponsored results are paid adverts. They are not always the best or safest result."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 4,
+      "module_title": "Your Online Accounts",
+      "module_goal": "Create your own Google account with a professional email address, and protect it with a strong password and two-step verification.",
+      "lessons": [
+        {
+          "lesson_number": "4.1",
+          "lesson_title": "Creating Your Google Account",
+          "estimated_minutes": 25,
+          "youtube_url": "https://www.youtube.com/watch?v=ngKIz0FD1yw",
+          "simple_explanation": "A Google account gives you a Gmail address plus access to Google Drive, Google Meet, YouTube and many other tools. At Kaizora you will use it to join classes and store your work. Choose your email address carefully, because you will be using it in the future for job applications and certificates.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch how to create a Google account. Google changes its screens from time to time, so your screens may look a little different. Follow the idea, not the exact picture.",
+            "Step 2: Have your phone next to you. Google will send a code by text message.",
+            "Step 3: Open Chrome. In the address bar type accounts.google.com/signup and press Enter.",
+            "Step 4: Type your first name and last name. Use your real name, because it will appear on your certificates. Click Next.",
+            "Step 5: Choose your birthday and gender from the drop-down menus. Click each box, pick an option from the list, then click Next.",
+            "Step 6: Choose your email address. Google suggests some options. Pick one like firstname.lastname or choose Create your own Gmail address and type it. Keep it professional. Avoid nicknames, jokes and lots of numbers. Gmail addresses always end with @gmail.com.",
+            "Step 7: Create a password. Make it at least 12 characters long. Next lesson explains how to make a strong one. Write it in your notebook and keep the notebook somewhere private at home. Click Next.",
+            "Step 8: Verify your phone number. Type your number, click Next, wait for the text message, then type the six-digit code into the box and click Verify.",
+            "Step 9: Add a recovery email if you have another one. This helps you get back into your account if you forget your password. You can skip it, but adding it is safer.",
+            "Step 10: Read the privacy and terms page, scroll down to the bottom, and click I agree.",
+            "Step 11: Test your new account. Go to mail.google.com. You should see your inbox. Click Compose (top left), type your own new email address in the To box, write Test in the subject, write Hello in the message, and click Send. Within seconds the email will appear in your inbox."
+          ],
+          "key_terms": [
+            {
+              "term": "Account",
+              "meaning": "Your personal login on a service. It holds your name, settings and files."
+            },
+            {
+              "term": "Gmail",
+              "meaning": "Google's free email service. Your address ends with @gmail.com."
+            },
+            {
+              "term": "Verification code",
+              "meaning": "A short number sent to your phone to prove it is really you."
+            },
+            {
+              "term": "Recovery email",
+              "meaning": "A second email address used to get back into your account if you lose access."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Send yourself an email",
+            "instructions": "Finish creating your Google account. Open Gmail. Write a short email to yourself with the subject My first Kaizora email. In the message, write one sentence about what you want to learn. Send it, then open it from your inbox.",
+            "expected_outcome": "A new Google account and a received email in your own inbox."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Why should you choose a professional email address?",
+              "options": [
+                "Because Google requires nicknames",
+                "Because you will use it for certificates and job applications",
+                "Because it costs less",
+                "Because it makes the internet faster"
+              ],
+              "correct_answer": "Because you will use it for certificates and job applications",
+              "explanation": "People will see your email address in applications and certificates, so keep it neat and sensible."
+            },
+            {
+              "question": "What is the verification code sent to your phone for?",
+              "options": [
+                "To change your wallpaper",
+                "To prove it is really you",
+                "To speed up your phone",
+                "To order data"
+              ],
+              "correct_answer": "To prove it is really you",
+              "explanation": "The code shows that you own the phone number you entered."
+            }
+          ]
+        },
+        {
+          "lesson_number": "4.2",
+          "lesson_title": "Strong Passwords and Two-Step Verification",
+          "estimated_minutes": 25,
+          "youtube_url": "https://www.youtube.com/watch?v=BXrozC8F2Fo",
+          "simple_explanation": "A password is the key to your account. A weak key lets thieves in. Two-step verification is like adding a second lock: even if someone learns your password, they still cannot get in without a code from your phone. Setting this up takes about ten minutes and can save you a lot of trouble.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the short video about protecting your account.",
+            "Step 2: Learn what makes a password strong. It is long (at least 12 characters), it is not based on your name or birthday, and you never use it on any other website.",
+            "Step 3: Try the four-word method. Pick four random words that do not belong together, join them with dashes, and add a number. Example only, do not use this one: purple-goat-river-lamp-47. It is long, easy to remember and hard to guess.",
+            "Step 4: Never share your password. Not with friends, not with people who message you on WhatsApp, and not with anyone who says they are from a bank or from Google.",
+            "Step 5: Turn on two-step verification. In Chrome go to myaccount.google.com and sign in if asked.",
+            "Step 6: On the left side, click Security. Scroll down to How you sign in to Google. Click 2-Step Verification.",
+            "Step 7: Click Get started and follow the instructions on the screen. Google will ask for your password again and then ask you to choose how to get the second step. Choose your phone. Follow the prompts and click Turn on when asked.",
+            "Step 8: Get backup codes. In the 2-Step Verification page, look for Backup codes. Click it and generate the codes. Write them in your notebook. If you lose your phone, these codes let you in.",
+            "Step 9: When Chrome asks Save password, click Save only if you are on your own personal computer. On a shared or cyber cafe computer, always click Never.",
+            "Step 10: Sign out and sign back in to test it. After you enter your password, Google should ask for the second step. Complete it. You are now much safer than before."
+          ],
+          "key_terms": [
+            {
+              "term": "Password",
+              "meaning": "A secret word or phrase that proves you own an account."
+            },
+            {
+              "term": "Two-step verification",
+              "meaning": "A second check after your password, usually a code sent to your phone."
+            },
+            {
+              "term": "Backup codes",
+              "meaning": "A list of one-time codes you keep in a safe place in case you lose your phone."
+            },
+            {
+              "term": "Reuse",
+              "meaning": "Using the same password on many websites. This is dangerous because one leak exposes all your accounts."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Lock your account properly",
+            "instructions": "Create a new strong password for your Google account using the four-word method. Change it at myaccount.google.com under Security. Turn on 2-Step Verification. Save your backup codes in your notebook. Sign out and sign in again to test it.",
+            "expected_outcome": "A strong new password, 2-Step Verification switched on, and backup codes saved safely."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which password is the strongest?",
+              "options": [
+                "password",
+                "purple-goat-river-lamp-47",
+                "myname2000",
+                "12345678"
+              ],
+              "correct_answer": "purple-goat-river-lamp-47",
+              "explanation": "It is long and made of unrelated words. The others are short, common or easy to guess."
+            },
+            {
+              "question": "What does two-step verification protect you from?",
+              "options": [
+                "Slow internet",
+                "A cracked screen",
+                "Low battery",
+                "Someone using your password alone to get in"
+              ],
+              "correct_answer": "Someone using your password alone to get in",
+              "explanation": "Even if a thief learns your password, they still need the second step from your phone."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What should you do with your password?",
+            "options": [
+              "Share it with friends you trust",
+              "Post it on social media",
+              "Keep it private and use a different one for each site",
+              "Use the same one everywhere"
+            ],
+            "correct_answer": "Keep it private and use a different one for each site",
+            "explanation": "Private and unique passwords protect all your accounts."
+          },
+          {
+            "question": "Where do you find 2-Step Verification for your Google account?",
+            "options": [
+              "In Notepad",
+              "In File Explorer",
+              "In the Security section at myaccount.google.com",
+              "On the desktop wallpaper"
+            ],
+            "correct_answer": "In the Security section at myaccount.google.com",
+            "explanation": "Your Google account Security page has the 2-Step Verification option."
+          },
+          {
+            "question": "You are using a cyber cafe computer and Chrome asks Save password. What should you click?",
+            "options": [
+              "Save",
+              "Ignore and walk away",
+              "Share",
+              "Never"
+            ],
+            "correct_answer": "Never",
+            "explanation": "Saving passwords on a shared computer lets the next person log in as you."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 5,
+      "module_title": "Staying Safe Online",
+      "module_goal": "Recognise common scam messages and know exactly what to do when something looks suspicious.",
+      "lessons": [
+        {
+          "lesson_number": "5.1",
+          "lesson_title": "Spotting Phishing and Scam Messages",
+          "estimated_minutes": 25,
+          "youtube_url": "https://www.youtube.com/watch?v=JlQovysQBn0",
+          "simple_explanation": "Phishing is when a criminal sends you a message that pretends to be from a bank, a company or a friend, and tries to trick you into sharing a password, a code or money. These messages arrive by email, text, WhatsApp and social media. You do not need special software to stay safe. You need to slow down and check a few warning signs.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the short video on how to recognise and report phishing.",
+            "Step 2: Learn the first warning sign: pressure. Scam messages try to rush you with words like urgent, act now, your account will be closed, or you have won. A real company will not threaten you in a rush.",
+            "Step 3: Learn the second warning sign: they ask for secrets. No real bank, Google or school will ever ask for your password, your card PIN, your BVN or the OTP code sent to your phone. If a message asks, it is a scam.",
+            "Step 4: Learn the third warning sign: the sender address. In an email, click or tap the sender name to see the full address. A fake message might show Google Support but the address could be something strange like support123@mail-random.xyz.",
+            "Step 5: Learn the fourth warning sign: links. On a computer, move your mouse over a link without clicking and look at the bottom left of the screen. It shows where the link really goes. If the address looks odd, do not click.",
+            "Step 6: Learn the fifth warning sign: too good to be true. Free money, a surprise scholarship, a loan with no checks, or a prize from a competition you never entered are all common scams.",
+            "Step 7: Learn the sixth warning sign: unexpected attachments. Never open a file from someone you do not know. Even when it looks like it came from a friend, ask them first if it is unexpected.",
+            "Step 8: Know what to do. Do not reply. Do not click. Do not open attachments. In Gmail, open the message, click the three dots at the top right of the message, and click Report phishing. Then delete it.",
+            "Step 9: If you already clicked or typed your password, act fast. Change your password at once, check that 2-Step Verification is on, and tell someone you trust.",
+            "Step 10: Write the golden rule in your notebook: Nobody real will ever ask for my password or OTP."
+          ],
+          "key_terms": [
+            {
+              "term": "Phishing",
+              "meaning": "A trick where a message pretends to be from someone you trust to steal your information or money."
+            },
+            {
+              "term": "OTP",
+              "meaning": "A one-time password, a short code sent to your phone that you must never share."
+            },
+            {
+              "term": "Scam",
+              "meaning": "A dishonest plan to cheat you out of money or information."
+            },
+            {
+              "term": "Attachment",
+              "meaning": "A file sent along with an email. Unknown attachments can carry viruses."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Scam or safe?",
+            "instructions": "Read these five messages and write Scam or Safe for each in your notebook, with one reason. 1) 'Your bank account will be blocked in 1 hour. Send your PIN to confirm.' 2) 'Hi, your Kaizora class starts tomorrow at 6pm. Join with the link in your calendar invite.' 3) 'Congratulations, you won 5 million naira. Click here to claim.' 4) 'We noticed a login from a new device. If this was not you, change your password at myaccount.google.com.' 5) 'Your OTP is 482913. Do not share it with anyone.'",
+            "expected_outcome": "Messages 1 and 3 marked as scams, message 2 marked as safe if it matches a real invite, and messages 4 and 5 marked as safe notifications as long as you never share the code. Each answer has a reason."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Someone calls and says they are from your bank and asks for the OTP sent to your phone. What do you do?",
+              "options": [
+                "Send it by WhatsApp",
+                "Refuse and hang up, because a real bank never asks for it",
+                "Give it to them quickly",
+                "Share only half of it"
+              ],
+              "correct_answer": "Refuse and hang up, because a real bank never asks for it",
+              "explanation": "Real banks never ask for your OTP. Anyone who does is trying to steal your money."
+            },
+            {
+              "question": "What can you do to check where a link really goes on a computer?",
+              "options": [
+                "Forward it to ten friends",
+                "Click it fast",
+                "Hover the mouse over it and read the address at the bottom of the screen",
+                "Restart the computer"
+              ],
+              "correct_answer": "Hover the mouse over it and read the address at the bottom of the screen",
+              "explanation": "Hovering shows the real destination without opening the page."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which of these is a warning sign of a scam message?",
+            "options": [
+              "It rushes you and asks for your password",
+              "It uses your correct name and gives you plenty of time",
+              "It has no links",
+              "It comes from a friend you were expecting"
+            ],
+            "correct_answer": "It rushes you and asks for your password",
+            "explanation": "Pressure and requests for secrets are the two biggest red flags."
+          },
+          {
+            "question": "How do you report a phishing email in Gmail?",
+            "options": [
+              "Click the link",
+              "Reply to it",
+              "Open it, click the three dots, and click Report phishing",
+              "Forward it to everyone"
+            ],
+            "correct_answer": "Open it, click the three dots, and click Report phishing",
+            "explanation": "Reporting helps Google block similar messages for you and others."
+          },
+          {
+            "question": "You clicked a suspicious link and typed your password. What is the first thing to do?",
+            "options": [
+              "Buy a new computer",
+              "Change your password at once",
+              "Wait a week",
+              "Nothing"
+            ],
+            "correct_answer": "Change your password at once",
+            "explanation": "Changing the password quickly stops the thief from using it. Then check that 2-Step Verification is on."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 6,
+      "module_title": "Online Tools for Learning",
+      "module_goal": "Store and share files in Google Drive, and join and take part in an online class on Google Meet.",
+      "lessons": [
+        {
+          "lesson_number": "6.1",
+          "lesson_title": "Uploading Files to Google Drive",
+          "estimated_minutes": 20,
+          "youtube_url": "https://www.youtube.com/watch?v=mPdGDAxCZaw",
+          "simple_explanation": "Google Drive is like a second hard drive that lives on the internet. Files you upload are saved safely online, so you can open them from any computer or phone by signing in. Every Google account comes with 15 GB of free space shared across Gmail, Drive and Photos. If your laptop breaks, your files in Drive are still safe.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch how to upload files and folders to Google Drive.",
+            "Step 2: Open Chrome and go to drive.google.com. Make sure you are signed in with your new Google account.",
+            "Step 3: Look at the left side. Click the big button that says New.",
+            "Step 4: Click Folder. A small box appears. Type Kaizora Academy and click Create. Your folder appears in the middle of the screen.",
+            "Step 5: Double-click the Kaizora Academy folder to open it.",
+            "Step 6: Click New again, then click File upload. A window from your computer opens. Go to Documents, then Kaizora Academy, then S1 Computer Readiness, click the note you made earlier, and click Open.",
+            "Step 7: Watch the bottom right of the screen. A small box shows a progress bar. When it says Upload complete, your file is safe in Drive.",
+            "Step 8: You can also drag a file from File Explorer straight onto the Drive page in Chrome. Try it with another file.",
+            "Step 9: Open a file in Drive by double-clicking it. Close it with the X in the top left.",
+            "Step 10: Remember that Drive also works from your phone through the Google Drive app, using the same account."
+          ],
+          "key_terms": [
+            {
+              "term": "Google Drive",
+              "meaning": "Google's online storage where you can keep files and open them from anywhere."
+            },
+            {
+              "term": "Upload",
+              "meaning": "Sending a file from your computer to the internet."
+            },
+            {
+              "term": "Download",
+              "meaning": "Bringing a file from the internet onto your computer."
+            },
+            {
+              "term": "Cloud storage",
+              "meaning": "Storing files on computers connected to the internet instead of only on your own device."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Back up your first note",
+            "instructions": "In Google Drive, create a folder called Kaizora Academy. Upload the Day 1 Note file from your computer. Open it from Drive. Then download it to your Downloads folder again to see the difference between upload and download.",
+            "expected_outcome": "A Kaizora Academy folder in Drive that contains your note, and a downloaded copy in your Downloads folder."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What does upload mean?",
+              "options": [
+                "Deleting a file",
+                "Renaming a file",
+                "Sending a file from your computer to the internet",
+                "Printing a file"
+              ],
+              "correct_answer": "Sending a file from your computer to the internet",
+              "explanation": "Upload moves a copy of the file from your device to online storage. Download is the opposite."
+            },
+            {
+              "question": "Why is Google Drive useful if your laptop breaks?",
+              "options": [
+                "It deletes your files",
+                "It repairs the laptop",
+                "It speeds up your Wi-Fi",
+                "Your files are still safe online and can be opened from another device"
+              ],
+              "correct_answer": "Your files are still safe online and can be opened from another device",
+              "explanation": "Files in Drive live online, so they survive even when your device is lost or broken."
+            }
+          ]
+        },
+        {
+          "lesson_number": "6.2",
+          "lesson_title": "Sharing Files and Folders Safely",
+          "estimated_minutes": 20,
+          "youtube_url": "https://www.youtube.com/watch?v=86xLpRmWHLs",
+          "simple_explanation": "Sharing in Drive lets other people see or work on your files without you sending them as attachments. You choose exactly who can open the file and what they are allowed to do. You will use this in Kaizora courses to share your projects with instructors or reviewers.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch how to share files and folders in Google Drive. It is short.",
+            "Step 2: Open Google Drive. Right-click a file, for example your Day 1 Note, and click Share.",
+            "Step 3: In the box that says Add people, groups and calendar events, type the email address of the person you want to share with. If you are practising alone, use a second email address you own.",
+            "Step 4: Look at the role next to the email. Viewer means they can only look. Commenter means they can look and leave comments. Editor means they can change the file. Choose Viewer unless the person truly needs to change it.",
+            "Step 5: Click Send. The person receives an email with a link.",
+            "Step 6: To share with a link instead, click the General access section and choose Anyone with the link. Be careful. Anyone who gets that link can open the file, so only use this for things that are not private.",
+            "Step 7: Click Copy link to copy the link. You can then paste it into a message with Ctrl and V.",
+            "Step 8: To stop sharing, open Share again, click the role next to the person, and choose Remove access. Or change General access back to Restricted.",
+            "Step 9: Never share files that contain passwords, ID numbers or private photos."
+          ],
+          "key_terms": [
+            {
+              "term": "Share",
+              "meaning": "Giving other people permission to open your file or folder."
+            },
+            {
+              "term": "Viewer",
+              "meaning": "A person who can look at a file but not change it."
+            },
+            {
+              "term": "Editor",
+              "meaning": "A person who can change the file."
+            },
+            {
+              "term": "Restricted",
+              "meaning": "A setting that allows only the people you added to open the file."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Share a note as a viewer",
+            "instructions": "Share your Day 1 Note from Google Drive with a second email address (or a trusted friend) as a Viewer. Check that the email arrives. Then remove their access and confirm it is no longer shared.",
+            "expected_outcome": "You shared the file as a Viewer, received or confirmed the invite, and then removed access."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which role lets a person look at your file but not change it?",
+              "options": [
+                "Viewer",
+                "Admin",
+                "Owner",
+                "Editor"
+              ],
+              "correct_answer": "Viewer",
+              "explanation": "Viewers can open the file but cannot make changes."
+            },
+            {
+              "question": "What does Anyone with the link mean?",
+              "options": [
+                "Anybody who has the link can open it",
+                "Only you can open the file",
+                "Only Google employees can open it",
+                "The file is deleted"
+              ],
+              "correct_answer": "Anybody who has the link can open it",
+              "explanation": "It is convenient but less private, so use it only for files that are safe to be seen by many people."
+            }
+          ]
+        },
+        {
+          "lesson_number": "6.3",
+          "lesson_title": "Joining a Class on Google Meet",
+          "estimated_minutes": 20,
+          "youtube_url": "https://www.youtube.com/watch?v=8iLQpC8QpiM",
+          "simple_explanation": "Google Meet is a free tool for video calls. Many online classes use it, including classes at Kaizora. You can join from your computer or your phone. It is normal to feel shy at first. You can always keep your camera off and your microphone muted until you are ready.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch how to join a meeting in Google Meet.",
+            "Step 2: Put in your headphones if you have them. They make it easier to hear and stop echo.",
+            "Step 3: Open Chrome and go to meet.google.com. Make sure you are signed in to your Google account.",
+            "Step 4: Click New meeting, then click Start an instant meeting. This lets you practise alone. The first time, Chrome asks permission to use your microphone and camera. Click Allow.",
+            "Step 5: Look at the bottom bar. The microphone icon turns on and off your sound. The camera icon turns on and off your video. When an icon has a red line through it, it is off.",
+            "Step 6: Try each button. Turn your camera off and on. Turn your microphone off and on. Say a few words with your microphone on and see the small bars move to show it hears you.",
+            "Step 7: Click the red phone icon to leave the meeting.",
+            "Step 8: To join a real class, you will receive a link from your instructor or course organiser. Click it, or go to meet.google.com, click in the box that says Enter a code or link, paste the link with Ctrl and V, and click Join.",
+            "Step 9: On the preview screen, check that you look and sound fine, then click Join now or Ask to join. If you ask to join, wait for the host to let you in.",
+            "Step 10: Tips for class: keep your microphone muted when you are not speaking, use the chat for questions, and turn your camera off if your data is low."
+          ],
+          "key_terms": [
+            {
+              "term": "Google Meet",
+              "meaning": "Google's free tool for video calls and online classes."
+            },
+            {
+              "term": "Host",
+              "meaning": "The person who creates the meeting and lets others in."
+            },
+            {
+              "term": "Mute",
+              "meaning": "Turning your microphone off so others cannot hear you."
+            },
+            {
+              "term": "Meeting link",
+              "meaning": "A web address that takes you straight into a particular meeting."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Hold a meeting with yourself",
+            "instructions": "Start an instant meeting on Google Meet by yourself. Turn your camera and microphone off and on three times. Speak one full sentence and check the sound bars move. Copy the meeting link with the Copy link option, then leave the meeting.",
+            "expected_outcome": "You started and left a meeting, controlled your camera and microphone, and copied a meeting link."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What should you do with your microphone when you are not speaking in a class?",
+              "options": [
+                "Keep it loud",
+                "Keep it muted",
+                "Unplug the computer",
+                "Turn it into a camera"
+              ],
+              "correct_answer": "Keep it muted",
+              "explanation": "Muting reduces background noise for everyone."
+            },
+            {
+              "question": "How can you save data during an online class?",
+              "options": [
+                "Close the microphone permanently",
+                "Open more tabs",
+                "Turn the volume up",
+                "Turn your camera off"
+              ],
+              "correct_answer": "Turn your camera off",
+              "explanation": "Video uses a lot of data. Switching your camera off reduces data use."
+            }
+          ]
+        },
+        {
+          "lesson_number": "6.4",
+          "lesson_title": "Sharing Your Screen in Google Meet",
+          "estimated_minutes": 15,
+          "youtube_url": "https://www.youtube.com/watch?v=91EV179tdL8",
+          "simple_explanation": "Sharing your screen lets everyone in the meeting see what you see on your computer. It is how you can show your projects in a live session and how someone can help you when you are stuck. You can choose to share only one window, which keeps the rest of your computer private.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch how to share your screen and view participants in Google Meet.",
+            "Step 2: Start an instant meeting by yourself, as you did in the last lesson.",
+            "Step 3: Open Notepad and type a few words in it so you have something to share. Go back to the Meet tab in Chrome.",
+            "Step 4: In the bottom bar, click Present now. The icon looks like a box with an arrow pointing up.",
+            "Step 5: A small menu asks what you want to share. Choose A window. This is the safest choice because only one window is shared.",
+            "Step 6: Click the Notepad window in the list and click Share. Everyone in the meeting now sees only that window.",
+            "Step 7: To stop, click Stop presenting. A bar usually appears near the bottom or top of your screen.",
+            "Step 8: Before sharing in a real class, close private tabs, emails and messages so nothing private appears on screen.",
+            "Step 9: Leave the meeting using the red phone icon."
+          ],
+          "key_terms": [
+            {
+              "term": "Screen sharing",
+              "meaning": "Showing what is on your screen to the other people in a call."
+            },
+            {
+              "term": "Present now",
+              "meaning": "The Meet button that starts screen sharing."
+            },
+            {
+              "term": "Window",
+              "meaning": "One program's box on your screen, like Notepad or a Chrome page."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Share one window",
+            "instructions": "Start an instant meeting alone. Open Notepad and type your name. Share only the Notepad window. Check that Meet says you are presenting. Stop presenting and leave the meeting.",
+            "expected_outcome": "You shared a single window and stopped sharing without leaving anything else visible."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which sharing option is safest when you only want to show one program?",
+              "options": [
+                "A window",
+                "Everything on every device",
+                "Nothing",
+                "Your entire screen"
+              ],
+              "correct_answer": "A window",
+              "explanation": "Sharing a single window keeps the rest of your screen private."
+            },
+            {
+              "question": "What should you do before sharing your screen in a real class?",
+              "options": [
+                "Close private tabs and messages",
+                "Delete your files",
+                "Open your bank account",
+                "Turn on every program"
+              ],
+              "correct_answer": "Close private tabs and messages",
+              "explanation": "Anything open on your screen could be seen, so tidy up first."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "How much free storage does a Google account usually give you, shared across Gmail, Drive and Photos?",
+            "options": [
+              "15 GB",
+              "None",
+              "1 MB",
+              "500 TB"
+            ],
+            "correct_answer": "15 GB",
+            "explanation": "Google gives 15 GB of free storage shared across its main services."
+          },
+          {
+            "question": "How do you stop sharing a file with someone in Google Drive?",
+            "options": [
+              "Close Chrome",
+              "Open Share and choose Remove access for that person",
+              "Restart the computer",
+              "Delete the Gmail account"
+            ],
+            "correct_answer": "Open Share and choose Remove access for that person",
+            "explanation": "The Share box lets you remove a person or change access to Restricted."
+          },
+          {
+            "question": "What does a red line through the microphone icon in Meet mean?",
+            "options": [
+              "Your internet is fast",
+              "Your microphone is off",
+              "Your camera is on",
+              "The meeting has ended"
+            ],
+            "correct_answer": "Your microphone is off",
+            "explanation": "A red line means the microphone is muted and no one can hear you."
+          }
+        ]
+      }
+    }
+  ],
+  "final_assessment": {
+    "passing_score_percentage": 80,
+    "questions": [
+      {
+        "question": "A computer has a screen, a keyboard and a charger. What do we call these physical parts?",
+        "options": [
+          "Apps",
+          "Files",
+          "Software",
+          "Hardware"
+        ],
+        "correct_answer": "Hardware",
+        "explanation": "Hardware means the physical parts of a computer that you can touch."
+      },
+      {
+        "question": "What is the best way to switch off a Windows computer?",
+        "options": [
+          "Close the lid and walk away",
+          "Click Start, the power icon, then Shut down",
+          "Unplug it",
+          "Hold the power button every time"
+        ],
+        "correct_answer": "Click Start, the power icon, then Shut down",
+        "explanation": "Shutting down properly protects your files and the system."
+      },
+      {
+        "question": "What is the difference between a file and a folder?",
+        "options": [
+          "A file is one item, a folder holds files",
+          "They are the same thing",
+          "A folder is a program",
+          "A file holds folders, a folder is one item"
+        ],
+        "correct_answer": "A file is one item, a folder holds files",
+        "explanation": "Files are single items. Folders are containers that organise them."
+      },
+      {
+        "question": "Where do deleted files go first in Windows?",
+        "options": [
+          "The Start menu",
+          "They vanish at once",
+          "Google Drive",
+          "The Recycle Bin"
+        ],
+        "correct_answer": "The Recycle Bin",
+        "explanation": "You can restore deleted files from the Recycle Bin until you empty it."
+      },
+      {
+        "question": "What is a router?",
+        "options": [
+          "A device that connects your devices to the internet",
+          "A kind of browser",
+          "A folder",
+          "A video"
+        ],
+        "correct_answer": "A device that connects your devices to the internet",
+        "explanation": "The router shares your internet connection with devices at home or work."
+      },
+      {
+        "question": "Which of these is a strong password?",
+        "options": [
+          "password123",
+          "ada1990",
+          "purple-goat-river-lamp-47",
+          "qwerty"
+        ],
+        "correct_answer": "purple-goat-river-lamp-47",
+        "explanation": "It is long and made of unrelated words, so it is hard to guess."
+      },
+      {
+        "question": "What does two-step verification add?",
+        "options": [
+          "A faster computer",
+          "A second check after your password",
+          "A new keyboard",
+          "More storage"
+        ],
+        "correct_answer": "A second check after your password",
+        "explanation": "Even if someone steals your password, they cannot sign in without the second step."
+      },
+      {
+        "question": "A message says your bank account will be blocked unless you send your PIN. What is it?",
+        "options": [
+          "A school announcement",
+          "A scam",
+          "A prize",
+          "A normal bank notice"
+        ],
+        "correct_answer": "A scam",
+        "explanation": "Banks never ask for your PIN, and pressure to act fast is a classic scam sign."
+      },
+      {
+        "question": "You want a file from your laptop to be available on another device through Google Drive. What do you do with the file?",
+        "options": [
+          "Rename it",
+          "Delete it",
+          "Print it",
+          "Upload it to Drive"
+        ],
+        "correct_answer": "Upload it to Drive",
+        "explanation": "Uploading sends a copy of the file from your device to online storage, so you can open it elsewhere."
+      },
+      {
+        "question": "In Google Meet, what does a red line through the microphone icon mean?",
+        "options": [
+          "The meeting is recording",
+          "Your camera is on",
+          "Your battery is full",
+          "Your microphone is muted"
+        ],
+        "correct_answer": "Your microphone is muted",
+        "explanation": "A red line means the microphone is off and no one can hear you."
+      }
+    ]
+  },
+  "completion_requirements": {
+    "complete_all_lessons": true,
+    "lesson_knowledge_checks": "Ungraded. They help you learn and can be repeated.",
+    "module_quiz_passing_score_percentage": 70,
+    "final_assessment_passing_score_percentage": 80,
+    "practical_exercises": "Recommended. You check your own work against the expected outcome. They are not graded."
+  },
+  "certificate": {
+    "eligible": true,
+    "type": "Certificate of completion",
+    "requirements": "Complete all lessons, pass every module quiz and pass the final assessment.",
+    "verification": "Each certificate carries a unique ID so anyone can check that it is genuine."
+  }
+}

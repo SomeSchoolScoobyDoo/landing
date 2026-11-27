@@ -1,0 +1,32 @@
+name: Application CI
+on:
+  pull_request:
+    branches: [main, "feat/**"]
+  push:
+    branches: [main, "feat/**"]
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name }}-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+      - name: Lint
+        run: npm run lint
+      - name: Type check
+        run: npm run typecheck
+      - name: Validate course content JSON
+        run: npm run validate:course-content
+      - name: Certificate artwork render test
+        run: npm run test:certificate-render
+      - name: Production build
+        run: npm run build

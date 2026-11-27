@@ -1,116 +1,126 @@
 import Link from "next/link";
-import { redirect } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { Brand } from "@/components/brand";
-import { submitCourseFeedbackAction } from "../actions";
+import { submitCourseFeedbackAction } from "./actions";
+import styles from "./feedback.module.css";
 
 type Props = { params: Promise<{ courseSlug: string }>; searchParams: Promise<{ submitted?: string }> };
 
 export default async function CourseFeedbackPage({ params, searchParams }: Props) {
   const { courseSlug } = await params;
   const query = await searchParams;
-  const supabase = await createClient();
-  const { data: auth, error: authError } = await supabase.auth.getUser();
-  if (authError || !auth.user) redirect("/login");
+  if (!/^[a-z0-9-]{1,120}$/.test(courseSlug)) notFound();
 
-  const { data: course, error: courseError } = await supabase
+  const supabase = await createClient();
+  const { data: { user } } = await supabase.auth.getUser();
+  if (!user) redirect("/login");
+
+  const { data: course } = await supabase
     .from("courses")
     .select("id, title")
     .eq("slug", courseSlug)
     .eq("status", "published")
     .maybeSingle();
-  if (courseError || !course) redirect("/courses");
+  if (!course) notFound();
 
   const { data: enrollment } = await supabase
     .from("course_enrollments")
     .select("id")
-    .eq("user_id", auth.user.id)
+    .eq("user_id", user.id)
     .eq("course_id", course.id)
     .eq("status", "active")
     .maybeSingle();
-  if (!enrollment) redirect("/courses/" + courseSlug);
+  if (!enrollment) redirect("/dashboard");
 
   const { data: existingFeedback } = await supabase
     .from("course_feedback")
     .select("id")
-    .eq("user_id", auth.user.id)
+    .eq("user_id", user.id)
     .eq("course_id", course.id)
     .maybeSingle();
 
   const { data: modules, error: modulesError } = await supabase
     .from("course_modules")
-    .select("id, lessons!inner(id)")
+    .select("lessons!inner(id)")
     .eq("course_id", course.id)
     .eq("status", "published")
     .eq("lessons.status", "published");
+  if (modulesError) throw new Error("Course progress could not be checked.");
 
-  const lessonIds = (modules ?? []).flatMap((module) =>
-    ((module.lessons ?? []) as unknown as { id: string }[]).map((lesson) => lesson.id)
-  );
+  const lessonIds = (modules ?? []).flatMap((module) => (module.lessons ?? []).map((lesson) => lesson.id));
   const { data: progress, error: progressError } = lessonIds.length
-    ? await supabase.from("lesson_progress").select("lesson_id, completed_at").eq("user_id", auth.user.id).in("lesson_id", lessonIds)
+    ? await supabase.from("lesson_progress").select("lesson_id")
+        .eq("user_id", user.id).not("completed_at", "is", null).in("lesson_id", lessonIds)
     : { data: [], error: null };
-  const completedIds = new Set((progress ?? []).filter((item) => item.completed_at).map((item) => item.lesson_id));
-  const complete = !modulesError && !progressError && lessonIds.length > 0 && completedIds.size === lessonIds.length;
+  if (progressError) throw new Error("Course progress could not be checked.");
+
+  const completedCount = new Set((progress ?? []).map((item) => item.lesson_id)).size;
+  const complete = lessonIds.length > 0 && completedCount === lessonIds.length;
+  const submitted = query.submitted === "1" || query.submitted === "already" || Boolean(existingFeedback);
 
   return (
-    <main className="feedback-page">
-      <header className="site-header">
-        <Brand />
-        <nav aria-label="Feedback navigation"><Link href="/dashboard">Dashboard</Link><Link href="/account">My account</Link></nav>
-      </header>
-      <section className="feedback-content">
-        <p className="eyebrow">HELP US IMPROVE</p>
-        <h1>Course feedback</h1>
-        <h2>{course.title}</h2>
-        {query.submitted === "1" || existingFeedback ? (
-          <div className="feedback-success" role="status">
-            <h3>Thank you for your feedback.</h3>
-            <p>Your response has been saved. It helps us improve the learning experience for everyone.</p>
-          </div>
-        ) : !complete ? (
-          <div className="feedback-success">
-            <h3>One more step.</h3>
-            <p>Complete every published lesson in this course before submitting your feedback.</p>
+    <main className={styles.page}>
+      <header className="site-header"><Brand /><nav aria-label="Learner navigation"><Link href="/dashboard">Dashboard</Link><Link href="/courses">Explore courses</Link></nav></header>
+      <section className={styles.shell}>
+        <Link className="course-back-link" href="/dashboard">← Back to your learning space</Link>
+        <p className={styles.eyebrow}>KAIZORA AI ACADEMY · LEARNER FEEDBACK</p>
+        {submitted ? (
+          <div className={styles.success}>
+            <span className={styles.check}>✓</span>
+            <h1>Thank you for helping us improve.</h1>
+            <p>Your feedback for <strong>{course.title}</strong> has been saved. It helps us make the next learner&apos;s experience better.</p>
             <Link className="button button-primary" href="/dashboard">Return to dashboard <span>→</span></Link>
           </div>
+        ) : !complete ? (
+          <div className={styles.success}>
+            <h1>You&apos;re nearly there.</h1>
+            <p>Complete all published lessons in <strong>{course.title}</strong> before leaving course feedback. You have completed {completedCount} of {lessonIds.length} lessons.</p>
+            <Link className="button button-primary" href="/dashboard">Continue learning <span>→</span></Link>
+          </div>
         ) : (
-          <form action={submitCourseFeedbackAction} className="course-feedback-form">
-            <input type="hidden" name="courseSlug" value={courseSlug} />
-            <p className="feedback-instructions">Please be honest. Your feedback is for improving both the course and the platform.</p>
-            <div className="feedback-rating-grid">
-              <label>Overall course experience
-                <select name="overallRating" required defaultValue=""><option value="" disabled>Select 1–5</option>{[1,2,3,4,5].map((n)=><option key={n} value={n}>{n} · {["","Poor","Fair","Good","Very good","Excellent"][n]}</option>)}</select>
-              </label>
-              <label>How clear was the content?
-                <select name="contentClarity" required defaultValue=""><option value="" disabled>Select 1–5</option>{[1,2,3,4,5].map((n)=><option key={n} value={n}>{n}</option>)}</select>
-              </label>
-              <label>How was the learning pace?
-                <select name="learningPace" required defaultValue=""><option value="" disabled>Select 1–5</option>{[1,2,3,4,5].map((n)=><option key={n} value={n}>{n}</option>)}</select>
-              </label>
-              <label>How confident do you feel applying what you learned?
-                <select name="practicalConfidence" required defaultValue=""><option value="" disabled>Select 1–5</option>{[1,2,3,4,5].map((n)=><option key={n} value={n}>{n}</option>)}</select>
-              </label>
-              <label>How was the platform experience?
-                <select name="platformExperience" required defaultValue=""><option value="" disabled>Select 1–5</option>{[1,2,3,4,5].map((n)=><option key={n} value={n}>{n}</option>)}</select>
-              </label>
-            </div>
-            <label>What was most useful?
-              <textarea name="mostUseful" maxLength={2000} rows={4} required />
-            </label>
-            <label>What should we improve?
-              <textarea name="improvementSuggestion" maxLength={2000} rows={4} required />
-            </label>
-            <label>What blocked you or made learning harder? (Write “None” if nothing did.)
-              <textarea name="blockers" maxLength={2000} rows={3} required />
-            </label>
-            <label>Would you recommend this course?
-              <select name="wouldRecommend" defaultValue=""><option value="">Not sure</option><option value="yes">Yes</option><option value="no">No</option></select>
-            </label>
-            <button className="auth-submit" type="submit">Submit feedback</button>
-          </form>
+          <>
+            <h1>How was your learning experience?</h1>
+            <p className={styles.intro}>You completed <strong>{course.title}</strong>. Give us a few honest answers. This should take about two minutes.</p>
+            <form action={submitCourseFeedbackAction} className={styles.form}>
+              <input type="hidden" name="courseSlug" value={courseSlug} />
+              <fieldset>
+                <legend>Overall, how would you rate this course?</legend>
+                <div className={styles.rating}>{[1,2,3,4,5].map((n) => <label key={n}><input type="radio" name="overall_rating" value={n} required/><span>{n}</span></label>)}</div>
+                <small>1 = Poor · 5 = Excellent</small>
+              </fieldset>
+              <fieldset>
+                <legend>How smooth was the full platform journey: account creation, finding and enrolling in the course, opening lessons, watching videos, taking quizzes, and checking completion?</legend>
+                <div className={styles.rating}>{[1,2,3,4,5].map((n) => <label key={n}><input type="radio" name="platform_experience_rating" value={n} required/><span>{n}</span></label>)}</div>
+                <small>1 = Very difficult · 5 = Very smooth</small>
+              </fieldset>
+              <fieldset>
+                <legend>How clear and easy to understand was the content?</legend>
+                <div className={styles.rating}>{[1,2,3,4,5].map((n) => <label key={n}><input type="radio" name="content_clarity" value={n} required/><span>{n}</span></label>)}</div>
+                <small>1 = Very unclear · 5 = Very clear</small>
+              </fieldset>
+              <fieldset>
+                <legend>How was the pace of the course?</legend>
+                <div className={styles.rating}>{[1,2,3,4,5].map((n) => <label key={n}><input type="radio" name="learning_pace" value={n} required/><span>{n}</span></label>)}</div>
+                <small>1 = Poorly paced · 5 = Just right</small>
+              </fieldset>
+              <fieldset>
+                <legend>How confident do you feel applying what you learned?</legend>
+                <div className={styles.rating}>{[1,2,3,4,5].map((n) => <label key={n}><input type="radio" name="practical_confidence" value={n} required/><span>{n}</span></label>)}</div>
+                <small>1 = Not confident · 5 = Very confident</small>
+              </fieldset>
+              <label className={styles.field}>What was the most useful part of the course?<textarea name="most_useful" rows={3} maxLength={2000} placeholder="Tell us what worked well for you."/></label>
+              <label className={styles.field}>Did anything confuse you or prevent you from progressing?<textarea name="blockers" rows={3} maxLength={2000} placeholder="Mention unclear lessons, technical issues, broken links, or anything else."/></label>
+              <label className={styles.field}>What should we improve?<textarea name="improvement_suggestion" rows={3} maxLength={2000} placeholder="Your honest suggestions are welcome."/></label>
+              <fieldset>
+                <legend>Would you recommend this course to someone else?</legend>
+                <div className={styles.recommend}><label><input type="radio" name="would_recommend" value="yes" required/> Yes</label><label><input type="radio" name="would_recommend" value="no" required/> No</label></div>
+              </fieldset>
+              <button className="button button-primary" type="submit">Submit feedback <span>→</span></button>
+              <p className={styles.privacy}>Your response is linked to your Kaizora account and this course so the team can review learning feedback. Please do not include passwords or sensitive personal information.</p>
+            </form>
+          </>
         )}
-        <Link className="account-back-link" href="/dashboard">← Back to dashboard</Link>
       </section>
     </main>
   );

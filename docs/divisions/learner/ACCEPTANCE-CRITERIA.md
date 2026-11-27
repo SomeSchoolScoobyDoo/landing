@@ -1,0 +1,28 @@
+# Individual Learner Division — Acceptance Criteria
+
+- [ ] Anonymous users can browse published courses.
+- [ ] Course details expose title, summary, objectives, module/lesson titles, structure and price only.
+- [ ] Paid courses are visibly locked; price and details remain public.
+- [ ] Unpublished courses and lesson bodies are not publicly retrievable.
+- [ ] Loading, empty, error and not-found states are recoverable.
+- [ ] Signup validates input and creates one account.
+- [ ] Email confirmation, callback, login/logout and password reset work.
+- [ ] Expired, invalid and replayed auth links fail safely.
+- [ ] Protected pages do not leak private data to anonymous users.
+- [ ] Enrolment state is derived and enforced server-side.
+- [ ] Only active enrolment grants lesson and assessment access.
+- [ ] Paid course remains locked until verified payment and server-side enrolment.
+- [ ] Revoked/expired/refunded access is removed.
+- [ ] Protected files use private storage and short-lived authorised links.
+- [ ] Progress belongs to authenticated learner and correct course/lesson.
+- [ ] Repeated completion requests do not corrupt progress.
+- [ ] Answer keys are not delivered to learners; grading happens server-side.
+- [ ] Retake limits and attempts are enforced server-side.
+- [ ] Completion/certificate eligibility uses authoritative records.
+- [ ] Badge/certificate displays correct learner, course and issue date.
+- [ ] Certificate verification does not expose unrelated learner records.
+- [ ] Profile update, recovery and support states work on mobile and desktop.
+- [ ] Keyboard navigation, labels, focus, contrast and screen-reader names are checked.
+- [ ] No horizontal overflow at 320 CSS px.
+- [ ] Lint, typecheck/build and relevant tests pass.
+- [ ] No known critical/high functional defect remains open.

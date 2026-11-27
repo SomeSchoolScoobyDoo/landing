@@ -6,16 +6,11 @@ import { createClient } from "@/lib/supabase/server";
 
 const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
 
-export async function completeLessonAndContinueAction(data: FormData) {
-  const lessonId = String(data.get("lessonId") ?? "");
+export async function markLessonCompleteAction(data: FormData) {
+  const lessonId = String(data.get("lessonId") ?? "").trim();
   const courseSlug = String(data.get("courseSlug") ?? "");
-  const nextLessonId = String(data.get("nextLessonId") ?? "");
 
-  if (
-    !UUID_PATTERN.test(lessonId) ||
-    !/^[a-z0-9-]{1,120}$/.test(courseSlug) ||
-    (nextLessonId && !UUID_PATTERN.test(nextLessonId))
-  ) {
+  if (!UUID_PATTERN.test(lessonId) || !/^[a-z0-9-]{1,120}$/.test(courseSlug)) {
     throw new Error("Invalid lesson progress request.");
   }
 
@@ -23,51 +18,31 @@ export async function completeLessonAndContinueAction(data: FormData) {
   const { data: auth, error: authError } = await supabase.auth.getUser();
   if (authError || !auth.user) redirect("/login");
 
+  // Verify that the supplied lesson ID belongs to this published course.
   const { data: lesson, error: lessonError } = await supabase
     .from("lessons")
     .select("id, course_modules!inner(courses!inner(slug))")
     .eq("id", lessonId)
     .eq("course_modules.courses.slug", courseSlug)
-    .eq("status", "published")
     .maybeSingle();
 
   if (lessonError || !lesson) {
     throw new Error("This lesson could not be verified. Refresh the page and try again.");
   }
 
-  if (nextLessonId) {
-    const { data: nextLesson, error: nextLessonError } = await supabase
-      .from("lessons")
-      .select("id, course_modules!inner(courses!inner(slug))")
-      .eq("id", nextLessonId)
-      .eq("course_modules.courses.slug", courseSlug)
-      .eq("status", "published")
-      .maybeSingle();
+  const { error } = await supabase.from("lesson_progress").upsert(
+    { user_id: auth.user.id, lesson_id: lesson.id, completed_at: new Date().toISOString() },
+    { onConflict: "user_id,lesson_id" },
+  );
 
-    if (nextLessonError || !nextLesson) {
-      throw new Error("The next lesson could not be verified. Refresh the page and try again.");
-    }
-  }
+  if (error) throw new Error("Your lesson progress could not be saved. Please try again.");
 
-  // Learner writes are intentionally routed through the validated database RPC.
-  const { error } = await supabase.rpc("mark_lesson_complete", {
-    p_lesson_id: lesson.id,
-  });
-
-  if (error) {
-    throw new Error("Your lesson completion could not be saved. Please try again.");
-  }
-
+  revalidatePath("/learn/" + courseSlug + "/" + lessonId);
   revalidatePath("/dashboard");
   revalidatePath("/badges");
-  revalidatePath("/courses/" + courseSlug);
-
-  if (nextLessonId) {
-    redirect("/learn/" + courseSlug + "/" + nextLessonId);
-  }
-
-  redirect("/feedback/" + courseSlug);
+  redirect("/learn/" + courseSlug + "/" + lessonId + "?completed=1");
 }
+
 
 export async function submitAssessmentAction(data: FormData) {
   const assessmentId = String(data.get("assessmentId") ?? "");
@@ -77,7 +52,7 @@ export async function submitAssessmentAction(data: FormData) {
 
   if (
     !UUID_PATTERN.test(assessmentId) ||
-    !UUID_PATTERN.test(lessonId) ||
+    (lessonId.length > 0 && !UUID_PATTERN.test(lessonId)) ||
     !/^[a-z0-9-]{1,120}$/.test(courseSlug) ||
     rawAnswers.length > 50000
   ) {
@@ -111,15 +86,24 @@ export async function submitAssessmentAction(data: FormData) {
   const { data: auth, error: authError } = await supabase.auth.getUser();
   if (authError || !auth.user) redirect("/login");
 
-  const { data: lesson, error: lessonError } = await supabase
-    .from("lessons")
-    .select("id, course_modules!inner(courses!inner(slug))")
-    .eq("id", lessonId)
-    .eq("course_modules.courses.slug", courseSlug)
+  const { data: assessment, error: assessmentError } = await supabase
+    .from("assessments")
+    .select("id, lesson_id, module_id, assessment_type, courses!inner(slug)")
+    .eq("id", assessmentId)
+    .eq("courses.slug", courseSlug)
+    .eq("status", "published")
     .maybeSingle();
 
-  if (lessonError || !lesson) {
-    throw new Error("This lesson could not be verified.");
+  if (assessmentError || !assessment) {
+    throw new Error("This assessment could not be verified.");
+  }
+
+  if (lessonId) {
+    if (assessment.assessment_type !== "lesson_quiz" || assessment.lesson_id !== lessonId) {
+      throw new Error("This quiz does not belong to the selected lesson.");
+    }
+  } else if (!["module_quiz", "final_assessment"].includes(assessment.assessment_type)) {
+    throw new Error("This assessment requires a lesson context.");
   }
 
   const { error } = await supabase.rpc("submit_assessment", {
@@ -134,8 +118,13 @@ export async function submitAssessmentAction(data: FormData) {
     throw new Error("Your quiz could not be submitted. Check your answers and try again.");
   }
 
-  revalidatePath("/learn/" + courseSlug + "/" + lessonId);
-  redirect("/learn/" + courseSlug + "/" + lessonId + "?quiz=submitted");
+  revalidatePath("/courses/" + courseSlug);
+  revalidatePath("/dashboard");
+  if (lessonId) {
+    revalidatePath("/learn/" + courseSlug + "/" + lessonId);
+    redirect("/learn/" + courseSlug + "/" + lessonId + "?quiz=submitted");
+  }
+  redirect("/courses/" + courseSlug + "?assessment=submitted");
 }
 
 

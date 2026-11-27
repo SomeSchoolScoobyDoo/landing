@@ -5,6 +5,7 @@ import { signOutAction } from "@/app/auth/actions";
 import { withdrawFromCourseAction } from "@/app/learn/actions";
 import { LearnerCourseList } from "@/components/learner-course-list";
 import { Brand } from "@/components/brand";
+import { LearnerNavigation } from "@/components/learner-navigation";
 
 type Course = {
   id: string;
@@ -43,7 +44,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
       <main className="dashboard-page">
         <header className="site-header">
           <Brand />
-          <nav className="learner-nav" aria-label="Learner navigation"><Link href="/courses">Explore courses</Link><Link href="/badges">My badges</Link><Link href="/account">My account</Link></nav>
+          <nav aria-label="Learner navigation"><Link href="/courses">Explore courses</Link></nav>
         </header>
         <section className="learner-dashboard">
           <div className="dashboard-empty">
@@ -159,7 +160,7 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
     <main className="dashboard-page">
       <header className="site-header">
         <Brand />
-        <nav className="learner-nav" aria-label="Learner navigation"><Link href="/courses">Explore courses</Link><Link href="/badges">My badges</Link><Link href="/account">My account</Link></nav>
+        <LearnerNavigation />
         <form action={signOutAction}><button className="signout-button" type="submit">Sign out</button></form>
       </header>
 
@@ -182,7 +183,24 @@ export default async function DashboardPage({ searchParams }: { searchParams: Pr
           {courses.length === 0 ? (
             <div className="dashboard-empty"><span className="dashboard-placeholder-mark">K</span><h3>Your learning journey starts here.</h3><p>Enrol in a published course and it will appear here with your progress, lessons and next step.</p><Link className="button button-primary" href="/courses">Browse courses <span>→</span></Link></div>
           ) : (
+            <>
             <LearnerCourseList courses={courses} withdrawAction={withdrawFromCourseAction} />
+            {courses.some((course) => course.total > 0 && course.percentage === 100) && (
+              <section className="dashboard-section" aria-labelledby="course-feedback-heading">
+                <div className="dashboard-section-heading">
+                  <div><p className="eyebrow">HELP US IMPROVE</p><h2 id="course-feedback-heading">Share your course feedback</h2></div>
+                </div>
+                <p className="dashboard-muted">Finished a course? Tell us what worked, what got in your way, and what we should improve.</p>
+                <div className="dashboard-feedback-links">
+                  {courses.filter((course) => course.total > 0 && course.percentage === 100).map((course) => (
+                    <Link className="button button-primary" href={`/feedback/${course.courses.slug}`} key={course.courses.id}>
+                      Give feedback · {course.courses.title} <span>→</span>
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            )}
+            </>
           )}
         </section>
 

@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { UnenrollButton } from "@/components/unenroll-button";
+import { TrackedCourseLink } from "@/components/tracked-course-link";
 
 type Course = {
   id: string;
@@ -62,7 +63,16 @@ export function LearnerCourseList({ courses, withdrawAction }: Props) {
             {course.nextLesson ? (
               <Link className="learner-continue-link" href={`/learn/${course.courses.slug}/${course.nextLesson.id}`}>{course.completed === course.total ? "Review course" : "Continue learning"} <span>→</span></Link>
             ) : (
-              <Link className="learner-continue-link" href={`/courses/${course.courses.slug}`}>View course details <span>→</span></Link>
+              <TrackedCourseLink
+                className="learner-continue-link"
+                href={`/courses/${course.courses.slug}`}
+                courseSlug={course.courses.slug}
+                courseTitle={course.courses.title}
+                sourceComponent="learner_dashboard_course_card"
+                placement="my_courses"
+              >
+                View course details <span>→</span>
+              </TrackedCourseLink>
             )}
             <UnenrollButton courseTitle={course.courses.title} courseSlug={course.courses.slug} action={withdrawAction} />
           </article>

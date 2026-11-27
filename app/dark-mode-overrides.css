@@ -1,79 +1,138 @@
-html[data-theme="dark"] .marketing-site{background:#0b111b;color:#edf1f7}html[data-theme="dark"] .marketing-header,html[data-theme="dark"] .marketing-footer{background:#0b111b;border-color:#2b394b}html[data-theme="dark"] .marketing-header nav a,html[data-theme="dark"] .marketing-footer nav a,html[data-theme="dark"] .marketing-hero>div>p:not(.marketing-eyebrow),html[data-theme="dark"] .marketing-hero-card p,html[data-theme="dark"] .marketing-proof span,html[data-theme="dark"] .marketing-card-grid p,html[data-theme="dark"] .audience-hero>p:not(.marketing-eyebrow),html[data-theme="dark"] .audience-grid p,html[data-theme="dark"] .audience-bottom>p:not(.marketing-eyebrow){color:#b7c1ce}html[data-theme="dark"] .marketing-hero h1,html[data-theme="dark"] .marketing-section h2,html[data-theme="dark"] .audience-hero h1,html[data-theme="dark"] .audience-bottom h2,html[data-theme="dark"] .marketing-card-grid h3{color:#f1f4f8}html[data-theme="dark"] .marketing-hero-card,html[data-theme="dark"] .marketing-card-grid article,html[data-theme="dark"] .audience-grid article,html[data-theme="dark"] .audience-bottom{background:#141e2c;border-color:#2b394b}html[data-theme="dark"] .marketing-proof,html[data-theme="dark"] .marketing-proof div{border-color:#2b394b}html[data-theme="dark"] .marketing-band{background:#172235}html[data-theme="dark"] .marketing-text-link{color:#f4a06c}
-
-/* Homepage dark mode: keep every hero, proof, card and CTA surface readable. */
-html[data-theme="dark"] .home-page {
+/* Dark appearance overrides for the editorial homepage.
+   Keep surfaces dark across the full page, with orange as the only warm accent. */
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --navy: #e8edf5;
+  --navy-deep: #f5f7fb;
+  --ink: #edf1f7;
+  --muted: #aeb9c8;
+  --paper: #0b111b;
+  --soft: #141e2c;
+  --line: #2b394b;
+  background: #0b111b;
+}
+html[data-theme="dark"],
+html[data-theme="dark"] body,
+html[data-theme="dark"] #__next {
+  min-height: 100%;
   background: #0b111b !important;
+  color: #edf1f7;
+}
+html[data-theme="dark"] body :where(.home-page) {
+  background: #0b111b !important;
+  color: #edf1f7;
+}
+html[data-theme="dark"] .home-page :where(.site-header, .hero.home-hero, .intro-strip, .catalogue, .independent-band, .institution-card, .site-footer, section) {
+  background-color: #0b111b !important;
+  color: #edf1f7;
+  border-color: #2b394b;
+}
+html[data-theme="dark"] .home-page .site-header {
+  border-bottom: 1px solid #2b394b;
+}
+html[data-theme="dark"] .home-page .hero.home-hero {
+  background: #0b111b !important;
+}
+html[data-theme="dark"] .home-page .hero h1,
+html[data-theme="dark"] .home-page .section-heading h2,
+html[data-theme="dark"] .home-page .independent-band h2,
+html[data-theme="dark"] .home-page .institution-card h2,
+html[data-theme="dark"] .home-page h2,
+html[data-theme="dark"] .home-page h3,
+html[data-theme="dark"] .home-page strong,
+html[data-theme="dark"] .home-page .home-hero-note li strong {
+  color: #f1f4f8 !important;
+}
+html[data-theme="dark"] .home-page p,
+html[data-theme="dark"] .home-page small,
+html[data-theme="dark"] .home-page li,
+html[data-theme="dark"] .home-page .hero-description,
+html[data-theme="dark"] .home-page .proof-item span,
+html[data-theme="dark"] .home-page .curriculum-note,
+html[data-theme="dark"] .home-page .category-card > p,
+html[data-theme="dark"] .home-page .category-card li,
+html[data-theme="dark"] .home-page .home-hero-note li small {
+  color: #b7c1ce !important;
+}
+html[data-theme="dark"] .home-page .hero h1 span,
+html[data-theme="dark"] .home-page .section-heading h2 span,
+html[data-theme="dark"] .home-page .independent-band h2 span,
+html[data-theme="dark"] .home-page .institution-card h2 span {
+  color: #f47d32 !important;
+}
+html[data-theme="dark"] .home-page .hero .eyebrow,
+html[data-theme="dark"] .home-page .home-hero-note .note-kicker,
+html[data-theme="dark"] .home-page .home-hero-note li > span {
+  color: #f0a06b !important;
+}
+html[data-theme="dark"] .home-page .home-hero-note {
+  border-left-color: #2b394b !important;
+}
+html[data-theme="dark"] .home-page .home-hero-note li,
+html[data-theme="dark"] .home-page .category-card,
+html[data-theme="dark"] .home-page .proof-divider {
+  border-color: #2b394b !important;
+  background-color: transparent !important;
+}
+html[data-theme="dark"] .home-page .category-card h3 {
+  color: #f1f4f8 !important;
+}
+html[data-theme="dark"] .home-page .button-primary {
+  background: #f47d32 !important;
+  color: #17120f !important;
+  border-color: #f47d32 !important;
+}
+html[data-theme="dark"] .home-page .button-primary:hover {
+  background: #ff9654 !important;
+}
+html[data-theme="dark"] .home-page .text-link,
+html[data-theme="dark"] .home-page a:not(.button) {
+  color: #f4a06c;
+}
+html[data-theme="dark"] .home-page .header-link {
   color: #edf1f7 !important;
+  border-color: #536174 !important;
+  background: transparent !important;
 }
-html[data-theme="dark"] .home-page .marketing-eyebrow {
-  color: #e7b879 !important;
-}
-html[data-theme="dark"] .home-page .marketing-hero h1,
-html[data-theme="dark"] .home-page .marketing-section-heading h2,
-html[data-theme="dark"] .home-page .marketing-card-grid h3,
-html[data-theme="dark"] .home-page .marketing-method h2 {
+html[data-theme="dark"] .home-page .brand,
+html[data-theme="dark"] .home-page .brand a {
   color: #f1f4f8 !important;
 }
-html[data-theme="dark"] .home-page .marketing-hero h1 em,
-html[data-theme="dark"] .home-page .marketing-method h2 em {
-  color: #f0b56e !important;
+html[data-theme="dark"] .home-page .brand-mark {
+  background: #17365d !important;
+  color: #fff !important;
 }
-html[data-theme="dark"] .home-page .marketing-hero-copy > p:not(.marketing-eyebrow),
-html[data-theme="dark"] .home-page .marketing-hero-card p,
-html[data-theme="dark"] .home-page .marketing-proof p,
-html[data-theme="dark"] .home-page .marketing-section-heading > p,
-html[data-theme="dark"] .home-page .marketing-card-grid p,
-html[data-theme="dark"] .home-page .marketing-method-copy p {
-  color: #b7c1ce !important;
+html[data-theme="dark"] .home-page :where(.institution-card, .category-card, .home-hero-note, .course-area, .audience-card, .independent-band) {
+  box-shadow: none;
 }
-html[data-theme="dark"] .home-page .marketing-hero-card,
-html[data-theme="dark"] .home-page .marketing-method {
-  background: #182438 !important;
-  border-color: #34445d !important;
+html[data-theme="dark"] .home-page :where(img, svg) {
+  max-width: 100%;
 }
-html[data-theme="dark"] .home-page .marketing-hero-card strong,
-html[data-theme="dark"] .home-page .marketing-proof strong {
-  color: #f1f4f8 !important;
-}
-html[data-theme="dark"] .home-page .marketing-proof,
-html[data-theme="dark"] .home-page .marketing-proof div {
-  border-color: #34445d !important;
-}
-html[data-theme="dark"] .home-page .marketing-proof div > span,
-html[data-theme="dark"] .home-page .marketing-card-grid article > span {
-  color: #e7b879 !important;
-}
-html[data-theme="dark"] .home-page .marketing-card-grid article {
+html[data-theme="dark"] .home-page :where(.institution-card, .organisation-card, .independent-copy, .catalogue-footer, .preview-band, .preview-band-links) {
   background: #141e2c !important;
-  border-color: #34445d !important;
+  color: #edf1f7 !important;
+  border-color: #2b394b !important;
 }
-html[data-theme="dark"] .home-page .marketing-text-link {
-  color: #f0b56e !important;
+html[data-theme="dark"] .home-page .institution-card,
+html[data-theme="dark"] .home-page .organisation-card {
+  padding: clamp(24px, 4vw, 48px);
 }
-html[data-theme="dark"] .home-page .marketing-band {
-  background: #172235 !important;
-  color: #f1f4f8 !important;
-}
-html[data-theme="dark"] .home-page .marketing-band > div > p:not(.marketing-eyebrow) {
-  color: #c2cbd6 !important;
-}
-
-/* Homepage links and calls to action must outrank the broad global dark-link rule. */
-html[data-theme="dark"] .marketing-site .marketing-header nav a,
-html[data-theme="dark"] .marketing-site .marketing-footer nav a {
+html[data-theme="dark"] .home-page .institution-card :where(p, li, small),
+html[data-theme="dark"] .home-page .organisation-card :where(p, li, small),
+html[data-theme="dark"] .home-page .preview-band :where(p, a) {
   color: #b7c1ce !important;
 }
-html[data-theme="dark"] .marketing-site a.marketing-cta,
-html[data-theme="dark"] .home-page .marketing-hero a.marketing-button {
-  background: #18345c !important;
-  border-color: #34445d !important;
-  color: #ffffff !important;
+html[data-theme="dark"] .home-page .institution-card h2,
+html[data-theme="dark"] .home-page .organisation-card h2,
+html[data-theme="dark"] .home-page .preview-band h2 {
+  color: #f1f4f8 !important;
 }
-html[data-theme="dark"] .home-page .marketing-text-link {
-  color: #f0b56e !important;
+html[data-theme="dark"] .home-page .catalogue-footer {
+  border-top: 1px solid #2b394b;
 }
-html[data-theme="dark"] .home-page .marketing-band a.marketing-button {
-  background: #f0a15d !important;
-  border-color: #f0a15d !important;
-  color: #172b46 !important;
+@media (prefers-reduced-motion: reduce) {
+  html[data-theme="dark"] .home-page * {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
 }

@@ -1,0 +1,2279 @@
+{
+  "course_id": "5",
+  "title": "AI Marketing and Creative Production",
+  "category": "Category 2: AI Content and Creativity",
+  "level": "Intermediate",
+  "audience": "Intermediate. Made for small business owners, freelancers, marketers and students who are comfortable with social media, email and everyday apps and who have tried an AI assistant. No design or marketing experience is required.",
+  "estimated_duration": "About 19 hours in total. Spread it over 4 weeks at around 1 hour a day, 5 days a week.",
+  "description": "This course shows you how to plan and run marketing with AI as your assistant. You will set clear objectives, understand audiences and positioning, and use AI to research customers, competitors and trends while checking what it tells you. You will plan a campaign and content calendar, write honest copy and ad scripts, create on-brand visuals, automate routine tasks safely and measure results with simple maths and A/B tests. You finish by building, piloting and reporting on a complete campaign for a business of your choice.",
+  "what_you_will_need": [
+    {
+      "item": "A laptop or desktop computer",
+      "details": "A computer is best for writing, designing and working with spreadsheets. A smartphone helps for photos and checking social media.",
+      "cost": "Paid (you may already own one)"
+    },
+    {
+      "item": "Internet connection",
+      "details": "Stable enough to use AI tools, design tools and watch lesson videos. Lower video quality to 360p or 480p if you use mobile data.",
+      "cost": "Paid (Wi-Fi subscription or mobile data)"
+    },
+    {
+      "item": "At least one AI assistant",
+      "details": "A free account on ChatGPT, Claude or Gemini is enough. Free limits change, so you may need to pause and continue later.",
+      "cost": "Free (limits apply)"
+    },
+    {
+      "item": "A free design tool",
+      "details": "Canva has a free plan with templates and some AI features. Free limits change. You can also use any design tool you already know.",
+      "cost": "Free (limits apply)"
+    },
+    {
+      "item": "A spreadsheet app",
+      "details": "Google Sheets or Excel, for your content calendar, KPI sheet and test logs.",
+      "cost": "Free"
+    },
+    {
+      "item": "A social media account for your business or practice",
+      "details": "A business page on Instagram, Facebook or similar, or a practice account. You can also run a simulation without publishing.",
+      "cost": "Free"
+    },
+    {
+      "item": "A small business or idea to work on",
+      "details": "A real business you work with, or a made up one. You will use it in every module and finish with a campaign pack and report.",
+      "cost": "Free"
+    },
+    {
+      "item": "A small test budget (optional)",
+      "details": "If you want to run a real paid test in Module 8, you can use a very small amount of your own money. It is optional. You can run an organic or simulated pilot instead.",
+      "cost": "Paid (optional)"
+    },
+    {
+      "item": "A notebook and a pen",
+      "details": "For quick notes, sketches of funnels and ideas while watching videos.",
+      "cost": "Paid (very cheap)"
+    },
+    {
+      "item": "A careful and honest approach",
+      "details": "You will check AI output, keep customer data private, tell the truth in ads and ask permission before using anyone's content or images.",
+      "cost": "Free"
+    }
+  ],
+  "learning_objectives": [
+    "Set clear marketing objectives and define audiences and positioning",
+    "Use AI to research audiences, competitors and trends and check the results",
+    "Plan a campaign, map the customer journey and build a content calendar",
+    "Write honest, persuasive copy and ad scripts with AI as a drafting partner",
+    "Create on-brand visuals and ad images with AI while keeping ads truthful",
+    "Automate routine marketing tasks safely, with consent and human approval",
+    "Calculate marketing metrics, run A/B tests and use results to improve",
+    "Build, pilot and report on a complete AI-assisted marketing campaign"
+  ],
+  "modules": [
+    {
+      "module_number": 1,
+      "module_title": "Digital Marketing Fundamentals",
+      "module_goal": "Understand marketing objectives, the marketing mix, audiences and positioning, which you will use all through the course.",
+      "lessons": [
+        {
+          "lesson_number": "1.1",
+          "lesson_title": "Digital Marketing 101: Goals and the Marketing Mix",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=h95cQkEWBx0",
+          "simple_explanation": "Marketing is everything you do to help the right people find, understand and choose your product or service. Digital marketing does this through channels such as search engines, social media, email, content, paid ads and messaging apps like WhatsApp. Before you pick any tool, you need a goal. Good goals are specific and measurable. The marketing mix, often called the 4 Ps (product, price, place and promotion), is a simple checklist of the decisions every business makes. Throughout this course you will build a campaign for one small business, so choose it now.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It is a beginner guide to digital marketing. Note the channels it names and any examples that remind you of businesses you know.",
+            "Step 2: Choose a small business for this course. It can be a real one you work with or a made up one, for example a Lagos online fashion seller, a bakery in Enugu, a tutoring service or a phone repair shop. Write its name and one sentence about what it sells.",
+            "Step 3: List the main digital channels: search (Google), social media (Instagram, Facebook, TikTok, X, LinkedIn), email, content (blogs and videos), paid ads, and messaging (WhatsApp, SMS).",
+            "Step 4: Learn four common marketing goals: awareness (people know you exist), leads (people show interest), sales (people buy) and loyalty (people come back and recommend you).",
+            "Step 5: Learn what makes a goal SMART: Specific, Measurable, Achievable, Relevant and Time-bound. Example: get 50 new WhatsApp enquiries from Instagram in 30 days.",
+            "Step 6: Learn the 4 Ps. Product: what you offer. Price: what it costs and how people pay. Place: where and how people can buy it. Promotion: how people hear about it.",
+            "Step 7: Fill in the 4 Ps for your business in two lines each.",
+            "Step 8: Write one SMART marketing objective for your business for the next 30 days."
+          ],
+          "key_terms": [
+            {
+              "term": "Digital marketing",
+              "meaning": "Promoting products or services using online channels such as search, social media, email and messaging."
+            },
+            {
+              "term": "Marketing objective",
+              "meaning": "A specific goal that marketing activity is meant to achieve."
+            },
+            {
+              "term": "SMART goal",
+              "meaning": "A goal that is specific, measurable, achievable, relevant and time-bound."
+            },
+            {
+              "term": "Marketing mix (4 Ps)",
+              "meaning": "Product, price, place and promotion, the basic decisions of marketing."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Business brief",
+            "instructions": "Choose your course business. Write a one page brief with a description, the 4 Ps and one SMART objective. Keep it for use in every later lesson.",
+            "expected_outcome": "A one page business brief with the 4 Ps and a SMART objective."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which is a SMART objective?",
+              "options": [
+                "Be popular",
+                "Grow soon",
+                "Get more customers",
+                "Get 50 new WhatsApp enquiries from Instagram in 30 days"
+              ],
+              "correct_answer": "Get 50 new WhatsApp enquiries from Instagram in 30 days",
+              "explanation": "It is specific, measurable and has a deadline."
+            },
+            {
+              "question": "Which of the 4 Ps describes where and how customers can buy?",
+              "options": [
+                "Product",
+                "Price",
+                "Promotion",
+                "Place"
+              ],
+              "correct_answer": "Place",
+              "explanation": "Place covers the channels and locations where customers can buy."
+            }
+          ]
+        },
+        {
+          "lesson_number": "1.2",
+          "lesson_title": "Audiences and Positioning: Segment, Target, Position",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=K400f3nvtrI",
+          "simple_explanation": "You cannot speak to everyone. Segmentation divides a market into groups of people with similar needs or behaviour. Targeting means choosing one or two groups to serve first. Positioning is the place your brand takes in your customers' minds: who it is for, what it is and why it is different. A clear positioning statement makes every ad, caption and offer easier to write.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains segmentation, targeting and positioning. Write the three terms and one example for each.",
+            "Step 2: Segment your market. Use groups such as age, location, income, interests, needs and behaviour. Example for a fashion seller: office workers in Lagos, university students, wedding guests.",
+            "Step 3: List four or five segments for your business. For each, write what they need and what stops them from buying.",
+            "Step 4: Choose your target. Pick one or two segments where you can serve people well and where the need is strong. Narrow targets make messages sharper and tests cheaper.",
+            "Step 5: Study how competitors position themselves. Look at three competitor websites or pages and note who they speak to and what they promise.",
+            "Step 6: Write a positioning statement using this pattern: For [target customers], [brand] is the [category] that [main benefit] because [reason to believe].",
+            "Step 7: Read it aloud. If it could describe any competitor, it is too vague. Make it more specific.",
+            "Step 8: Save your target and positioning statement. You will use them in every module."
+          ],
+          "key_terms": [
+            {
+              "term": "Segmentation",
+              "meaning": "Dividing a market into groups of people with similar needs or behaviour."
+            },
+            {
+              "term": "Targeting",
+              "meaning": "Choosing which segments to serve first."
+            },
+            {
+              "term": "Positioning",
+              "meaning": "The place a brand takes in customers' minds compared with alternatives."
+            },
+            {
+              "term": "Reason to believe",
+              "meaning": "Proof that supports your promise, such as results, ingredients or guarantees."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Target and positioning",
+            "instructions": "Write four segments for your business, choose one target, and write a positioning statement using the pattern in the lesson. Test it on one real person and note their reaction.",
+            "expected_outcome": "Four segments, one chosen target, a positioning statement and a note on feedback."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is market segmentation?",
+              "options": [
+                "Lowering prices",
+                "Choosing a logo",
+                "Dividing a market into groups with similar needs or behaviours",
+                "Selling to everyone with one message"
+              ],
+              "correct_answer": "Dividing a market into groups with similar needs or behaviours",
+              "explanation": "Segments let you tailor messages and offers."
+            },
+            {
+              "question": "Why choose a narrow target first?",
+              "options": [
+                "It removes competition completely",
+                "Narrow targets cannot buy",
+                "It hides your brand",
+                "Messages can be more relevant and cheaper to test"
+              ],
+              "correct_answer": "Messages can be more relevant and cheaper to test",
+              "explanation": "Focus makes marketing clearer and testing cheaper."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What does STP stand for in marketing?",
+            "options": [
+              "Search, traffic and payment",
+              "Segmentation, targeting and positioning",
+              "Sell, track and profit",
+              "Social, text and photo"
+            ],
+            "correct_answer": "Segmentation, targeting and positioning",
+            "explanation": "STP is the core process for choosing and speaking to an audience."
+          },
+          {
+            "question": "A positioning statement mainly explains:",
+            "options": [
+              "The logo colour",
+              "The price list",
+              "Who the product is for, what it is and why it is different",
+              "The delivery route"
+            ],
+            "correct_answer": "Who the product is for, what it is and why it is different",
+            "explanation": "It captures your place in the customer's mind."
+          },
+          {
+            "question": "Which objective is the most measurable?",
+            "options": [
+              "Be well known",
+              "Improve our image",
+              "Sell more eventually",
+              "Increase online orders from 20 to 30 per week in two months"
+            ],
+            "correct_answer": "Increase online orders from 20 to 30 per week in two months",
+            "explanation": "It has a number, a baseline and a deadline."
+          },
+          {
+            "question": "Which of these is part of the marketing mix?",
+            "options": [
+              "Passwords",
+              "Weather",
+              "Office keys",
+              "Price"
+            ],
+            "correct_answer": "Price",
+            "explanation": "Price is one of the 4 Ps."
+          },
+          {
+            "question": "Why define objectives before choosing channels?",
+            "options": [
+              "Objectives are only for accountants",
+              "Channels never matter",
+              "Goals are decoration",
+              "Channels should serve a goal, so the goal comes first"
+            ],
+            "correct_answer": "Channels should serve a goal, so the goal comes first",
+            "explanation": "Without a goal, you cannot judge a channel."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 2,
+      "module_title": "AI-Powered Market Research",
+      "module_goal": "Use AI to understand audiences, competitors and trends, while checking what it tells you.",
+      "lessons": [
+        {
+          "lesson_number": "2.1",
+          "lesson_title": "AI Audience Research and Personas",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=zqtG92n0paU",
+          "simple_explanation": "Good marketing starts with understanding people: what worries them, what they want, what stops them buying and the words they use. AI can help you find patterns in real customer material such as reviews, messages, survey answers and comments, and turn them into a clear picture of your audience, called a persona. The danger is asking AI to invent a persona from nothing, which gives you stereotypes and made up statistics. Always start with real data and check the result with real people.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows prompts for fast market research. Note how the prompts feed real information to the AI.",
+            "Step 2: Gather real material about your audience. Examples: your customers' messages, reviews of similar products, answers from a short survey, and public comments on competitors' posts. Collect at least 20 items.",
+            "Step 3: Remove personal details such as names, phone numbers and addresses before pasting anything into an AI tool.",
+            "Step 4: Ask the AI to analyse the material: What problems do these people mention? What do they want? What objections do they raise? What words do they use repeatedly? Ask it to quote short examples so you can see where each point comes from.",
+            "Step 5: Ask for a persona summary with sections for goals, frustrations, buying triggers, objections and where they spend time online. Label anything the AI guessed as an assumption.",
+            "Step 6: Check the output. Remove statistics that have no source and any stereotypes about age, gender or tribe.",
+            "Step 7: Validate with real people. Write five questions and ask them to at least five real customers or people in your target group. Compare their answers with the persona.",
+            "Step 8: Update the persona and save it as a one page document."
+          ],
+          "key_terms": [
+            {
+              "term": "Persona",
+              "meaning": "A summary of a typical customer type, built from real information."
+            },
+            {
+              "term": "Voice of customer",
+              "meaning": "The words customers actually use when they describe problems and wishes."
+            },
+            {
+              "term": "Assumption",
+              "meaning": "Something you believe is true but have not checked."
+            },
+            {
+              "term": "Validation",
+              "meaning": "Checking an idea or picture against real evidence."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Evidence based persona",
+            "instructions": "Collect at least 20 pieces of real customer material, remove personal data, and use AI to build a persona. Mark assumptions, then validate with five real people and write what changed.",
+            "expected_outcome": "A one page persona, a list of marked assumptions and notes from five validation conversations."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is the main danger of AI personas built with no real data?",
+              "options": [
+                "They are illegal",
+                "They can be stereotypes or invented guesses",
+                "They are always too accurate",
+                "They cost nothing"
+              ],
+              "correct_answer": "They can be stereotypes or invented guesses",
+              "explanation": "AI fills gaps with plausible but unverified details."
+            },
+            {
+              "question": "How should you validate a persona?",
+              "options": [
+                "Share it publicly",
+                "Trust your first guess",
+                "Ask real customers or people in the target group",
+                "Ask the AI if it is sure"
+              ],
+              "correct_answer": "Ask real customers or people in the target group",
+              "explanation": "Real feedback is the proof."
+            }
+          ]
+        },
+        {
+          "lesson_number": "2.2",
+          "lesson_title": "Competitor Analysis With AI",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=TTzNE1EPxk4",
+          "simple_explanation": "Knowing your competitors helps you find what to say that is different and where customers are underserved. Competitor analysis means comparing a few competitors on things such as their offer, price, positioning, tone, channels and customer reviews. AI can summarise the public information you collect and compare it in a table. You must check the facts, and you must only use information that is public. The goal is to find a gap you can serve better, not to copy.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to use AI for quick competitive analysis. Note the information it collects and the questions it asks.",
+            "Step 2: Choose three to five direct competitors and one or two indirect ones, such as another way customers solve the same problem.",
+            "Step 3: Collect public information: their website text, price lists, social media posts, public customer reviews, and public ad libraries such as the Meta Ad Library and the Google Ads Transparency Center.",
+            "Step 4: Paste short public excerpts into an AI tool and ask it to compare competitors on offer, price, positioning, tone of voice, main channels, strengths and weaknesses.",
+            "Step 5: Ask for a table with one row per competitor and one column per feature. Check every important fact against the original source and mark anything unconfirmed.",
+            "Step 6: Look for gaps. Questions to ask: What do reviews complain about? Which segments are ignored? Where is the message weak or confusing?",
+            "Step 7: Write an opportunity statement: one gap in the market and how your business can serve it.",
+            "Step 8: Remember the ethics: use only public information, do not copy their content or impersonate them, and do not collect personal data."
+          ],
+          "key_terms": [
+            {
+              "term": "Direct competitor",
+              "meaning": "A business that offers a very similar product to the same customers."
+            },
+            {
+              "term": "Indirect competitor",
+              "meaning": "A business or option that solves the same problem differently."
+            },
+            {
+              "term": "Market gap",
+              "meaning": "A need that customers have that existing offers do not meet well."
+            },
+            {
+              "term": "Ad library",
+              "meaning": "A public database of ads that businesses are running."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Competitor matrix",
+            "instructions": "Build a competitor matrix for at least four competitors across six features. Verify five facts against sources. Write one opportunity statement for your business.",
+            "expected_outcome": "A comparison table, five verified facts and one written opportunity statement."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which source is appropriate for competitor research?",
+              "options": [
+                "Hacked documents",
+                "Their private emails",
+                "Their staff's passwords",
+                "Their public website, posts and public ad libraries"
+              ],
+              "correct_answer": "Their public website, posts and public ad libraries",
+              "explanation": "Only public information should be used."
+            },
+            {
+              "question": "What should you do with an AI generated comparison table?",
+              "options": [
+                "Share it with competitors",
+                "Publish it unchanged",
+                "Delete the sources",
+                "Check the key facts against the original sources"
+              ],
+              "correct_answer": "Check the key facts against the original sources",
+              "explanation": "AI can misread or invent details."
+            }
+          ]
+        },
+        {
+          "lesson_number": "2.3",
+          "lesson_title": "Market and Trend Research With AI",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=7hum3qcLfbg",
+          "simple_explanation": "Trends show what people are searching for and talking about, and when interest rises and falls. Tools such as Google Trends show how search interest changes over time and by place. AI tools can help you summarise articles and reports that you collect, but the quality of your trend research depends on the sources and their dates. A trend is only useful if it is recent, relevant to your audience and backed by more than one source.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to do market research with AI. Note the steps in its workflow.",
+            "Step 2: Write the research question first, for example: What are people in my city searching for when they want to buy affordable school uniforms in January?",
+            "Step 3: Open Google Trends and compare two or three search terms for your market. Note when interest peaks and in which regions it is higher.",
+            "Step 4: Look at Google autocomplete and the People also ask boxes for your main keywords. Write down ten real questions people ask.",
+            "Step 5: Look for seasonal patterns that matter locally, such as school resumption, festive seasons, Ramadan, Christmas or rainy season.",
+            "Step 6: Collect three to five recent articles or reports. Paste short extracts into an AI tool and ask it to summarise the main trends and quote the lines it used.",
+            "Step 7: Check each trend. Is it recent? Does at least one other source support it? Is it relevant to your audience?",
+            "Step 8: Write a one page trend brief with three trends, evidence for each, the date and what you will do about each."
+          ],
+          "key_terms": [
+            {
+              "term": "Trend",
+              "meaning": "A pattern of change in what people want, search for or do."
+            },
+            {
+              "term": "Search interest",
+              "meaning": "How often people search for a term, as shown by tools like Google Trends."
+            },
+            {
+              "term": "Seasonality",
+              "meaning": "Regular changes in demand at certain times of the year."
+            },
+            {
+              "term": "Social listening",
+              "meaning": "Watching public conversations to learn what people say about a topic."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "One page trend brief",
+            "instructions": "Choose a research question for your business. Use Google Trends, autocomplete and recent sources to identify three trends. Verify each with two sources and write a one page brief with dates and recommended actions.",
+            "expected_outcome": "A one page trend brief with three verified trends and actions."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Why check the date of a trend source?",
+              "options": [
+                "Old data is always better",
+                "Dates are decoration",
+                "Dates make pages load faster",
+                "Trends change quickly and old data can mislead"
+              ],
+              "correct_answer": "Trends change quickly and old data can mislead",
+              "explanation": "A trend from three years ago may no longer apply."
+            },
+            {
+              "question": "What is a good use of Google Trends?",
+              "options": [
+                "Editing photos",
+                "Comparing how search interest in terms changes over time and place",
+                "Sending emails",
+                "Writing logos"
+              ],
+              "correct_answer": "Comparing how search interest in terms changes over time and place",
+              "explanation": "It shows relative search interest over time and by region."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which input gives the best base for audience research?",
+            "options": [
+              "Real customer reviews, messages and survey answers",
+              "An unrelated advert",
+              "A guess",
+              "A random celebrity quote"
+            ],
+            "correct_answer": "Real customer reviews, messages and survey answers",
+            "explanation": "Real evidence is the foundation."
+          },
+          {
+            "question": "Before pasting customer messages into an AI tool, what should you do?",
+            "options": [
+              "Add home addresses",
+              "Remove names, phone numbers and other personal data",
+              "Add phone numbers",
+              "Nothing"
+            ],
+            "correct_answer": "Remove names, phone numbers and other personal data",
+            "explanation": "Protect customers' privacy."
+          },
+          {
+            "question": "An AI persona says '78 percent of your customers love X'. What is the best response?",
+            "options": [
+              "Print it on your poster",
+              "Share it as a fact",
+              "Treat it as unverified unless you can find its source",
+              "Trust it"
+            ],
+            "correct_answer": "Treat it as unverified unless you can find its source",
+            "explanation": "Unsourced statistics are a common AI error."
+          },
+          {
+            "question": "What is a useful result of competitor analysis?",
+            "options": [
+              "A gap or opportunity your offer can serve",
+              "A copy of their ad",
+              "Their logo",
+              "Their private data"
+            ],
+            "correct_answer": "A gap or opportunity your offer can serve",
+            "explanation": "The aim is to find where you can be better or different."
+          },
+          {
+            "question": "What is the best way to check whether a trend is real?",
+            "options": [
+              "Believe one post",
+              "Follow the most shared image",
+              "Check several dated sources and search data",
+              "Ask AI to guess"
+            ],
+            "correct_answer": "Check several dated sources and search data",
+            "explanation": "Multiple independent sources increase confidence."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 3,
+      "module_title": "AI Marketing Strategy",
+      "module_goal": "Map the customer journey, plan a campaign and build a content calendar with AI as your assistant.",
+      "lessons": [
+        {
+          "lesson_number": "3.1",
+          "lesson_title": "Funnels and the Customer Journey",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=Xx75loJvFhg",
+          "simple_explanation": "People rarely buy the first time they see you. They move through stages: they become aware, they consider options, they decide, and afterwards they may come back and recommend you. This is often drawn as a funnel. Knowing the stage your audience is in tells you what content and offers to create. A video that teaches helps people who are just discovering you. A clear price, reviews and a simple way to order help people ready to decide.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains marketing funnels. Note the stages and the type of content that suits each.",
+            "Step 2: Draw four boxes in a row: Awareness, Consideration, Decision, Loyalty.",
+            "Step 3: Under Awareness write what people think and do: they notice a problem, search, scroll social media. Add content ideas such as short videos, tips, helpful posts.",
+            "Step 4: Under Consideration write what they do: compare options, read reviews, ask friends. Add content such as comparisons, FAQs, case stories and demos.",
+            "Step 5: Under Decision write what stops them: price worries, trust, delivery fears. Add content such as clear prices, guarantees, testimonials, easy payment and a simple order process.",
+            "Step 6: Under Loyalty write what keeps them: good service, follow up and rewards. Add content such as thank you messages, tips for using the product and referral offers.",
+            "Step 7: Add one measure for each stage, for example reach for awareness, clicks and enquiries for consideration, sales for decision and repeat orders for loyalty.",
+            "Step 8: Write the journey of a real customer of your business from first hearing about you to buying."
+          ],
+          "key_terms": [
+            {
+              "term": "Marketing funnel",
+              "meaning": "A model showing the stages a customer passes through, from awareness to purchase and beyond."
+            },
+            {
+              "term": "Customer journey",
+              "meaning": "The steps a person takes from first noticing a need to buying and afterwards."
+            },
+            {
+              "term": "Touchpoint",
+              "meaning": "Any point where a customer meets your brand."
+            },
+            {
+              "term": "Conversion",
+              "meaning": "When a person takes the action you want, such as buying or enquiring."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Journey map",
+            "instructions": "Draw a four stage journey map for your target customer. For each stage, list what the customer thinks and does, two content ideas and one measure. Share it with one person and note a suggestion.",
+            "expected_outcome": "A four stage journey map with content ideas and measures, and one note of feedback."
+          },
+          "lesson_quiz": [
+            {
+              "question": "A blog post teaching style tips mainly serves which stage?",
+              "options": [
+                "Refunds",
+                "Awareness",
+                "Decision",
+                "Loyalty"
+              ],
+              "correct_answer": "Awareness",
+              "explanation": "Educational content attracts people who are just discovering you."
+            },
+            {
+              "question": "What is the purpose of a customer journey map?",
+              "options": [
+                "To design a logo",
+                "To track employee holidays",
+                "To show what customers think, do and need at each step",
+                "To write contracts"
+              ],
+              "correct_answer": "To show what customers think, do and need at each step",
+              "explanation": "It helps you create the right content for each stage."
+            }
+          ]
+        },
+        {
+          "lesson_number": "3.2",
+          "lesson_title": "Planning a Campaign With AI",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=3o3j1HiUb-k",
+          "simple_explanation": "A campaign is a planned set of marketing activities with a goal, an audience, a message, channels and a time frame. A short campaign brief keeps everyone on track. AI can help you draft options, compare channels and spot gaps, but it does not know your budget, your skills or your market, so you must decide. Check every suggestion for cost, time and fit. Local conditions matter, such as data costs, the channels your customers actually use and how they prefer to pay.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to create a marketing campaign with AI as a beginner. Note the information the presenter gives to the AI.",
+            "Step 2: Gather your inputs: your objective, target, positioning statement, persona, competitor gaps and trend brief from the previous modules.",
+            "Step 3: Write the campaign brief headings: Goal, Audience, Offer, Key message, Channels, Content ideas, Budget, Timeline, KPIs, Risks.",
+            "Step 4: Give your inputs to an AI tool and ask it to draft the campaign brief and three alternative campaign ideas. Tell it your budget in naira, your time frame and the channels you can realistically manage.",
+            "Step 5: Compare the three ideas. For each, ask: Does it fit our audience? Can we afford it? Can we do it with our skills? What could go wrong?",
+            "Step 6: Choose one idea and edit the brief until it is realistic. Add the local practicalities, such as how customers will order and pay and how you will deliver.",
+            "Step 7: Add the risks and how you will handle them, for example stock running out, slow delivery or a negative review.",
+            "Step 8: Write the final one page campaign brief."
+          ],
+          "key_terms": [
+            {
+              "term": "Campaign",
+              "meaning": "A planned set of marketing activities with a goal, audience, message and time frame."
+            },
+            {
+              "term": "Campaign brief",
+              "meaning": "A short document that states the plan for a campaign."
+            },
+            {
+              "term": "Offer",
+              "meaning": "What you are asking people to buy or do, and what they get."
+            },
+            {
+              "term": "Risk",
+              "meaning": "Something that could go wrong and affect your results."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "One page campaign brief",
+            "instructions": "Write a one page campaign brief using AI to help with options. Include goal, audience, offer, message, channels, content ideas, budget in naira, timeline, KPIs and risks. Explain what you changed from the AI draft.",
+            "expected_outcome": "A one page campaign brief and a short note on what you changed from the AI draft."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What should a campaign brief include?",
+              "options": [
+                "Only a list of hashtags",
+                "Goal, audience, offer, message, channels, budget, timeline and KPIs",
+                "Only a logo",
+                "Only a slogan"
+              ],
+              "correct_answer": "Goal, audience, offer, message, channels, budget, timeline and KPIs",
+              "explanation": "A brief connects the strategy to action and measurement."
+            },
+            {
+              "question": "Why should you check an AI's campaign suggestions against your budget?",
+              "options": [
+                "AI always knows your budget",
+                "AI suggestions are legal advice",
+                "AI may suggest tactics that are unaffordable or unsuitable for your market",
+                "Budgets do not matter"
+              ],
+              "correct_answer": "AI may suggest tactics that are unaffordable or unsuitable for your market",
+              "explanation": "You know your real limits and market."
+            }
+          ]
+        },
+        {
+          "lesson_number": "3.3",
+          "lesson_title": "Content Calendars and Planning",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=rl9ZtPKEdRg",
+          "simple_explanation": "A content calendar is a simple plan of what you will post, where and when. It saves time, keeps you consistent and makes sure your content covers every stage of the customer journey. Most calendars use content pillars, which are three to five themes you return to, such as educating, proving results, behind the scenes and selling. Batching means creating many posts in one sitting. AI can generate ideas and draft captions, but you decide what fits your brand and audience.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to plan and batch a month of content. Note how the presenter organises ideas.",
+            "Step 2: Choose three to five content pillars for your business. Example for a bakery: how to order, behind the scenes, customer stories, tips for celebrations, offers.",
+            "Step 3: Decide how often you can post on each channel. Be realistic. Three good posts a week are better than daily posts you cannot keep up.",
+            "Step 4: Create a spreadsheet with columns: date, channel, pillar, funnel stage, idea, caption, visual, call to action, status, result.",
+            "Step 5: Ask an AI tool for 20 content ideas using your pillars, persona and funnel stages. Tell it your tone and what to avoid.",
+            "Step 6: Pick the best ideas and add them to the calendar. Spread the pillars across the weeks, and include some posts for each funnel stage.",
+            "Step 7: Add dates around important local events such as festive seasons, school resumption and sales periods.",
+            "Step 8: Plan a weekly review time to check what worked and adjust the next week."
+          ],
+          "key_terms": [
+            {
+              "term": "Content calendar",
+              "meaning": "A plan showing what content will be published, where and when."
+            },
+            {
+              "term": "Content pillar",
+              "meaning": "A main theme your content regularly covers."
+            },
+            {
+              "term": "Batching",
+              "meaning": "Creating many pieces of content in one focused session."
+            },
+            {
+              "term": "Call to action (CTA)",
+              "meaning": "The next step you ask the audience to take."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Four week content calendar",
+            "instructions": "Build a four week calendar with at least 12 posts across two channels. Include pillars, funnel stages, call to action and status columns. Mark which ideas came from AI and which you wrote yourself.",
+            "expected_outcome": "A four week spreadsheet with 12 or more planned posts and notes on idea sources."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is a content pillar?",
+              "options": [
+                "A paid ad format",
+                "A main theme your content regularly covers",
+                "A kind of font",
+                "A building"
+              ],
+              "correct_answer": "A main theme your content regularly covers",
+              "explanation": "Pillars keep your content focused and varied."
+            },
+            {
+              "question": "What is batching?",
+              "options": [
+                "Deleting old posts",
+                "Creating many pieces of content in one focused session",
+                "Posting the same thing daily",
+                "Buying followers"
+              ],
+              "correct_answer": "Creating many pieces of content in one focused session",
+              "explanation": "Batching saves time and keeps quality steady."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which stage is a customer in when they compare options and read reviews?",
+            "options": [
+              "Awareness",
+              "Loyalty",
+              "Consideration",
+              "Refund"
+            ],
+            "correct_answer": "Consideration",
+            "explanation": "Comparing options is the consideration stage."
+          },
+          {
+            "question": "What is the best first step in campaign planning?",
+            "options": [
+              "Pick fonts",
+              "Pick emojis",
+              "Set a clear goal and audience",
+              "Buy followers"
+            ],
+            "correct_answer": "Set a clear goal and audience",
+            "explanation": "Everything else depends on goal and audience."
+          },
+          {
+            "question": "What does a content calendar help with?",
+            "options": [
+              "Hiding mistakes",
+              "Replacing strategy",
+              "Planning what to post, when and where so work stays consistent",
+              "Guaranteeing sales"
+            ],
+            "correct_answer": "Planning what to post, when and where so work stays consistent",
+            "explanation": "A calendar supports consistency."
+          },
+          {
+            "question": "AI suggests a huge video challenge for your very small budget. What should you do?",
+            "options": [
+              "Spend the whole budget on it",
+              "Do it immediately",
+              "Ignore all AI suggestions",
+              "Check whether it fits your audience, budget and skills before adopting it"
+            ],
+            "correct_answer": "Check whether it fits your audience, budget and skills before adopting it",
+            "explanation": "Fit and feasibility come first."
+          },
+          {
+            "question": "Why match KPIs to funnel stages?",
+            "options": [
+              "Different stages need different measures, such as reach for awareness and sales for decision",
+              "All stages use the same measure",
+              "KPIs are not needed",
+              "It adds colour"
+            ],
+            "correct_answer": "Different stages need different measures, such as reach for awareness and sales for decision",
+            "explanation": "The right measure depends on the stage."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 4,
+      "module_title": "Copywriting and Advertising",
+      "module_goal": "Write clear, honest, persuasive marketing messages and ad scripts with AI as a drafting partner.",
+      "lessons": [
+        {
+          "lesson_number": "4.1",
+          "lesson_title": "Copywriting Fundamentals",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=YSFvTTa7_Pw",
+          "simple_explanation": "Copywriting is writing that moves people to act. Good copy is clear, speaks about the customer, not just the business, and makes the next step obvious. It turns features (what the product has) into benefits (what the customer gets). It also tells the truth. You will use these basics before you ask AI for drafts, because without them you cannot judge what the AI gives you.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It teaches copywriting for beginners. Note the rules it gives for clear and persuasive writing.",
+            "Step 2: Learn features and benefits. A feature is a fact about the product, such as padded straps. A benefit is what it means for the customer, such as carrying a laptop all day without sore shoulders.",
+            "Step 3: Take your business's main product. List five features. Beside each, write the benefit by completing: so you can...",
+            "Step 4: Learn about headlines. A good headline promises a clear benefit, speaks to a specific person or problem and is easy to understand. Write five headline options for your product.",
+            "Step 5: Learn about plain language. Use short sentences and familiar words. Read your copy aloud. Remove any word that a customer would not use.",
+            "Step 6: Learn about calls to action. Tell people exactly what to do next: Order on WhatsApp today, Book a free call, Tap to see prices. Make the action easy.",
+            "Step 7: Learn about honesty. Do not promise what you cannot deliver. Do not invent reviews, results or limited time deadlines.",
+            "Step 8: Rewrite one weak product description using what you have learned."
+          ],
+          "key_terms": [
+            {
+              "term": "Copywriting",
+              "meaning": "Writing words that persuade people to take an action."
+            },
+            {
+              "term": "Feature",
+              "meaning": "A fact about what the product is or has."
+            },
+            {
+              "term": "Benefit",
+              "meaning": "What the feature does for the customer."
+            },
+            {
+              "term": "Headline",
+              "meaning": "The main line that grabs attention and promises value."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Features to benefits",
+            "instructions": "Take five features of your product and turn each into a benefit. Write five headlines and one short product description. Ask one person which headline they prefer and why.",
+            "expected_outcome": "A features and benefits list, five headlines, one description and one piece of feedback."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which line is a benefit?",
+              "options": [
+                "Padded ergonomic straps",
+                "Available in black",
+                "Made in 2026",
+                "Carry your laptop all day without sore shoulders"
+              ],
+              "correct_answer": "Carry your laptop all day without sore shoulders",
+              "explanation": "A benefit explains what the customer gains."
+            },
+            {
+              "question": "What makes a call to action strong?",
+              "options": [
+                "A clear and specific next step",
+                "No instruction",
+                "A long story",
+                "A vague hint"
+              ],
+              "correct_answer": "A clear and specific next step",
+              "explanation": "People act when the next step is obvious."
+            }
+          ]
+        },
+        {
+          "lesson_number": "4.2",
+          "lesson_title": "Copy Frameworks: AIDA and PAS",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=t4qSyxpLk94",
+          "simple_explanation": "Frameworks are simple structures that help you organise a message. AIDA stands for Attention, Interest, Desire and Action. PAS stands for Problem, Agitate, Solution: you name a problem your customer has, make them feel why it matters, then offer your solution. Frameworks do not write the message for you, but they give you a reliable shape. They also make it easier to brief an AI tool.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains the PAS formula. Note the example it uses for each part.",
+            "Step 2: Learn AIDA. Attention: a headline or opening that makes people stop. Interest: a fact or story that keeps them reading. Desire: show the benefits and make them want it. Action: a clear call to action.",
+            "Step 3: Learn PAS. Problem: name a real problem in the customer's words. Agitate: describe what it costs them, in time, money or stress, without exaggerating. Solution: present your product as the answer.",
+            "Step 4: Choose a product and one audience from your persona. Write the problem in the customer's own words, using phrases from your research.",
+            "Step 5: Write a PAS ad of about 60 words for a social post.",
+            "Step 6: Write an AIDA ad of about 60 words for the same product.",
+            "Step 7: Read both aloud. Which feels more natural? Which would you respond to?",
+            "Step 8: Note when to use each. PAS suits products that solve a clear problem. AIDA suits products where desire and attention matter, like fashion or events."
+          ],
+          "key_terms": [
+            {
+              "term": "AIDA",
+              "meaning": "Attention, Interest, Desire, Action: a four step structure for messages."
+            },
+            {
+              "term": "PAS",
+              "meaning": "Problem, Agitate, Solution: a structure that starts with a customer problem."
+            },
+            {
+              "term": "Agitate",
+              "meaning": "To make the problem feel real and urgent, without exaggerating."
+            },
+            {
+              "term": "Customer language",
+              "meaning": "Words and phrases customers use themselves."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Two ads, two frameworks",
+            "instructions": "Write one PAS ad and one AIDA ad for the same product and audience, around 60 words each. Show both to two people and record which they prefer and why.",
+            "expected_outcome": "A PAS ad, an AIDA ad and notes from two people."
+          },
+          "lesson_quiz": [
+            {
+              "question": "In AIDA, what comes after Interest?",
+              "options": [
+                "Agitate",
+                "Attention",
+                "Desire",
+                "Action"
+              ],
+              "correct_answer": "Desire",
+              "explanation": "The order is Attention, Interest, Desire, Action."
+            },
+            {
+              "question": "What does PAS stand for?",
+              "options": [
+                "Post, Advert, Share",
+                "Price, Action, Service",
+                "Problem, Agitate, Solution",
+                "Product, Audience, Sales"
+              ],
+              "correct_answer": "Problem, Agitate, Solution",
+              "explanation": "PAS starts with the problem."
+            }
+          ]
+        },
+        {
+          "lesson_number": "4.3",
+          "lesson_title": "Writing Marketing Copy With AI",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=dwlxUL8ZY3Q",
+          "simple_explanation": "AI can produce drafts quickly, but the quality of the draft depends on what you give it. A good brief includes your audience and persona, the offer, the tone of voice, proof you can use and any rules. AI will often write generic copy that sounds like everyone else, so you edit for your brand voice and for truth. You are responsible for every claim in your ads. False or unproven claims, such as miracle results, can break advertising rules and platform policies, and destroy trust.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows a system for writing sales copy with AI. Note what information the presenter feeds into the AI.",
+            "Step 2: Write a short brand voice guide: three words that describe your tone, words you like, words you avoid and an example sentence.",
+            "Step 3: Build your copy brief: audience and persona, the offer, benefits, proof you really have, tone, length, framework to use (AIDA or PAS) and the call to action.",
+            "Step 4: Ask the AI for ten headline options, then three versions of a social caption using PAS. Add: Do not invent statistics, testimonials or results.",
+            "Step 5: Review the drafts. Delete generic phrases and cliches. Replace vague claims with specific, true ones. Add local touches that real customers recognise.",
+            "Step 6: Check every claim. Can you prove it? Is it allowed? Avoid health or financial promises you cannot support, and check the rules of advertising bodies such as the Advertising Regulatory Council of Nigeria and the platform ad policies where you plan to advertise.",
+            "Step 7: Check for copying. Do not publish text that closely copies another brand's copy. Search a unique sentence in quotation marks to see if it appears elsewhere.",
+            "Step 8: Create a copy pack: five headlines, three captions, one short email and a WhatsApp message."
+          ],
+          "key_terms": [
+            {
+              "term": "Brand voice",
+              "meaning": "The consistent personality and style of how a brand writes and speaks."
+            },
+            {
+              "term": "Copy brief",
+              "meaning": "The information you give a writer, or an AI, so they can write what you need."
+            },
+            {
+              "term": "Claim",
+              "meaning": "A statement about what your product does or achieves."
+            },
+            {
+              "term": "Substantiation",
+              "meaning": "Evidence that proves a claim is true."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Copy pack with a claims check",
+            "instructions": "Write a brand voice guide and a copy brief. Use AI to draft a copy pack of five headlines, three captions, one email and one WhatsApp message. Edit it and make a claims table listing every claim and its proof.",
+            "expected_outcome": "A voice guide, a copy pack and a claims table with proof for each claim."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What should you do with an AI written claim such as 'lose 5 kg in a week'?",
+              "options": [
+                "Remove it or prove it, because false claims can break rules and trust",
+                "Keep it for impact",
+                "Add more exclamation marks",
+                "Make it bigger"
+              ],
+              "correct_answer": "Remove it or prove it, because false claims can break rules and trust",
+              "explanation": "You are responsible for every claim."
+            },
+            {
+              "question": "Why give an AI your audience and tone?",
+              "options": [
+                "It makes the AI faster",
+                "It reduces the word count to zero",
+                "It hides the brand name",
+                "Context makes the copy more specific and less generic"
+              ],
+              "correct_answer": "Context makes the copy more specific and less generic",
+              "explanation": "Details lead to better drafts."
+            }
+          ]
+        },
+        {
+          "lesson_number": "4.4",
+          "lesson_title": "Ad Scripts and Short Video Hooks",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=KKp3rA0QK9A",
+          "simple_explanation": "Short video ads decide in the first seconds whether people keep watching. A common script structure has a hook that grabs attention, a problem, the solution or demonstration, proof and a call to action. Creating several different hooks for the same ad lets you test which opening works best. AI can draft scripts quickly. You then adapt them to your real product, real people and real results.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to write ad scripts. Note the parts of the script and what each does.",
+            "Step 2: Learn the structure. Hook: the first two or three seconds that stop the scroll, such as a question, a surprising fact or a visual. Problem: the pain the viewer feels. Solution: your product in use. Proof: reviews, results or demonstration. Call to action: what to do next.",
+            "Step 3: Write three different hooks for the same product: a question, a bold statement and a short story opening.",
+            "Step 4: Ask an AI tool to draft a 25 second script using your persona, offer and one hook. Tell it to avoid invented testimonials and invented numbers.",
+            "Step 5: Edit the script so that it sounds like real speech and uses your real product, your real setting and only proof you actually have.",
+            "Step 6: Plan the shots: what the viewer sees at each second. Keep it simple enough to film with a phone.",
+            "Step 7: If you use AI voice or AI generated people, check the platform's rules and label AI content where it is required. Never use someone's face or voice without permission.",
+            "Step 8: Write three scripts with different hooks and list which one you would test first and why."
+          ],
+          "key_terms": [
+            {
+              "term": "Hook",
+              "meaning": "The opening seconds of a video or ad designed to grab attention."
+            },
+            {
+              "term": "Script",
+              "meaning": "A written plan of what is said and shown in a video."
+            },
+            {
+              "term": "Proof",
+              "meaning": "Evidence that supports a claim, such as reviews, results or a demonstration."
+            },
+            {
+              "term": "UGC style",
+              "meaning": "Content that looks like it was made by an ordinary customer."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Three hooks, three scripts",
+            "instructions": "Write three scripts of 20 to 30 seconds for the same product with different hooks. Plan the shots for each. Say which you would film first and what you would measure.",
+            "expected_outcome": "Three scripts with shot lists and a test plan."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which part of a short video ad should grab attention first?",
+              "options": [
+                "The hook in the opening seconds",
+                "The end credits",
+                "The call to action",
+                "The legal notice"
+              ],
+              "correct_answer": "The hook in the opening seconds",
+              "explanation": "If people scroll away early, nothing else matters."
+            },
+            {
+              "question": "Why create several hooks for one ad?",
+              "options": [
+                "Different openings can perform differently, so you can test them",
+                "To use more budget",
+                "To confuse viewers",
+                "Because platforms require it"
+              ],
+              "correct_answer": "Different openings can perform differently, so you can test them",
+              "explanation": "Testing hooks shows what holds attention."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which headline is the most customer focused?",
+            "options": [
+              "Our company was founded in 2014",
+              "Products available now",
+              "We are the best hair company ever",
+              "Get your Saturday mornings back with a 10 minute hair routine"
+            ],
+            "correct_answer": "Get your Saturday mornings back with a 10 minute hair routine",
+            "explanation": "It promises a clear benefit to the customer."
+          },
+          {
+            "question": "In AIDA, what is the purpose of Attention?",
+            "options": [
+              "To get the reader to notice the message",
+              "To collect payment",
+              "To close the sale",
+              "To end the conversation"
+            ],
+            "correct_answer": "To get the reader to notice the message",
+            "explanation": "Nothing else works if nobody notices."
+          },
+          {
+            "question": "What does 'agitate' mean in PAS?",
+            "options": [
+              "Insult the customer",
+              "Make the problem feel real and important before offering the solution",
+              "Lie about the problem",
+              "Skip the problem"
+            ],
+            "correct_answer": "Make the problem feel real and important before offering the solution",
+            "explanation": "Agitate shows why the problem matters, honestly."
+          },
+          {
+            "question": "What is the safest way to use AI copy in an ad?",
+            "options": [
+              "Add made up testimonials",
+              "Publish the first draft",
+              "Copy a rival's ad",
+              "Edit it, check every claim and make sure it matches the real product"
+            ],
+            "correct_answer": "Edit it, check every claim and make sure it matches the real product",
+            "explanation": "You are responsible for the final ad."
+          },
+          {
+            "question": "What is a CTA?",
+            "options": [
+              "A call to action, the next step you want the reader to take",
+              "Cost to audience",
+              "Chat time average",
+              "Customer tax account"
+            ],
+            "correct_answer": "A call to action, the next step you want the reader to take",
+            "explanation": "A CTA tells people what to do next."
+          },
+          {
+            "question": "Why test multiple ad hooks?",
+            "options": [
+              "To confuse viewers",
+              "To find which opening holds attention best",
+              "Platforms forbid one hook",
+              "To waste budget"
+            ],
+            "correct_answer": "To find which opening holds attention best",
+            "explanation": "Testing shows what works."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 5,
+      "module_title": "Creative Asset Production",
+      "module_goal": "Create on-brand visuals and ad images with AI, and use AI imagery honestly.",
+      "lessons": [
+        {
+          "lesson_number": "5.1",
+          "lesson_title": "Brand Consistency With AI",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=RwKx4_bJDCc",
+          "simple_explanation": "People recognise a brand by repeated cues: its colours, fonts, logo, style of images and voice. When you create visuals quickly with AI, it is easy to end up with posts that look like they belong to different businesses. A brand kit is a short guide that fixes your main colours, fonts, logo rules and image style. Saving your style as a short text description lets you add it to every image prompt so results stay consistent.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to keep a brand consistent with AI in design tools. Note the features it uses.",
+            "Step 2: Create a one page brand sheet with: logo and where to place it, two or three main colours with their codes, one or two fonts, image style (bright, warm, minimal, bold), voice words and things to avoid.",
+            "Step 3: If you use Canva, open Brand Kit and add your colours, fonts and logo so every design starts from them.",
+            "Step 4: Write a style description for AI image prompts, for example: warm natural light, soft shadows, colours in orange and navy, clean background with space for text, modern African lifestyle setting.",
+            "Step 5: Make three sample social posts using your brand kit and style description. Place them side by side.",
+            "Step 6: Check consistency. Do the colours, fonts and image style match across all three? Fix any that stand out.",
+            "Step 7: Ask someone who does not know your business to describe the personality of your brand from the three posts. Compare it with what you intended.",
+            "Step 8: Save your brand sheet and style description so you can reuse them."
+          ],
+          "key_terms": [
+            {
+              "term": "Brand kit",
+              "meaning": "A set of logo, colours, fonts and style rules that keeps a brand's look consistent."
+            },
+            {
+              "term": "Style description",
+              "meaning": "A short text that describes the look you want, added to image prompts."
+            },
+            {
+              "term": "Consistency",
+              "meaning": "Using the same cues so a brand is easy to recognise."
+            },
+            {
+              "term": "Template",
+              "meaning": "A ready made design layout you reuse with new content."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Brand sheet and three posts",
+            "instructions": "Create a one page brand sheet and an AI image style description. Make three on-brand sample posts. Ask one person to describe your brand from them and record how close it was.",
+            "expected_outcome": "A one page brand sheet, a style description, three sample posts and one person's feedback."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What does a brand kit contain?",
+              "options": [
+                "Only a slogan",
+                "Logo, colours, fonts and style rules",
+                "Passwords",
+                "Only photos"
+              ],
+              "correct_answer": "Logo, colours, fonts and style rules",
+              "explanation": "A brand kit fixes the elements that make a brand recognisable."
+            },
+            {
+              "question": "Why save a style description for AI prompts?",
+              "options": [
+                "To avoid editing",
+                "To hide the logo",
+                "To get visuals that look consistent across posts",
+                "To make images smaller"
+              ],
+              "correct_answer": "To get visuals that look consistent across posts",
+              "explanation": "Reusing the same style text gives similar looks."
+            }
+          ]
+        },
+        {
+          "lesson_number": "5.2",
+          "lesson_title": "Designing With Canva AI and Image Prompts",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=4fM1nghORSk",
+          "simple_explanation": "AI design tools can turn a written description into a design or an image. Good prompts describe the subject, the setting, the style, the colours, the composition and any space you need for text. Iterating, changing one detail at a time, is the fastest way to a good result. Generated images are a starting point. You still choose the right size for each platform, add accurate text yourself and check the result.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to design with text prompts in Canva AI. Note how the prompts are written and edited.",
+            "Step 2: Learn the prompt pattern: subject, setting, style, colours, composition, mood. Example: a smiling woman holding a fresh cake, bright kitchen, warm natural light, orange and cream colours, space on the right for a headline, friendly mood.",
+            "Step 3: Write a prompt for a social post for your business using the pattern and your style description from the last lesson.",
+            "Step 4: Generate options. Pick the best and ask for a change in one detail at a time, for example a plainer background or warmer light.",
+            "Step 5: Add your text in the design tool. AI generated text inside images is often misspelt or distorted, so add words yourself with your brand font.",
+            "Step 6: Check the size. Use the right size for each channel, for example square or vertical for Instagram and WhatsApp status, and wide for Facebook link posts. Wrong sizes can cut off important content.",
+            "Step 7: Add alt text for accessibility. Write one sentence describing the image for people who use screen readers. Check text contrast so it is easy to read on a phone.",
+            "Step 8: Create six designs for your calendar, for different posts and channels."
+          ],
+          "key_terms": [
+            {
+              "term": "Prompt (image)",
+              "meaning": "A written description used to generate an image."
+            },
+            {
+              "term": "Composition",
+              "meaning": "How the items in an image are arranged."
+            },
+            {
+              "term": "Alt text",
+              "meaning": "A short written description of an image for people who cannot see it."
+            },
+            {
+              "term": "Contrast",
+              "meaning": "The difference between text and background colours that makes text easy to read."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Six designs from prompts",
+            "instructions": "Create six on-brand designs from prompts for your content calendar. Record each prompt, the changes you made and the final size. Add alt text to each.",
+            "expected_outcome": "Six finished designs with prompts, edits, sizes and alt text."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which prompt detail helps leave room for a headline?",
+              "options": [
+                "A composition note such as plain space on the right for text",
+                "A random colour",
+                "More props",
+                "A longer title"
+              ],
+              "correct_answer": "A composition note such as plain space on the right for text",
+              "explanation": "Composition directions create empty space for text."
+            },
+            {
+              "question": "Why add alt text to images?",
+              "options": [
+                "It makes the image larger",
+                "It deletes metadata",
+                "It helps people who use screen readers understand the image",
+                "It improves colour"
+              ],
+              "correct_answer": "It helps people who use screen readers understand the image",
+              "explanation": "Alt text makes content more accessible."
+            }
+          ]
+        },
+        {
+          "lesson_number": "5.3",
+          "lesson_title": "Product Images and Ads With AI",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=_cMRMzHQPD8",
+          "simple_explanation": "AI can place a real product photo into a better background or build an advert layout in minutes. The line to hold is honesty. The product in your ad must look like the product the customer will get. Do not invent results, fake before and after pictures or fake customer testimonials, and do not create people who look real and imply they used your product when they did not. Check the platform's rules, and label AI generated content where it is required.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows a workflow that turns a product photo into an advert with AI. Note which parts are generated and which are your original photo.",
+            "Step 2: Take a clear photo of a real product with a phone. Use daylight, a plain background and a steady hand.",
+            "Step 3: Use an AI design tool to change the background or layout while keeping the product unchanged. Describe the setting you want, for example on a wooden table with soft morning light.",
+            "Step 4: Compare the AI image with your original product. Check colours, shape, logo, text and details. If the product looks different from the real one, fix it or choose another version.",
+            "Step 5: Add your headline, price and call to action using your brand fonts and colours. Keep the layout simple and readable on a phone.",
+            "Step 6: Check the rules. Look at the platform ad policies and any local advertising rules. Some platforms ask you to label realistic AI generated images.",
+            "Step 7: Never create fake testimonials, fake before and after images or fake people presented as real customers. If you use AI generated people for illustration, make sure it does not mislead.",
+            "Step 8: Check legal points. Do not use other people's logos, brands or faces without permission."
+          ],
+          "key_terms": [
+            {
+              "term": "Product photography",
+              "meaning": "Taking pictures of products to sell them."
+            },
+            {
+              "term": "Misrepresentation",
+              "meaning": "Showing something in a misleading way."
+            },
+            {
+              "term": "Testimonial",
+              "meaning": "A statement from a real customer about their experience."
+            },
+            {
+              "term": "AI label",
+              "meaning": "A note that content was made or changed using AI."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Honest product ad",
+            "instructions": "Photograph a real product and use AI to improve the background or layout. Compare with the original, list any differences, add text and a call to action, and write a short note explaining how you kept the ad honest.",
+            "expected_outcome": "An original photo, an AI enhanced ad, a difference check and an honesty note."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is the honest way to use AI in a product ad?",
+              "options": [
+                "Show a product you do not sell",
+                "Hide the price",
+                "Invent happy customers",
+                "Keep the real product accurate and change only the background or layout"
+              ],
+              "correct_answer": "Keep the real product accurate and change only the background or layout",
+              "explanation": "The ad must match what the customer receives."
+            },
+            {
+              "question": "Why should you not invent customer faces and quotes as real testimonials?",
+              "options": [
+                "It improves trust",
+                "It misleads customers and can break advertising rules",
+                "It is always allowed",
+                "It is cheaper"
+              ],
+              "correct_answer": "It misleads customers and can break advertising rules",
+              "explanation": "Fake testimonials are deceptive."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which action keeps visuals on brand?",
+            "options": [
+              "Ignore the logo",
+              "Use any font",
+              "Use the same colours, fonts and style notes every time",
+              "Change the style randomly"
+            ],
+            "correct_answer": "Use the same colours, fonts and style notes every time",
+            "explanation": "Consistent cues make the brand recognisable."
+          },
+          {
+            "question": "An AI image has garbled text. What should you do?",
+            "options": [
+              "Add the text yourself in a design tool",
+              "Publish it anyway",
+              "Ask for even longer text",
+              "Hope nobody notices"
+            ],
+            "correct_answer": "Add the text yourself in a design tool",
+            "explanation": "AI often distorts text inside images."
+          },
+          {
+            "question": "Which is the best image for a fashion product ad?",
+            "options": [
+              "One based on a real photo of the actual product",
+              "A rival's photo",
+              "A made up item that does not exist",
+              "A random picture of another brand"
+            ],
+            "correct_answer": "One based on a real photo of the actual product",
+            "explanation": "The ad must show the real product."
+          },
+          {
+            "question": "What should you check before using an AI made image of a person in an ad?",
+            "options": [
+              "Nothing",
+              "Only the colour",
+              "Platform rules, likeness rights and whether it could mislead viewers",
+              "Only the file size"
+            ],
+            "correct_answer": "Platform rules, likeness rights and whether it could mislead viewers",
+            "explanation": "People images raise legal and honesty issues."
+          },
+          {
+            "question": "Why does posting at the right size matter?",
+            "options": [
+              "Bigger is always better",
+              "Sizes are random",
+              "Platforms ignore size",
+              "Each platform crops differently, so the wrong size can cut off key content"
+            ],
+            "correct_answer": "Each platform crops differently, so the wrong size can cut off key content",
+            "explanation": "Correct sizes protect your message."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 6,
+      "module_title": "Campaign Automation",
+      "module_goal": "Automate repetitive marketing tasks safely, keeping people in control.",
+      "lessons": [
+        {
+          "lesson_number": "6.1",
+          "lesson_title": "Automating Your Social Content Calendar",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=CU_dWCB7k0s",
+          "simple_explanation": "Many marketing tasks repeat every week: drafting captions, adding posts to a calendar, scheduling them and gathering results. Automation can handle the repetitive parts so you have time for thinking and talking to customers. The golden rule is to automate the routine and keep a person in charge of the judgement. A human should always check AI drafts before they go out, and you should be able to pause any automation quickly.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to automate a social media content calendar. Note the tools and the steps the presenter uses.",
+            "Step 2: List your weekly repeating tasks: drafting captions, making designs, scheduling, replying to messages, collecting results. Mark which are routine and which need judgement.",
+            "Step 3: Choose a scheduling tool. Many platforms have built in scheduling, such as Meta Business Suite for Facebook and Instagram, and several third party tools have free plans. Free limits change, so check what is available.",
+            "Step 4: Set up a simple workflow: ideas in your calendar sheet, AI drafts captions in a batch, you review and edit them, you mark them Approved, then you schedule only approved posts.",
+            "Step 5: Practise with one week. Draft seven captions with AI, edit every one and schedule them in your tool, or in a mock schedule in your spreadsheet if you cannot access a tool.",
+            "Step 6: Learn about no-code automation. Tools like Zapier and Make can connect steps, for example when a row in your sheet is marked Approved, create a draft post. Start simple and test each step.",
+            "Step 7: Do not automate mass comments, mass follows or mass direct messages to strangers. They look like spam and break platform rules.",
+            "Step 8: Add a safety plan: who checks, how often, and how you will pause the automation if something goes wrong."
+          ],
+          "key_terms": [
+            {
+              "term": "Automation",
+              "meaning": "Using software to do repeated tasks without doing them by hand each time."
+            },
+            {
+              "term": "Scheduling",
+              "meaning": "Setting a post to publish at a chosen time."
+            },
+            {
+              "term": "Approval step",
+              "meaning": "A point where a person reviews and approves work before it moves on."
+            },
+            {
+              "term": "Trigger",
+              "meaning": "An event that starts an automation, such as a new row in a sheet."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "A scheduled week",
+            "instructions": "Design a workflow for scheduling one week of content with an approval step. Draw it as a diagram, run it for seven posts and record how long it took compared with doing everything by hand.",
+            "expected_outcome": "A workflow diagram, seven scheduled or mocked posts and a time comparison."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Why keep a human approval step in content automation?",
+              "options": [
+                "AI drafts can contain errors or off brand content",
+                "Approval is only for lawyers",
+                "Humans are slower than AI in every case",
+                "AI never makes mistakes"
+              ],
+              "correct_answer": "AI drafts can contain errors or off brand content",
+              "explanation": "Review prevents mistakes from going public."
+            },
+            {
+              "question": "What is a good first automation to try?",
+              "options": [
+                "Scheduling approved posts from a content calendar",
+                "Mass messaging strangers",
+                "Publishing unreviewed AI text",
+                "Auto-commenting on random posts"
+              ],
+              "correct_answer": "Scheduling approved posts from a content calendar",
+              "explanation": "It is low risk and saves time."
+            }
+          ]
+        },
+        {
+          "lesson_number": "6.2",
+          "lesson_title": "AI Workflows for Email and Messaging",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=OK2E3rpaun0",
+          "simple_explanation": "Email and messaging are where many sales happen: a welcome message, a reply to an enquiry, a follow-up. Simple workflows can send the right message at the right moment, and AI can help draft and personalise them. But messaging people is regulated by consent. You need permission to send marketing messages, you must make it easy to opt out, and you must handle personal data carefully. Under the Nigeria Data Protection Act 2023 and platform policies such as those of WhatsApp, consent and respect for privacy matter.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to use an AI assistant across marketing tasks like research, content and workflows. Note which tasks it handles and which need a person.",
+            "Step 2: Map one customer workflow on paper. Example: someone submits an enquiry form, they receive a welcome message, two days later they receive a helpful tip and four days later they receive an offer.",
+            "Step 3: Write the three messages. Use AI to draft them from your brand voice guide and persona, then edit them so they sound human and match your real offer.",
+            "Step 4: Add personalisation carefully, such as the person's first name or the product they asked about, and check that the information is correct before sending.",
+            "Step 5: Check consent. Only message people who asked to hear from you or who have clearly agreed, and tell them what they will receive. Keep a record of how and when they opted in.",
+            "Step 6: Add an opt out. Every message should make it easy to stop receiving messages, for example Reply STOP or click unsubscribe.",
+            "Step 7: Limit frequency. Too many messages annoy people and lead to blocks and complaints. Decide a maximum, for example one message a week.",
+            "Step 8: Test on yourself and a friend first. Check the tone, spelling, links and timing. Make a plan for what a person will do when someone replies."
+          ],
+          "key_terms": [
+            {
+              "term": "Consent",
+              "meaning": "Clear permission from a person to receive your marketing messages."
+            },
+            {
+              "term": "Opt out",
+              "meaning": "A simple way for someone to stop receiving your messages."
+            },
+            {
+              "term": "Welcome sequence",
+              "meaning": "A short series of messages sent to new subscribers or customers."
+            },
+            {
+              "term": "Personalisation",
+              "meaning": "Adjusting a message to include details relevant to the person."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Welcome sequence",
+            "instructions": "Design a three message welcome sequence for your business with timing, a consent note and an opt out. Draft the messages with AI, edit them, test on two people and record your changes.",
+            "expected_outcome": "A three message sequence, a workflow diagram, consent and opt out notes, and test feedback."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What must you have before sending marketing messages to a person?",
+              "options": [
+                "Their phone number from a random list",
+                "Nothing",
+                "Their home address",
+                "Their consent and a way for them to opt out"
+              ],
+              "correct_answer": "Their consent and a way for them to opt out",
+              "explanation": "Consent and opt out protect people and your reputation."
+            },
+            {
+              "question": "What is a risk of fully automated outreach?",
+              "options": [
+                "Saving time",
+                "More trust",
+                "Fewer mistakes",
+                "Sending wrong or tone deaf messages at scale"
+              ],
+              "correct_answer": "Sending wrong or tone deaf messages at scale",
+              "explanation": "Mistakes can reach many people quickly."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "What should happen before an AI drafted post is scheduled?",
+            "options": [
+              "Post it immediately",
+              "Delete the brand guide",
+              "Add random hashtags",
+              "A person reviews and approves it"
+            ],
+            "correct_answer": "A person reviews and approves it",
+            "explanation": "Human review catches errors."
+          },
+          {
+            "question": "What does consent mean in marketing messages?",
+            "options": [
+              "Their number was found online",
+              "They are a relative",
+              "The person agreed to receive them",
+              "They never replied"
+            ],
+            "correct_answer": "The person agreed to receive them",
+            "explanation": "Consent must come from the person."
+          },
+          {
+            "question": "A workflow sends a welcome message when a form is submitted. What is this called?",
+            "options": [
+              "A trigger based automation",
+              "A random broadcast",
+              "A manual reminder",
+              "A billboard"
+            ],
+            "correct_answer": "A trigger based automation",
+            "explanation": "An event triggers the action."
+          },
+          {
+            "question": "Why avoid mass commenting or mass direct message automations?",
+            "options": [
+              "They build trust",
+              "They are too personal",
+              "They are always safe",
+              "They can look like spam and break platform rules"
+            ],
+            "correct_answer": "They can look like spam and break platform rules",
+            "explanation": "Platforms penalise spammy behaviour."
+          },
+          {
+            "question": "What should your automation plan include for mistakes?",
+            "options": [
+              "Hiding errors",
+              "A way to pause it and fix errors quickly",
+              "A promise never to check",
+              "Nothing"
+            ],
+            "correct_answer": "A way to pause it and fix errors quickly",
+            "explanation": "You must be able to stop and correct."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 7,
+      "module_title": "Analytics and Optimisation",
+      "module_goal": "Measure campaign performance with the right numbers and improve it using tests.",
+      "lessons": [
+        {
+          "lesson_number": "7.1",
+          "lesson_title": "Marketing KPIs That Matter",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=mPiWWnJsVGw",
+          "simple_explanation": "A KPI, or key performance indicator, is a number that shows whether you are reaching a goal. Not all numbers are equally useful. Vanity metrics such as follower counts and likes look good but may not show business results. Actionable metrics, such as enquiries, conversions, cost per sale and revenue, help you decide what to do next. Choose a small set of KPIs for each objective and each funnel stage, and set up simple tracking before the campaign starts.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains the digital marketing metrics worth tracking. Note which it calls the most important.",
+            "Step 2: Write your campaign objective from earlier. For each funnel stage, choose one or two KPIs. Awareness: reach and impressions. Consideration: clicks, enquiries, link visits. Decision: conversions and sales. Loyalty: repeat purchases and referrals.",
+            "Step 3: Separate vanity from actionable metrics. Followers and likes are useful signs, but conversions and revenue are closer to results.",
+            "Step 4: Set targets. For each KPI, write a target number and a deadline, based on what you know or on a reasonable guess you will check later.",
+            "Step 5: Plan how you will track. Use platform insights, a simple tracking sheet, a unique WhatsApp message such as Mention code AUNTY10 when you order, and link tracking tags called UTM parameters for links you share.",
+            "Step 6: Create a KPI sheet with columns: KPI, definition, source, target, how often to check and actual result.",
+            "Step 7: Do a dry run. Fill in the first row from real data from a recent post so you know how to collect each number.",
+            "Step 8: Decide when you will review results, for example every Friday for 15 minutes."
+          ],
+          "key_terms": [
+            {
+              "term": "KPI",
+              "meaning": "A key performance indicator, a number that shows progress towards a goal."
+            },
+            {
+              "term": "Vanity metric",
+              "meaning": "A number that looks impressive but does not show business results on its own."
+            },
+            {
+              "term": "Conversion",
+              "meaning": "When a person completes the goal action, such as buying."
+            },
+            {
+              "term": "UTM tag",
+              "meaning": "A piece of text added to a link to show which campaign sent a visitor."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "KPI sheet",
+            "instructions": "Create a KPI sheet for your campaign with at least five KPIs mapped to funnel stages, with targets, sources and review times. Fill the first row using real data and explain how you will collect the others.",
+            "expected_outcome": "A KPI sheet with five or more KPIs, targets and tracking methods."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Which metric best shows whether an ad led to sales?",
+              "options": [
+                "Likes",
+                "Followers",
+                "Conversions",
+                "Profile views"
+              ],
+              "correct_answer": "Conversions",
+              "explanation": "Conversions measure the action you want."
+            },
+            {
+              "question": "What is a UTM tag used for?",
+              "options": [
+                "Writing captions",
+                "Tracking which campaign or link sent a visitor",
+                "Changing fonts",
+                "Resizing images"
+              ],
+              "correct_answer": "Tracking which campaign or link sent a visitor",
+              "explanation": "UTM tags show where traffic came from."
+            }
+          ]
+        },
+        {
+          "lesson_number": "7.2",
+          "lesson_title": "Ad Metrics and the Maths",
+          "estimated_minutes": 45,
+          "youtube_url": "https://www.youtube.com/watch?v=TJ9OT_0m9xE",
+          "simple_explanation": "A few simple formulas turn raw numbers into insight. Click through rate (CTR) is clicks divided by impressions. Cost per click (CPC) is spend divided by clicks. Cost per mille (CPM) is the cost for 1,000 impressions. Cost per acquisition (CPA) is spend divided by the number of sales or sign ups. Conversion rate is conversions divided by clicks or visitors. Return on ad spend (ROAS) is revenue divided by spend. AI can help explain these, but always check the arithmetic yourself.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains basic media metrics such as CPM, CTR, CPC, CPA and CVR. Write each formula in your notebook.",
+            "Step 2: Learn the formulas. CTR = clicks divided by impressions, times 100 for a percent. CPC = spend divided by clicks. CPM = spend divided by impressions, times 1,000. CPA = spend divided by conversions. Conversion rate = conversions divided by clicks, times 100. ROAS = revenue divided by spend.",
+            "Step 3: Work example 1. An ad has 2,500 impressions and 50 clicks. CTR = 50 divided by 2,500 = 0.02, which is 2 percent.",
+            "Step 4: Work example 2. You spend 5,000 naira and get 100 clicks. CPC = 5,000 divided by 100 = 50 naira.",
+            "Step 5: Work example 3. You spend 4,000 naira for 200,000 impressions. CPM = 4,000 divided by 200,000 times 1,000 = 20 naira.",
+            "Step 6: Work example 4. You spend 10,000 naira and get 8 sales. CPA = 10,000 divided by 8 = 1,250 naira. If those sales brought in 60,000 naira, ROAS = 60,000 divided by 10,000 = 6.",
+            "Step 7: Practise with your own numbers or a made up campaign. Record each calculation and what it tells you.",
+            "Step 8: Learn what to do next. A low CTR suggests the message or visual is weak. A good CTR but low conversion rate suggests a problem after the click, such as price, trust or a hard ordering process."
+          ],
+          "key_terms": [
+            {
+              "term": "CTR",
+              "meaning": "Click through rate: clicks divided by impressions."
+            },
+            {
+              "term": "CPC",
+              "meaning": "Cost per click: spend divided by clicks."
+            },
+            {
+              "term": "CPM",
+              "meaning": "Cost per thousand impressions."
+            },
+            {
+              "term": "ROAS",
+              "meaning": "Return on ad spend: revenue divided by advertising spend."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Metrics workout",
+            "instructions": "Use a set of campaign numbers, real or made up, to calculate CTR, CPC, CPM, CPA, conversion rate and ROAS for two ads. Explain which ad performed better and what you would change.",
+            "expected_outcome": "A calculation sheet for two ads and a written recommendation."
+          },
+          "lesson_quiz": [
+            {
+              "question": "An ad received 50 clicks from 2,500 impressions. What is the CTR?",
+              "options": [
+                "5 percent",
+                "20 percent",
+                "2 percent",
+                "0.2 percent"
+              ],
+              "correct_answer": "2 percent",
+              "explanation": "50 divided by 2,500 is 0.02, or 2 percent."
+            },
+            {
+              "question": "You spent 20,000 naira and earned 60,000 naira in sales from an ad. What is the ROAS?",
+              "options": [
+                "0.33",
+                "3",
+                "30",
+                "6"
+              ],
+              "correct_answer": "3",
+              "explanation": "60,000 divided by 20,000 is 3."
+            }
+          ]
+        },
+        {
+          "lesson_number": "7.3",
+          "lesson_title": "A/B Testing and Optimisation",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=vV3g5VuSrIQ",
+          "simple_explanation": "An A/B test compares two versions of something, such as a headline, an image or a call to action, by showing each to similar audiences at the same time and measuring which does better. The key rule is to change only one thing, otherwise you cannot tell what caused the difference. You also need enough data before choosing a winner, because small numbers can be misleading. AI can help you brainstorm variants and summarise results, but check the numbers yourself and record what you learned.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It gives steps for a split test. Note the steps in order.",
+            "Step 2: Choose one thing to test. Examples: two headlines, two images or two calls to action. Keep everything else the same.",
+            "Step 3: Write a hypothesis: If we change X to Y, then metric Z will improve because reason.",
+            "Step 4: Create the two versions. Ask an AI tool for variant ideas, then pick two that really differ and that match your brand and honesty rules.",
+            "Step 5: Decide the audience split. Show each version to similar audiences at the same time, using the platform's built in split testing if available, or by alternating posts under similar conditions.",
+            "Step 6: Decide how long to run it and the minimum amount of data you need before judging, for example at least a few hundred impressions per version. Do not stop the test after a handful of clicks.",
+            "Step 7: Record results for each version in a sheet and calculate the metric you chose. If the difference is small, treat the result as unclear and test again.",
+            "Step 8: Write down what you learned, make the winner your new standard, and plan the next test. Keep a test log."
+          ],
+          "key_terms": [
+            {
+              "term": "A/B test",
+              "meaning": "A comparison of two versions that differ in one element to see which performs better."
+            },
+            {
+              "term": "Hypothesis",
+              "meaning": "A testable statement about what you expect to happen and why."
+            },
+            {
+              "term": "Sample size",
+              "meaning": "The amount of data needed before a result can be trusted."
+            },
+            {
+              "term": "Test log",
+              "meaning": "A record of what you tested, the results and what you learned."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Design an A/B test",
+            "instructions": "Write a test plan with a hypothesis, two versions, audience split, duration, minimum data and the metric you will judge. Run it if you can, or fill a sheet with sample numbers and show how you would decide.",
+            "expected_outcome": "A complete test plan and either real or sample results with a decision."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What is the main rule of an A/B test?",
+              "options": [
+                "Stop as soon as one version looks better",
+                "Change only one thing at a time",
+                "Change everything at once",
+                "Test on different weeks and audiences randomly"
+              ],
+              "correct_answer": "Change only one thing at a time",
+              "explanation": "One change at a time shows what caused the difference."
+            },
+            {
+              "question": "Why should you not stop a test after a few clicks?",
+              "options": [
+                "Tests need exactly 3 clicks",
+                "Small numbers can be misleading and may be due to chance",
+                "Platforms stop tests automatically",
+                "Clicks are not important"
+              ],
+              "correct_answer": "Small numbers can be misleading and may be due to chance",
+              "explanation": "Enough data is needed for a reliable result."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "An ad had 200,000 impressions and cost 4,000 naira. What is the CPM?",
+            "options": [
+              "2 naira",
+              "20 naira",
+              "200 naira",
+              "0.02 naira"
+            ],
+            "correct_answer": "20 naira",
+            "explanation": "4,000 divided by 200,000 times 1,000 is 20."
+          },
+          {
+            "question": "You spent 5,000 naira and got 100 clicks. What is the CPC?",
+            "options": [
+              "50 naira",
+              "0.5 naira",
+              "500 naira",
+              "5 naira"
+            ],
+            "correct_answer": "50 naira",
+            "explanation": "5,000 divided by 100 is 50."
+          },
+          {
+            "question": "12 purchases came from 400 clicks. What is the conversion rate?",
+            "options": [
+              "3 percent",
+              "0.3 percent",
+              "12 percent",
+              "33 percent"
+            ],
+            "correct_answer": "3 percent",
+            "explanation": "12 divided by 400 is 0.03."
+          },
+          {
+            "question": "Which is a vanity metric?",
+            "options": [
+              "Revenue per ad",
+              "Conversion rate",
+              "Number of followers on its own",
+              "Cost per sale"
+            ],
+            "correct_answer": "Number of followers on its own",
+            "explanation": "Followers alone do not show business results."
+          },
+          {
+            "question": "A test changes the headline, image and price together. What is the problem?",
+            "options": [
+              "The test is too cheap",
+              "Nothing",
+              "You cannot tell which change caused the result",
+              "Tests must change many things"
+            ],
+            "correct_answer": "You cannot tell which change caused the result",
+            "explanation": "Single changes give clear answers."
+          },
+          {
+            "question": "An AI summary says your sales rose 40 percent. What should you do?",
+            "options": [
+              "Publish it",
+              "Check the figure against your own records",
+              "Ignore your records",
+              "Believe it"
+            ],
+            "correct_answer": "Check the figure against your own records",
+            "explanation": "AI summaries can contain wrong numbers."
+          }
+        ]
+      }
+    },
+    {
+      "module_number": 8,
+      "module_title": "Practical Project: An AI-Assisted Marketing Campaign",
+      "module_goal": "Build, run on a small scale, measure and report a complete campaign for your chosen business.",
+      "lessons": [
+        {
+          "lesson_number": "8.1",
+          "lesson_title": "Build Your Campaign Pack",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=ngXvG87RZOA",
+          "simple_explanation": "Now you bring everything together. A campaign pack is the full set of materials for a campaign: audience summary, positioning, brief, content, schedule, automation plan and KPI sheet. The video shows a fast workflow for producing many on-brand social posts with an AI assistant and a design tool. You will use your own brand sheet, persona and copy rules, and you will check everything before it goes out.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It shows how to create many social posts quickly with AI and a design tool. Note where the presenter reviews the work.",
+            "Step 2: Gather your earlier work: business brief, positioning, persona, competitor gaps, trend brief, campaign brief, content calendar, brand sheet, copy brief and KPI sheet.",
+            "Step 3: Create at least 12 content pieces for the campaign: captions, designs and at least one short video script. Use AI for drafts and speed, but follow your brand and honesty rules.",
+            "Step 4: Check every piece. Use a checklist: facts true, claims proven, tone on brand, visuals accurate, text readable, sizes right, call to action clear, no private data, AI use noted.",
+            "Step 5: Fill your content calendar with dates, channels and status. Mark each item Draft, Reviewed or Approved.",
+            "Step 6: Write your automation plan: what you will schedule or automate, which messages you will send, how people consent and opt out, and who approves.",
+            "Step 7: Update your KPI sheet and test plan. Choose one A/B test to run.",
+            "Step 8: Start an AI use log for the campaign. Record what AI helped with and what you changed.",
+            "Step 9: Assemble the pack in one folder with clear file names."
+          ],
+          "key_terms": [
+            {
+              "term": "Campaign pack",
+              "meaning": "The full set of materials needed to run a campaign."
+            },
+            {
+              "term": "Content checklist",
+              "meaning": "A list of checks to run on each piece before it goes out."
+            },
+            {
+              "term": "AI use log",
+              "meaning": "A record of how AI was used and what a person checked."
+            },
+            {
+              "term": "Status",
+              "meaning": "The stage of an item, such as draft, reviewed or approved."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Assemble the campaign pack",
+            "instructions": "Create a campaign pack with an audience summary, positioning, brief, at least 12 content pieces, a calendar, an automation plan, a KPI sheet, a test plan and an AI use log. Complete the content checklist for each piece.",
+            "expected_outcome": "A complete campaign folder with all documents and checked content."
+          },
+          "lesson_quiz": [
+            {
+              "question": "What should a final campaign pack contain?",
+              "options": [
+                "Brief, audience summary, content, schedule and KPI plan",
+                "Only a budget",
+                "Only a logo",
+                "Only posts"
+              ],
+              "correct_answer": "Brief, audience summary, content, schedule and KPI plan",
+              "explanation": "A pack covers strategy, creative and measurement."
+            },
+            {
+              "question": "Why keep an AI use log during the campaign?",
+              "options": [
+                "To hide AI use",
+                "To shorten posts",
+                "To replace the brief",
+                "To know what AI produced and what a person checked"
+              ],
+              "correct_answer": "To know what AI produced and what a person checked",
+              "explanation": "The log keeps your work transparent and checkable."
+            }
+          ]
+        },
+        {
+          "lesson_number": "8.2",
+          "lesson_title": "Launch Small, Measure and Improve",
+          "estimated_minutes": 60,
+          "youtube_url": "https://www.youtube.com/watch?v=s4bMsYRKFjM",
+          "simple_explanation": "A pilot is a small launch that lets you learn cheaply before you spend more. You run the campaign for a short time with a small budget or audience, collect the numbers you planned, compare them with your targets and decide what to change. Then you write a short results report. A good report is honest. It states what worked and what did not, what you learned and what you will do next. The video gives an example of an A/B test from a marketing expert.",
+          "step_by_step_guide": [
+            "Step 1: Click the video link and watch the video. It explains A/B testing with an example. Note how the expert decides which version is better.",
+            "Step 2: Decide the pilot size: for example one week, two channels and a very small ad budget in naira, or an organic pilot with no ad spend. If you cannot run it live, use sample numbers and treat it as a simulation.",
+            "Step 3: Before you launch, do a final review of the pack with a second person. Check facts, claims, links, prices, spelling, privacy and tone.",
+            "Step 4: Launch and record results daily in your KPI sheet. Note anything unexpected, such as a post that did unusually well or badly.",
+            "Step 5: Run your A/B test. Keep everything the same except the one element you chose.",
+            "Step 6: At the end, compare the results with your targets. Calculate CTR, CPC, CPA, conversion rate and ROAS where they apply.",
+            "Step 7: Write a one to two page results report with: objective, what you did, results against targets, test results, what worked, what did not, what you learned and next steps. Be honest about weak results.",
+            "Step 8: Present the report in five minutes to a friend or colleague, and note their questions.",
+            "Step 9: Update your playbook: which ideas to repeat, which to stop and which to test next."
+          ],
+          "key_terms": [
+            {
+              "term": "Pilot",
+              "meaning": "A small scale trial run before a full launch."
+            },
+            {
+              "term": "Results report",
+              "meaning": "A short document that explains what happened and what was learned."
+            },
+            {
+              "term": "Playbook",
+              "meaning": "A record of what works for you, to guide future campaigns."
+            },
+            {
+              "term": "Iteration",
+              "meaning": "Improving by repeating a process with changes."
+            }
+          ],
+          "practical_exercise": {
+            "task_title": "Pilot and results report",
+            "instructions": "Run a small pilot or a simulation for your campaign. Write a one to two page results report with targets, results, test outcome, learnings and next steps, and present it to one person.",
+            "expected_outcome": "A results report, supporting numbers and a record of your presentation feedback."
+          },
+          "lesson_quiz": [
+            {
+              "question": "Why launch a small pilot first?",
+              "options": [
+                "To avoid measuring",
+                "To learn cheaply before spending the full budget",
+                "Pilots are required by law",
+                "To hide the campaign"
+              ],
+              "correct_answer": "To learn cheaply before spending the full budget",
+              "explanation": "Small tests reduce risk."
+            },
+            {
+              "question": "What belongs in a results report?",
+              "options": [
+                "Only a slogan",
+                "Goals, results, learnings and next steps",
+                "Only screenshots",
+                "Only good news"
+              ],
+              "correct_answer": "Goals, results, learnings and next steps",
+              "explanation": "A report should be honest and useful."
+            }
+          ]
+        }
+      ],
+      "module_quiz": {
+        "passing_score_percentage": 70,
+        "questions": [
+          {
+            "question": "Which best describes a pilot campaign?",
+            "options": [
+              "A small scale run to test ideas before a full launch",
+              "A full launch with no tracking",
+              "A secret campaign",
+              "A logo design"
+            ],
+            "correct_answer": "A small scale run to test ideas before a full launch",
+            "explanation": "Pilots reduce risk."
+          },
+          {
+            "question": "What is the most honest way to report a weak result?",
+            "options": [
+              "State it plainly and explain what you learned",
+              "Change the numbers",
+              "Hide it",
+              "Blame the audience"
+            ],
+            "correct_answer": "State it plainly and explain what you learned",
+            "explanation": "Honest reporting improves future work."
+          },
+          {
+            "question": "Why compare results with your original KPIs?",
+            "options": [
+              "To skip analysis",
+              "To find new fonts",
+              "To judge success against the goals you set",
+              "To avoid learning"
+            ],
+            "correct_answer": "To judge success against the goals you set",
+            "explanation": "KPIs give the standard to compare against."
+          },
+          {
+            "question": "Which step belongs after analysing results?",
+            "options": [
+              "Forget the campaign",
+              "Decide what to change or repeat",
+              "Add unrelated goals",
+              "Delete the data"
+            ],
+            "correct_answer": "Decide what to change or repeat",
+            "explanation": "Analysis is useful only if it leads to decisions."
+          },
+          {
+            "question": "What is a human review before launch for?",
+            "options": [
+              "Slowing posts for no reason",
+              "Adding more emojis",
+              "Replacing the brief",
+              "Checking facts, tone, brand fit, legal claims and errors"
+            ],
+            "correct_answer": "Checking facts, tone, brand fit, legal claims and errors",
+            "explanation": "A final check prevents public mistakes."
+          }
+        ]
+      }
+    }
+  ],
+  "final_assessment": {
+    "passing_score_percentage": 80,
+    "questions": [
+      {
+        "question": "A bakery wants more customers but has no plan. What should it do first?",
+        "options": [
+          "Define a clear objective and target audience",
+          "Post every hour",
+          "Buy 10,000 followers",
+          "Choose a logo font"
+        ],
+        "correct_answer": "Define a clear objective and target audience",
+        "explanation": "Objectives and audience guide every other decision."
+      },
+      {
+        "question": "An AI persona says your customers want free delivery in all states. How do you validate that?",
+        "options": [
+          "Post it online",
+          "Ask real customers and check your order data",
+          "Assume it is right",
+          "Ask only a friend"
+        ],
+        "correct_answer": "Ask real customers and check your order data",
+        "explanation": "Real evidence validates assumptions."
+      },
+      {
+        "question": "Which is the best positioning statement?",
+        "options": [
+          "For busy parents in Lagos, QuickMeals is the meal kit service that delivers healthy dinners in 20 minutes because meals come pre-prepared",
+          "We are great",
+          "QuickMeals sells meals",
+          "Meals meals meals"
+        ],
+        "correct_answer": "For busy parents in Lagos, QuickMeals is the meal kit service that delivers healthy dinners in 20 minutes because meals come pre-prepared",
+        "explanation": "It names the target, category, benefit and reason to believe."
+      },
+      {
+        "question": "What is the best use of AI in competitor research?",
+        "options": [
+          "Inventing competitor prices",
+          "Revealing private data",
+          "Summarising public information you supply and highlighting gaps for you to verify",
+          "Copying their ads"
+        ],
+        "correct_answer": "Summarising public information you supply and highlighting gaps for you to verify",
+        "explanation": "AI helps with analysis, and you verify."
+      },
+      {
+        "question": "Which content fits the consideration stage?",
+        "options": [
+          "Only jokes",
+          "Reviews, comparisons and FAQs",
+          "Requests for referrals first",
+          "Hidden prices"
+        ],
+        "correct_answer": "Reviews, comparisons and FAQs",
+        "explanation": "People comparing options need information."
+      },
+      {
+        "question": "A copy draft promises 'cures back pain in 3 days'. What should you do?",
+        "options": [
+          "Remove the claim unless you can prove it and it is allowed",
+          "Add a heart emoji",
+          "Keep it for impact",
+          "Make it bigger"
+        ],
+        "correct_answer": "Remove the claim unless you can prove it and it is allowed",
+        "explanation": "Unproven health claims are risky and misleading."
+      },
+      {
+        "question": "Which structure matches PAS?",
+        "options": [
+          "Start with a joke, then end",
+          "List only features",
+          "Show the logo, then stop",
+          "Name the problem, make it felt, then present the solution"
+        ],
+        "correct_answer": "Name the problem, make it felt, then present the solution",
+        "explanation": "PAS follows problem, agitate, solution."
+      },
+      {
+        "question": "Why create several variations of an ad headline?",
+        "options": [
+          "To test which performs better with real data",
+          "Platforms demand ten",
+          "To waste budget",
+          "To confuse competitors"
+        ],
+        "correct_answer": "To test which performs better with real data",
+        "explanation": "Variants let data decide."
+      },
+      {
+        "question": "An AI product image shows a handbag that looks different from the real one. What is the issue?",
+        "options": [
+          "It is only a style choice",
+          "It misrepresents the product and could mislead customers",
+          "It is always legal",
+          "It improves trust"
+        ],
+        "correct_answer": "It misrepresents the product and could mislead customers",
+        "explanation": "The ad must show the real product."
+      },
+      {
+        "question": "Which is a good rule for AI-generated people in ads?",
+        "options": [
+          "Never read policies",
+          "Use real people's faces without permission",
+          "Always hide it",
+          "Check platform and local rules and label AI content where needed"
+        ],
+        "correct_answer": "Check platform and local rules and label AI content where needed",
+        "explanation": "Compliance and transparency come first."
+      },
+      {
+        "question": "Which automation is a safe place to start?",
+        "options": [
+          "Auto-replying with invented answers",
+          "Scheduling approved posts from a calendar",
+          "Mass messaging strangers",
+          "Auto-publishing unreviewed AI drafts"
+        ],
+        "correct_answer": "Scheduling approved posts from a calendar",
+        "explanation": "It saves time and keeps a human in control."
+      },
+      {
+        "question": "You want to send an offer by WhatsApp broadcast. What must you confirm?",
+        "options": [
+          "They are in your contacts by accident",
+          "They never replied",
+          "They are strangers",
+          "Recipients opted in and can opt out"
+        ],
+        "correct_answer": "Recipients opted in and can opt out",
+        "explanation": "Consent and opt out are required."
+      },
+      {
+        "question": "An ad got 80 clicks from 4,000 impressions. What is the CTR?",
+        "options": [
+          "5 percent",
+          "0.2 percent",
+          "2 percent",
+          "20 percent"
+        ],
+        "correct_answer": "2 percent",
+        "explanation": "80 divided by 4,000 is 0.02."
+      },
+      {
+        "question": "You spent 10,000 naira and got 8 sales. What is the CPA?",
+        "options": [
+          "1,250 naira",
+          "125 naira",
+          "12.5 naira",
+          "80,000 naira"
+        ],
+        "correct_answer": "1,250 naira",
+        "explanation": "10,000 divided by 8 is 1,250."
+      },
+      {
+        "question": "Which is a valid A/B test design?",
+        "options": [
+          "Change everything at once",
+          "Stop after 5 clicks",
+          "Two versions that differ in one element shown to similar audiences at the same time",
+          "Test on different audiences in random weeks"
+        ],
+        "correct_answer": "Two versions that differ in one element shown to similar audiences at the same time",
+        "explanation": "Single changes and fair comparison give clear results."
+      },
+      {
+        "question": "A tool says version B won on 30 views. What is the best response?",
+        "options": [
+          "Declare victory",
+          "Keep testing until there is enough data",
+          "Stop marketing",
+          "Change everything"
+        ],
+        "correct_answer": "Keep testing until there is enough data",
+        "explanation": "Small samples can mislead."
+      },
+      {
+        "question": "Why keep an AI use log in marketing work?",
+        "options": [
+          "It hides AI use",
+          "It replaces the brief",
+          "It records what AI created and what a person checked",
+          "It shortens ads"
+        ],
+        "correct_answer": "It records what AI created and what a person checked",
+        "explanation": "It supports honesty and quality control."
+      },
+      {
+        "question": "Which statement about vanity metrics is correct?",
+        "options": [
+          "They can look good while not showing business results",
+          "They are illegal",
+          "They always show sales",
+          "They are the only metrics that matter"
+        ],
+        "correct_answer": "They can look good while not showing business results",
+        "explanation": "Followers and likes alone do not prove results."
+      },
+      {
+        "question": "What is the last step of the campaign cycle?",
+        "options": [
+          "Start again with no changes",
+          "Delete the data",
+          "Ignore the results",
+          "Review results, learn and decide what to change"
+        ],
+        "correct_answer": "Review results, learn and decide what to change",
+        "explanation": "Learning feeds the next campaign."
+      },
+      {
+        "question": "A client wants to use customers' social media photos in an ad without asking. What should you advise?",
+        "options": [
+          "Get permission first, because using people's images without consent can cause legal and trust problems",
+          "Use them if the ad is short",
+          "Use them, they are public",
+          "Blur faces only"
+        ],
+        "correct_answer": "Get permission first, because using people's images without consent can cause legal and trust problems",
+        "explanation": "Consent protects people and the business."
+      }
+    ]
+  },
+  "completion_requirements": {
+    "complete_all_lessons": true,
+    "lesson_knowledge_checks": "Ungraded. They help you learn and can be repeated.",
+    "module_quiz_passing_score_percentage": 70,
+    "final_assessment_passing_score_percentage": 80,
+    "practical_exercises": "Recommended. You check your own work against the expected outcome. They are not graded and are not part of the final assessment."
+  },
+  "certificate": {
+    "eligible": true,
+    "type": "Certificate of completion",
+    "requirements": "Complete all lessons, pass every module quiz and pass the final assessment.",
+    "verification": "Each certificate carries a unique ID so anyone can check that it is genuine."
+  }
+}
