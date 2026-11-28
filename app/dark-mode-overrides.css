@@ -58,12 +58,12 @@ html[data-theme="dark"] .home-page .hero h1 span,
 html[data-theme="dark"] .home-page .section-heading h2 span,
 html[data-theme="dark"] .home-page .independent-band h2 span,
 html[data-theme="dark"] .home-page .institution-card h2 span {
-  color: #f47d32 !important;
+  color: #FCBC25 !important;
 }
 html[data-theme="dark"] .home-page .hero .eyebrow,
 html[data-theme="dark"] .home-page .home-hero-note .note-kicker,
 html[data-theme="dark"] .home-page .home-hero-note li > span {
-  color: #f0a06b !important;
+  color: #FCBC25 !important;
 }
 html[data-theme="dark"] .home-page .home-hero-note {
   border-left-color: #2b394b !important;
@@ -78,16 +78,19 @@ html[data-theme="dark"] .home-page .category-card h3 {
   color: #f1f4f8 !important;
 }
 html[data-theme="dark"] .home-page .button-primary {
-  background: #f47d32 !important;
-  color: #17120f !important;
-  border-color: #f47d32 !important;
+  background: #FBA11B !important;
+  color: #112E5D !important;
+  border-color: #FBA11B !important;
 }
 html[data-theme="dark"] .home-page .button-primary:hover {
-  background: #ff9654 !important;
+  background: #FCBC25 !important;
 }
 html[data-theme="dark"] .home-page .text-link,
 html[data-theme="dark"] .home-page a:not(.button) {
-  color: #f4a06c;
+  color: #FCBC25;
+}
+html[data-theme="dark"] .home-page .marketing-band .marketing-button {
+  color: #112E5D !important;
 }
 html[data-theme="dark"] .home-page .header-link {
   color: #edf1f7 !important;

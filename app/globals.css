@@ -421,3 +421,35 @@ html[data-theme="dark"] .account-card h2,html[data-theme="dark"] .learner-badge-
 html[data-theme="dark"] .account-profile-form label,html[data-theme="dark"] .account-detail span,html[data-theme="dark"] .course-feedback-form label{color:#d4dceb}
 html[data-theme="dark"] .account-profile-form input,html[data-theme="dark"] .course-feedback-form select,html[data-theme="dark"] .course-feedback-form textarea{background:#101a2b;border-color:var(--line);color:#f4f7fc}
 @media(max-width:600px){.lesson-navigation{gap:9px}.lesson-nav-button{padding:11px 12px;font-size:12px}.learner-nav{gap:12px;font-size:11px}.account-content,.badges-content,.feedback-content{width:calc(100% - 36px);padding:44px 0 64px}.account-card,.course-feedback-form{padding:19px}}
+
+:root {
+  color-scheme: light;
+  --brand-navy: #112E5D;
+  --brand-orange: #FBA11B;
+  --brand-orange-bright: #FCBC25;
+  --brand-orange-deep: #F97F26;
+  --paper: #FFFFFF;
+}
+html,
+body {
+  background-color: #FFFFFF;
+}
+html:not([data-theme="dark"]) :is(
+  .dashboard-page,
+  .lesson-page,
+  .auth-page,
+  .catalogue-page,
+  .course-detail-page,
+  .portal-preview-page,
+  .role-preview-page,
+  .eagle-page
+) {
+  background-color: #FFFFFF;
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --brand-navy: #112E5D;
+  --brand-orange: #FBA11B;
+  --brand-orange-bright: #FCBC25;
+  --brand-orange-deep: #F97F26;
+}

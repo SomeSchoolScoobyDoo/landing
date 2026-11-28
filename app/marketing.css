@@ -4,7 +4,7 @@
 .marketing-header>a:first-child,.marketing-footer-brand>a:first-child{display:inline-flex;flex:0 0 auto}
 .marketing-header nav,.marketing-footer nav{display:flex;gap:clamp(12px,2.5vw,30px);align-items:center;flex-wrap:wrap}
 .marketing-header nav a,.marketing-footer nav a{font-size:12px;text-decoration:none;color:#455368}
-.marketing-header nav a:hover,.marketing-footer nav a:hover{color:#b56b20}
+.marketing-header nav a:hover,.marketing-footer nav a:hover{color:#112E5D}
 .marketing-cta,.marketing-button{display:inline-flex;align-items:center;justify-content:center;gap:20px;padding:14px 18px;background:#18345c;color:white;text-decoration:none;font-size:12px;font-weight:700;transition:background .2s ease}
 .marketing-cta:hover,.marketing-button:hover{background:#284a73}
 .marketing-eyebrow{font-size:10px;letter-spacing:1.8px;font-weight:800;color:#a66b2e}
@@ -110,17 +110,254 @@
 .catalogue-bottom p{font:500 18px Georgia,serif;color:#657080}
 @media(max-width:850px){.marketing-header{flex-wrap:wrap}.marketing-header nav{order:3;width:100%;justify-content:space-between}.marketing-hero{grid-template-columns:1fr;padding-top:65px}.marketing-section-heading{display:block}.marketing-section-heading>p{margin-top:20px}.marketing-method{grid-template-columns:1fr;gap:22px;margin-inline:24px;padding:35px}.audience-journey,.about-principles{grid-template-columns:1fr;gap:30px}.published-course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){.marketing-header{padding:13px 18px;gap:12px}.marketing-header nav{gap:10px;justify-content:space-between}.marketing-header nav a{font-size:10px}.marketing-cta{padding:10px 12px;font-size:10px}.marketing-hero{padding:52px 22px 48px;gap:32px}.marketing-hero h1,.audience-hero h1,.about-hero h1,.catalogue-hero h1{font-size:clamp(43px,12vw,58px);letter-spacing:-1.7px}.marketing-hero-card{padding:25px}.marketing-proof{grid-template-columns:1fr;padding:20px 22px;gap:8px}.marketing-proof div{border:0;border-bottom:1px solid #e5dfd6;padding:14px 0}.marketing-proof div:last-child{border:0}.marketing-section{padding:60px 22px}.marketing-card-grid,.audience-features,.published-course-grid{grid-template-columns:1fr}.marketing-card-grid article{min-height:0}.marketing-method{margin:0 22px 55px;padding:27px}.marketing-band{padding:48px 22px;align-items:flex-start;flex-direction:column}.marketing-footer{grid-template-columns:1fr;padding:35px 22px}.marketing-footer nav{gap:15px}.marketing-footer small{grid-column:auto}.audience-page,.about-page{padding:0 22px 55px}.audience-hero{padding:62px 0 48px}.audience-actions{align-items:flex-start;flex-direction:column}.audience-features article{min-height:0;padding:24px}.audience-journey{padding:60px 0}.audience-bottom,.about-bottom{padding:28px;align-items:flex-start;flex-direction:column}.about-hero{padding:65px 0 55px}.about-statement{padding:28px}.about-principles{padding:65px 0}.catalogue-hero{padding:58px 22px 42px}.catalogue-live{padding:45px 22px 30px}.catalogue-empty{padding:30px 22px}.catalogue-results-heading,.catalogue-category-heading,.catalogue-bottom{align-items:flex-start;flex-direction:column}.catalogue-bottom{padding:18px 22px;margin-bottom:45px}}
-html[data-theme="dark"] .marketing-site{background:#0d1422;color:#e6ebf4}
-html[data-theme="dark"] .marketing-header,html[data-theme="dark"] .marketing-footer{background:#111827;border-color:#2b394f}
+html[data-theme="dark"] .marketing-site{background:#0b111b;color:#e6ebf4}
+html[data-theme="dark"] .marketing-header,html[data-theme="dark"] .marketing-footer{background:#0b111b;border-color:#2b394b}
 html[data-theme="dark"] .marketing-header nav a,html[data-theme="dark"] .marketing-footer nav a{color:#c0cada}
-html[data-theme="dark"] .marketing-hero-card,html[data-theme="dark"] .marketing-method,html[data-theme="dark"] .about-statement,html[data-theme="dark"] .audience-bottom,html[data-theme="dark"] .about-bottom{background:#182438;border-color:#34445d}
-html[data-theme="dark"] .marketing-proof,html[data-theme="dark"] .marketing-proof div,html[data-theme="dark"] .audience-features,html[data-theme="dark"] .audience-features article,html[data-theme="dark"] .audience-steps article,html[data-theme="dark"] .about-principle-list article,html[data-theme="dark"] .catalogue-bottom,html[data-theme="dark"] .catalogue-category-heading{border-color:#2b394f}
+html[data-theme="dark"] .marketing-hero-card,html[data-theme="dark"] .marketing-method,html[data-theme="dark"] .about-statement,html[data-theme="dark"] .audience-bottom,html[data-theme="dark"] .about-bottom{background:#141e2c;border-color:#2b394b}
+html[data-theme="dark"] .marketing-proof,html[data-theme="dark"] .marketing-proof div,html[data-theme="dark"] .audience-features,html[data-theme="dark"] .audience-features article,html[data-theme="dark"] .audience-steps article,html[data-theme="dark"] .about-principle-list article,html[data-theme="dark"] .catalogue-bottom,html[data-theme="dark"] .catalogue-category-heading{border-color:#2b394b}
 html[data-theme="dark"] .marketing-proof p,html[data-theme="dark"] .marketing-section-heading>p,html[data-theme="dark"] .marketing-method-copy p,html[data-theme="dark"] .marketing-hero-card p,html[data-theme="dark"] .marketing-card-grid p,html[data-theme="dark"] .audience-intro,html[data-theme="dark"] .audience-features p,html[data-theme="dark"] .audience-steps p,html[data-theme="dark"] .audience-note,html[data-theme="dark"] .about-hero>p:not(.marketing-eyebrow),html[data-theme="dark"] .about-statement>p:last-child,html[data-theme="dark"] .about-principle-list p,html[data-theme="dark"] .audience-bottom p:not(.marketing-eyebrow),html[data-theme="dark"] .about-bottom p:not(.marketing-eyebrow){color:#a9b5c8}
-html[data-theme="dark"] .marketing-card-grid article,html[data-theme="dark"] .audience-features article{background:#151f30;border-color:#2b394f}
+html[data-theme="dark"] .marketing-card-grid article,html[data-theme="dark"] .audience-features article{background:#141e2c;border-color:#2b394b}
 html[data-theme="dark"] .audience-steps h3,html[data-theme="dark"] .about-principle-list h3{color:#e6ebf4}
-html[data-theme="dark"] .catalogue-hero{background:#151f30;border-color:#2b394f}
-html[data-theme="dark"] .catalogue-topics span{border-color:#34445d;color:#c0cada}
-html[data-theme="dark"] .catalogue-empty,html[data-theme="dark"] .published-course-card{background:#151f30;border-color:#2b394f}
+html[data-theme="dark"] .catalogue-hero{background:#141e2c;border-color:#2b394b}
+html[data-theme="dark"] .catalogue-topics span{border-color:#2b394b;color:#c0cada}
+html[data-theme="dark"] .catalogue-empty,html[data-theme="dark"] .published-course-card{background:#141e2c;border-color:#2b394b}
 html[data-theme="dark"] .catalogue-empty p,html[data-theme="dark"] .catalogue-category-heading p,html[data-theme="dark"] .course-card-summary,html[data-theme="dark"] .catalogue-bottom p{color:#a9b5c8}
 html[data-theme="dark"] .course-card-meta span{background:#202d41;color:#c5d0e0}
-html[data-theme="dark"] .marketing-text-link,html[data-theme="dark"] .published-course-card>a{color:#f0b56e}
+html[data-theme="dark"] .marketing-text-link,html[data-theme="dark"] .published-course-card>a{color:#FCBC25}
+
+/* Keep the public-facing palette anchored to the logo in both themes. */
+.marketing-site {
+  --marketing-navy: var(--brand-navy, #112E5D);
+  --marketing-orange: var(--brand-orange, #FBA11B);
+  --marketing-orange-contrast: #112E5D;
+  --marketing-orange-display: #F97F26;
+  background: #FFFFFF;
+  color: var(--marketing-navy);
+}
+.marketing-site .home-page {
+  background: #FFFFFF;
+}
+html:not([data-theme="dark"]) .site-header {
+  background-color: #FFFFFF;
+  border-color: #E3E9F1;
+}
+html:not([data-theme="dark"]) .catalogue-hero {
+  background: #FFFFFF;
+}
+html:not([data-theme="dark"]) .catalogue-hero h1 span {
+  color: var(--brand-orange-deep, #F97F26);
+}
+html:not([data-theme="dark"]) .catalogue-hero .eyebrow {
+  color: var(--brand-orange, #FBA11B);
+}
+.marketing-header,
+.marketing-footer,
+.marketing-site .marketing-card-grid article,
+.marketing-site .audience-features article,
+.marketing-site .catalogue-empty,
+.marketing-site .published-course-card {
+  background-color: #FFFFFF;
+}
+.marketing-hero-card,
+.marketing-method,
+.audience-bottom,
+.about-bottom,
+.about-statement,
+.catalogue-hero {
+  background-color: #F5F7FA;
+}
+.marketing-hero,
+.marketing-site .marketing-header,
+.marketing-site .marketing-footer,
+.marketing-site .marketing-card-grid article,
+.marketing-site .audience-features article,
+.marketing-site .catalogue-hero,
+.marketing-site .catalogue-empty,
+.marketing-site .published-course-card,
+.marketing-site .marketing-method,
+.marketing-site .about-statement,
+.marketing-site .audience-bottom,
+.marketing-site .about-bottom {
+  border-color: #E3E9F1;
+}
+.marketing-hero h1 em,
+.audience-hero h1 em,
+.audience-journey h2 em,
+.audience-bottom h2 em,
+.about-hero h1 em,
+.about-statement h2 em,
+.about-principles h2 em,
+.about-bottom h2 em,
+.catalogue-hero h1 em,
+.marketing-method h2 em {
+  color: var(--marketing-orange-display);
+}
+.marketing-eyebrow,
+.marketing-card-grid article > span,
+.marketing-proof div > span,
+.audience-number,
+.audience-steps article > span,
+.about-principle-list article > span,
+.catalogue-status,
+.published-course-card .course-card-category {
+  color: var(--marketing-orange);
+}
+.marketing-cta,
+.marketing-button {
+  background: var(--marketing-navy);
+  color: #FFFFFF;
+}
+.marketing-cta:hover,
+.marketing-button:hover {
+  background: #1B427C;
+}
+.marketing-band {
+  background: var(--marketing-navy);
+}
+.marketing-band .marketing-button {
+  background: var(--brand-orange-bright, #FCBC25);
+  color: var(--marketing-navy);
+}
+.marketing-band .marketing-button:hover {
+  background: var(--marketing-orange);
+}
+.marketing-text-link,
+.published-course-card > a {
+  color: var(--marketing-navy);
+}
+html[data-theme="dark"] .marketing-site {
+  background: #0B111B;
+  color: #EDF1F7;
+}
+html[data-theme="dark"] .marketing-hero-card,
+html[data-theme="dark"] .marketing-method,
+html[data-theme="dark"] .about-statement,
+html[data-theme="dark"] .audience-bottom,
+html[data-theme="dark"] .about-bottom,
+html[data-theme="dark"] .catalogue-hero,
+html[data-theme="dark"] .marketing-card-grid article,
+html[data-theme="dark"] .audience-features article,
+html[data-theme="dark"] .catalogue-empty,
+html[data-theme="dark"] .published-course-card {
+  background: #141E2C;
+  border-color: #2B394B;
+}
+html[data-theme="dark"] .marketing-site :is(.marketing-header, .marketing-footer) {
+  background: #0B111B;
+  border-color: #2B394B;
+}
+html[data-theme="dark"] .marketing-hero h1 em,
+html[data-theme="dark"] .audience-hero h1 em,
+html[data-theme="dark"] .audience-journey h2 em,
+html[data-theme="dark"] .audience-bottom h2 em,
+html[data-theme="dark"] .about-hero h1 em,
+html[data-theme="dark"] .about-statement h2 em,
+html[data-theme="dark"] .about-principles h2 em,
+html[data-theme="dark"] .about-bottom h2 em,
+html[data-theme="dark"] .catalogue-hero h1 em,
+html[data-theme="dark"] .marketing-method h2 em,
+html[data-theme="dark"] .marketing-eyebrow,
+html[data-theme="dark"] .marketing-card-grid article > span,
+html[data-theme="dark"] .marketing-proof div > span,
+html[data-theme="dark"] .audience-number,
+html[data-theme="dark"] .audience-steps article > span,
+html[data-theme="dark"] .about-principle-list article > span,
+html[data-theme="dark"] .catalogue-status,
+html[data-theme="dark"] .published-course-card .course-card-category,
+html[data-theme="dark"] .marketing-text-link,
+html[data-theme="dark"] .published-course-card > a {
+  color: #FCBC25;
+}
+html[data-theme="dark"] .marketing-band .marketing-button {
+  background: #FBA11B;
+  color: #112E5D;
+}
+html[data-theme="dark"] .marketing-band .marketing-button:hover {
+  background: #FCBC25;
+}
+.catalogue-results-heading h2,
+.catalogue-category-heading h3,
+.published-course-card h4 {
+  color: #312B24;
+}
+.catalogue-hero h1 {
+  color: #312B24;
+}
+.course-catalogue-page {
+  background: #FFFFFF;
+}
+.catalogue-category-heading {
+  border-color: #F0D8B1;
+}
+.course-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px;
+}
+.course-card-meta span.course-status-badge,
+.course-card-meta span.course-offering-badge,
+.course-card-meta span.course-level-badge,
+.course-card-meta span.course-duration-badge {
+  display: inline-flex;
+  align-items: center;
+  min-height: 27px;
+  padding: 6px 9px;
+  border: 1px solid #E8DFD1;
+  border-radius: 2px;
+  background: #F0ECE4;
+  color: #5D554A;
+  font-size: 9px;
+  font-weight: 800;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.course-card-meta span.course-status-badge.coming_soon,
+.course-card-meta span.course-offering-badge.free,
+.course-card-meta span.course-offering-badge.certificate {
+  border-color: #F2D29A;
+  background: #FFF4DE;
+  color: #704300;
+}
+.course-card-meta span.course-status-badge.available {
+  border-color: #F8E9CC;
+  background: #FFFAF1;
+  color: #855600;
+}
+html[data-theme="dark"] .catalogue-results-heading h2,
+html[data-theme="dark"] .catalogue-category-heading h3,
+html[data-theme="dark"] .published-course-card h4,
+html[data-theme="dark"] .catalogue-hero h1 {
+  color: #EDF1F7;
+}
+html[data-theme="dark"] .course-catalogue-page {
+  background: #12110F;
+}
+html[data-theme="dark"] .course-catalogue-page .catalogue-hero,
+html[data-theme="dark"] .course-catalogue-page .published-course-card {
+  background: #1D1B17;
+  border-color: #454036;
+}
+html[data-theme="dark"] .catalogue-category-heading {
+  border-color: #57452A;
+}
+html[data-theme="dark"] .course-card-meta span.course-status-badge,
+html[data-theme="dark"] .course-card-meta span.course-offering-badge,
+html[data-theme="dark"] .course-card-meta span.course-level-badge,
+html[data-theme="dark"] .course-card-meta span.course-duration-badge {
+  border-color: #706248;
+  background: #39342A;
+  color: #F0E6D1;
+}
+html[data-theme="dark"] .course-card-meta span.course-status-badge.coming_soon,
+html[data-theme="dark"] .course-card-meta span.course-offering-badge.free,
+html[data-theme="dark"] .course-card-meta span.course-offering-badge.certificate {
+  border-color: #9B762F;
+  background: #59451F;
+  color: #FFE09A;
+}
+html[data-theme="dark"] .course-card-meta span.course-status-badge.available {
+  border-color: #A78343;
+  background: #604A24;
+  color: #FFE09A;
+}

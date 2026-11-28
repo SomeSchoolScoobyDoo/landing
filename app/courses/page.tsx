@@ -33,7 +33,7 @@ export default async function CoursesPage() {
   }
 
   return (
-    <main>
+    <main className="course-catalogue-page">
       <header className="site-header">
         <Brand />
         {user ? <LearnerNavigation /> : <nav aria-label="Main navigation"><Link href="/">Home</Link><Link href="/login">Log in</Link></nav>}
@@ -72,42 +72,43 @@ export default async function CoursesPage() {
                     <span>{courses.length} {courses.length === 1 ? "course" : "courses"}</span>
                   </div>
                   <div className="published-course-grid">
-                    {courses.map((course) => (
-                      <article className="published-course-card" key={course.course_id}>
-                        <div className="course-card-topline">
+                    {courses.map((course) => {
+                      const accessType = course.course && course.course.access_type !== "unconfigured"
+                        ? course.course.access_type
+                        : course.plannedAccess;
+                      const offeringLabel = `${accessType === "free" ? "Free · " : ""}${course.award}`;
+
+                      return (
+                        <article className="published-course-card" key={course.course_id}>
                           <p className="course-card-category">{category.name}</p>
-                          {course.status === "coming_soon" ? (
-                            <span className="course-status-badge coming-soon">Coming soon</span>
-                          ) : (
-                            <span className="course-status-badge available">Available</span>
-                          )}
-                        </div>
-                        <h4>{course.title}</h4>
-                        <p className="course-card-summary">{course.course?.summary || course.course?.description || course.summary}</p>
-                        <div className="course-card-meta">
-                          {course.course ? <span>{formatDuration(course.course.estimated_minutes)}</span> : <span>Course in preparation</span>}
-                          <span>{course.level}</span>
-                          {course.course ? (
-                            <span>{course.course.access_type === "free" ? "Free" : course.course.access_type === "paid" ? "Paid · Price to be confirmed" : "Pricing to be confirmed"}</span>
-                          ) : (
-                            <span>Details to be announced</span>
-                          )}
-                        </div>
-                        {course.status === "available" && course.course ? (
-                          <TrackedCourseLink
-                            href={`/courses/${course.slug}`}
-                            courseSlug={course.slug}
-                            courseTitle={course.title}
-                            sourceComponent="published_course_card"
-                            placement={category.name}
-                          >
-                            View course <span aria-hidden="true">→</span>
-                          </TrackedCourseLink>
-                        ) : (
-                          <span className="course-coming-soon-note">We’re preparing this learning path.</span>
-                        )}
-                      </article>
-                    ))}
+                          <h4>{course.title}</h4>
+                          <p className="course-card-summary">{course.course?.summary || course.course?.description || course.summary}</p>
+                          <div className="course-card-meta">
+                            <span className={`course-status-badge ${course.status}`}>
+                              {course.status === "coming_soon" ? "Coming soon" : "Available"}
+                            </span>
+                            <span className={`course-offering-badge ${accessType === "free" ? "free" : "certificate"}`}>
+                              {offeringLabel}
+                            </span>
+                            <span className="course-level-badge">{course.level}</span>
+                            {course.course && (
+                              <span className="course-duration-badge">{formatDuration(course.course.estimated_minutes)}</span>
+                            )}
+                          </div>
+                          {course.status === "available" && course.course ? (
+                            <TrackedCourseLink
+                              href={`/courses/${course.slug}`}
+                              courseSlug={course.slug}
+                              courseTitle={course.title}
+                              sourceComponent="published_course_card"
+                              placement={category.name}
+                            >
+                              View course <span aria-hidden="true">→</span>
+                            </TrackedCourseLink>
+                          ) : null}
+                        </article>
+                      );
+                    })}
                   </div>
                 </section>
               );
