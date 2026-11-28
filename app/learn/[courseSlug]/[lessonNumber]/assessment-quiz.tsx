@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useFormStatus } from "react-dom";
 import { submitAssessmentAction } from "@/app/learn/actions";
 
 type Option = { key: string; text: string };
@@ -22,6 +23,16 @@ type Props = {
   latestAttempt?: { score_percentage: number; passed: boolean } | null;
   questions: Question[];
 };
+
+function QuizSubmitButton({ complete }: { complete: boolean }) {
+  const { pending } = useFormStatus();
+
+  return (
+    <button className="button button-primary" type="submit" disabled={!complete || pending} aria-live="polite">
+      {pending ? "Submitting…" : "Submit quiz"} <span aria-hidden="true">{pending ? "…" : "→"}</span>
+    </button>
+  );
+}
 
 export function AssessmentQuiz(props: Props) {
   const [answers, setAnswers] = useState<Record<string, string>>({});
@@ -90,9 +101,7 @@ export function AssessmentQuiz(props: Props) {
               </div>
             </fieldset>
           ))}
-          <button className="button button-primary" type="submit" disabled={!complete}>
-            Submit quiz <span>→</span>
-          </button>
+          <QuizSubmitButton complete={complete} />
           {!complete && <p className="assessment-hint">Answer every question to submit.</p>}
         </form>
       )}
