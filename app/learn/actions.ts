@@ -50,20 +50,21 @@ export async function submitAssessmentAction(data: FormData) {
   const courseSlug = String(data.get("courseSlug") ?? "");
   const rawAnswers = String(data.get("answers") ?? "");
 
-  if (
-    !UUID_PATTERN.test(assessmentId) ||
-    (lessonId.length > 0 && !UUID_PATTERN.test(lessonId)) ||
-    !/^[a-z0-9-]{1,120}$/.test(courseSlug) ||
-    rawAnswers.length > 50000
-  ) {
+  if (!/^[a-z0-9-]{1,120}$/.test(courseSlug) || (lessonId.length > 0 && !UUID_PATTERN.test(lessonId))) {
     throw new Error("Invalid assessment submission.");
   }
+  const returnTo = lessonId
+    ? `/learn/${courseSlug}/${lessonId}`
+    : `/courses/${courseSlug}`;
+  const fail = (status: string): never => redirect(`${returnTo}?quiz=${status}`);
+
+  if (!UUID_PATTERN.test(assessmentId) || rawAnswers.length > 50000) fail("invalid");
 
   let answers: unknown;
   try {
     answers = JSON.parse(rawAnswers);
   } catch {
-    throw new Error("Your answers could not be read. Please try again.");
+    fail("invalid");
   }
 
   if (
@@ -79,7 +80,7 @@ export async function submitAssessmentAction(data: FormData) {
       answer.selected_option_key.length > 20
     )
   ) {
-    throw new Error("Please answer every question using a valid option.");
+    fail("invalid");
   }
 
   const supabase = await createClient();
@@ -95,15 +96,15 @@ export async function submitAssessmentAction(data: FormData) {
     .maybeSingle();
 
   if (assessmentError || !assessment) {
-    throw new Error("This assessment could not be verified.");
+    fail("unavailable");
   }
 
   if (lessonId) {
     if (assessment.assessment_type !== "lesson_quiz" || assessment.lesson_id !== lessonId) {
-      throw new Error("This quiz does not belong to the selected lesson.");
+      fail("unavailable");
     }
   } else if (!["module_quiz", "final_assessment"].includes(assessment.assessment_type)) {
-    throw new Error("This assessment requires a lesson context.");
+    fail("unavailable");
   }
 
   const { error } = await supabase.rpc("submit_assessment", {
@@ -113,9 +114,9 @@ export async function submitAssessmentAction(data: FormData) {
 
   if (error) {
     if (error.message.includes("Maximum assessment attempts reached")) {
-      throw new Error("You have used all available attempts for this quiz.");
+      fail("attempts-exhausted");
     }
-    throw new Error("Your quiz could not be submitted. Check your answers and try again.");
+    fail("failed");
   }
 
   revalidatePath("/courses/" + courseSlug);
