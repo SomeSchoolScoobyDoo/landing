@@ -9,6 +9,13 @@ export type EagleEyeOverview = {
   publishedCourses: number;
   completedLessons: number;
   assessmentAttempts: number;
+  betaTesters: {
+    id: string;
+    fullName: string;
+    testerStatus: string;
+    certificateStatus: string;
+    createdAt: string;
+  }[];
 };
 
 export async function getEagleEyeOverview(userId: string): Promise<{
@@ -24,7 +31,8 @@ export async function getEagleEyeOverview(userId: string): Promise<{
     auth: { autoRefreshToken: false, persistSession: false },
   });
   const { data: adminRecord, error: adminError } = await supabase
-    .from("platform_admins")
+    .schema("private")
+    .from("academy_admins")
     .select("user_id")
     .eq("user_id", userId)
     .maybeSingle();
@@ -33,16 +41,17 @@ export async function getEagleEyeOverview(userId: string): Promise<{
   startOfDay.setUTCHours(0, 0, 0, 0);
   const since = startOfDay.toISOString();
 
-  const [users, newUsers, enrolments, courses, lessons, assessments] = await Promise.all([
+  const [users, newUsers, enrolments, courses, lessons, assessments, testers] = await Promise.all([
     supabase.from("profiles").select("id", { count: "exact", head: true }),
     supabase.from("profiles").select("id", { count: "exact", head: true }).gte("created_at", since),
     supabase.from("course_enrollments").select("id", { count: "exact", head: true }).eq("status", "active"),
     supabase.from("courses").select("id", { count: "exact", head: true }).eq("status", "published"),
     supabase.from("lesson_progress").select("id", { count: "exact", head: true }).not("completed_at", "is", null),
     supabase.from("assessment_attempts").select("id", { count: "exact", head: true }),
+    supabase.from("beta_testers").select("id, full_name, tester_status, certificate_status, created_at").order("created_at", { ascending: false }),
   ]);
 
-  if ([users, newUsers, enrolments, courses, lessons, assessments].some((result) => result.error)) {
+  if ([users, newUsers, enrolments, courses, lessons, assessments, testers].some((result) => result.error)) {
     return { data: null, configured: true, authorized: true };
   }
 
@@ -56,6 +65,13 @@ export async function getEagleEyeOverview(userId: string): Promise<{
       publishedCourses: courses.count ?? 0,
       completedLessons: lessons.count ?? 0,
       assessmentAttempts: assessments.count ?? 0,
+      betaTesters: (testers.data ?? []).map((tester) => ({
+        id: tester.id,
+        fullName: tester.full_name,
+        testerStatus: tester.tester_status,
+        certificateStatus: tester.certificate_status,
+        createdAt: tester.created_at,
+      })),
     },
   };
 }
