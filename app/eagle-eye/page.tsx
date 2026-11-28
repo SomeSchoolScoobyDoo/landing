@@ -43,6 +43,7 @@ export default async function EagleEyePage() {
           <a className="active" href="#overview">Overview</a>
           <a href="#acquisition">Visitors & acquisition</a>
           <a href="#learning">Learners & learning</a>
+          <a href="#testers">Beta testers</a>
           <a href="#operations">Support & moderation</a>
           <a href="#platform">Platform health</a>
           <a href="#revenue">Revenue</a>
@@ -83,6 +84,33 @@ export default async function EagleEyePage() {
             <div className="eagle-panel-grid">
               <article className="eagle-panel"><h3>Course engagement</h3><p>Compare enrolments, lesson progress, assessment participation and completion by course.</p><span className="eagle-panel-state">METRIC FOUNDATION AVAILABLE</span></article>
               <article className="eagle-panel"><h3>Completion & outcomes</h3><p>Track course completion, assessment pass rates and credential eligibility without trusting client-reported results.</p><span className="eagle-panel-state">NEXT ANALYTICS LAYER</span></article>
+            </div>
+          </section>
+
+          <section className="eagle-section" id="testers" aria-labelledby="testers-heading">
+            <div className="eagle-section-heading">
+              <div><p className="eyebrow">EARLY ACCESS</p><h2 id="testers-heading">Beta tester recognition</h2></div>
+              <span>{metrics?.betaTesters.length ?? 0} registered</span>
+            </div>
+            <div className="eagle-panel eagle-tester-panel">
+              {!metrics || metrics.betaTesters.length === 0 ? (
+                <p>No beta testers have been registered yet.</p>
+              ) : (
+                <div className="eagle-tester-list">
+                  {metrics.betaTesters.map((tester) => (
+                    <article className="eagle-tester-row" key={tester.id}>
+                      <div>
+                        <strong>{tester.fullName}</strong>
+                        <span>Added {new Date(tester.createdAt).toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" })}</span>
+                      </div>
+                      <div className="eagle-tester-status">
+                        <span>{tester.testerStatus === "active" ? "Active tester" : tester.testerStatus}</span>
+                        <b>{tester.certificateStatus === "pending_launch" ? "Certificate after launch" : tester.certificateStatus.replaceAll("_", " ")}</b>
+                      </div>
+                    </article>
+                  ))}
+                </div>
+              )}
             </div>
           </section>
 
