@@ -15,11 +15,11 @@ function getYouTubeEmbedUrl(value: string | null) {
   if (!value) return null;
   try {
     const url = new URL(value);
-    const host = url.hostname.replace(/^www\\./, "").toLowerCase();
+    const host = url.hostname.replace(/^www\./, "").toLowerCase();
     let videoId = "";
     if (host === "youtu.be") videoId = url.pathname.split("/").filter(Boolean)[0] ?? "";
     else if (host === "youtube.com" || host === "m.youtube.com" || host === "youtube-nocookie.com") {
-      videoId = url.searchParams.get("v") ?? url.pathname.match(/^\\/(?:embed|shorts|live)\\/([^/?]+)/)?.[1] ?? "";
+      videoId = url.searchParams.get("v") ?? url.pathname.match(/^\/(?:embed|shorts|live)\/([^/?]+)/)?.[1] ?? "";
     }
     return /^[a-zA-Z0-9_-]{11}$/.test(videoId)
       ? `https://www.youtube-nocookie.com/embed/${videoId}`
