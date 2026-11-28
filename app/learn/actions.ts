@@ -95,9 +95,8 @@ export async function submitAssessmentAction(data: FormData) {
     .eq("status", "published")
     .maybeSingle();
 
-  if (assessmentError || !assessment) {
-    fail("unavailable");
-  }
+  if (assessmentError) return fail("unavailable");
+  if (!assessment) return fail("unavailable");
 
   if (lessonId) {
     if (assessment.assessment_type !== "lesson_quiz" || assessment.lesson_id !== lessonId) {
