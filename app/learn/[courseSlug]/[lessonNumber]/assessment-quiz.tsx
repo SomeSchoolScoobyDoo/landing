@@ -37,7 +37,7 @@ export function AssessmentQuiz(props: Props) {
   const remaining = Math.max(0, props.maxAttempts - props.attemptsUsed);
   const complete = props.questions.length > 0 &&
     props.questions.every((question) => Boolean(answers[question.id]));
-  const exhausted = remaining === 0 && !props.latestAttempt?.passed;
+  const exhausted = remaining === 0;
 
   return (
     <section className="assessment-card" aria-labelledby="assessment-title">
@@ -58,7 +58,7 @@ export function AssessmentQuiz(props: Props) {
       )}
 
       {exhausted ? (
-        <p className="assessment-locked">You have reached the attempt limit for this quiz.</p>
+        <p className="assessment-locked">{props.latestAttempt?.passed ? "You have already passed this quiz. No further attempt is needed." : "You have reached the attempt limit for this quiz. Your previous result has been saved."}</p>
       ) : (
         <form action={submitAssessmentAction}>
           <input type="hidden" name="assessmentId" value={props.assessmentId} />
