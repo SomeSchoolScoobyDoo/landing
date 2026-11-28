@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /certificate-preview-9d7a4f2c81b6e03a5c9f17d4b8e2a6c1.html
 
 Sitemap: https://www.kaizoraaiacademy.com/sitemap.xml
