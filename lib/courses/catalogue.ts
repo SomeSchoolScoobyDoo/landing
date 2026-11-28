@@ -1,7 +1,5 @@
 import "server-only";
 
-import { readdir } from "node:fs/promises";
-import { join } from "node:path";
 import { createClient as createSupabaseClient } from "@supabase/supabase-js";
 import { getSupabasePublicEnv } from "@/lib/supabase/env";
 
@@ -48,11 +46,11 @@ const catalogueDefinition: Array<Omit<CatalogueEntry, "status" | "course">> = [
   { course_id: "S4", slug: "automation-lab-setup", title: "Automation Lab Setup", category: "Setup Courses", level: "Beginner", plannedAccess: "free", award: "Digital Badge", summary: "Prepare the accounts, tools and workspace needed for hands-on automation projects." },
 
   { course_id: "C01", slug: "introduction-to-artificial-intelligence", title: "Introduction to Artificial Intelligence", category: "AI Foundations", level: "Beginner", plannedAccess: "free", award: "Digital Badge", summary: "Understand what AI is, where it is used and how modern AI systems work." },
-  { course_id: "C02", slug: "prompt-engineering-and-ai-interaction", title: "Prompt Engineering and AI Interaction", category: "AI Foundations", level: "Intermediate", plannedAccess: "paid", award: "Certificate", summary: "Learn to communicate with AI systems and design useful, reliable prompts." },
-  { course_id: "C03", slug: "ai-research-and-productivity", title: "AI Research and Productivity", category: "AI Foundations", level: "Intermediate", plannedAccess: "paid", award: "Certificate", summary: "Use AI tools to research, organise information and improve everyday productivity." },
+  { course_id: "C02", slug: "prompt-engineering-and-ai-interaction", title: "Prompt Engineering and AI Interaction", category: "AI Foundations", level: "Intermediate", plannedAccess: "free", award: "Certificate", summary: "Learn to communicate with AI systems and design useful, reliable prompts." },
+  { course_id: "C03", slug: "ai-research-and-productivity", title: "AI Research and Productivity", category: "AI Foundations", level: "Intermediate", plannedAccess: "free", award: "Certificate", summary: "Use AI tools to research, organise information and improve everyday productivity." },
   { course_id: "C04", slug: "responsible-ai-and-ai-safety", title: "Responsible AI and AI Safety", category: "AI Foundations", level: "Beginner", plannedAccess: "free", award: "Digital Badge", summary: "Explore responsible AI use, limitations, safety, privacy and evaluation." },
 
-  { course_id: "C05", slug: "ai-marketing-and-creative-production", title: "AI Marketing and Creative Production", category: "AI Content and Creativity", level: "Intermediate", plannedAccess: "paid", award: "Certificate", summary: "Apply AI tools to marketing workflows and creative production." },
+  { course_id: "C05", slug: "ai-marketing-and-creative-production", title: "AI Marketing and Creative Production", category: "AI Content and Creativity", level: "Intermediate", plannedAccess: "free", award: "Certificate", summary: "Apply AI tools to marketing workflows and creative production." },
   { course_id: "C06", slug: "ai-branding-and-design", title: "AI Branding and Design", category: "AI Content and Creativity", level: "Intermediate", plannedAccess: "paid", award: "Certificate", summary: "Develop brand concepts and visual assets with AI-assisted design workflows." },
   { course_id: "C07", slug: "ai-powered-content-creation-and-video-production", title: "AI-Powered Content Creation and Video Production", category: "AI Content and Creativity", level: "Intermediate", plannedAccess: "paid", award: "Certificate", summary: "Plan, create and refine digital content and video with AI tools." },
 
@@ -102,12 +100,6 @@ function createPublicCatalogueClient() {
 
 export async function getPublishedCatalogue() {
   let published: PublishedCourse[] = [];
-  const contentFiles = await readdir(join(process.cwd(), "content", "courses"));
-  const contentCourseIds = new Set(
-    contentFiles
-      .map((file) => file.match(/^((?:S[1-4])|(?:C\d{2}))_.*\.json$/i)?.[1]?.toUpperCase())
-      .filter((courseId): courseId is string => Boolean(courseId)),
-  );
   try {
     const supabase = createPublicCatalogueClient();
     const { data, error } = await supabase
@@ -128,7 +120,7 @@ export async function getPublishedCatalogue() {
     return {
       ...entry,
       course,
-      status: course || contentCourseIds.has(entry.course_id) ? "available" : "coming_soon",
+      status: course ? "available" : "coming_soon",
     };
   });
 
