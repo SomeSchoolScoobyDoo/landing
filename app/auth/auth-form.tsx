@@ -13,8 +13,8 @@ export function Field({ label, name, type = "text", autoComplete }: { label: str
   const isPassword = type === "password";
   const input = <input id={name} name={name} type={isPassword && passwordVisible ? "text" : type} autoComplete={autoComplete} required maxLength={type === "email" ? 254 : 128} />;
   return (
-    <label className="auth-field">
-      <span>{label}</span>
+    <div className="auth-field">
+      <label htmlFor={name}>{label}</label>
       {isPassword ? (
         <span className="auth-password-wrap">
           {input}
@@ -30,7 +30,7 @@ export function Field({ label, name, type = "text", autoComplete }: { label: str
           </button>
         </span>
       ) : input}
-    </label>
+    </div>
   );
 }
 export function AuthShell({ title, description, children, footer }: { title: string; description: string; children: ReactNode; footer: ReactNode }) {
